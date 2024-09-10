@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Tarefa4</title><link href="ocean.css" rel="stylesheet" type="text/css" title="Ocean" /><link rel="stylesheet" type="text/css" href="quick-jump.css" /><script src="haddock-bundle.min.js" async="async" type="text/javascript"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script></head><body><div id="package-header"><ul class="links" id="page-menu"><li><a href="index.html">Contents</a></li><li><a href="doc-index.html">Index</a></li></ul><p class="caption empty">&nbsp;</p></div><div id="content"><div id="module-header"><table class="info"><tr><th>Safe Haskell</th><td>None</td></tr></table><p class="caption">Tarefa4</p></div><div id="description"><p class="caption">Description</p><div class="doc"><h1>Introdu&#231;&#227;o</h1><p>A tarefa 4 baseia-se na implementa&#231;&#227;o da rea&#231;&#227;o &#224; passagem do tempo e para al&#233;m disso,
+na implementa&#231;&#227;o de movimenta&#231;&#227;o dos jogadores numa intera&#231;&#227;o. Desta forma, esta tarefa
+&#233; divida em duas partes:</p><ul><li><strong>Parte 1</strong>: integra os tipos e as fun&#231;&#245;es que adv&#233;m da 1&#170; fase numam biblioteca
+denominada NCurses</li><li><strong>Parte 2</strong>: utiliza o estado e informa&#231;&#227;o vinda da primeira parte para avan&#231;ar o jogo
+numa itera&#231;&#227;o, fazendo, desta forma, a movimenta&#231;&#227;o de todos os jogadores</li></ul><h1>Objetivos</h1><p>Os objetivos desta tarefa passam pelo c&#225;lculo do efeito da passagem de um instante de
+tempo num determinado estado de jogo. Atrav&#233;s de um <em>data</em> Manager, no final desta
+tarefa, pretende-se ser poss&#237;vel controlar a passagem do tempo definido para efetuar uma
+nova jogada, que por si s&#243;, deve movimentar os jogadores, tendo em conta a sua velocidade
+e o respetivo estado. Para este efeito, devem ser introduzidos na tarefa 2 comportamentos
+afetos ao estado Mega, ao pr&#243;prio Pacman (abrir e fechar a boca) e &#224; velocidade dos
+jogadores.</p><h1>Estrat&#233;gia de Implementa&#231;&#227;o</h1><p>Numa primeira inst&#226;ncia, foram introduzidas no ficheiro Main.hs algumas fun&#231;&#245;es que 
+permitissem a passagem do tempo a cada jogada, tal como, a &quot;nextFrame&quot;, a &quot;updateTime&quot; e
+a &quot;resetTimer&quot;. Para al&#233;m disso, foi concretizada uma fun&#231;&#227;om &quot;updateControlledPlayer&quot; que
+atrav&#233;s das setas do teclado, permite mudar a dire&#231;&#227;o do jogador Pacman.
+Na segunda parte desta tarefa, foi implementada a fun&#231;&#227;o &quot;passTime&quot;. Esta fun&#231;&#227;o permitiu
+n&#227;o s&#243; a implementa&#231;&#227;o da fun&#231;&#227;o &quot;ghostPlay&quot; tarefa 5, como tamb&#233;m o bot tarefa 6.
+A estrat&#233;gia utilizada para esta fun&#231;&#227;o passou pela utiliza&#231;&#227;o de uma fun&#231;&#227;o auxiliar que
+cobrisse todos os casos obrigat&#243;rios nesta tarefa: a constante movimenta&#231;&#227;o do Pacman na
+dire&#231;&#227;o em que se encontra (at&#233; ser pressionada uma Key numa dire&#231;&#227;o diferente), as diferentes
+velocidades dos jogadores (nomeadamente os fantasmas) e a implementa&#231;&#227;o da tarefa 5, com a
+atribui&#231;&#227;o de cada Play da lista originada na fun&#231;&#227;o &quot;ghostPlay&quot; ao respetivo fantasma.
+A fun&#231;&#227;o em formato de coment&#225;rio permite o funcionamento do bot num jogo Pacman.</p><h1>Conclus&#227;o</h1><p>De uma forma geral, pode-se concluir que esta tarefa se apresentou como desafiadora e em certas
+circunst&#226;ncias dif&#237;cil de implementar. A presta&#231;&#227;o total desta tarefa poderia ser muito melhor
+contudo, apesar de algumas imperfei&#231;&#245;es e pontos falhados (nomeadamente no estado Mega), foi 
+poss&#237;vel ter uma melhor compreens&#227;o do que &#233; a passagem do tempo num jogo. A estrat&#233;gia utilizada 
+poder&#225; n&#227;o ter sido a melhor, contudo e de uma forma geral, foi poss&#237;vel colocar o jogo a funcionar
+de maneira razo&#225;vel. Um dos pontos mais marcantes na realiza&#231;&#227;o desta tarefa foi que a mesma se
+demonstrou ser desafiadora.</p></div></div><div id="interface"><h1>Documentation</h1><div class="top"><p class="src"><a id="v:defaultDelayTime" class="def">defaultDelayTime</a> :: Integer <a href="#v:defaultDelayTime" class="selflink">#</a></p></div><div class="top"><p class="src"><a id="v:passTime" class="def">passTime</a> :: Int -&gt; <a href="Types.html#t:State" title="Types">State</a> -&gt; <a href="Types.html#t:State" title="Types">State</a> <a href="#v:passTime" class="selflink">#</a></p></div><div class="top"><p class="src"><a id="v:passTimeAux" class="def">passTimeAux</a> :: Int -&gt; <a href="Types.html#t:State" title="Types">State</a> -&gt; [<a href="Types.html#t:Player" title="Types">Player</a>] -&gt; [<a href="Types.html#t:Play" title="Types">Play</a>] -&gt; <a href="Types.html#t:State" title="Types">State</a> <a href="#v:passTimeAux" class="selflink">#</a></p></div></div></div><div id="footer"><p>Produced by <a href="http://www.haskell.org/haddock/">Haddock</a> version 2.22.0</p></div></body></html>
