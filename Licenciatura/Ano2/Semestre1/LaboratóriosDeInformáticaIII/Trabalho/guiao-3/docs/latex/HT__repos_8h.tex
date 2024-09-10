@@ -1,0 +1,469 @@
+\hypertarget{HT__repos_8h}{}\doxysection{H\+T\+\_\+repos.\+h File Reference}
+\label{HT__repos_8h}\index{HT\_repos.h@{HT\_repos.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Tree.\+h\char`\"{}}\newline
+Include dependency graph for H\+T\+\_\+repos.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structHashTableRepos}{Hash\+Table\+Repos}} $\ast$ \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{HT__repos_8h_a32a9c320bcf33324a77ed6ebfef9a2f2}{init\+\_\+\+Hash\+Table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que inicializa a Hashtable dos repositórios. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__repos_8h_a81a9d0c33071f4f9c74a3973d6a700d9}{print\+\_\+table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que imprime no terminal a Hashtable dos repositórios. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__repos_8h_a902b500a581fab4f0591ccc02a13378d}{insert\+\_\+\+Hash\+Table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} node)
+\begin{DoxyCompactList}\small\item\em Função que insere elementos na Hashtable dos repositórios. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} \mbox{\hyperlink{HT__repos_8h_a1644f04b8f7659f8ec5cd759af20c6d2}{find\+\_\+\+Hash\+Table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que encontra o endereço de um determinado elemento da Hashtable. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__repos_8h_a320237d8b65f9772bfe1c38d9a778d26}{find\+\_\+\+Hash\+Table\+Repos\+Bool}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite saber se o ID se encontra na Hashtable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__repos_8h_a3a8e001d180233b9a01550865f7e7564}{delete\+\_\+table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite eliminar um nodo da Hashtable dos repositórios. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__repos_8h_a30f7275ae80d860826bf1a95f5dc1add}{handle\+\_\+\+Repos\+File}} (F\+I\+LE $\ast$file, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$Repos, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que permite fazer a verificação do ficheiros dos repositórios e a criação do catálogo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} \mbox{\hyperlink{HT__repos_8h_a8968d9239d1a7b17eda0e5f5b01cde43}{find\+\_\+\+Hash\+Table\+Repos\+Key}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, int key)
+\begin{DoxyCompactList}\small\item\em Função que encontra um nodo copiado de um determinado elemento na Hashtable. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a6e066619b9e3cfbcd13f39ad0540e6ae}{obtain\+\_\+repos\+Lang}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a linguagem do repositório do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a1d45fb426cc82ab0c7bb13884bfb1b86}{obtain\+\_\+repos\+Date}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a data de atualização do repositório do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a5a763e99893b0c9a6dca73111e61fdb5}{obtain\+\_\+repos\+Id}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do repositório do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a423ac0d87f66cc50b403d87738ae5011}{obtain\+\_\+repos\+Description}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a descrição do repositório do nodo apontado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} \mbox{\hyperlink{HT__repos_8h_a240fbbcae6b5b713e084233f7a6f025f}{obtain\+\_\+next\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo elemento da lista ligada da Hashtable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} \mbox{\hyperlink{HT__repos_8h_a1d7fc54d5c333797bb15174819cecef7}{listR}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} repos)
+\begin{DoxyCompactList}\small\item\em Função que permite copiar a informação de um nodo para outro. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__repos_8h_a2016fa3180f207be0a124639cd17ff0f}{find\+\_\+repos\+Language\+B\+O\+OL}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$hash, char $\ast$id, char $\ast$lang)
+\begin{DoxyCompactList}\small\item\em Função que permite saber se o repositório apresenta a linguagem dada. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a824411b9b980e93c0f6982e708655884}{find\+\_\+repos\+Description}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que retorna a descrição do repositório com o ID dado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__repos_8h_a0cb7aa28fd2a052677198ea4e3dcbc5b}{find\+\_\+repos\+Owner\+Id}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que retorna o ID do owner do repositório. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{HT__repos_8h_aaa1259ae6cc28292b22d906836896cdf}{filter\+Repos\+\_\+\+Lang}} (char $\ast$lang, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que filtra os repositórios com a linguagem especificada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{HT__repos_8h_a584022e1f225b6c55f6b34ae9e4b1145}{count\+Language\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, char $\ast$start\+\_\+date, \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} lang\+Top, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de vezes que uma determinada linguagem é utilizada a partir de uma data. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{HT__repos_8h_a7562362c599776ee12be2f235518d7e6}{count\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de repositórios existentes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__repos_8h_a6a806c0af69ee877308e28cdda9106f7}{free\+\_\+\+Table\+Repos}} (\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função que liberta a memória ocupada pela Hashtable dos repositórios. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}\label{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}} 
+\index{HT\_repos.h@{HT\_repos.h}!HT\_Repos@{HT\_Repos}}
+\index{HT\_Repos@{HT\_Repos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{HT\_Repos}{HT\_Repos}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structHashTableRepos}{Hash\+Table\+Repos}}$\ast$ \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{HT__repos_8h_a584022e1f225b6c55f6b34ae9e4b1145}\label{HT__repos_8h_a584022e1f225b6c55f6b34ae9e4b1145}} 
+\index{HT\_repos.h@{HT\_repos.h}!countLanguageRepos@{countLanguageRepos}}
+\index{countLanguageRepos@{countLanguageRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{countLanguageRepos()}{countLanguageRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} count\+Language\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{char $\ast$}]{start\+\_\+date,  }\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{lang\+Top,  }\item[{int $\ast$}]{count }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de vezes que uma determinada linguagem é utilizada a partir de uma data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Hashtable dos repositórios\\
+\hline
+{\em start\+\_\+date} & String com a data de início\\
+\hline
+{\em lang\+Top} & String com a linguagem\\
+\hline
+{\em count} & Variável onde será guardada o número de vezes que a linguagem é utilizada \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+S\+T\+R\+I\+NG 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a7562362c599776ee12be2f235518d7e6}\label{HT__repos_8h_a7562362c599776ee12be2f235518d7e6}} 
+\index{HT\_repos.h@{HT\_repos.h}!countRepos@{countRepos}}
+\index{countRepos@{countRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{countRepos()}{countRepos()}}
+{\footnotesize\ttfamily float count\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de repositórios existentes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Hashtable dos repositórios\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de repositórios 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a3a8e001d180233b9a01550865f7e7564}\label{HT__repos_8h_a3a8e001d180233b9a01550865f7e7564}} 
+\index{HT\_repos.h@{HT\_repos.h}!delete\_tableRepos@{delete\_tableRepos}}
+\index{delete\_tableRepos@{delete\_tableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{delete\_tableRepos()}{delete\_tableRepos()}}
+{\footnotesize\ttfamily void delete\+\_\+table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite eliminar um nodo da Hashtable dos repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID do nodo a eliminar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__repos_8h_aaa1259ae6cc28292b22d906836896cdf}\label{HT__repos_8h_aaa1259ae6cc28292b22d906836896cdf}} 
+\index{HT\_repos.h@{HT\_repos.h}!filterRepos\_Lang@{filterRepos\_Lang}}
+\index{filterRepos\_Lang@{filterRepos\_Lang}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{filterRepos\_Lang()}{filterRepos\_Lang()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} filter\+Repos\+\_\+\+Lang (\begin{DoxyParamCaption}\item[{char $\ast$}]{lang,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que filtra os repositórios com a linguagem especificada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lang} & Linguagem de programação a procurar nos repositórios.\\
+\hline
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+{\em tree} & Árvore a inserir os ID\textquotesingle{}s dos repositórios com a linguagem especificada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Árvore dos ID\textquotesingle{}s dos repositórios com a linguagem especificada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a1644f04b8f7659f8ec5cd759af20c6d2}\label{HT__repos_8h_a1644f04b8f7659f8ec5cd759af20c6d2}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_HashTableRepos@{find\_HashTableRepos}}
+\index{find\_HashTableRepos@{find\_HashTableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableRepos()}{find\_HashTableRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} find\+\_\+\+Hash\+Table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que encontra o endereço de um determinado elemento da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios\\
+\hline
+{\em id} & string com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a320237d8b65f9772bfe1c38d9a778d26}\label{HT__repos_8h_a320237d8b65f9772bfe1c38d9a778d26}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_HashTableReposBool@{find\_HashTableReposBool}}
+\index{find\_HashTableReposBool@{find\_HashTableReposBool}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableReposBool()}{find\_HashTableReposBool()}}
+{\footnotesize\ttfamily int find\+\_\+\+Hash\+Table\+Repos\+Bool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite saber se o ID se encontra na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 se encontrar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a8968d9239d1a7b17eda0e5f5b01cde43}\label{HT__repos_8h_a8968d9239d1a7b17eda0e5f5b01cde43}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_HashTableReposKey@{find\_HashTableReposKey}}
+\index{find\_HashTableReposKey@{find\_HashTableReposKey}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableReposKey()}{find\_HashTableReposKey()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} find\+\_\+\+Hash\+Table\+Repos\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Função que encontra um nodo copiado de um determinado elemento na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios\\
+\hline
+{\em key} & Índice do elemento a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a824411b9b980e93c0f6982e708655884}\label{HT__repos_8h_a824411b9b980e93c0f6982e708655884}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_reposDescription@{find\_reposDescription}}
+\index{find\_reposDescription@{find\_reposDescription}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_reposDescription()}{find\_reposDescription()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+repos\+Description (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que retorna a descrição do repositório com o ID dado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios\\
+\hline
+{\em id} & String com o ID do repositório\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com a descrição do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a2016fa3180f207be0a124639cd17ff0f}\label{HT__repos_8h_a2016fa3180f207be0a124639cd17ff0f}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_reposLanguageBOOL@{find\_reposLanguageBOOL}}
+\index{find\_reposLanguageBOOL@{find\_reposLanguageBOOL}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_reposLanguageBOOL()}{find\_reposLanguageBOOL()}}
+{\footnotesize\ttfamily int find\+\_\+repos\+Language\+B\+O\+OL (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{char $\ast$}]{id,  }\item[{char $\ast$}]{lang }\end{DoxyParamCaption})}
+
+
+
+Função que permite saber se o repositório apresenta a linguagem dada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID do repositório\\
+\hline
+{\em lang} & String com a linguagem a procurar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 se encontrar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a0cb7aa28fd2a052677198ea4e3dcbc5b}\label{HT__repos_8h_a0cb7aa28fd2a052677198ea4e3dcbc5b}} 
+\index{HT\_repos.h@{HT\_repos.h}!find\_reposOwnerId@{find\_reposOwnerId}}
+\index{find\_reposOwnerId@{find\_reposOwnerId}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{find\_reposOwnerId()}{find\_reposOwnerId()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+repos\+Owner\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que retorna o ID do owner do repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Hashtable dos repositórios\\
+\hline
+{\em id} & String com o ID do repositório\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com o ID do owner do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a6a806c0af69ee877308e28cdda9106f7}\label{HT__repos_8h_a6a806c0af69ee877308e28cdda9106f7}} 
+\index{HT\_repos.h@{HT\_repos.h}!free\_TableRepos@{free\_TableRepos}}
+\index{free\_TableRepos@{free\_TableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{free\_TableRepos()}{free\_TableRepos()}}
+{\footnotesize\ttfamily void free\+\_\+\+Table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que liberta a memória ocupada pela Hashtable dos repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__repos_8h_a30f7275ae80d860826bf1a95f5dc1add}\label{HT__repos_8h_a30f7275ae80d860826bf1a95f5dc1add}} 
+\index{HT\_repos.h@{HT\_repos.h}!handle\_ReposFile@{handle\_ReposFile}}
+\index{handle\_ReposFile@{handle\_ReposFile}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{handle\_ReposFile()}{handle\_ReposFile()}}
+{\footnotesize\ttfamily void handle\+\_\+\+Repos\+File (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite fazer a verificação do ficheiros dos repositórios e a criação do catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro a verificar e guardar\\
+\hline
+{\em repos} & Hashtable onde irá ser guardada a informação\\
+\hline
+{\em users} & Hashtable dos users para fazer a verificação \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__repos_8h_a32a9c320bcf33324a77ed6ebfef9a2f2}\label{HT__repos_8h_a32a9c320bcf33324a77ed6ebfef9a2f2}} 
+\index{HT\_repos.h@{HT\_repos.h}!init\_HashTableRepos@{init\_HashTableRepos}}
+\index{init\_HashTableRepos@{init\_HashTableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{init\_HashTableRepos()}{init\_HashTableRepos()}}
+{\footnotesize\ttfamily void init\+\_\+\+Hash\+Table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a Hashtable dos repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__repos_8h_a902b500a581fab4f0591ccc02a13378d}\label{HT__repos_8h_a902b500a581fab4f0591ccc02a13378d}} 
+\index{HT\_repos.h@{HT\_repos.h}!insert\_HashTableRepos@{insert\_HashTableRepos}}
+\index{insert\_HashTableRepos@{insert\_HashTableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{insert\_HashTableRepos()}{insert\_HashTableRepos()}}
+{\footnotesize\ttfamily int insert\+\_\+\+Hash\+Table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que insere elementos na Hashtable dos repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios\\
+\hline
+{\em node} & Nodo a inserir na Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 quando o nodo é bem inserido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a1d7fc54d5c333797bb15174819cecef7}\label{HT__repos_8h_a1d7fc54d5c333797bb15174819cecef7}} 
+\index{HT\_repos.h@{HT\_repos.h}!listR@{listR}}
+\index{listR@{listR}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{listR()}{listR()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} listR (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite copiar a informação de um nodo para outro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Nodo a copiar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o novo nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a240fbbcae6b5b713e084233f7a6f025f}\label{HT__repos_8h_a240fbbcae6b5b713e084233f7a6f025f}} 
+\index{HT\_repos.h@{HT\_repos.h}!obtain\_nextRepos@{obtain\_nextRepos}}
+\index{obtain\_nextRepos@{obtain\_nextRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextRepos()}{obtain\_nextRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} obtain\+\_\+next\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo elemento da lista ligada da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo seguinte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a1d45fb426cc82ab0c7bb13884bfb1b86}\label{HT__repos_8h_a1d45fb426cc82ab0c7bb13884bfb1b86}} 
+\index{HT\_repos.h@{HT\_repos.h}!obtain\_reposDate@{obtain\_reposDate}}
+\index{obtain\_reposDate@{obtain\_reposDate}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposDate()}{obtain\_reposDate()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+repos\+Date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a data de atualização do repositório do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com a data de atualização do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a423ac0d87f66cc50b403d87738ae5011}\label{HT__repos_8h_a423ac0d87f66cc50b403d87738ae5011}} 
+\index{HT\_repos.h@{HT\_repos.h}!obtain\_reposDescription@{obtain\_reposDescription}}
+\index{obtain\_reposDescription@{obtain\_reposDescription}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposDescription()}{obtain\_reposDescription()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+repos\+Description (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a descrição do repositório do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com a descrição do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a5a763e99893b0c9a6dca73111e61fdb5}\label{HT__repos_8h_a5a763e99893b0c9a6dca73111e61fdb5}} 
+\index{HT\_repos.h@{HT\_repos.h}!obtain\_reposId@{obtain\_reposId}}
+\index{obtain\_reposId@{obtain\_reposId}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposId()}{obtain\_reposId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+repos\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do repositório do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com o ID do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a6e066619b9e3cfbcd13f39ad0540e6ae}\label{HT__repos_8h_a6e066619b9e3cfbcd13f39ad0540e6ae}} 
+\index{HT\_repos.h@{HT\_repos.h}!obtain\_reposLang@{obtain\_reposLang}}
+\index{obtain\_reposLang@{obtain\_reposLang}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposLang()}{obtain\_reposLang()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+repos\+Lang (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a linguagem do repositório do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com a linguagem do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__repos_8h_a81a9d0c33071f4f9c74a3973d6a700d9}\label{HT__repos_8h_a81a9d0c33071f4f9c74a3973d6a700d9}} 
+\index{HT\_repos.h@{HT\_repos.h}!print\_tableRepos@{print\_tableRepos}}
+\index{print\_tableRepos@{print\_tableRepos}!HT\_repos.h@{HT\_repos.h}}
+\doxysubsubsection{\texorpdfstring{print\_tableRepos()}{print\_tableRepos()}}
+{\footnotesize\ttfamily void print\+\_\+table\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que imprime no terminal a Hashtable dos repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}

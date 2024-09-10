@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtreeRepos" kind="struct" language="C++" prot="public">
+    <compoundname>treeRepos</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtreeRepos_1ae0d60c02231ee48624bd691af9564167" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* treeRepos::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que contém a informação a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.c" line="49" column="11" bodyfile="data_tree.c" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtreeRepos_1a4accb8b2103b9aa5eff70f10a26b01f5" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* treeRepos::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que contém a informação a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.c" line="51" column="11" bodyfile="data_tree.c" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtreeRepos_1a2cfcbe8f4ac39861066bc1e7d605c423" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structtreeRepos" kindref="compound">treeRepos</ref> *</type>
+        <definition>struct treeRepos* treeRepos::l</definition>
+        <argsstring></argsstring>
+        <name>l</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>apontador para os ramos direito e esquerdo da árvore </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.c" line="53" column="20" bodyfile="data_tree.c" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtreeRepos_1a2a7406b1fb2cb03d2c3c195aca0c34f2" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structtreeRepos" kindref="compound">treeRepos</ref> *</type>
+        <definition>struct treeRepos * treeRepos::r</definition>
+        <argsstring></argsstring>
+        <name>r</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.c" line="53" column="22" bodyfile="data_tree.c" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da árvore binária ordenada por id, com a componente message. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>treeRepos</label>
+        <link refid="structtreeRepos"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>l</edgelabel>
+          <edgelabel>r</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="data_tree.c" line="46" column="1" bodyfile="data_tree.c" bodystart="47" bodyend="54"/>
+    <listofallmembers>
+      <member refid="structtreeRepos_1ae0d60c02231ee48624bd691af9564167" prot="public" virt="non-virtual"><scope>treeRepos</scope><name>id</name></member>
+      <member refid="structtreeRepos_1a2cfcbe8f4ac39861066bc1e7d605c423" prot="public" virt="non-virtual"><scope>treeRepos</scope><name>l</name></member>
+      <member refid="structtreeRepos_1a4accb8b2103b9aa5eff70f10a26b01f5" prot="public" virt="non-virtual"><scope>treeRepos</scope><name>message</name></member>
+      <member refid="structtreeRepos_1a2a7406b1fb2cb03d2c3c195aca0c34f2" prot="public" virt="non-virtual"><scope>treeRepos</scope><name>r</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

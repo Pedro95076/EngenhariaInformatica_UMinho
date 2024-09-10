@@ -1,0 +1,193 @@
+\hypertarget{data__commits_8c}{}\doxysection{data\+\_\+commits.\+c File Reference}
+\label{data__commits_8c}\index{data\_commits.c@{data\_commits.c}}
+{\ttfamily \#include \char`\"{}data\+\_\+commits.\+h\char`\"{}}\newline
+Include dependency graph for data\+\_\+commits.\+c\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structcommits}{commits}}
+\begin{DoxyCompactList}\small\item\em Definição da struct commits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{data__commits_8c_a9db38fcd8d20cfae8f7bbc5c99875e4a}{insert\+Data\+Commits}} (FILE $\ast$file)
+\begin{DoxyCompactList}\small\item\em Função que guarda no catálogo os commits do ficheiro \char`\"{}commits-\/g2.\+csv\char`\"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data__commits_8c_a9430f592e299524db42c26d9b182c137}{is\+Empty\+Commits}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que verifica se a lista chegou ao fim. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{data__commits_8c_a9a745d4c49c473b8739fb619ce84e256}{obtain\+\_\+next\+Commit}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo commit do catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__commits_8c_a620e872e5a1a4a35bc908c131fa52e4f}{obtain\+\_\+commits\+Repos\+Id}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do repositório no Catálogo de Commits. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__commits_8c_a4a4174f1f9aa3cbb78f8fe15fc2c5cf4}{obtain\+\_\+commits\+Author\+Id}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do autor do repositório no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__commits_8c_a47ced3595a56b488451bbdeeb02c01da}{obtain\+\_\+commits\+Date}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a data do commit no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__commits_8c_a1582c737b38f7c3e8c2d557122b4b9a1}{obtain\+\_\+commiter\+Id}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do commiter no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__commits_8c_a2cc5e27d32b1b5c221403bccc8a45e56}{obtain\+\_\+message\+Commit}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} \mbox{\hyperlink{structcommits}{commits}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a mensagem do commit no catálogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__commits_8c_a5516ac3c82210aca962594bc79539011}{free\+Commits}} (\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pelo catálogo de Commits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{data__commits_8c_a5516ac3c82210aca962594bc79539011}\label{data__commits_8c_a5516ac3c82210aca962594bc79539011}} 
+\index{data\_commits.c@{data\_commits.c}!freeCommits@{freeCommits}}
+\index{freeCommits@{freeCommits}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{freeCommits()}{freeCommits()}}
+{\footnotesize\ttfamily void free\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pelo catálogo de Commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Catálogo de Commits. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__commits_8c_a9db38fcd8d20cfae8f7bbc5c99875e4a}\label{data__commits_8c_a9db38fcd8d20cfae8f7bbc5c99875e4a}} 
+\index{data\_commits.c@{data\_commits.c}!insertDataCommits@{insertDataCommits}}
+\index{insertDataCommits@{insertDataCommits}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{insertDataCommits()}{insertDataCommits()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} insert\+Data\+Commits (\begin{DoxyParamCaption}\item[{FILE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Função que guarda no catálogo os commits do ficheiro \char`\"{}commits-\/g2.\+csv\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro \char`\"{}commits-\/g2.\+csv\char`\"{}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma lista ligada com os commits -\/ Catálogo de commits. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a9430f592e299524db42c26d9b182c137}\label{data__commits_8c_a9430f592e299524db42c26d9b182c137}} 
+\index{data\_commits.c@{data\_commits.c}!isEmptyCommits@{isEmptyCommits}}
+\index{isEmptyCommits@{isEmptyCommits}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{isEmptyCommits()}{isEmptyCommits()}}
+{\footnotesize\ttfamily int is\+Empty\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que verifica se a lista chegou ao fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada com todos os commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a lista chegou o fim. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a1582c737b38f7c3e8c2d557122b4b9a1}\label{data__commits_8c_a1582c737b38f7c3e8c2d557122b4b9a1}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_commiterId@{obtain\_commiterId}}
+\index{obtain\_commiterId@{obtain\_commiterId}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_commiterId()}{obtain\_commiterId()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+commiter\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do commiter no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo de Commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do commiter. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a4a4174f1f9aa3cbb78f8fe15fc2c5cf4}\label{data__commits_8c_a4a4174f1f9aa3cbb78f8fe15fc2c5cf4}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_commitsAuthorId@{obtain\_commitsAuthorId}}
+\index{obtain\_commitsAuthorId@{obtain\_commitsAuthorId}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsAuthorId()}{obtain\_commitsAuthorId()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+commits\+Author\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do autor do repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo de Commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do autor do repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a47ced3595a56b488451bbdeeb02c01da}\label{data__commits_8c_a47ced3595a56b488451bbdeeb02c01da}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_commitsDate@{obtain\_commitsDate}}
+\index{obtain\_commitsDate@{obtain\_commitsDate}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsDate()}{obtain\_commitsDate()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+commits\+Date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a data do commit no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo de Commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a data do commit. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a620e872e5a1a4a35bc908c131fa52e4f}\label{data__commits_8c_a620e872e5a1a4a35bc908c131fa52e4f}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_commitsReposId@{obtain\_commitsReposId}}
+\index{obtain\_commitsReposId@{obtain\_commitsReposId}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsReposId()}{obtain\_commitsReposId()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+commits\+Repos\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do repositório no Catálogo de Commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo de Commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do repositório do commit. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a2cc5e27d32b1b5c221403bccc8a45e56}\label{data__commits_8c_a2cc5e27d32b1b5c221403bccc8a45e56}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_messageCommit@{obtain\_messageCommit}}
+\index{obtain\_messageCommit@{obtain\_messageCommit}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_messageCommit()}{obtain\_messageCommit()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+message\+Commit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a mensagem do commit no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo de Commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a mensagem do commit. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__commits_8c_a9a745d4c49c473b8739fb619ce84e256}\label{data__commits_8c_a9a745d4c49c473b8739fb619ce84e256}} 
+\index{data\_commits.c@{data\_commits.c}!obtain\_nextCommit@{obtain\_nextCommit}}
+\index{obtain\_nextCommit@{obtain\_nextCommit}!data\_commits.c@{data\_commits.c}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextCommit()}{obtain\_nextCommit()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}} obtain\+\_\+next\+Commit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__commits_8h_a02dfeedb4e14fb2ddb895c064cb2304f}{COMMITS}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo commit do catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Catálogo dos commits.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o nodo do próximo commit. 
+\end{DoxyReturn}

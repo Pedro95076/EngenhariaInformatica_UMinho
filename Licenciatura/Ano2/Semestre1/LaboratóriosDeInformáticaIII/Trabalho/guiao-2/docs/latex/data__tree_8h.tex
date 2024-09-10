@@ -1,0 +1,450 @@
+\hypertarget{data__tree_8h}{}\doxysection{data\+\_\+tree.\+h File Reference}
+\label{data__tree_8h}\index{data\_tree.h@{data\_tree.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}data\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}data\+\_\+commits.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}data\+\_\+repos.\+h\char`\"{}}\newline
+Include dependency graph for data\+\_\+tree.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structtree}{tree}} $\ast$ \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}
+\item 
+typedef struct \mbox{\hyperlink{structtreeUsers}{tree\+Users}} $\ast$ \mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}}
+\item 
+typedef struct \mbox{\hyperlink{structtreeUsers9}{tree\+Users9}} $\ast$ \mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}}
+\item 
+typedef struct \mbox{\hyperlink{structtreeRepos}{tree\+Repos}} $\ast$ \mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{data__tree_8h_a046d3ee75787615cc6a9cc1bca11521f}{insert}} (\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{structtree}{tree}}, int x)
+\begin{DoxyCompactList}\small\item\em Função que insere os elementos na árvore binária. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{data__tree_8h_a8d3d97f663d3b4a863d0fc67497451e8}{filter\+Repos\+\_\+\+Lang}} (char $\ast$lang, \mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}}, \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que filtra os repositórios com a linguagem especificada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} \mbox{\hyperlink{data__tree_8h_ada3a24c7044092c8dce26bdb34793954}{add\+Users\+TREE}} (\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} place, char $\ast$id, char $\ast$login)
+\begin{DoxyCompactList}\small\item\em Função que adiciona nodos a uma árvore de users. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} \mbox{\hyperlink{data__tree_8h_ae83344c676461ec63338c1da6071ddcc}{ini\+Users\+TREE}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que inicializa a árvore de users. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} \mbox{\hyperlink{data__tree_8h_aba9218b7c62cb38d91fa79553d28cd8a}{add\+Users\+TREE9}} (\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} \mbox{\hyperlink{structtree}{tree}}, char $\ast$id, \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} user)
+\begin{DoxyCompactList}\small\item\em Função que adiciona nodos a uma árvore de users da query 9. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} \mbox{\hyperlink{data__tree_8h_a9c2e12210f7c4221da34aa2d80c7c1f8}{ini\+Users\+TREE9}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que inicializa a árvore de users da query 9. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a2a2ad278cc5ba9d7ad9c44f0810016cf}{add\+Repos\+TREE}} (\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} \mbox{\hyperlink{structtree}{tree}}, char $\ast$id, char $\ast$message)
+\begin{DoxyCompactList}\small\item\em Função que adiciona nodos a uma árvore de repositórios. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a1565fc2785db11f2e866e183768f35e8}{ini\+Repos\+TREE}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que inicializa a árvore de repositórios. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a34f5edb7f5874cc486858411974c0b96}{ini\+Repos\+TREE9}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que inicializa a árvore de repositórios da query 9. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data__tree_8h_aeb08a84830917a5d5d0f343cff03f335}{search}} (\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{structtree}{tree}}, int x)
+\begin{DoxyCompactList}\small\item\em Função que procura numa árvore binária o elemento especificado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__tree_8h_aea5e5e964adbddeba8bc9b28edffa2da}{print\+Tree}} (\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que permite a impressão in order da árvore binária. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__tree_8h_a35b0424230cce746bafe0fdb078c0e9e}{free\+Tree}} (\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} node)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela árvore binária. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__tree_8h_af30f811f4a786e9f8845b60ab7161697}{free\+Tree\+Users}} (\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} node)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela árvore de users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__tree_8h_a4e89413c85c0181bf82952e2a2f381bd}{free\+Tree\+Repos}} (\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} node)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela árvore binária. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data__tree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}{countnodes}} (\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que o número de nodos de uma árvore binária. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__tree_8h_a6bd8de736b75e89de56d0704c7067c73}{search\+Users}} (\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} \mbox{\hyperlink{structtree}{tree}}, char $\ast$x)
+\begin{DoxyCompactList}\small\item\em Função que procura numa árvore de users o elemento especificado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{data__tree_8h_ab525532283c815cbf66c0b7be898122a}{search\+Users9}} (\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} \mbox{\hyperlink{structtree}{tree}}, char $\ast$x)
+\begin{DoxyCompactList}\small\item\em Função que procura numa árvore de users da query 9 o elemento especificado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__tree_8h_a5a0e82b471da785140fe1e1593b7c115}{search\+Repos}} (\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} \mbox{\hyperlink{structtree}{tree}}, char $\ast$x)
+\begin{DoxyCompactList}\small\item\em Função que procura numa árvore de repositórios o elemento especificado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} \mbox{\hyperlink{data__tree_8h_a0a88042ec7804bda4bf0a321ea03b4bf}{friends\+TreeF}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}}, int $\ast$k)
+\begin{DoxyCompactList}\small\item\em Função que cria uma árvore com os amigos de um determinado user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}\label{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}} 
+\index{data\_tree.h@{data\_tree.h}!TREE@{TREE}}
+\index{TREE@{TREE}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{TREE}{TREE}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtree}{tree}}$\ast$ \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}
+
+\mbox{\Hypertarget{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}\label{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}} 
+\index{data\_tree.h@{data\_tree.h}!TREEREPOS@{TREEREPOS}}
+\index{TREEREPOS@{TREEREPOS}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{TREEREPOS}{TREEREPOS}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtreeRepos}{tree\+Repos}}$\ast$ \mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}}}
+
+\mbox{\Hypertarget{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}\label{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}} 
+\index{data\_tree.h@{data\_tree.h}!TREEUSERS@{TREEUSERS}}
+\index{TREEUSERS@{TREEUSERS}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{TREEUSERS}{TREEUSERS}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtreeUsers}{tree\+Users}}$\ast$ \mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}}}
+
+\mbox{\Hypertarget{data__tree_8h_ae7a19ed299494b455f1f935624022669}\label{data__tree_8h_ae7a19ed299494b455f1f935624022669}} 
+\index{data\_tree.h@{data\_tree.h}!TREEUSERS9@{TREEUSERS9}}
+\index{TREEUSERS9@{TREEUSERS9}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{TREEUSERS9}{TREEUSERS9}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtreeUsers9}{tree\+Users9}}$\ast$ \mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{data__tree_8h_a2a2ad278cc5ba9d7ad9c44f0810016cf}\label{data__tree_8h_a2a2ad278cc5ba9d7ad9c44f0810016cf}} 
+\index{data\_tree.h@{data\_tree.h}!addReposTREE@{addReposTREE}}
+\index{addReposTREE@{addReposTREE}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{addReposTREE()}{addReposTREE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} add\+Repos\+TREE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}}}]{tree,  }\item[{char $\ast$}]{id,  }\item[{char $\ast$}]{message }\end{DoxyParamCaption})}
+
+
+
+Função que adiciona nodos a uma árvore de repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore a inserir os ID\textquotesingle{}s dos repositórios.\\
+\hline
+{\em id} & String com o id a ser guardado.\\
+\hline
+{\em message} & String com a menssagem associado ao id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Árvore com o repositório adicionado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_ada3a24c7044092c8dce26bdb34793954}\label{data__tree_8h_ada3a24c7044092c8dce26bdb34793954}} 
+\index{data\_tree.h@{data\_tree.h}!addUsersTREE@{addUsersTREE}}
+\index{addUsersTREE@{addUsersTREE}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{addUsersTREE()}{addUsersTREE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} add\+Users\+TREE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}}}]{tree,  }\item[{char $\ast$}]{id,  }\item[{char $\ast$}]{login }\end{DoxyParamCaption})}
+
+
+
+Função que adiciona nodos a uma árvore de users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore a inserir os ID\textquotesingle{}s dos users.\\
+\hline
+{\em id} & String com o id a ser guardado.\\
+\hline
+{\em login} & String com o login associado ao id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Árvore com o user adicionado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_aba9218b7c62cb38d91fa79553d28cd8a}\label{data__tree_8h_aba9218b7c62cb38d91fa79553d28cd8a}} 
+\index{data\_tree.h@{data\_tree.h}!addUsersTREE9@{addUsersTREE9}}
+\index{addUsersTREE9@{addUsersTREE9}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{addUsersTREE9()}{addUsersTREE9()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} add\+Users\+TREE9 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}}}]{tree,  }\item[{char $\ast$}]{id,  }\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que adiciona nodos a uma árvore de users da query 9. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore a inserir os ID\textquotesingle{}s dos users.\\
+\hline
+{\em id} & String com o id a ser guardado.\\
+\hline
+{\em login} & String com o login associado ao id.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Árvore com o user adicionado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}\label{data__tree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}} 
+\index{data\_tree.h@{data\_tree.h}!countnodes@{countnodes}}
+\index{countnodes@{countnodes}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{countnodes()}{countnodes()}}
+{\footnotesize\ttfamily int countnodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que o número de nodos de uma árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__tree_8h_a8d3d97f663d3b4a863d0fc67497451e8}\label{data__tree_8h_a8d3d97f663d3b4a863d0fc67497451e8}} 
+\index{data\_tree.h@{data\_tree.h}!filterRepos\_Lang@{filterRepos\_Lang}}
+\index{filterRepos\_Lang@{filterRepos\_Lang}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{filterRepos\_Lang()}{filterRepos\_Lang()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} filter\+Repos\+\_\+\+Lang (\begin{DoxyParamCaption}\item[{char $\ast$}]{lang,  }\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos,  }\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que filtra os repositórios com a linguagem especificada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lang} & Linguagem de programação a procurar nos repositórios.\\
+\hline
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+{\em tree} & Árvore a inserir os ID\textquotesingle{}s dos repositórios com a linguagem especificada.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Árvore dos ID\textquotesingle{}s dos repositórios com a linguagem especificada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a35b0424230cce746bafe0fdb078c0e9e}\label{data__tree_8h_a35b0424230cce746bafe0fdb078c0e9e}} 
+\index{data\_tree.h@{data\_tree.h}!freeTree@{freeTree}}
+\index{freeTree@{freeTree}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{freeTree()}{freeTree()}}
+{\footnotesize\ttfamily void free\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__tree_8h_a4e89413c85c0181bf82952e2a2f381bd}\label{data__tree_8h_a4e89413c85c0181bf82952e2a2f381bd}} 
+\index{data\_tree.h@{data\_tree.h}!freeTreeRepos@{freeTreeRepos}}
+\index{freeTreeRepos@{freeTreeRepos}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{freeTreeRepos()}{freeTreeRepos()}}
+{\footnotesize\ttfamily void free\+Tree\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__tree_8h_af30f811f4a786e9f8845b60ab7161697}\label{data__tree_8h_af30f811f4a786e9f8845b60ab7161697}} 
+\index{data\_tree.h@{data\_tree.h}!freeTreeUsers@{freeTreeUsers}}
+\index{freeTreeUsers@{freeTreeUsers}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{freeTreeUsers()}{freeTreeUsers()}}
+{\footnotesize\ttfamily void free\+Tree\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela árvore de users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__tree_8h_a0a88042ec7804bda4bf0a321ea03b4bf}\label{data__tree_8h_a0a88042ec7804bda4bf0a321ea03b4bf}} 
+\index{data\_tree.h@{data\_tree.h}!friendsTreeF@{friendsTreeF}}
+\index{friendsTreeF@{friendsTreeF}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{friendsTreeF()}{friendsTreeF()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} friends\+TreeF (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users,  }\item[{int $\ast$}]{k }\end{DoxyParamCaption})}
+
+
+
+Função que cria uma árvore com os amigos de um determinado user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Nodo do catalogo users.\\
+\hline
+{\em x} & Número de amigos.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore dos amigos. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a1565fc2785db11f2e866e183768f35e8}\label{data__tree_8h_a1565fc2785db11f2e866e183768f35e8}} 
+\index{data\_tree.h@{data\_tree.h}!iniReposTREE@{iniReposTREE}}
+\index{iniReposTREE@{iniReposTREE}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{iniReposTREE()}{iniReposTREE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} ini\+Repos\+TREE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a árvore de repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore criada apartir da lista de repositórios. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a34f5edb7f5874cc486858411974c0b96}\label{data__tree_8h_a34f5edb7f5874cc486858411974c0b96}} 
+\index{data\_tree.h@{data\_tree.h}!iniReposTREE9@{iniReposTREE9}}
+\index{iniReposTREE9@{iniReposTREE9}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{iniReposTREE9()}{iniReposTREE9()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}} ini\+Repos\+TREE9 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a árvore de repositórios da query 9. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore criada apartir da lista de repositórios. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_ae83344c676461ec63338c1da6071ddcc}\label{data__tree_8h_ae83344c676461ec63338c1da6071ddcc}} 
+\index{data\_tree.h@{data\_tree.h}!iniUsersTREE@{iniUsersTREE}}
+\index{iniUsersTREE@{iniUsersTREE}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{iniUsersTREE()}{iniUsersTREE()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}} ini\+Users\+TREE (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a árvore de users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de users.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore criada apartir da lista de users. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a9c2e12210f7c4221da34aa2d80c7c1f8}\label{data__tree_8h_a9c2e12210f7c4221da34aa2d80c7c1f8}} 
+\index{data\_tree.h@{data\_tree.h}!iniUsersTREE9@{iniUsersTREE9}}
+\index{iniUsersTREE9@{iniUsersTREE9}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{iniUsersTREE9()}{iniUsersTREE9()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}} ini\+Users\+TREE9 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a árvore de users da query 9. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de users.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore criada apartir da lista de users. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a046d3ee75787615cc6a9cc1bca11521f}\label{data__tree_8h_a046d3ee75787615cc6a9cc1bca11521f}} 
+\index{data\_tree.h@{data\_tree.h}!insert@{insert}}
+\index{insert@{insert}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}} insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{tree,  }\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que insere os elementos na árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária onde se irá guardar o elemento.\\
+\hline
+{\em x} & Elemento a guardar na árvore binária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore com o elemento inserido. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_aea5e5e964adbddeba8bc9b28edffa2da}\label{data__tree_8h_aea5e5e964adbddeba8bc9b28edffa2da}} 
+\index{data\_tree.h@{data\_tree.h}!printTree@{printTree}}
+\index{printTree@{printTree}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{printTree()}{printTree()}}
+{\footnotesize\ttfamily void print\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que permite a impressão in order da árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária a imprimir. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__tree_8h_aeb08a84830917a5d5d0f343cff03f335}\label{data__tree_8h_aeb08a84830917a5d5d0f343cff03f335}} 
+\index{data\_tree.h@{data\_tree.h}!search@{search}}
+\index{search@{search}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily int search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}}}]{tree,  }\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que procura numa árvore binária o elemento especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária aonde se irá procurar o elemento\\
+\hline
+{\em x} & Elemento a encontrar na árvore binária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se o elemento for encontrado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a5a0e82b471da785140fe1e1593b7c115}\label{data__tree_8h_a5a0e82b471da785140fe1e1593b7c115}} 
+\index{data\_tree.h@{data\_tree.h}!searchRepos@{searchRepos}}
+\index{searchRepos@{searchRepos}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{searchRepos()}{searchRepos()}}
+{\footnotesize\ttfamily char $\ast$ search\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}}}]{tree,  }\item[{char $\ast$}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que procura numa árvore de repositórios o elemento especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore de repositórios aonde se irá procurar o elemento\\
+\hline
+{\em x} & Elemento a encontrar na árvore de repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o elemento encontrado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_a6bd8de736b75e89de56d0704c7067c73}\label{data__tree_8h_a6bd8de736b75e89de56d0704c7067c73}} 
+\index{data\_tree.h@{data\_tree.h}!searchUsers@{searchUsers}}
+\index{searchUsers@{searchUsers}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{searchUsers()}{searchUsers()}}
+{\footnotesize\ttfamily char $\ast$ search\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}}}]{tree,  }\item[{char $\ast$}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que procura numa árvore de users o elemento especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore de users aonde se irá procurar o elemento\\
+\hline
+{\em x} & Elemento a encontrar na árvore de users.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o elemento encontrado. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__tree_8h_ab525532283c815cbf66c0b7be898122a}\label{data__tree_8h_ab525532283c815cbf66c0b7be898122a}} 
+\index{data\_tree.h@{data\_tree.h}!searchUsers9@{searchUsers9}}
+\index{searchUsers9@{searchUsers9}!data\_tree.h@{data\_tree.h}}
+\doxysubsubsection{\texorpdfstring{searchUsers9()}{searchUsers9()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} search\+Users9 (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}}}]{tree,  }\item[{char $\ast$}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que procura numa árvore de users da query 9 o elemento especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore de users aonde se irá procurar o elemento\\
+\hline
+{\em x} & Elemento a encontrar na árvore de users da query 9.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o elemento encontrado. 
+\end{DoxyReturn}

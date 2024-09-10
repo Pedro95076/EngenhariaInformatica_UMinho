@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="HT__repos_8h" kind="file" language="C++">
+    <compoundname>HT_repos.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes refid="HT__users_8h" local="yes">HT_users.h</includes>
+    <includes refid="auxiliarTree_8h" local="yes">auxiliarTree.h</includes>
+    <includedby refid="HT__commits_8h" local="yes">HT_commits.h</includedby>
+    <includedby refid="HT__repos_8c" local="yes">HT_repos.c</includedby>
+    <includedby refid="interface_8h" local="yes">interface.h</includedby>
+    <includedby refid="queries_8h" local="yes">queries.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="verification_8h" local="yes">verification.h</includedby>
+    <includedby refid="test_8c" local="yes">test.c</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="7">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>time.h</label>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="1">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="2">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="4">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="10">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="9">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="8">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+      </node>
+      <node id="1">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" prot="public" static="no">
+        <type>struct <ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref> *</type>
+        <definition>typedef struct HashTableRepos* HT_Repos</definition>
+        <argsstring></argsstring>
+        <name>HT_Repos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="12" column="29" bodyfile="HT_repos.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="HT__repos_8h_1a32a9c320bcf33324a77ed6ebfef9a2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash)</argsstring>
+        <name>init_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="14" column="6" bodyfile="HT_repos.c" bodystart="34" bodyend="38" declfile="HT_repos.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a81a9d0c33071f4f9c74a3973d6a700d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_tableRepos</definition>
+        <argsstring>(HT_Repos *hash)</argsstring>
+        <name>print_tableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que imprime no terminal a Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="15" column="6" bodyfile="HT_repos.c" bodystart="45" bodyend="65" declfile="HT_repos.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a902b500a581fab4f0591ccc02a13378d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int insert_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash, HT_Repos node)</argsstring>
+        <name>insert_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere elementos na Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a inserir na Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 quando o nodo é bem inserido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="16" column="5" bodyfile="HT_repos.c" bodystart="76" bodyend="83" declfile="HT_repos.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a1644f04b8f7659f8ec5cd759af20c6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos find_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>find_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra o endereço de um determinado elemento da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="17" column="10" bodyfile="HT_repos.c" bodystart="94" bodyend="101" declfile="HT_repos.h" declline="17" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a320237d8b65f9772bfe1c38d9a778d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_HashTableReposBool</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>find_HashTableReposBool</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o ID se encontra na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="18" column="5" bodyfile="HT_repos.c" bodystart="112" bodyend="121" declfile="HT_repos.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a3a8e001d180233b9a01550865f7e7564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delete_tableRepos</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>delete_tableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite eliminar um nodo da Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do nodo a eliminar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="19" column="6" bodyfile="HT_repos.c" bodystart="208" bodyend="221" declfile="HT_repos.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a30f7275ae80d860826bf1a95f5dc1add" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void handle_ReposFile</definition>
+        <argsstring>(FILE *file, HT_Repos *Repos, HT_Users *users)</argsstring>
+        <name>handle_ReposFile</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>Repos</declname>
+          <defname>repos</defname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite fazer a verificação do ficheiros dos repositórios e a criação do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro a verificar e guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users para fazer a verificação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="20" column="6" bodyfile="HT_repos.c" bodystart="276" bodyend="368" declfile="HT_repos.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a8968d9239d1a7b17eda0e5f5b01cde43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos find_HashTableReposKey</definition>
+        <argsstring>(HT_Repos *hash, int key)</argsstring>
+        <name>find_HashTableReposKey</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra um nodo copiado de um determinado elemento na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice do elemento a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="21" column="10" bodyfile="HT_repos.c" bodystart="132" bodyend="137" declfile="HT_repos.h" declline="21" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a6e066619b9e3cfbcd13f39ad0540e6ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposLang</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposLang</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a linguagem do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a linguagem do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="22" column="6" bodyfile="HT_repos.c" bodystart="146" bodyend="149" declfile="HT_repos.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a1d45fb426cc82ab0c7bb13884bfb1b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposDate</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposDate</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a data de atualização do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a data de atualização do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="23" column="6" bodyfile="HT_repos.c" bodystart="158" bodyend="161" declfile="HT_repos.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a5a763e99893b0c9a6dca73111e61fdb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposId</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposId</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="24" column="6" bodyfile="HT_repos.c" bodystart="170" bodyend="173" declfile="HT_repos.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a423ac0d87f66cc50b403d87738ae5011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposDescription</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposDescription</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a descrição do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com a descrição do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="25" column="6" bodyfile="HT_repos.c" bodystart="182" bodyend="185" declfile="HT_repos.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a240fbbcae6b5b713e084233f7a6f025f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos obtain_nextRepos</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_nextRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo elemento da lista ligada da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo seguinte </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="26" column="10" bodyfile="HT_repos.c" bodystart="194" bodyend="199" declfile="HT_repos.h" declline="26" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a1d7fc54d5c333797bb15174819cecef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos listR</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>listR</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite copiar a informação de um nodo para outro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a copiar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o novo nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="27" column="10" bodyfile="HT_repos.c" bodystart="230" bodyend="242" declfile="HT_repos.h" declline="27" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a2016fa3180f207be0a124639cd17ff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_reposLanguageBOOL</definition>
+        <argsstring>(HT_Repos *hash, char *id, char *lang)</argsstring>
+        <name>find_reposLanguageBOOL</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>lang</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o repositório apresenta a linguagem dada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a linguagem a procurar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="28" column="5" bodyfile="HT_repos.c" bodystart="255" bodyend="265" declfile="HT_repos.h" declline="28" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a824411b9b980e93c0f6982e708655884" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_reposDescription</definition>
+        <argsstring>(HT_Repos *repos, char *id)</argsstring>
+        <name>find_reposDescription</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+          <defname>hash</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que retorna a descrição do repositório com o ID dado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a descrição do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="29" column="6" bodyfile="HT_repos.c" bodystart="379" bodyend="388" declfile="HT_repos.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a0cb7aa28fd2a052677198ea4e3dcbc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_reposOwnerId</definition>
+        <argsstring>(HT_Repos *repos, char *id)</argsstring>
+        <name>find_reposOwnerId</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que retorna o ID do owner do repositório. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do owner do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="30" column="6" bodyfile="HT_repos.c" bodystart="399" bodyend="409" declfile="HT_repos.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1aaa1259ae6cc28292b22d906836896cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE filterRepos_Lang</definition>
+        <argsstring>(char *lang, HT_Repos *repos, TREE tree)</argsstring>
+        <name>filterRepos_Lang</name>
+        <param>
+          <type>char *</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que filtra os repositórios com a linguagem especificada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linguagem de programação a procurar nos repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos repositórios com a linguagem especificada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore dos ID&apos;s dos repositórios com a linguagem especificada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="31" column="6" bodyfile="HT_repos.c" bodystart="423" bodyend="448" declfile="HT_repos.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a584022e1f225b6c55f6b34ae9e4b1145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING countLanguageRepos</definition>
+        <argsstring>(HT_Repos *repos, char *start_date, STRING langTop, int *count)</argsstring>
+        <name>countLanguageRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>start_date</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>langTop</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de vezes que uma determinada linguagem é utilizada a partir de uma data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a data de início</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>langTop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a linguagem</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde será guardada o número de vezes que a linguagem é utilizada </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>STRING </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="32" column="8" bodyfile="HT_repos.c" bodystart="488" bodyend="512" declfile="HT_repos.h" declline="32" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a7562362c599776ee12be2f235518d7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float countRepos</definition>
+        <argsstring>(HT_Repos *repos)</argsstring>
+        <name>countRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de repositórios existentes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de repositórios </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="33" column="7" bodyfile="HT_repos.c" bodystart="457" bodyend="474" declfile="HT_repos.h" declline="33" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8h_1a6a806c0af69ee877308e28cdda9106f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void free_TableRepos</definition>
+        <argsstring>(HT_Repos *repos)</argsstring>
+        <name>free_TableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que liberta a memória ocupada pela Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.h" line="34" column="6" bodyfile="HT_repos.c" bodystart="519" bodyend="539" declfile="HT_repos.h" declline="34" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__users_8h" kindref="compound">HT_users.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarTree_8h" kindref="compound">auxiliarTree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref><sp/>*<ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a32a9c320bcf33324a77ed6ebfef9a2f2" kindref="member">init_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a81a9d0c33071f4f9c74a3973d6a700d9" kindref="member">print_tableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a902b500a581fab4f0591ccc02a13378d" kindref="member">insert_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>node);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8h_1a1644f04b8f7659f8ec5cd759af20c6d2" kindref="member">find_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a320237d8b65f9772bfe1c38d9a778d26" kindref="member">find_HashTableReposBool</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a3a8e001d180233b9a01550865f7e7564" kindref="member">delete_tableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a30f7275ae80d860826bf1a95f5dc1add" kindref="member">handle_ReposFile</ref>(FILE*<sp/>file,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*Repos,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8h_1a8968d9239d1a7b17eda0e5f5b01cde43" kindref="member">find_HashTableReposKey</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a6e066619b9e3cfbcd13f39ad0540e6ae" kindref="member">obtain_reposLang</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a1d45fb426cc82ab0c7bb13884bfb1b86" kindref="member">obtain_reposDate</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a5a763e99893b0c9a6dca73111e61fdb5" kindref="member">obtain_reposId</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a423ac0d87f66cc50b403d87738ae5011" kindref="member">obtain_reposDescription</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8h_1a240fbbcae6b5b713e084233f7a6f025f" kindref="member">obtain_nextRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8h_1a1d7fc54d5c333797bb15174819cecef7" kindref="member">listR</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a2016fa3180f207be0a124639cd17ff0f" kindref="member">find_reposLanguageBOOL</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a824411b9b980e93c0f6982e708655884" kindref="member">find_reposDescription</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8h_1a0cb7aa28fd2a052677198ea4e3dcbc5b" kindref="member">find_reposOwnerId</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__repos_8h_1aaa1259ae6cc28292b22d906836896cdf" kindref="member">filterRepos_Lang</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="HT__repos_8h_1a584022e1f225b6c55f6b34ae9e4b1145" kindref="member">countLanguageRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*start_date,<sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>langTop,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a7562362c599776ee12be2f235518d7e6" kindref="member">countRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8h_1a6a806c0af69ee877308e28cdda9106f7" kindref="member">free_TableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos);</highlight></codeline>
+    </programlisting>
+    <location file="HT_repos.h"/>
+  </compounddef>
+</doxygen>

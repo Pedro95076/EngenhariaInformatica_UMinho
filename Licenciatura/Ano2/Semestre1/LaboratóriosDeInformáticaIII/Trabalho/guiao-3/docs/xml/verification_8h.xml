@@ -1,0 +1,260 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="verification_8h" kind="file" language="C++">
+    <compoundname>verification.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="HT__commits_8h" local="yes">HT_commits.h</includes>
+    <includes refid="HT__repos_8h" local="yes">HT_repos.h</includes>
+    <includes refid="auxiliarFunc_8h" local="yes">auxiliarFunc.h</includes>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="test_8c" local="yes">test.c</includedby>
+    <includedby refid="verification_8c" local="yes">verification.c</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="8">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>time.h</label>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="11">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>auxiliarFunc.h</label>
+        <link refid="auxiliarFunc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="1">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="verification_8h_1ad54c94df1ee08475f45c04841c69852e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void filterCommits</definition>
+        <argsstring>(HT_Commits *commits, HT_Repos *repos)</argsstring>
+        <name>filterCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a filtração dos commits considerando os repositórios existentes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com a informação dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com a informação dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="verification.h" line="12" column="6" bodyfile="verification.c" bodystart="13" bodyend="29" declfile="verification.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="verification_8h_1a9ee6f83e1b4cefa917174288c1e1a7ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void filterRepos</definition>
+        <argsstring>(HT_Commits *commits, HT_Repos *repos)</argsstring>
+        <name>filterRepos</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a filtração dos repositórios considerando o número de commits existentes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com a informação dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com a informação dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="verification.h" line="13" column="6" bodyfile="verification.c" bodystart="38" bodyend="54" declfile="verification.h" declline="13" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__commits_8h" kindref="compound">HT_commits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__repos_8h" kindref="compound">HT_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarFunc_8h" kindref="compound">auxiliarFunc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="verification_8h_1ad54c94df1ee08475f45c04841c69852e" kindref="member">filterCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="verification_8h_1a9ee6f83e1b4cefa917174288c1e1a7ac" kindref="member">filterRepos</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos);</highlight></codeline>
+    </programlisting>
+    <location file="verification.h"/>
+  </compounddef>
+</doxygen>

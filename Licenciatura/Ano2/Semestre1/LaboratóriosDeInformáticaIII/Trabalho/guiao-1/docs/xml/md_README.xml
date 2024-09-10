@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="md_README" kind="page">
+    <compoundname>md_README</compoundname>
+    <title>README</title>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>a95076,Pedro Marcelo Bogas Oliveira,Pedro95076</para>
+<para>a95985,Diana Ribeiro Mateus,dianamateus10</para>
+<para>a96547,Rodrigo Jose Teixeira Freitas,GWFM </para>
+    </detaileddescription>
+    <location file="README.md"/>
+  </compounddef>
+</doxygen>

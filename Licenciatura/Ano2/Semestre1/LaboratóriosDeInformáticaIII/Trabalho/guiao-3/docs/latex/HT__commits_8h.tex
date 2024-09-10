@@ -1,0 +1,525 @@
+\hypertarget{HT__commits_8h}{}\doxysection{H\+T\+\_\+commits.\+h File Reference}
+\label{HT__commits_8h}\index{HT\_commits.h@{HT\_commits.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+repos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Struct.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Func.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Tree.\+h\char`\"{}}\newline
+Include dependency graph for H\+T\+\_\+commits.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structHashTableCommits}{Hash\+Table\+Commits}} $\ast$ \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{HT__commits_8h_a429d7baf934fab7b003e3d13b1714abb}{init\+\_\+\+Hash\+Table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que inicializa a Hashtable dos commits. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_a787657b0492580649d98d0e14b64e0c2}{print\+\_\+table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que imprime no terminal a Hashtable dos commits. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__commits_8h_a0a72f11fefd9cad0dd05774ec746da30}{insert\+\_\+\+Hash\+Table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} node)
+\begin{DoxyCompactList}\small\item\em Função que insere elementos na Hashtable dos Commits. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} \mbox{\hyperlink{HT__commits_8h_a6a4e189faa5c88c5e9a888aeca49fe63}{find\+\_\+\+Hash\+Table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que encontra o endereço de um determinado elemento da Hashtable. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__commits_8h_ae314971779f08f01783ca67bf085e960}{find\+\_\+\+Hash\+Table\+Commits\+Bool}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite saber se o ID se encontra na Hashtable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_abcaa810520d543c50dc309d43fa7f619}{delete\+\_\+table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite eliminar um nodo da Hashtable dos commits. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_aefb10056b5a03061a37003f0fb2fc173}{handle\+\_\+\+Commits\+File}} (F\+I\+LE $\ast$file, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que permite fazer a verificação do ficheiros dos commits e a criação do catálogo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} \mbox{\hyperlink{HT__commits_8h_af53a25b4857dd94d5a07e1f4d263bb87}{find\+\_\+\+Hash\+Table\+Commits\+Key}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$hash, int key)
+\begin{DoxyCompactList}\small\item\em Função que encontra um nodo copiado de um determinado elemento na Hashtable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} \mbox{\hyperlink{HT__commits_8h_a374877063b8d3c078ca3667a96bda27d}{obtain\+\_\+next\+Commit}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo elemento da lista ligada da Hashtable. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__commits_8h_a3e5f4f23e96f53e534e65f415105e5bd}{obtain\+\_\+commits\+Author\+Id}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do autor do commit do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__commits_8h_ac6f8ad0b7b60002150d2b501fd46c083}{obtain\+\_\+commits\+Commiter\+Id}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do commiter do commit do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__commits_8h_af4134b842b0ba871555850f28a2196bd}{obtain\+\_\+commits\+Repos\+Id}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do repositório do commit do nodo apontado. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__commits_8h_ada829c6e35fffd873f3e2d4d3a6224e4}{obtain\+\_\+commits\+Date}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a data do commit apontado. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} \mbox{\hyperlink{HT__commits_8h_a2935685e852b4f584c98dc603244677e}{listC}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} commits)
+\begin{DoxyCompactList}\small\item\em Função que permite copiar a informação de um nodo para outro. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{HT__commits_8h_a4e7b0b5eac7adaeff5afd88e19218034}{find\+\_\+inactive\+Repos}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{structdata}{data}}, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, char $\ast$str)
+\begin{DoxyCompactList}\small\item\em Função que guarda o ID dos repositórios inativos a partir de uma determinada data. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{HT__commits_8h_a486d7d1448d9d91971a18c7567736327}{counter\+\_\+\+All\+Commiters}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{structstring}{string}}, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Função que guarda numa estrutura auxiliar os ID\textquotesingle{}s dos usuários que apresentam commits em repositórios de amigos e o número de commits respetivos. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{HT__commits_8h_abb9bf465bfb09d5b937c7a40b0f8edea}{get\+All\+Colabs}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} colabs)
+\begin{DoxyCompactList}\small\item\em Função que guarda numa árvore binária os ID\textquotesingle{}s dos usuários que são colaboradores. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{HT__commits_8h_a4ba1a16fd0a91e74857544d3ed78a9b6}{count\+All\+Bots\+Colabs}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} bots, \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} repos)
+\begin{DoxyCompactList}\small\item\em Função que conta todos os bots que são colaboradores e guarda o repositório associado aos commits. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{HT__commits_8h_a5ee4271f109de841c550b6de30180843}{count\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de commits. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_adfb4febb9f540660a6afad4ac79b7f4d}{compare\+All\+Dates}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$end\+\_\+date, char $\ast$start\+\_\+date)
+\begin{DoxyCompactList}\small\item\em Função que compara as datas obtidas a partir da query com a data do commit e conta o número de commits realizados. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_a000dc5d3ee2f6e4a7d339621e262afd5}{count\+Commits\+Repos\+Language}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$language, int flag)
+\begin{DoxyCompactList}\small\item\em Função que conta os commits associados a um determinado repositório filtrado através da linguagem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_a9d89bd68c4dfd3667667b855f962dc16}{top\+Nrepo}} (char $\ast$repo\+ID, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, F\+I\+LE $\ast$file, int N)
+\begin{DoxyCompactList}\small\item\em Função que permite obter um top de repositórios consoante o tamanho de mensagem por repositório. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__commits_8h_a7eeb2633a09c276f45818afeb167f906}{free\+\_\+\+Table\+Commits}} (\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits)
+\begin{DoxyCompactList}\small\item\em Função que liberta a memória ocupada pela Hashtable dos commits. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}\label{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}} 
+\index{HT\_commits.h@{HT\_commits.h}!HT\_Commits@{HT\_Commits}}
+\index{HT\_Commits@{HT\_Commits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{HT\_Commits}{HT\_Commits}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structHashTableCommits}{Hash\+Table\+Commits}}$\ast$ \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{HT__commits_8h_adfb4febb9f540660a6afad4ac79b7f4d}\label{HT__commits_8h_adfb4febb9f540660a6afad4ac79b7f4d}} 
+\index{HT\_commits.h@{HT\_commits.h}!compareAllDates@{compareAllDates}}
+\index{compareAllDates@{compareAllDates}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{compareAllDates()}{compareAllDates()}}
+{\footnotesize\ttfamily void compare\+All\+Dates (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{end\+\_\+date,  }\item[{char $\ast$}]{start\+\_\+date }\end{DoxyParamCaption})}
+
+
+
+Função que compara as datas obtidas a partir da query com a data do commit e conta o número de commits realizados. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em end\+\_\+date} & String com a data final\\
+\hline
+{\em start\+\_\+date} & String com a data inicial \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a4ba1a16fd0a91e74857544d3ed78a9b6}\label{HT__commits_8h_a4ba1a16fd0a91e74857544d3ed78a9b6}} 
+\index{HT\_commits.h@{HT\_commits.h}!countAllBotsColabs@{countAllBotsColabs}}
+\index{countAllBotsColabs@{countAllBotsColabs}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{countAllBotsColabs()}{countAllBotsColabs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} count\+All\+Bots\+Colabs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{bots,  }\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que conta todos os bots que são colaboradores e guarda o repositório associado aos commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em bots} & Árvore com os ID\textquotesingle{}s dos usuários que são bots\\
+\hline
+{\em repos} & Árvore onde irá ser guardado o número de repositórios\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+T\+R\+EE 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a5ee4271f109de841c550b6de30180843}\label{HT__commits_8h_a5ee4271f109de841c550b6de30180843}} 
+\index{HT\_commits.h@{HT\_commits.h}!countCommits@{countCommits}}
+\index{countCommits@{countCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{countCommits()}{countCommits()}}
+{\footnotesize\ttfamily float count\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o valor total de commits 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a000dc5d3ee2f6e4a7d339621e262afd5}\label{HT__commits_8h_a000dc5d3ee2f6e4a7d339621e262afd5}} 
+\index{HT\_commits.h@{HT\_commits.h}!countCommitsReposLanguage@{countCommitsReposLanguage}}
+\index{countCommitsReposLanguage@{countCommitsReposLanguage}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{countCommitsReposLanguage()}{countCommitsReposLanguage()}}
+{\footnotesize\ttfamily void count\+Commits\+Repos\+Language (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{language,  }\item[{int}]{flag }\end{DoxyParamCaption})}
+
+
+
+Função que conta os commits associados a um determinado repositório filtrado através da linguagem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em language} & String com a linguagem que filtra os repositórios\\
+\hline
+{\em flag} & Flag que permite verificar se o ID do repositório corresponde ao da linguagem em questão \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a486d7d1448d9d91971a18c7567736327}\label{HT__commits_8h_a486d7d1448d9d91971a18c7567736327}} 
+\index{HT\_commits.h@{HT\_commits.h}!counter\_AllCommiters@{counter\_AllCommiters}}
+\index{counter\_AllCommiters@{counter\_AllCommiters}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{counter\_AllCommiters()}{counter\_AllCommiters()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} counter\+\_\+\+All\+Commiters (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{string,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos,  }\item[{int $\ast$}]{count }\end{DoxyParamCaption})}
+
+
+
+Função que guarda numa estrutura auxiliar os ID\textquotesingle{}s dos usuários que apresentam commits em repositórios de amigos e o número de commits respetivos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Lista ligada onde irá ser guardada a informação\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em repos} & Hashtable dos repositórios\\
+\hline
+{\em count} & Variável onde será colocado o número de usuários com amigos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a lista ligada com a informação 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_abcaa810520d543c50dc309d43fa7f619}\label{HT__commits_8h_abcaa810520d543c50dc309d43fa7f619}} 
+\index{HT\_commits.h@{HT\_commits.h}!delete\_tableCommits@{delete\_tableCommits}}
+\index{delete\_tableCommits@{delete\_tableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{delete\_tableCommits()}{delete\_tableCommits()}}
+{\footnotesize\ttfamily void delete\+\_\+table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite eliminar um nodo da Hashtable dos commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID do nodo a eliminar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a6a4e189faa5c88c5e9a888aeca49fe63}\label{HT__commits_8h_a6a4e189faa5c88c5e9a888aeca49fe63}} 
+\index{HT\_commits.h@{HT\_commits.h}!find\_HashTableCommits@{find\_HashTableCommits}}
+\index{find\_HashTableCommits@{find\_HashTableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableCommits()}{find\_HashTableCommits()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} find\+\_\+\+Hash\+Table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que encontra o endereço de um determinado elemento da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos commits\\
+\hline
+{\em id} & string com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_ae314971779f08f01783ca67bf085e960}\label{HT__commits_8h_ae314971779f08f01783ca67bf085e960}} 
+\index{HT\_commits.h@{HT\_commits.h}!find\_HashTableCommitsBool@{find\_HashTableCommitsBool}}
+\index{find\_HashTableCommitsBool@{find\_HashTableCommitsBool}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableCommitsBool()}{find\_HashTableCommitsBool()}}
+{\footnotesize\ttfamily int find\+\_\+\+Hash\+Table\+Commits\+Bool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite saber se o ID se encontra na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 se encontrar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_af53a25b4857dd94d5a07e1f4d263bb87}\label{HT__commits_8h_af53a25b4857dd94d5a07e1f4d263bb87}} 
+\index{HT\_commits.h@{HT\_commits.h}!find\_HashTableCommitsKey@{find\_HashTableCommitsKey}}
+\index{find\_HashTableCommitsKey@{find\_HashTableCommitsKey}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableCommitsKey()}{find\_HashTableCommitsKey()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} find\+\_\+\+Hash\+Table\+Commits\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Função que encontra um nodo copiado de um determinado elemento na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos commits\\
+\hline
+{\em key} & Índice do elemento a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a4e7b0b5eac7adaeff5afd88e19218034}\label{HT__commits_8h_a4e7b0b5eac7adaeff5afd88e19218034}} 
+\index{HT\_commits.h@{HT\_commits.h}!find\_inactiveRepos@{find\_inactiveRepos}}
+\index{find\_inactiveRepos@{find\_inactiveRepos}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{find\_inactiveRepos()}{find\_inactiveRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} find\+\_\+inactive\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{data,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+Função que guarda o ID dos repositórios inativos a partir de uma determinada data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista ligada onde irão ser guardados os ID\textquotesingle{}s dos repositórios selecionados\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em str} & String com a data a partir da qual os repositórios têm de ser inativos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com os ID\textquotesingle{}s dos repositórios respetivos 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a7eeb2633a09c276f45818afeb167f906}\label{HT__commits_8h_a7eeb2633a09c276f45818afeb167f906}} 
+\index{HT\_commits.h@{HT\_commits.h}!free\_TableCommits@{free\_TableCommits}}
+\index{free\_TableCommits@{free\_TableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{free\_TableCommits()}{free\_TableCommits()}}
+{\footnotesize\ttfamily void free\+\_\+\+Table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que liberta a memória ocupada pela Hashtable dos commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_abb9bf465bfb09d5b937c7a40b0f8edea}\label{HT__commits_8h_abb9bf465bfb09d5b937c7a40b0f8edea}} 
+\index{HT\_commits.h@{HT\_commits.h}!getAllColabs@{getAllColabs}}
+\index{getAllColabs@{getAllColabs}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{getAllColabs()}{getAllColabs()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} get\+All\+Colabs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{colabs }\end{DoxyParamCaption})}
+
+
+
+Função que guarda numa árvore binária os ID\textquotesingle{}s dos usuários que são colaboradores. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em colabs} & Árvore onde irá ser guardada a informação\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore com a informação guardada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_aefb10056b5a03061a37003f0fb2fc173}\label{HT__commits_8h_aefb10056b5a03061a37003f0fb2fc173}} 
+\index{HT\_commits.h@{HT\_commits.h}!handle\_CommitsFile@{handle\_CommitsFile}}
+\index{handle\_CommitsFile@{handle\_CommitsFile}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{handle\_CommitsFile()}{handle\_CommitsFile()}}
+{\footnotesize\ttfamily void handle\+\_\+\+Commits\+File (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite fazer a verificação do ficheiros dos commits e a criação do catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro a verificar e guardar\\
+\hline
+{\em commits} & Hashtable onde irá ser guardada a informação\\
+\hline
+{\em users} & Hashtable dos users para fazer a verificação \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a429d7baf934fab7b003e3d13b1714abb}\label{HT__commits_8h_a429d7baf934fab7b003e3d13b1714abb}} 
+\index{HT\_commits.h@{HT\_commits.h}!init\_HashTableCommits@{init\_HashTableCommits}}
+\index{init\_HashTableCommits@{init\_HashTableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{init\_HashTableCommits()}{init\_HashTableCommits()}}
+{\footnotesize\ttfamily void init\+\_\+\+Hash\+Table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a Hashtable dos commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos commits \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a0a72f11fefd9cad0dd05774ec746da30}\label{HT__commits_8h_a0a72f11fefd9cad0dd05774ec746da30}} 
+\index{HT\_commits.h@{HT\_commits.h}!insert\_HashTableCommits@{insert\_HashTableCommits}}
+\index{insert\_HashTableCommits@{insert\_HashTableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{insert\_HashTableCommits()}{insert\_HashTableCommits()}}
+{\footnotesize\ttfamily int insert\+\_\+\+Hash\+Table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que insere elementos na Hashtable dos Commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos commits\\
+\hline
+{\em node} & Nodo a inserir na Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 quando o nodo é bem inserido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a2935685e852b4f584c98dc603244677e}\label{HT__commits_8h_a2935685e852b4f584c98dc603244677e}} 
+\index{HT\_commits.h@{HT\_commits.h}!listC@{listC}}
+\index{listC@{listC}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{listC()}{listC()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} listC (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite copiar a informação de um nodo para outro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Nodo a copiar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o novo nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a3e5f4f23e96f53e534e65f415105e5bd}\label{HT__commits_8h_a3e5f4f23e96f53e534e65f415105e5bd}} 
+\index{HT\_commits.h@{HT\_commits.h}!obtain\_commitsAuthorId@{obtain\_commitsAuthorId}}
+\index{obtain\_commitsAuthorId@{obtain\_commitsAuthorId}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsAuthorId()}{obtain\_commitsAuthorId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+commits\+Author\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do autor do commit do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com o ID do autor 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_ac6f8ad0b7b60002150d2b501fd46c083}\label{HT__commits_8h_ac6f8ad0b7b60002150d2b501fd46c083}} 
+\index{HT\_commits.h@{HT\_commits.h}!obtain\_commitsCommiterId@{obtain\_commitsCommiterId}}
+\index{obtain\_commitsCommiterId@{obtain\_commitsCommiterId}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsCommiterId()}{obtain\_commitsCommiterId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+commits\+Commiter\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do commiter do commit do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com o ID do commiter 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_ada829c6e35fffd873f3e2d4d3a6224e4}\label{HT__commits_8h_ada829c6e35fffd873f3e2d4d3a6224e4}} 
+\index{HT\_commits.h@{HT\_commits.h}!obtain\_commitsDate@{obtain\_commitsDate}}
+\index{obtain\_commitsDate@{obtain\_commitsDate}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsDate()}{obtain\_commitsDate()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+commits\+Date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a data do commit apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com a data do commit 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_af4134b842b0ba871555850f28a2196bd}\label{HT__commits_8h_af4134b842b0ba871555850f28a2196bd}} 
+\index{HT\_commits.h@{HT\_commits.h}!obtain\_commitsReposId@{obtain\_commitsReposId}}
+\index{obtain\_commitsReposId@{obtain\_commitsReposId}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_commitsReposId()}{obtain\_commitsReposId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+commits\+Repos\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do repositório do commit do nodo apontado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com o ID do repositório 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a374877063b8d3c078ca3667a96bda27d}\label{HT__commits_8h_a374877063b8d3c078ca3667a96bda27d}} 
+\index{HT\_commits.h@{HT\_commits.h}!obtain\_nextCommit@{obtain\_nextCommit}}
+\index{obtain\_nextCommit@{obtain\_nextCommit}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextCommit()}{obtain\_nextCommit()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} obtain\+\_\+next\+Commit (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}}}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo elemento da lista ligada da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commits} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo seguinte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__commits_8h_a787657b0492580649d98d0e14b64e0c2}\label{HT__commits_8h_a787657b0492580649d98d0e14b64e0c2}} 
+\index{HT\_commits.h@{HT\_commits.h}!print\_tableCommits@{print\_tableCommits}}
+\index{print\_tableCommits@{print\_tableCommits}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{print\_tableCommits()}{print\_tableCommits()}}
+{\footnotesize\ttfamily void print\+\_\+table\+Commits (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que imprime no terminal a Hashtable dos commits. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos commits \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__commits_8h_a9d89bd68c4dfd3667667b855f962dc16}\label{HT__commits_8h_a9d89bd68c4dfd3667667b855f962dc16}} 
+\index{HT\_commits.h@{HT\_commits.h}!topNrepo@{topNrepo}}
+\index{topNrepo@{topNrepo}!HT\_commits.h@{HT\_commits.h}}
+\doxysubsubsection{\texorpdfstring{topNrepo()}{topNrepo()}}
+{\footnotesize\ttfamily void top\+Nrepo (\begin{DoxyParamCaption}\item[{char $\ast$}]{repo\+ID,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{F\+I\+LE $\ast$}]{file,  }\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter um top de repositórios consoante o tamanho de mensagem por repositório. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repo\+ID} & String com o ID do repositório\\
+\hline
+{\em users} & Hashtable com os users\\
+\hline
+{\em commits} & Hashtable com os commits\\
+\hline
+{\em file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em N} & Valor inteiro que indica o top N \\
+\hline
+\end{DoxyParams}

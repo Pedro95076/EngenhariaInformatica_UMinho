@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structdata" kind="struct" language="C++" prot="public">
+    <compoundname>data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdata_1ac88fd9f255d210672bbc55c8e0cc09da" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int data::yyyy</definition>
+        <argsstring></argsstring>
+        <name>yyyy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que indica o ano </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.c" line="22" column="9" bodyfile="auxiliarFunc.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdata_1a9ec8181c82145407dafe8e26929d1024" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int data::mm</definition>
+        <argsstring></argsstring>
+        <name>mm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que indica o mês </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.c" line="24" column="9" bodyfile="auxiliarFunc.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdata_1a89237d9d7f7319cca5aaa004364d8787" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int data::dd</definition>
+        <argsstring></argsstring>
+        <name>dd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que indica o dia </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.c" line="26" column="9" bodyfile="auxiliarFunc.c" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdata_1a3af78372a5618382c6f9331566144630" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* data::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a informação a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.c" line="12" column="10" bodyfile="auxiliarStruct.c" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdata_1a2bb792e30a24a0c6029c22fedd68bc5c" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structdata" kindref="compound">data</ref> *</type>
+        <definition>struct data* data::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>apontador da estrutura data que aponta para o próximo nodo </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.c" line="14" column="15" bodyfile="auxiliarStruct.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>estrutura de dados auxiliar para a verificação da data </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Definição da estrutura data. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>data</label>
+        <link refid="structdata"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="auxiliarFunc.c" line="20" column="1" bodyfile="auxiliarFunc.c" bodystart="19" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structdata_1a89237d9d7f7319cca5aaa004364d8787" prot="public" virt="non-virtual"><scope>data</scope><name>dd</name></member>
+      <member refid="structdata_1a3af78372a5618382c6f9331566144630" prot="public" virt="non-virtual"><scope>data</scope><name>info</name></member>
+      <member refid="structdata_1a9ec8181c82145407dafe8e26929d1024" prot="public" virt="non-virtual"><scope>data</scope><name>mm</name></member>
+      <member refid="structdata_1a2bb792e30a24a0c6029c22fedd68bc5c" prot="public" virt="non-virtual"><scope>data</scope><name>next</name></member>
+      <member refid="structdata_1ac88fd9f255d210672bbc55c8e0cc09da" prot="public" virt="non-virtual"><scope>data</scope><name>yyyy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

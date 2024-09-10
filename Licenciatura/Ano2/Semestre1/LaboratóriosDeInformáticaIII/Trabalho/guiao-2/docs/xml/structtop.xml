@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structtop" kind="struct" language="C++" prot="public">
+    <compoundname>top</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtop_1a569e8febd4fefbee922b496520a6883a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int top::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que contém a informação a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="13" column="9" bodyfile="data_tpll.c" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int top::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que contém o número de ocorrências da informação </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="15" column="9" bodyfile="data_tpll.c" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtop_1a333907cee0f4cfdee6e173e87eae67bf" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structtop" kindref="compound">top</ref> *</type>
+        <definition>struct top* top::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>apontador da struct top que aponta para o próximo nodo </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="17" column="15" bodyfile="data_tpll.c" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da struct top. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>top</label>
+        <link refid="structtop"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="data_tpll.c" line="10" column="1" bodyfile="data_tpll.c" bodystart="11" bodyend="18"/>
+    <listofallmembers>
+      <member refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" prot="public" virt="non-virtual"><scope>top</scope><name>counter</name></member>
+      <member refid="structtop_1a569e8febd4fefbee922b496520a6883a" prot="public" virt="non-virtual"><scope>top</scope><name>info</name></member>
+      <member refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" prot="public" virt="non-virtual"><scope>top</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

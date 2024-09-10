@@ -1,0 +1,948 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__tpll_8c" kind="file" language="C++">
+    <compoundname>data_tpll.c</compoundname>
+    <includes refid="data__tpll_8h" local="yes">data_tpll.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>data_repos.h</label>
+        <link refid="data__repos_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>data_tpll.c</label>
+        <link refid="data__tpll_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structtop" prot="public">top</innerclass>
+    <innerclass refid="structstring" prot="public">string</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__tpll_8c_1a64229907cdac9ff75ca1d5a4a996dceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP insertDataTop</definition>
+        <argsstring>(TOP top, int info, int counter)</argsstring>
+        <name>insertDataTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>counter</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere os elementos especificados na lista ligada top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada aonde se irão guardar os elementos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a guardar na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contador a guardar na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com os elementos inseridos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="45" column="5" bodyfile="data_tpll.c" bodystart="45" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a2af00ad4a8f102923bfd128bbad4a392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>isEmptyTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="63" column="5" bodyfile="data_tpll.c" bodystart="63" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1af4bbce7734c7fbfdf420f0b4050dc0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>isEmptyString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="77" column="5" bodyfile="data_tpll.c" bodystart="77" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a16ff7788af5fc1950b6c1a2e1dd57224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP obtain_nextTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>obtain_nextTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo do top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o próximo nodo do top. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="92" column="5" bodyfile="data_tpll.c" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a4a57017e275fd154d9ee47b8214873b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING obtain_nextString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>obtain_nextString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo do string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o próximo nodo do string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="105" column="8" bodyfile="data_tpll.c" bodystart="105" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a2282286c348e9454ccc6259c05069c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_CountTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>obtain_CountTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o número de ocorrências do valor no top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de ocorrências da informação no nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="118" column="5" bodyfile="data_tpll.c" bodystart="118" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a105e51f5b059df9e59e747c003e0c2ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP countInfo</definition>
+        <argsstring>(TOP top, int info)</argsstring>
+        <name>countInfo</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="132" column="5" bodyfile="data_tpll.c" bodystart="132" bodyend="160"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a40d7e58fd1a6a2e87076de4936ded996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING countInfoStr</definition>
+        <argsstring>(STRING top, char *info)</argsstring>
+        <name>countInfoStr</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="171" column="8" bodyfile="data_tpll.c" bodystart="171" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a3f712b43b6019c45e3651299b52864c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_topID</definition>
+        <argsstring>(TOP head)</argsstring>
+        <name>obtain_topID</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o id do nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o id do nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="208" column="5" bodyfile="data_tpll.c" bodystart="208" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1ad221b70fe91f218ed78b97eb3a087ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_stringID</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>obtain_stringID</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o id do nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o id do nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="220" column="7" bodyfile="data_tpll.c" bodystart="220" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1ae8c8f067b7e7ce2614ddd9749698bf04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostFreq</definition>
+        <argsstring>(TOP top, int *info, int *count)</argsstring>
+        <name>mostFreq</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor máximo de ocorrências de uma lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para a variável info.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para a variável count. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="234" column="6" bodyfile="data_tpll.c" bodystart="234" bodyend="255"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a0282d3c4a44b6164a8acc8d29e81b0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * mostFreqString</definition>
+        <argsstring>(STRING string)</argsstring>
+        <name>mostFreqString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor máximo de ocorrências de uma lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a informação relativa ao maior número de ocorrências da lista ligada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="264" column="7" bodyfile="data_tpll.c" bodystart="264" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a8fa15ca2789b9ea7a59e11d0f308301a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>printTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão da lista ligada top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="287" column="6" bodyfile="data_tpll.c" bodystart="287" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1aa7d4103a674b25e4133adc0daa1c628b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printString</definition>
+        <argsstring>(STRING string)</argsstring>
+        <name>printString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão da lista ligada string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="302" column="6" bodyfile="data_tpll.c" bodystart="302" bodyend="311"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a5304b1ea4178da332ad52059fb17a9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTop</definition>
+        <argsstring>(TOP head)</argsstring>
+        <name>freeTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura Top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="319" column="6" bodyfile="data_tpll.c" bodystart="319" bodyend="329"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a31aaa97fe820b08dfc0ef934515593e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeString</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>freeString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura String. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="337" column="6" bodyfile="data_tpll.c" bodystart="337" bodyend="347"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8c_1a67ca1e74ce85876e6fd31746d5c1f7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP countInfoLen</definition>
+        <argsstring>(TOP top, int info, int count)</argsstring>
+        <name>countInfoLen</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a adicionar no campo counter.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.c" line="360" column="5" bodyfile="data_tpll.c" bodystart="360" bodyend="388"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__tpll_8h" kindref="compound">data_tpll.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="structtop" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtop" kindref="compound">top</ref></highlight></codeline>
+<codeline lineno="11"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtop" kindref="compound">top</ref><sp/>*<sp/><ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="structstring" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structstring" kindref="compound">string</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structstring" kindref="compound">string</ref><sp/>*<sp/><ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8c_1a64229907cdac9ff75ca1d5a4a996dceb" kindref="member">insertDataTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>));</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">-&gt;info<sp/>=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">-&gt;counter<sp/>=<sp/><ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">-&gt;next<sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a2af00ad4a8f102923bfd128bbad4a392" kindref="member">isEmptyTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r=0;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>==<sp/>NULL)<sp/>r<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1af4bbce7734c7fbfdf420f0b4050dc0e5" kindref="member">isEmptyString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r=0;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>==<sp/>NULL)<sp/>r<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8c_1a16ff7788af5fc1950b6c1a2e1dd57224" kindref="member">obtain_nextTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="data__tpll_8c_1a4a57017e275fd154d9ee47b8214873b0" kindref="member">obtain_nextString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="106"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a2282286c348e9454ccc6259c05069c92" kindref="member">obtain_CountTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(<ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8c_1a105e51f5b059df9e59e747c003e0c2ab" kindref="member">countInfo</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>){</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>aux<sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>nova;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>ant<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>aux-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>!=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant<sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(aux<sp/>&amp;&amp;<sp/>aux-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>==<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>++;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>));</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nova<sp/>==<sp/>NULL)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ant)<sp/>{</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="data__tpll_8c_1a40d7e58fd1a6a2e87076de4936ded996" kindref="member">countInfoStr</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>){</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>aux<sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>nova;</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>ant<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)!=0)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant<sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(aux<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)==0)<sp/>{</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>++;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nova<sp/>==<sp/>NULL)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref><sp/>=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ant)<sp/>{</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant-&gt;<ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a3f712b43b6019c45e3651299b52864c3" kindref="member">obtain_topID</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/>head)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>head-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tpll_8c_1ad221b70fe91f218ed78b97eb3a087ce4" kindref="member">obtain_stringID</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head)</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(head-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>);</highlight></codeline>
+<codeline lineno="223"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1ae8c8f067b7e7ce2614ddd9749698bf04" kindref="member">mostFreq</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count)</highlight></codeline>
+<codeline lineno="235"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>freq<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>));</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>temp<sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"></highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(temp-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>!=NULL)</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(temp-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>&gt;r)</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>freq<sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/>temp-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>temp-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/>temp;</highlight></codeline>
+<codeline lineno="251"><highlight class="normal"></highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>*<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref><sp/>=<sp/>freq-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"><sp/><sp/><sp/><sp/>*count<sp/>=<sp/>freq-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/>freq-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="256"><highlight class="normal"></highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tpll_8c_1a0282d3c4a44b6164a8acc8d29e81b0ea" kindref="member">mostFreqString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">){</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>freq;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(<ref refid="structstring" kindref="compound">string</ref>-&gt;<ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref>!=NULL)</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="structstring" kindref="compound">string</ref>-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>&gt;r)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>freq<sp/>=<sp/><ref refid="structstring" kindref="compound">string</ref>;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>r<sp/>=<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>;</highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">-&gt;next;</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/>freq-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref><sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(freq-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>);</highlight></codeline>
+<codeline lineno="280"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a8fa15ca2789b9ea7a59e11d0f308301a" kindref="member">printTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>)</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="structtop" kindref="compound">top</ref>!=NULL)</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;info<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref>);<sp/></highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;counter<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref>);<sp/><sp/></highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="295"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1aa7d4103a674b25e4133adc0daa1c628b" kindref="member">printString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">!=NULL)</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;info<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="structstring" kindref="compound">string</ref>-&gt;<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;counter<sp/>%d\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="structstring" kindref="compound">string</ref>-&gt;<ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>);</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>=<sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">-&gt;next;</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"></highlight></codeline>
+<codeline lineno="311"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"></highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a5304b1ea4178da332ad52059fb17a9ee" kindref="member">freeTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/>head)</highlight></codeline>
+<codeline lineno="320"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>tmp;</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(head<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp<sp/>=<sp/>head;</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>head<sp/>=<sp/>head-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(tmp);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8c_1a31aaa97fe820b08dfc0ef934515593e4" kindref="member">freeString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head)</highlight></codeline>
+<codeline lineno="338"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>tmp;</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"></highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(head<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp<sp/>=<sp/>head;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>head<sp/>=<sp/>head-&gt;<ref refid="structstring_1a68ee1055d4113683bfa32fda0597ab9e" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(tmp);</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="347"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8c_1a67ca1e74ce85876e6fd31746d5c1f7b6" kindref="member">countInfoLen</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count){</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>aux<sp/>=<sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>nova;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">TOP</ref><sp/>ant<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>aux-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>!=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)<sp/>{<sp/></highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant<sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(aux<sp/>&amp;&amp;<sp/>aux-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>==<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>)<sp/>{</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref><sp/>=<sp/>count;</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>));</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nova<sp/>==<sp/>NULL)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1a569e8febd4fefbee922b496520a6883a" kindref="member">info</ref><sp/>=<sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>;</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1ae162f5b8d4c1b5e8df7c300edadb534e" kindref="member">counter</ref><sp/>=<sp/>count;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nova-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(ant)<sp/>{</highlight></codeline>
+<codeline lineno="380"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ant-&gt;<ref refid="structtop_1a333907cee0f4cfdee6e173e87eae67bf" kindref="member">next</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtop" kindref="compound">top</ref><sp/>=<sp/>nova;</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtop" kindref="compound">top</ref>;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="data_tpll.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structcommits" kind="struct" language="C++" prot="public">
+    <compoundname>commits</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structcommits_1a349af62d59980c0616495f2ad4f5c556" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* commits::repo_id</definition>
+        <argsstring></argsstring>
+        <name>repo_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="12" column="10" bodyfile="data_commits.c" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommits_1ac1756f22bc5dc495e8472bdc4f90e400" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* commits::author_id</definition>
+        <argsstring></argsstring>
+        <name>author_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id do autor do commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="14" column="10" bodyfile="data_commits.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommits_1a32ac892537cc8ea93e8a73986a8ef0f8" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* commits::commiter_id</definition>
+        <argsstring></argsstring>
+        <name>commiter_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id do commiter </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="16" column="10" bodyfile="data_commits.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommits_1ab77e0261ca7a93fc901d3d6d9bf53991" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* commits::commit_at</definition>
+        <argsstring></argsstring>
+        <name>commit_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a data que o commit foi feito </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="18" column="10" bodyfile="data_commits.c" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommits_1a914e19197f5f8f49e87d5f4ec54df6f2" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* commits::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a mensagem do commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="20" column="10" bodyfile="data_commits.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structcommits_1a609f30527630e15ecaef6801533d2723" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structcommits" kindref="compound">commits</ref> *</type>
+        <definition>struct commits* commits::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>struct de commits que aponta para o próximo commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.c" line="22" column="18" bodyfile="data_commits.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da struct commits. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>commits</label>
+        <link refid="structcommits"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="data_commits.c" line="9" column="1" bodyfile="data_commits.c" bodystart="10" bodyend="23"/>
+    <listofallmembers>
+      <member refid="structcommits_1ac1756f22bc5dc495e8472bdc4f90e400" prot="public" virt="non-virtual"><scope>commits</scope><name>author_id</name></member>
+      <member refid="structcommits_1ab77e0261ca7a93fc901d3d6d9bf53991" prot="public" virt="non-virtual"><scope>commits</scope><name>commit_at</name></member>
+      <member refid="structcommits_1a32ac892537cc8ea93e8a73986a8ef0f8" prot="public" virt="non-virtual"><scope>commits</scope><name>commiter_id</name></member>
+      <member refid="structcommits_1a914e19197f5f8f49e87d5f4ec54df6f2" prot="public" virt="non-virtual"><scope>commits</scope><name>message</name></member>
+      <member refid="structcommits_1a609f30527630e15ecaef6801533d2723" prot="public" virt="non-virtual"><scope>commits</scope><name>next</name></member>
+      <member refid="structcommits_1a349af62d59980c0616495f2ad4f5c556" prot="public" virt="non-virtual"><scope>commits</scope><name>repo_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

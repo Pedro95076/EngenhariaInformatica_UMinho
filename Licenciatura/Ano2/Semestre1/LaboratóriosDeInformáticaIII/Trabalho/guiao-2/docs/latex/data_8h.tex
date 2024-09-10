@@ -1,0 +1,82 @@
+\hypertarget{data_8h}{}\doxysection{data.\+h File Reference}
+\label{data_8h}\index{data.h@{data.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for data.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{data_8h_abc64f8afe49c0651d56bc1a8d43ad13e}{compare\+Dates}} (char $\ast$date\+\_\+ini, char $\ast$date\+\_\+end, char $\ast$date)
+\begin{DoxyCompactList}\small\item\em Função que permite a comparação entre 3 datas. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data_8h_a136be24413b8cc95cf6b84869e1fd38d}{verify\+Date}} (char $\ast$start\+\_\+date, char $\ast$date)
+\begin{DoxyCompactList}\small\item\em Função que permite a comparação entre 2 datas. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data_8h_ad87567e7d7dc8f6e2d6d950e72a7db3d}{utf8\+\_\+strlen}} (const char $\ast$s)
+\begin{DoxyCompactList}\small\item\em Função que conta o tamanho da mensagem (funciona para caracteres chineses e arabaes). \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{data_8h_abc64f8afe49c0651d56bc1a8d43ad13e}\label{data_8h_abc64f8afe49c0651d56bc1a8d43ad13e}} 
+\index{data.h@{data.h}!compareDates@{compareDates}}
+\index{compareDates@{compareDates}!data.h@{data.h}}
+\doxysubsubsection{\texorpdfstring{compareDates()}{compareDates()}}
+{\footnotesize\ttfamily int compare\+Dates (\begin{DoxyParamCaption}\item[{char $\ast$}]{start\+\_\+date,  }\item[{char $\ast$}]{end\+\_\+date,  }\item[{char $\ast$}]{date }\end{DoxyParamCaption})}
+
+
+
+Função que permite a comparação entre 3 datas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+\_\+date} & Data inicial.\\
+\hline
+{\em end\+\_\+date} & Data final.\\
+\hline
+{\em date} & Data a descobrir se se encontra entre a inicial e a final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a data se encontra entre a inicial e a final. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data_8h_ad87567e7d7dc8f6e2d6d950e72a7db3d}\label{data_8h_ad87567e7d7dc8f6e2d6d950e72a7db3d}} 
+\index{data.h@{data.h}!utf8\_strlen@{utf8\_strlen}}
+\index{utf8\_strlen@{utf8\_strlen}!data.h@{data.h}}
+\doxysubsubsection{\texorpdfstring{utf8\_strlen()}{utf8\_strlen()}}
+{\footnotesize\ttfamily int utf8\+\_\+strlen (\begin{DoxyParamCaption}\item[{const char $\ast$}]{s }\end{DoxyParamCaption})}
+
+
+
+Função que conta o tamanho da mensagem (funciona para caracteres chineses e arabaes). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & Mensagem.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Tamanho da mensagem. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data_8h_a136be24413b8cc95cf6b84869e1fd38d}\label{data_8h_a136be24413b8cc95cf6b84869e1fd38d}} 
+\index{data.h@{data.h}!verifyDate@{verifyDate}}
+\index{verifyDate@{verifyDate}!data.h@{data.h}}
+\doxysubsubsection{\texorpdfstring{verifyDate()}{verifyDate()}}
+{\footnotesize\ttfamily int verify\+Date (\begin{DoxyParamCaption}\item[{char $\ast$}]{start\+\_\+date,  }\item[{char $\ast$}]{date }\end{DoxyParamCaption})}
+
+
+
+Função que permite a comparação entre 2 datas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+\_\+date} & Data inicial.\\
+\hline
+{\em date} & Data a descobrir se é maior do que a final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a data é maior do que a inicial. 
+\end{DoxyReturn}

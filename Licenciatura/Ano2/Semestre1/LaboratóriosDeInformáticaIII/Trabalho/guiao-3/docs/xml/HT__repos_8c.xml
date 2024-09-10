@@ -1,0 +1,1283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="HT__repos_8c" kind="file" language="C++">
+    <compoundname>HT_repos.c</compoundname>
+    <includes refid="HT__repos_8h" local="yes">HT_repos.h</includes>
+    <includes refid="auxiliarFunc_8h" local="yes">auxiliarFunc.h</includes>
+    <includes refid="auxiliarStruct_8h" local="yes">auxiliarStruct.h</includes>
+    <incdepgraph>
+      <node id="10">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>stdlib.h</label>
+      </node>
+      <node id="7">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="8">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>time.h</label>
+      </node>
+      <node id="9">
+        <label>math.h</label>
+      </node>
+      <node id="1">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>auxiliarFunc.h</label>
+        <link refid="auxiliarFunc_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structHashTableRepos" prot="public">HashTableRepos</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="HT__repos_8c_1a32a9c320bcf33324a77ed6ebfef9a2f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash)</argsstring>
+        <name>init_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="34" column="6" bodyfile="HT_repos.c" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a81a9d0c33071f4f9c74a3973d6a700d9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_tableRepos</definition>
+        <argsstring>(HT_Repos *hash)</argsstring>
+        <name>print_tableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que imprime no terminal a Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="45" column="6" bodyfile="HT_repos.c" bodystart="45" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a902b500a581fab4f0591ccc02a13378d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int insert_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash, HT_Repos node)</argsstring>
+        <name>insert_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere elementos na Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a inserir na Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 quando o nodo é bem inserido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="76" column="5" bodyfile="HT_repos.c" bodystart="76" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a1644f04b8f7659f8ec5cd759af20c6d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos find_HashTableRepos</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>find_HashTableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra o endereço de um determinado elemento da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="94" column="10" bodyfile="HT_repos.c" bodystart="94" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a320237d8b65f9772bfe1c38d9a778d26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_HashTableReposBool</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>find_HashTableReposBool</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o ID se encontra na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="112" column="5" bodyfile="HT_repos.c" bodystart="112" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a8968d9239d1a7b17eda0e5f5b01cde43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos find_HashTableReposKey</definition>
+        <argsstring>(HT_Repos *hash, int key)</argsstring>
+        <name>find_HashTableReposKey</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra um nodo copiado de um determinado elemento na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice do elemento a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="132" column="10" bodyfile="HT_repos.c" bodystart="132" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a6e066619b9e3cfbcd13f39ad0540e6ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposLang</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposLang</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a linguagem do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a linguagem do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="146" column="6" bodyfile="HT_repos.c" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a1d45fb426cc82ab0c7bb13884bfb1b86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposDate</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposDate</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a data de atualização do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a data de atualização do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="158" column="6" bodyfile="HT_repos.c" bodystart="158" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a5a763e99893b0c9a6dca73111e61fdb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposId</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposId</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="170" column="6" bodyfile="HT_repos.c" bodystart="170" bodyend="173"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a423ac0d87f66cc50b403d87738ae5011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_reposDescription</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_reposDescription</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a descrição do repositório do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com a descrição do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="182" column="6" bodyfile="HT_repos.c" bodystart="182" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a240fbbcae6b5b713e084233f7a6f025f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos obtain_nextRepos</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>obtain_nextRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo elemento da lista ligada da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo seguinte </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="194" column="10" bodyfile="HT_repos.c" bodystart="194" bodyend="199"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a3a8e001d180233b9a01550865f7e7564" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delete_tableRepos</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>delete_tableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite eliminar um nodo da Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do nodo a eliminar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="208" column="6" bodyfile="HT_repos.c" bodystart="208" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a1d7fc54d5c333797bb15174819cecef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+        <definition>HT_Repos listR</definition>
+        <argsstring>(HT_Repos repos)</argsstring>
+        <name>listR</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite copiar a informação de um nodo para outro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a copiar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o novo nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="230" column="10" bodyfile="HT_repos.c" bodystart="230" bodyend="242"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a2016fa3180f207be0a124639cd17ff0f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_reposLanguageBOOL</definition>
+        <argsstring>(HT_Repos *hash, char *id, char *lang)</argsstring>
+        <name>find_reposLanguageBOOL</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>lang</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o repositório apresenta a linguagem dada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a linguagem a procurar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="255" column="5" bodyfile="HT_repos.c" bodystart="255" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a1c78131bf44ed1bd6bc3129320b343d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void handle_ReposFile</definition>
+        <argsstring>(FILE *file, HT_Repos *repos, HT_Users *users)</argsstring>
+        <name>handle_ReposFile</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite fazer a verificação do ficheiros dos repositórios e a criação do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro a verificar e guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users para fazer a verificação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="276" column="6" bodyfile="HT_repos.c" bodystart="276" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1aca931cefc6730f00a4daabf6a577e6a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_reposDescription</definition>
+        <argsstring>(HT_Repos *hash, char *id)</argsstring>
+        <name>find_reposDescription</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que retorna a descrição do repositório com o ID dado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a descrição do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="379" column="6" bodyfile="HT_repos.c" bodystart="379" bodyend="388"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a0cb7aa28fd2a052677198ea4e3dcbc5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_reposOwnerId</definition>
+        <argsstring>(HT_Repos *repos, char *id)</argsstring>
+        <name>find_reposOwnerId</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que retorna o ID do owner do repositório. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do owner do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="399" column="6" bodyfile="HT_repos.c" bodystart="399" bodyend="409"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1aaa1259ae6cc28292b22d906836896cdf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE filterRepos_Lang</definition>
+        <argsstring>(char *lang, HT_Repos *repos, TREE tree)</argsstring>
+        <name>filterRepos_Lang</name>
+        <param>
+          <type>char *</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que filtra os repositórios com a linguagem especificada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linguagem de programação a procurar nos repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos repositórios com a linguagem especificada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore dos ID&apos;s dos repositórios com a linguagem especificada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="423" column="6" bodyfile="HT_repos.c" bodystart="423" bodyend="448"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a7562362c599776ee12be2f235518d7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float countRepos</definition>
+        <argsstring>(HT_Repos *repos)</argsstring>
+        <name>countRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de repositórios existentes. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de repositórios </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="457" column="7" bodyfile="HT_repos.c" bodystart="457" bodyend="474"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a584022e1f225b6c55f6b34ae9e4b1145" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING countLanguageRepos</definition>
+        <argsstring>(HT_Repos *repos, char *start_date, STRING langTop, int *count)</argsstring>
+        <name>countLanguageRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>start_date</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>langTop</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de vezes que uma determinada linguagem é utilizada a partir de uma data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a data de início</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>langTop</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a linguagem</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde será guardada o número de vezes que a linguagem é utilizada </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>STRING </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="488" column="8" bodyfile="HT_repos.c" bodystart="488" bodyend="512"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__repos_8c_1a6a806c0af69ee877308e28cdda9106f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void free_TableRepos</definition>
+        <argsstring>(HT_Repos *repos)</argsstring>
+        <name>free_TableRepos</name>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que liberta a memória ocupada pela Hashtable dos repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="519" column="6" bodyfile="HT_repos.c" bodystart="519" bodyend="539"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__repos_8h" kindref="compound">HT_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarFunc_8h" kindref="compound">auxiliarFunc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarStruct_8h" kindref="compound">auxiliarStruct.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="structHashTableRepos" refkind="compound"><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref></highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" kindref="member">created_at</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref><sp/>*<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a32a9c320bcf33324a77ed6ebfef9a2f2" kindref="member">init_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash)</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hash[i]<sp/>=<sp/>NULL;<sp/></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a81a9d0c33071f4f9c74a3973d6a700d9" kindref="member">print_tableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hash[i]<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t%d\t---\n&quot;</highlight><highlight class="normal">,<sp/>i);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\t%d\t<sp/>&quot;</highlight><highlight class="normal">,<sp/>i);</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[i];</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>%s<sp/>-<sp/>&quot;</highlight><highlight class="normal">,<sp/>aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a902b500a581fab4f0591ccc02a13378d" kindref="member">insert_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>node)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hash<sp/>==<sp/>NULL)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(strdup(node-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>));</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>node-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref><sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>hash[key]<sp/>=<sp/>node;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8c_1a1644f04b8f7659f8ec5cd759af20c6d2" kindref="member">find_HashTableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a320237d8b65f9772bfe1c38d9a778d26" kindref="member">find_HashTableReposBool</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="113"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL)</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8c_1a8968d9239d1a7b17eda0e5f5b01cde43" kindref="member">find_HashTableReposKey</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key)</highlight></codeline>
+<codeline lineno="133"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/><ref refid="HT__repos_8c_1a1d7fc54d5c333797bb15174819cecef7" kindref="member">listR</ref>(hash[key]);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>aux;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1a6e066619b9e3cfbcd13f39ad0540e6ae" kindref="member">obtain_reposLang</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1a1d45fb426cc82ab0c7bb13884bfb1b86" kindref="member">obtain_reposDate</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="159"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref>);</highlight></codeline>
+<codeline lineno="161"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1a5a763e99893b0c9a6dca73111e61fdb5" kindref="member">obtain_reposId</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="171"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="182"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1a423ac0d87f66cc50b403d87738ae5011" kindref="member">obtain_reposDescription</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="183"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref>);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8c_1a240fbbcae6b5b713e084233f7a6f025f" kindref="member">obtain_nextRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="195"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>repos<sp/>=<sp/>repos-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>repos;</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a3a8e001d180233b9a01550865f7e7564" kindref="member">delete_tableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>prev<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0){</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev<sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(prev<sp/>==<sp/>NULL)</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>hash[key]<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref><sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="221"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/><ref refid="HT__repos_8c_1a1d7fc54d5c333797bb15174819cecef7" kindref="member">listR</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>repos)</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(repos==NULL)<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>targetList<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref>));</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref>);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref>);</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" kindref="member">created_at</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" kindref="member">created_at</ref>);</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref><sp/>=<sp/>strdup(repos-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref>);</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/>targetList-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref><sp/>=<sp/><ref refid="HT__repos_8c_1a1d7fc54d5c333797bb15174819cecef7" kindref="member">listR</ref>(repos-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>);</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>targetList;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="255"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a2016fa3180f207be0a124639cd17ff0f" kindref="member">find_reposLanguageBOOL</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang)</highlight></codeline>
+<codeline lineno="256"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL)</highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(strcasecmp(aux-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>,lang)==0)</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"></highlight></codeline>
+<codeline lineno="276"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a1c78131bf44ed1bd6bc3129320b343d5" kindref="member">handle_ReposFile</ref>(FILE*<sp/>file,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users)</highlight></codeline>
+<codeline lineno="277"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="HT__repos_8c_1a32a9c320bcf33324a77ed6ebfef9a2f2" kindref="member">init_HashTableRepos</ref>(repos);</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c[1000000];</highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*aux<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"></highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fgets(c,<sp/>1000000,<sp/>file)<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>tmp<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref>));</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flag<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str<sp/>=<sp/>strdup<sp/>(c);</highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="HT__users_8c_1ae57dc7cc3dad65bff0ebbc611587b739" kindref="member">find_HashTableUsersBool</ref>(users,<sp/>aux);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a9b6cc458bbfc91f0c09dc65e56dddcc4" kindref="member">testString</ref>(aux);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a9b6cc458bbfc91f0c09dc65e56dddcc4" kindref="member">testString</ref>(aux);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1aae011dbf5b7c0cad4b30a82a4ffa1daf" kindref="member">testBool</ref>(aux);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a9b6cc458bbfc91f0c09dc65e56dddcc4" kindref="member">testString</ref>(aux);</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a9b6cc458bbfc91f0c09dc65e56dddcc4" kindref="member">testString</ref>(aux);</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a85554b05d5d346698e1eeaa8ed79657c" kindref="member">isValidDate</ref>(aux);</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" kindref="member">created_at</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1a85554b05d5d346698e1eeaa8ed79657c" kindref="member">isValidDate</ref>(aux);</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref><sp/>=<sp/>strdup(aux);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="359"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="360"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL){</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>flag<sp/>+=<sp/><ref refid="auxiliarFunc_8c_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(aux);</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/>flag++;</highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="365"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(flag<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="HT__repos_8c_1a902b500a581fab4f0591ccc02a13378d" kindref="member">insert_HashTableRepos</ref>(repos,<sp/>tmp);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="379"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1aca931cefc6730f00a4daabf6a577e6a2" kindref="member">find_reposDescription</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="380"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="381"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="382"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>hash[key];</highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="384"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="385"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL)</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(aux-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref>);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="389"><highlight class="normal"></highlight></codeline>
+<codeline lineno="399"><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__repos_8c_1a0cb7aa28fd2a052677198ea4e3dcbc5b" kindref="member">find_reposOwnerId</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="400"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="401"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key<sp/>=<sp/><ref refid="auxiliarFunc_8c_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>repos[key];</highlight></codeline>
+<codeline lineno="403"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL<sp/>&amp;&amp;<sp/>strcmp(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>,<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="404"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(aux!=NULL)</highlight></codeline>
+<codeline lineno="406"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(aux-&gt;<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref>);</highlight></codeline>
+<codeline lineno="407"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>NULL;</highlight></codeline>
+<codeline lineno="408"><highlight class="normal"></highlight></codeline>
+<codeline lineno="409"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="410"><highlight class="normal"></highlight></codeline>
+<codeline lineno="411"><highlight class="normal"></highlight></codeline>
+<codeline lineno="423"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__repos_8c_1aaa1259ae6cc28292b22d906836896cdf" kindref="member">filterRepos_Lang</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>)</highlight></codeline>
+<codeline lineno="424"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="425"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>t<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="426"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="427"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="428"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/><ref refid="HT__repos_8c_1a8968d9239d1a7b17eda0e5f5b01cde43" kindref="member">find_HashTableReposKey</ref>(repos,<sp/>i);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="431"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(aux<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="432"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="433"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*langRep<sp/>=<sp/><ref refid="HT__repos_8c_1a6e066619b9e3cfbcd13f39ad0540e6ae" kindref="member">obtain_reposLang</ref>(aux);</highlight></codeline>
+<codeline lineno="434"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcasecmp(lang,<sp/>langRep)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="435"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="436"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*idRep<sp/>=<sp/><ref refid="HT__repos_8c_1a5a763e99893b0c9a6dca73111e61fdb5" kindref="member">obtain_reposId</ref>(aux);</highlight></codeline>
+<codeline lineno="437"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>=<sp/>atoi(idRep);</highlight></codeline>
+<codeline lineno="438"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>t++;</highlight></codeline>
+<codeline lineno="439"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structtree" kindref="compound">tree</ref><sp/>=<sp/><ref refid="auxiliarTree_8c_1a046d3ee75787615cc6a9cc1bca11521f" kindref="member">insert</ref>(<ref refid="structtree" kindref="compound">tree</ref>,<sp/>k);</highlight></codeline>
+<codeline lineno="440"><highlight class="normal"></highlight></codeline>
+<codeline lineno="441"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="442"><highlight class="normal"></highlight></codeline>
+<codeline lineno="443"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/><ref refid="HT__repos_8c_1a240fbbcae6b5b713e084233f7a6f025f" kindref="member">obtain_nextRepos</ref>(aux);</highlight></codeline>
+<codeline lineno="444"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="445"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="446"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structtree" kindref="compound">tree</ref>;</highlight></codeline>
+<codeline lineno="448"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="457"><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a7562362c599776ee12be2f235518d7e6" kindref="member">countRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos)</highlight></codeline>
+<codeline lineno="458"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="459"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>counter<sp/>=<sp/>0.0;</highlight></codeline>
+<codeline lineno="460"><highlight class="normal"></highlight></codeline>
+<codeline lineno="461"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="462"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="463"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>repos[i];</highlight></codeline>
+<codeline lineno="464"><highlight class="normal"></highlight></codeline>
+<codeline lineno="465"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(aux<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="466"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="467"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>counter++;</highlight></codeline>
+<codeline lineno="468"><highlight class="normal"></highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="471"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="472"><highlight class="normal"></highlight></codeline>
+<codeline lineno="473"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>counter;</highlight></codeline>
+<codeline lineno="474"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="475"><highlight class="normal"></highlight></codeline>
+<codeline lineno="488"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="HT__repos_8c_1a584022e1f225b6c55f6b34ae9e4b1145" kindref="member">countLanguageRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*start_date,<sp/><ref refid="structstring" kindref="compound">STRING</ref><sp/>langTop,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count)</highlight></codeline>
+<codeline lineno="489"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="490"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="491"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="492"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>repos[i];</highlight></codeline>
+<codeline lineno="493"><highlight class="normal"></highlight></codeline>
+<codeline lineno="494"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(aux<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="495"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="496"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*date<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref>;</highlight></codeline>
+<codeline lineno="497"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(start_date,<sp/>date)<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="498"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="499"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>;</highlight></codeline>
+<codeline lineno="500"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(lang,<sp/></highlight><highlight class="stringliteral">&quot;None&quot;</highlight><highlight class="normal">)<sp/>!=<sp/>0)</highlight></codeline>
+<codeline lineno="501"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="502"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>langTop<sp/>=<sp/><ref refid="auxiliarStruct_8c_1a48ab880f7f68e304928b129385105749" kindref="member">countInfoStr</ref>(langTop,<sp/>lang,<sp/>count);</highlight></codeline>
+<codeline lineno="503"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="504"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="505"><highlight class="normal"></highlight></codeline>
+<codeline lineno="506"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="507"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="508"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="509"><highlight class="normal"></highlight></codeline>
+<codeline lineno="510"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>langTop;</highlight></codeline>
+<codeline lineno="511"><highlight class="normal"></highlight></codeline>
+<codeline lineno="512"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"></highlight></codeline>
+<codeline lineno="519"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__repos_8c_1a6a806c0af69ee877308e28cdda9106f7" kindref="member">free_TableRepos</ref>(<ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos)</highlight></codeline>
+<codeline lineno="520"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="521"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;<sp/>i<sp/>&lt;<sp/><ref refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" kindref="member">TABLE_SIZE</ref>;<sp/>i++)</highlight></codeline>
+<codeline lineno="522"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="523"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>aux<sp/>=<sp/>repos[i];</highlight></codeline>
+<codeline lineno="524"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>prev<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="525"><highlight class="normal"></highlight></codeline>
+<codeline lineno="526"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(aux!=NULL)</highlight></codeline>
+<codeline lineno="527"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="528"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>prev<sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="529"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="530"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" kindref="member">owner_id</ref>);</highlight></codeline>
+<codeline lineno="531"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" kindref="member">description</ref>);</highlight></codeline>
+<codeline lineno="532"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" kindref="member">language</ref>);</highlight></codeline>
+<codeline lineno="533"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" kindref="member">created_at</ref>);</highlight></codeline>
+<codeline lineno="534"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(aux-&gt;<ref refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" kindref="member">updated_at</ref>);</highlight></codeline>
+<codeline lineno="535"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(prev);</highlight></codeline>
+<codeline lineno="536"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>aux-&gt;<ref refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="537"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="538"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="539"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="HT_repos.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,466 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__repos_8c" kind="file" language="C++">
+    <compoundname>data_repos.c</compoundname>
+    <includes refid="data__repos_8h" local="yes">data_repos.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>data_repos.c</label>
+        <link refid="data__repos_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>data_repos.h</label>
+        <link refid="data__repos_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>math.h</label>
+      </node>
+      <node id="3">
+        <label>stdio.h</label>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="structrepos" prot="public">repos</innerclass>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__repos_8c_1a27021e05980c9edfdb7deedceb8f02df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+        <definition>REPOS insertDataRepos</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>insertDataRepos</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda no catálogo os repositórios do ficheiro &quot;repos-g2.csv&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro &quot;repos-g2.csv&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma lista ligada com os repositórios - Catálogo de Repositórios. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="50" column="7" bodyfile="data_repos.c" bodystart="50" bodyend="127"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1a84ffbc5e48520c0bd4b30252cd93b3a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyRepos</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>isEmptyRepos</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que verifica se a lista chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com todos os repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se a lista chegou o fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="136" column="5" bodyfile="data_repos.c" bodystart="136" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1a85b0a74908377addc0e65b5365762001" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+        <definition>REPOS obtain_nextRepos</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_nextRepos</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo repositório do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o nodo do próximo repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="149" column="7" bodyfile="data_repos.c" bodystart="149" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1a443b53153950cbac18091b4043164d73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_langRepos</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_langRepos</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a linguagem utilizada no repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a linguagem do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="162" column="7" bodyfile="data_repos.c" bodystart="162" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1aa3f24d11e660e420a06e4bc8bf803403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_reposDate</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_reposDate</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a data de update do repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a data de update do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="174" column="7" bodyfile="data_repos.c" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1a04e9275ad9aeaafcd7767169ea35d041" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_reposID</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_reposID</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="186" column="7" bodyfile="data_repos.c" bodystart="186" bodyend="189"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1ae0e3caa7b2a0c1cba9a931fa03bb3422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_reposOwnerID</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_reposOwnerID</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do dono do repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do dono do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="198" column="7" bodyfile="data_repos.c" bodystart="198" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1a5383a8bee5e18c00bccd97b4db3ea90a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_reposDescription</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>obtain_reposDescription</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a descrição do repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a descrição do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="210" column="7" bodyfile="data_repos.c" bodystart="210" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="data__repos_8c_1adb060cf8a6b22bb137df1cf1ca1a0dd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeRepos</definition>
+        <argsstring>(REPOS head)</argsstring>
+        <name>freeRepos</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pelo catálogo de Repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="221" column="6" bodyfile="data_repos.c" bodystart="221" bodyend="231"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__repos_8h" kindref="compound">data_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="structrepos" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrepos" kindref="compound">repos</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a8f6b1484308b1046c0c6af50fc9f51f7" kindref="member">id</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1aff1a54405d3672b86bc90723b30cb90b" kindref="member">owner_id</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a84f8557ad7832986c8c9f576408ed374" kindref="member">full_name</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a15e09efffdd712538848120fdaa6c8de" kindref="member">license</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a172d6ced7045a3d79f2fd5f735a0ed12" kindref="member">has_wiki</ref>;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1afb494b12250465df5cafe777a246837a" kindref="member">description</ref>;</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a8c28c467ebb1d9e32829cf3fa01d420c" kindref="member">language</ref>;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a4bb94a259f82f3a09ae233e986fa959b" kindref="member">default_branch</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a53e805e4ae548bcae1d0148e134c680b" kindref="member">created_at</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a7b4bd3761b7bca5097d51433c498f57f" kindref="member">updated_at</ref>;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a98fd3567ca7506c4ce448b765b86a339" kindref="member">forks_count</ref>;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a5cee8a4570a72411103b9fcc152f0366" kindref="member">open_issues</ref>;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a3aece8acbc9b2240174db468f4772eb7" kindref="member">stargazers_count</ref>;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structrepos_1a35cd89ee966e3bf2776978bcd81d7520" kindref="member">size</ref>;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structrepos" kindref="compound">repos</ref><sp/>*<sp/><ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="data__repos_8c_1a27021e05980c9edfdb7deedceb8f02df" kindref="member">insertDataRepos</ref>(FILE<sp/>*file)</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/>reposList<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structrepos" kindref="compound">repos</ref>));</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/>iniRepos<sp/>=<sp/>reposList;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>c[524288];</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*aux<sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i=0;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(fgets(c,<sp/>524288,<sp/>file)<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str<sp/>=<sp/>strdup<sp/>(c);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(aux<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal"><sp/>(i)</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>0:</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a8f6b1484308b1046c0c6af50fc9f51f7" kindref="member">id</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>1:</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1aff1a54405d3672b86bc90723b30cb90b" kindref="member">owner_id</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>2:</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a84f8557ad7832986c8c9f576408ed374" kindref="member">full_name</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>3:</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a15e09efffdd712538848120fdaa6c8de" kindref="member">license</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>4:</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a172d6ced7045a3d79f2fd5f735a0ed12" kindref="member">has_wiki</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>5:</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1afb494b12250465df5cafe777a246837a" kindref="member">description</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>6:</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a8c28c467ebb1d9e32829cf3fa01d420c" kindref="member">language</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>7:</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a4bb94a259f82f3a09ae233e986fa959b" kindref="member">default_branch</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>8:</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a53e805e4ae548bcae1d0148e134c680b" kindref="member">created_at</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>9:</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a7b4bd3761b7bca5097d51433c498f57f" kindref="member">updated_at</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>10:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a98fd3567ca7506c4ce448b765b86a339" kindref="member">forks_count</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>11:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a5cee8a4570a72411103b9fcc152f0366" kindref="member">open_issues</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>12:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a3aece8acbc9b2240174db468f4772eb7" kindref="member">stargazers_count</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/>13:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a35cd89ee966e3bf2776978bcd81d7520" kindref="member">size</ref><sp/>=<sp/>aux;</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i++;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(i==14)<sp/></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/>n<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal"><sp/>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="structrepos" kindref="compound">repos</ref>));</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref><sp/>=<sp/>n;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>reposList<sp/>=<sp/>reposList-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>aux<sp/>=<sp/>strsep(&amp;str,<sp/></highlight><highlight class="stringliteral">&quot;;\n\r&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>i=0;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>reposList-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>iniRepos;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__repos_8c_1a84ffbc5e48520c0bd4b30252cd93b3a9" kindref="member">isEmptyRepos</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>){</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>r<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref>==NULL)r<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>r;</highlight></codeline>
+<codeline lineno="140"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="data__repos_8c_1a85b0a74908377addc0e65b5365762001" kindref="member">obtain_nextRepos</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="150"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="structrepos" kindref="compound">repos</ref><sp/>=<sp/><ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="structrepos" kindref="compound">repos</ref>;</highlight></codeline>
+<codeline lineno="153"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__repos_8c_1a443b53153950cbac18091b4043164d73" kindref="member">obtain_langRepos</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="163"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1a8c28c467ebb1d9e32829cf3fa01d420c" kindref="member">language</ref>);</highlight></codeline>
+<codeline lineno="165"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__repos_8c_1aa3f24d11e660e420a06e4bc8bf803403" kindref="member">obtain_reposDate</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="175"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1a7b4bd3761b7bca5097d51433c498f57f" kindref="member">updated_at</ref>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__repos_8c_1a04e9275ad9aeaafcd7767169ea35d041" kindref="member">obtain_reposID</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="187"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1a8f6b1484308b1046c0c6af50fc9f51f7" kindref="member">id</ref>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__repos_8c_1ae0e3caa7b2a0c1cba9a931fa03bb3422" kindref="member">obtain_reposOwnerID</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="199"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1aff1a54405d3672b86bc90723b30cb90b" kindref="member">owner_id</ref>);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="210"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__repos_8c_1a5383a8bee5e18c00bccd97b4db3ea90a" kindref="member">obtain_reposDescription</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>)</highlight></codeline>
+<codeline lineno="211"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>strdup(<ref refid="structrepos" kindref="compound">repos</ref>-&gt;<ref refid="structrepos_1afb494b12250465df5cafe777a246837a" kindref="member">description</ref>);</highlight></codeline>
+<codeline lineno="213"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"></highlight></codeline>
+<codeline lineno="221"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__repos_8c_1adb060cf8a6b22bb137df1cf1ca1a0dd6" kindref="member">freeRepos</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/>head)</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/>tmp;</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(head<sp/>!=<sp/>NULL)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp<sp/>=<sp/>head;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>head<sp/>=<sp/>head-&gt;<ref refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(tmp);</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="231"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="data_repos.c"/>
+  </compounddef>
+</doxygen>

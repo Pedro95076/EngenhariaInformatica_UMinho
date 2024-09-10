@@ -1,0 +1,467 @@
+\hypertarget{auxiliarStruct_8h}{}\doxysection{auxiliar\+Struct.\+h File Reference}
+\label{auxiliarStruct_8h}\index{auxiliarStruct.h@{auxiliarStruct.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for auxiliar\+Struct.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structstring}{string}} $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}
+\item 
+typedef struct \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}
+\item 
+typedef struct \mbox{\hyperlink{structdata}{data}} $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{auxiliarStruct_8h_ada3169e6890ea6f7dc3d9532e2017f69}{insert\+Data}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{structdata}{data}}, char $\ast$info)
+\begin{DoxyCompactList}\small\item\em Função que permite inserir dados na lista ligada. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_ac51017054b64d0038d0bacb675564f58}{top\+Users\+Save}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int k, char $\ast$id, char $\ast$login, int counter)
+\begin{DoxyCompactList}\small\item\em Função que guarda a informação dada numa determinada posição do array. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarStruct_8h_af4bbce7734c7fbfdf420f0b4050dc0e5}{is\+Empty\+String}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} top)
+\begin{DoxyCompactList}\small\item\em Funçao que verifica se a estrutura chegou ao fim. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarStruct_8h_a2e84c85ac884a50e4c4dba07c596081d}{is\+Empty\+Data}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{structdata}{data}})
+\begin{DoxyCompactList}\small\item\em Função que permite testar se a lista ligada se encontra vazia. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarStruct_8h_a8755cda97982dccef62a997fca5b1ea3}{is\+Empty\+Top\+Users\+Struct}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} top, int i)
+\begin{DoxyCompactList}\small\item\em Funçao que verifica se a estrutura chegou ao fim. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{auxiliarStruct_8h_a4a57017e275fd154d9ee47b8214873b0}{obtain\+\_\+next\+String}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} top)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo nodo do string. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{auxiliarStruct_8h_a8d2bb05a6eba2992c23d4ca94700f1ce}{obtain\+\_\+next\+Data}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{structdata}{data}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo nodo da lista ligada. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_af3ed37e2dd10db67e2d97d3e49b9bdfa}{obtain\+\_\+string\+ID}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o id do nodo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_af87ab0f2cf637213c21d13b0039cfbb0}{obtain\+\_\+data\+Info}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} \mbox{\hyperlink{structdata}{data}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a informação guardada na lista ligada. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarStruct_8h_ae0d64feea4fd024f4a4fa98b09e3eaf5}{obtain\+\_\+\+Top\+Users\+Count}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int i)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o valor do counter da estrutura numa determinada posição. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_ae80380a8253c8efcf16d45486b05e352}{obtain\+\_\+\+Top\+Users\+Login}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int i)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a string login da estrutura numa determinada posição. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a3fe9941d01e7a7da9145b2d17904190a}{obtain\+\_\+\+Top\+Users\+Id}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int i)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a string ID da estrutura numa determinada posição. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_abf15a46491a344cfa6d9223074515799}{obtain\+\_\+top\+Users}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int i, char $\ast$login, char $\ast$id, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Função que obtém os valores presentes num determinado índice do array. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_a31aaa97fe820b08dfc0ef934515593e4}{free\+String}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela estrutura String. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_a99b6b46871044cce95ad55c3b74470b3}{free\+Data}} (\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela estrutura Data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_a5449ad6ed8d27cca7424e9c0294eb4bd}{free\+Top\+Users\+Struct}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} head)
+\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{auxiliarStruct_8h_a48ab880f7f68e304928b129385105749}{count\+Info\+Str}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} top, char $\ast$info, int $\ast$count)
+\begin{DoxyCompactList}\small\item\em Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a39070d8c45513dfbc1e143b05a1aa103}{most\+Freq\+String}} (\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} \mbox{\hyperlink{structstring}{string}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o valor máximo de ocorrências de uma lista ligada. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} \mbox{\hyperlink{auxiliarStruct_8h_a20cd9c289d51fef072c3cc3592fd6fea}{init\+Top\+Users\+Struct}} (int N)
+\begin{DoxyCompactList}\small\item\em Função que inicializa o array da estrutura de dados \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_a38f54fcc1b7618e11718254852b58be3}{top\+Users\+Sort}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} a, int f)
+\begin{DoxyCompactList}\small\item\em Função que organiza os elementos do array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarStruct_8h_a3a12481353efd99253e6bb48c26026f2}{free\+Top\+Users\+Structs}} (\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} top\+Users, int N)
+\begin{DoxyCompactList}\small\item\em Função que elimina os elementos do array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}\label{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!DATA@{DATA}}
+\index{DATA@{DATA}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{DATA}{DATA}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structdata}{data}}$\ast$ \mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}
+
+\mbox{\Hypertarget{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}\label{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!STRING@{STRING}}
+\index{STRING@{STRING}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{STRING}{STRING}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structstring}{string}}$\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}
+
+\mbox{\Hypertarget{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}\label{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!TOPUSERSSTRUCT@{TOPUSERSSTRUCT}}
+\index{TOPUSERSSTRUCT@{TOPUSERSSTRUCT}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{TOPUSERSSTRUCT}{TOPUSERSSTRUCT}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}$\ast$ \mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{auxiliarStruct_8h_a48ab880f7f68e304928b129385105749}\label{auxiliarStruct_8h_a48ab880f7f68e304928b129385105749}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!countInfoStr@{countInfoStr}}
+\index{countInfoStr@{countInfoStr}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{countInfoStr()}{countInfoStr()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} count\+Info\+Str (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{top,  }\item[{char $\ast$}]{info,  }\item[{int $\ast$}]{count }\end{DoxyParamCaption})}
+
+
+
+Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top} & Lista ligada com a informação.\\
+\hline
+{\em info} & Informação a procurar ou inserir na lista ligada.\\
+\hline
+{\em count} & Variável onde será guardado o número de valores da lista ligada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a lista ligada com a informação e o respetivo número de ocorrências. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a99b6b46871044cce95ad55c3b74470b3}\label{auxiliarStruct_8h_a99b6b46871044cce95ad55c3b74470b3}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!freeData@{freeData}}
+\index{freeData@{freeData}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{freeData()}{freeData()}}
+{\footnotesize\ttfamily void free\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela estrutura Data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Lista Ligada \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarStruct_8h_a31aaa97fe820b08dfc0ef934515593e4}\label{auxiliarStruct_8h_a31aaa97fe820b08dfc0ef934515593e4}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!freeString@{freeString}}
+\index{freeString@{freeString}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{freeString()}{freeString()}}
+{\footnotesize\ttfamily void free\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela estrutura String. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Lista ligada. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarStruct_8h_a5449ad6ed8d27cca7424e9c0294eb4bd}\label{auxiliarStruct_8h_a5449ad6ed8d27cca7424e9c0294eb4bd}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!freeTopUsersStruct@{freeTopUsersStruct}}
+\index{freeTopUsersStruct@{freeTopUsersStruct}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{freeTopUsersStruct()}{freeTopUsersStruct()}}
+{\footnotesize\ttfamily void free\+Top\+Users\+Struct (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{head }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{auxiliarStruct_8h_a3a12481353efd99253e6bb48c26026f2}\label{auxiliarStruct_8h_a3a12481353efd99253e6bb48c26026f2}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!freeTopUsersStructs@{freeTopUsersStructs}}
+\index{freeTopUsersStructs@{freeTopUsersStructs}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{freeTopUsersStructs()}{freeTopUsersStructs()}}
+{\footnotesize\ttfamily void free\+Top\+Users\+Structs (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{top\+Users,  }\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+Função que elimina os elementos do array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top\+Users} & Array com \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} como elementos\\
+\hline
+{\em N} & Tamanho do array \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarStruct_8h_a20cd9c289d51fef072c3cc3592fd6fea}\label{auxiliarStruct_8h_a20cd9c289d51fef072c3cc3592fd6fea}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!initTopUsersStruct@{initTopUsersStruct}}
+\index{initTopUsersStruct@{initTopUsersStruct}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{initTopUsersStruct()}{initTopUsersStruct()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} init\+Top\+Users\+Struct (\begin{DoxyParamCaption}\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa o array da estrutura de dados \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em N} & Tamanho do array com elementos do tipo \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço para o início do array 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_ada3169e6890ea6f7dc3d9532e2017f69}\label{auxiliarStruct_8h_ada3169e6890ea6f7dc3d9532e2017f69}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!insertData@{insertData}}
+\index{insertData@{insertData}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{insertData()}{insertData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} insert\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{data,  }\item[{char $\ast$}]{info }\end{DoxyParamCaption})}
+
+
+
+Função que permite inserir dados na lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista ligada onde irá ser guardada a informação\\
+\hline
+{\em info} & string com a informação a guardar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Lista ligada com a informação guardada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a2e84c85ac884a50e4c4dba07c596081d}\label{auxiliarStruct_8h_a2e84c85ac884a50e4c4dba07c596081d}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!isEmptyData@{isEmptyData}}
+\index{isEmptyData@{isEmptyData}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{isEmptyData()}{isEmptyData()}}
+{\footnotesize\ttfamily int is\+Empty\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{data }\end{DoxyParamCaption})}
+
+
+
+Função que permite testar se a lista ligada se encontra vazia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista ligada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 quando a lista chega ao fim 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_af4bbce7734c7fbfdf420f0b4050dc0e5}\label{auxiliarStruct_8h_af4bbce7734c7fbfdf420f0b4050dc0e5}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!isEmptyString@{isEmptyString}}
+\index{isEmptyString@{isEmptyString}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{isEmptyString()}{isEmptyString()}}
+{\footnotesize\ttfamily int is\+Empty\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{top }\end{DoxyParamCaption})}
+
+
+
+Funçao que verifica se a estrutura chegou ao fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top} & Lista ligada com toda a informação necessária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 no final caso a lista tenha chegado ao fim. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a8755cda97982dccef62a997fca5b1ea3}\label{auxiliarStruct_8h_a8755cda97982dccef62a997fca5b1ea3}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!isEmptyTopUsersStruct@{isEmptyTopUsersStruct}}
+\index{isEmptyTopUsersStruct@{isEmptyTopUsersStruct}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{isEmptyTopUsersStruct()}{isEmptyTopUsersStruct()}}
+{\footnotesize\ttfamily int is\+Empty\+Top\+Users\+Struct (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Funçao que verifica se a estrutura chegou ao fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top} & Lista ligada com toda a informação necessária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 no final caso a lista tenha chegado ao fim. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a39070d8c45513dfbc1e143b05a1aa103}\label{auxiliarStruct_8h_a39070d8c45513dfbc1e143b05a1aa103}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!mostFreqString@{mostFreqString}}
+\index{mostFreqString@{mostFreqString}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{mostFreqString()}{mostFreqString()}}
+{\footnotesize\ttfamily char$\ast$ most\+Freq\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{string }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o valor máximo de ocorrências de uma lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & Lista ligada com a informação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string com a informação relativa ao maior número de ocorrências da lista ligada. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_af87ab0f2cf637213c21d13b0039cfbb0}\label{auxiliarStruct_8h_af87ab0f2cf637213c21d13b0039cfbb0}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_dataInfo@{obtain\_dataInfo}}
+\index{obtain\_dataInfo@{obtain\_dataInfo}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_dataInfo()}{obtain\_dataInfo()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+data\+Info (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{data }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a informação guardada na lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista ligada com a informação\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string pretendida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a8d2bb05a6eba2992c23d4ca94700f1ce}\label{auxiliarStruct_8h_a8d2bb05a6eba2992c23d4ca94700f1ce}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_nextData@{obtain\_nextData}}
+\index{obtain\_nextData@{obtain\_nextData}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextData()}{obtain\_nextData()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}} obtain\+\_\+next\+Data (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_ac7c559dd4c068f16b0faccfd0f137c43}{D\+A\+TA}}}]{data }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo nodo da lista ligada. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Lista ligada\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do próximo nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a4a57017e275fd154d9ee47b8214873b0}\label{auxiliarStruct_8h_a4a57017e275fd154d9ee47b8214873b0}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_nextString@{obtain\_nextString}}
+\index{obtain\_nextString@{obtain\_nextString}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextString()}{obtain\_nextString()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}} obtain\+\_\+next\+String (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{top }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo nodo do string. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em top} & Lista ligada com a informação necessária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o próximo nodo do string. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_af3ed37e2dd10db67e2d97d3e49b9bdfa}\label{auxiliarStruct_8h_af3ed37e2dd10db67e2d97d3e49b9bdfa}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_stringID@{obtain\_stringID}}
+\index{obtain\_stringID@{obtain\_stringID}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_stringID()}{obtain\_stringID()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+string\+ID (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a9302c91a328419e92b8bcb9b9c8e266c}{S\+T\+R\+I\+NG}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o id do nodo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Lista ligada com a informação.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o id do nodo. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_abf15a46491a344cfa6d9223074515799}\label{auxiliarStruct_8h_abf15a46491a344cfa6d9223074515799}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_topUsers@{obtain\_topUsers}}
+\index{obtain\_topUsers@{obtain\_topUsers}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_topUsers()}{obtain\_topUsers()}}
+{\footnotesize\ttfamily void obtain\+\_\+top\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{i,  }\item[{char $\ast$}]{login,  }\item[{char $\ast$}]{id,  }\item[{int $\ast$}]{count }\end{DoxyParamCaption})}
+
+
+
+Função que obtém os valores presentes num determinado índice do array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} como elementos\\
+\hline
+{\em i} & Indice a utilizar no array\\
+\hline
+{\em login} & Variável onde irá ser guardada a string login\\
+\hline
+{\em id} & Variável onde irá ser guardada a string ID\\
+\hline
+{\em count} & Variável onde irá ser guardado o valor do counter \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarStruct_8h_ae0d64feea4fd024f4a4fa98b09e3eaf5}\label{auxiliarStruct_8h_ae0d64feea4fd024f4a4fa98b09e3eaf5}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_TopUsersCount@{obtain\_TopUsersCount}}
+\index{obtain\_TopUsersCount@{obtain\_TopUsersCount}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_TopUsersCount()}{obtain\_TopUsersCount()}}
+{\footnotesize\ttfamily int obtain\+\_\+\+Top\+Users\+Count (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o valor do counter da estrutura numa determinada posição. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com top\+User\+Struc como elementos\\
+\hline
+{\em i} & Indice a procurar no array\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o valor do counter na posição i 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_a3fe9941d01e7a7da9145b2d17904190a}\label{auxiliarStruct_8h_a3fe9941d01e7a7da9145b2d17904190a}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_TopUsersId@{obtain\_TopUsersId}}
+\index{obtain\_TopUsersId@{obtain\_TopUsersId}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_TopUsersId()}{obtain\_TopUsersId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+\+Top\+Users\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a string ID da estrutura numa determinada posição. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com top\+User\+Struct como elementos\\
+\hline
+{\em i} & Indice a procurar no array\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string ID na posição i 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_ae80380a8253c8efcf16d45486b05e352}\label{auxiliarStruct_8h_ae80380a8253c8efcf16d45486b05e352}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!obtain\_TopUsersLogin@{obtain\_TopUsersLogin}}
+\index{obtain\_TopUsersLogin@{obtain\_TopUsersLogin}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_TopUsersLogin()}{obtain\_TopUsersLogin()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+\+Top\+Users\+Login (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{i }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a string login da estrutura numa determinada posição. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com top\+User\+Struc como elementos\\
+\hline
+{\em i} & Indice a procurar no array\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a string login na posição i 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarStruct_8h_ac51017054b64d0038d0bacb675564f58}\label{auxiliarStruct_8h_ac51017054b64d0038d0bacb675564f58}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!topUsersSave@{topUsersSave}}
+\index{topUsersSave@{topUsersSave}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{topUsersSave()}{topUsersSave()}}
+{\footnotesize\ttfamily void top\+Users\+Save (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{k,  }\item[{char $\ast$}]{id,  }\item[{char $\ast$}]{login,  }\item[{int}]{counter }\end{DoxyParamCaption})}
+
+
+
+Função que guarda a informação dada numa determinada posição do array. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} como elementos\\
+\hline
+{\em k} & Indice a utilizar no array\\
+\hline
+{\em id} & string com o ID a guardar\\
+\hline
+{\em login} & string com o login a guardar\\
+\hline
+{\em counter} & inteiro com o counter a guardar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarStruct_8h_a38f54fcc1b7618e11718254852b58be3}\label{auxiliarStruct_8h_a38f54fcc1b7618e11718254852b58be3}} 
+\index{auxiliarStruct.h@{auxiliarStruct.h}!topUsersSort@{topUsersSort}}
+\index{topUsersSort@{topUsersSort}!auxiliarStruct.h@{auxiliarStruct.h}}
+\doxysubsubsection{\texorpdfstring{topUsersSort()}{topUsersSort()}}
+{\footnotesize\ttfamily void top\+Users\+Sort (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{a,  }\item[{int}]{f }\end{DoxyParamCaption})}
+
+
+
+Função que organiza os elementos do array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & Array com \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} como elementos\\
+\hline
+{\em f} & Indíce a utilizar no array \\
+\hline
+\end{DoxyParams}

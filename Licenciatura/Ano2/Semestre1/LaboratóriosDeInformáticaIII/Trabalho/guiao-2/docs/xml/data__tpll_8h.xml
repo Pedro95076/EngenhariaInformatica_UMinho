@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__tpll_8h" kind="file" language="C++">
+    <compoundname>data_tpll.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="data__commits_8h" local="yes">data_commits.h</includes>
+    <includes refid="data__tree_8h" local="yes">data_tree.h</includes>
+    <includedby refid="data__tpll_8c" local="yes">data_tpll.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="query_8h" local="yes">query.h</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>data_repos.h</label>
+        <link refid="data__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>data_tpll.c</label>
+        <link refid="data__tpll_8c"/>
+      </node>
+      <node id="1">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="5">
+        <label>query.c</label>
+        <link refid="query_8c"/>
+      </node>
+      <node id="4">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" prot="public" static="no">
+        <type>struct <ref refid="structtop" kindref="compound">top</ref> *</type>
+        <definition>typedef struct top* TOP</definition>
+        <argsstring></argsstring>
+        <name>TOP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="11" column="18" bodyfile="data_tpll.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" prot="public" static="no">
+        <type>struct <ref refid="structstring" kindref="compound">string</ref> *</type>
+        <definition>typedef struct string* STRING</definition>
+        <argsstring></argsstring>
+        <name>STRING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="12" column="21" bodyfile="data_tpll.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__tpll_8h_1a64229907cdac9ff75ca1d5a4a996dceb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP insertDataTop</definition>
+        <argsstring>(TOP top, int info, int counter)</argsstring>
+        <name>insertDataTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>counter</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere os elementos especificados na lista ligada top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada aonde se irão guardar os elementos.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a guardar na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Contador a guardar na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com os elementos inseridos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="13" column="5" bodyfile="data_tpll.c" bodystart="45" bodyend="54" declfile="data_tpll.h" declline="13" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a2af00ad4a8f102923bfd128bbad4a392" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>isEmptyTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="14" column="5" bodyfile="data_tpll.c" bodystart="63" bodyend="68" declfile="data_tpll.h" declline="14" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1af4bbce7734c7fbfdf420f0b4050dc0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>isEmptyString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="15" column="5" bodyfile="data_tpll.c" bodystart="77" bodyend="82" declfile="data_tpll.h" declline="15" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a16ff7788af5fc1950b6c1a2e1dd57224" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP obtain_nextTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>obtain_nextTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo do top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o próximo nodo do top. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="16" column="5" bodyfile="data_tpll.c" bodystart="92" bodyend="96" declfile="data_tpll.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a4a57017e275fd154d9ee47b8214873b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING obtain_nextString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>obtain_nextString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo do string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o próximo nodo do string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="17" column="8" bodyfile="data_tpll.c" bodystart="105" bodyend="109" declfile="data_tpll.h" declline="17" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a2282286c348e9454ccc6259c05069c92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_CountTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>obtain_CountTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o número de ocorrências do valor no top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de ocorrências da informação no nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="18" column="5" bodyfile="data_tpll.c" bodystart="118" bodyend="121" declfile="data_tpll.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a156fdd33549f0d46f5521d470b13b513" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP countInfo</definition>
+        <argsstring>(TOP top, int id)</argsstring>
+        <name>countInfo</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+          <defname>info</defname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="19" column="5" bodyfile="data_tpll.c" bodystart="132" bodyend="160" declfile="data_tpll.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a40d7e58fd1a6a2e87076de4936ded996" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING countInfoStr</definition>
+        <argsstring>(STRING top, char *info)</argsstring>
+        <name>countInfoStr</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="20" column="8" bodyfile="data_tpll.c" bodystart="171" bodyend="199" declfile="data_tpll.h" declline="20" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a3f712b43b6019c45e3651299b52864c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_topID</definition>
+        <argsstring>(TOP head)</argsstring>
+        <name>obtain_topID</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o id do nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o id do nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="21" column="5" bodyfile="data_tpll.c" bodystart="208" bodyend="211" declfile="data_tpll.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1ad221b70fe91f218ed78b97eb3a087ce4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_stringID</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>obtain_stringID</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o id do nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o id do nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="22" column="7" bodyfile="data_tpll.c" bodystart="220" bodyend="223" declfile="data_tpll.h" declline="22" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a6f4175011e805cb33d3890b1b5e7f02e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void mostFreq</definition>
+        <argsstring>(TOP top, int *id, int *count)</argsstring>
+        <name>mostFreq</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>id</declname>
+          <defname>info</defname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor máximo de ocorrências de uma lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para a variável info.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Apontador para a variável count. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="23" column="6" bodyfile="data_tpll.c" bodystart="234" bodyend="255" declfile="data_tpll.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a0282d3c4a44b6164a8acc8d29e81b0ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * mostFreqString</definition>
+        <argsstring>(STRING string)</argsstring>
+        <name>mostFreqString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor máximo de ocorrências de uma lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a informação relativa ao maior número de ocorrências da lista ligada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="24" column="7" bodyfile="data_tpll.c" bodystart="264" bodyend="280" declfile="data_tpll.h" declline="24" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a8fa15ca2789b9ea7a59e11d0f308301a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printTop</definition>
+        <argsstring>(TOP top)</argsstring>
+        <name>printTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão da lista ligada top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="25" column="6" bodyfile="data_tpll.c" bodystart="287" bodyend="295" declfile="data_tpll.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1aa7d4103a674b25e4133adc0daa1c628b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printString</definition>
+        <argsstring>(STRING string)</argsstring>
+        <name>printString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão da lista ligada string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="26" column="6" bodyfile="data_tpll.c" bodystart="302" bodyend="311" declfile="data_tpll.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a5304b1ea4178da332ad52059fb17a9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTop</definition>
+        <argsstring>(TOP head)</argsstring>
+        <name>freeTop</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura Top. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="27" column="6" bodyfile="data_tpll.c" bodystart="319" bodyend="329" declfile="data_tpll.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a31aaa97fe820b08dfc0ef934515593e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeString</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>freeString</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura String. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="28" column="6" bodyfile="data_tpll.c" bodystart="337" bodyend="347" declfile="data_tpll.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tpll_8h_1a67ca1e74ce85876e6fd31746d5c1f7b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+        <definition>TOP countInfoLen</definition>
+        <argsstring>(TOP top, int info, int count)</argsstring>
+        <name>countInfoLen</name>
+        <param>
+          <type><ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a adicionar no campo counter.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tpll.h" line="29" column="5" bodyfile="data_tpll.c" bodystart="360" bodyend="388" declfile="data_tpll.h" declline="29" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__commits_8h" kindref="compound">data_commits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__tree_8h" kindref="compound">data_tree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtop" kindref="compound">top</ref><sp/>*<ref refid="data__tpll_8h_1a94c874020391fad64a6cd6c6cd359bf0" kindref="member">TOP</ref>;</highlight></codeline>
+<codeline lineno="12" refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structstring" kindref="compound">string</ref><sp/>*<ref refid="data__tpll_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8h_1a64229907cdac9ff75ca1d5a4a996dceb" kindref="member">insertDataTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a24b1548db3f161875bf8e3afc9ef1d1a" kindref="member">counter</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a2af00ad4a8f102923bfd128bbad4a392" kindref="member">isEmptyTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1af4bbce7734c7fbfdf420f0b4050dc0e5" kindref="member">isEmptyString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8h_1a16ff7788af5fc1950b6c1a2e1dd57224" kindref="member">obtain_nextTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="data__tpll_8h_1a4a57017e275fd154d9ee47b8214873b0" kindref="member">obtain_nextString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a2282286c348e9454ccc6259c05069c92" kindref="member">obtain_CountTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8h_1a156fdd33549f0d46f5521d470b13b513" kindref="member">countInfo</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="data__tpll_8h_1a40d7e58fd1a6a2e87076de4936ded996" kindref="member">countInfoStr</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a3f712b43b6019c45e3651299b52864c3" kindref="member">obtain_topID</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/>head);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tpll_8h_1ad221b70fe91f218ed78b97eb3a087ce4" kindref="member">obtain_stringID</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a6f4175011e805cb33d3890b1b5e7f02e" kindref="member">mostFreq</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tpll_8h_1a0282d3c4a44b6164a8acc8d29e81b0ea" kindref="member">mostFreqString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a8fa15ca2789b9ea7a59e11d0f308301a" kindref="member">printTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1aa7d4103a674b25e4133adc0daa1c628b" kindref="member">printString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a5304b1ea4178da332ad52059fb17a9ee" kindref="member">freeTop</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/>head);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tpll_8h_1a31aaa97fe820b08dfc0ef934515593e4" kindref="member">freeString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="data__tpll_8h_1a67ca1e74ce85876e6fd31746d5c1f7b6" kindref="member">countInfoLen</ref>(<ref refid="structtop" kindref="compound">TOP</ref><sp/><ref refid="structtop" kindref="compound">top</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="structstring_1a1d229e94a7c86b3343e382ebacca68f5" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count);</highlight></codeline>
+    </programlisting>
+    <location file="data_tpll.h"/>
+  </compounddef>
+</doxygen>

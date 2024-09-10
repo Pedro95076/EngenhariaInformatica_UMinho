@@ -1,0 +1,957 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__tree_8h" kind="file" language="C++">
+    <compoundname>data_tree.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includes refid="data__users_8h" local="yes">data_users.h</includes>
+    <includes refid="data__commits_8h" local="yes">data_commits.h</includes>
+    <includes refid="data__repos_8h" local="yes">data_repos.h</includes>
+    <includedby refid="data__tpll_8h" local="yes">data_tpll.h</includedby>
+    <includedby refid="data__tree_8c" local="yes">data_tree.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="query_8h" local="yes">query.h</includedby>
+    <incdepgraph>
+      <node id="7">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>data_repos.h</label>
+        <link refid="data__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>data_tpll.c</label>
+        <link refid="data__tpll_8c"/>
+      </node>
+      <node id="2">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>data_tree.c</label>
+        <link refid="data__tree_8c"/>
+      </node>
+      <node id="1">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="6">
+        <label>query.c</label>
+        <link refid="query_8c"/>
+      </node>
+      <node id="5">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" prot="public" static="no">
+        <type>struct <ref refid="structtree" kindref="compound">tree</ref> *</type>
+        <definition>typedef struct tree* TREE</definition>
+        <argsstring></argsstring>
+        <name>TREE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="12" column="19" bodyfile="data_tree.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" prot="public" static="no">
+        <type>struct <ref refid="structtreeUsers" kindref="compound">treeUsers</ref> *</type>
+        <definition>typedef struct treeUsers* TREEUSERS</definition>
+        <argsstring></argsstring>
+        <name>TREEUSERS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="13" column="24" bodyfile="data_tree.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="data__tree_8h_1ae7a19ed299494b455f1f935624022669" prot="public" static="no">
+        <type>struct <ref refid="structtreeUsers9" kindref="compound">treeUsers9</ref> *</type>
+        <definition>typedef struct treeUsers9* TREEUSERS9</definition>
+        <argsstring></argsstring>
+        <name>TREEUSERS9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="14" column="25" bodyfile="data_tree.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" prot="public" static="no">
+        <type>struct <ref refid="structtreeRepos" kindref="compound">treeRepos</ref> *</type>
+        <definition>typedef struct treeRepos* TREEREPOS</definition>
+        <argsstring></argsstring>
+        <name>TREEREPOS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="15" column="24" bodyfile="data_tree.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__tree_8h_1a046d3ee75787615cc6a9cc1bca11521f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE insert</definition>
+        <argsstring>(TREE tree, int x)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere os elementos na árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária onde se irá guardar o elemento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a guardar na árvore binária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore com o elemento inserido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="16" column="6" bodyfile="data_tree.c" bodystart="65" bodyend="80" declfile="data_tree.h" declline="16" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a8d3d97f663d3b4a863d0fc67497451e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE filterRepos_Lang</definition>
+        <argsstring>(char *lang, REPOS repos, TREE tree)</argsstring>
+        <name>filterRepos_Lang</name>
+        <param>
+          <type>char *</type>
+          <declname>lang</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que filtra os repositórios com a linguagem especificada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>lang</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linguagem de programação a procurar nos repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos repositórios com a linguagem especificada.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore dos ID&apos;s dos repositórios com a linguagem especificada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="17" column="6" bodyfile="data_tree.c" bodystart="93" bodyend="112" declfile="data_tree.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1ada3a24c7044092c8dce26bdb34793954" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+        <definition>TREEUSERS addUsersTREE</definition>
+        <argsstring>(TREEUSERS place, char *id, char *login)</argsstring>
+        <name>addUsersTREE</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>place</declname>
+          <defname>tree</defname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>login</declname>
+        </param>
+        <briefdescription>
+<para>Função que adiciona nodos a uma árvore de users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos users.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o id a ser guardado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o login associado ao id.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore com o user adicionado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="18" column="11" bodyfile="data_tree.c" bodystart="125" bodyend="143" declfile="data_tree.h" declline="18" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1ae83344c676461ec63338c1da6071ddcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+        <definition>TREEUSERS iniUsersTREE</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>iniUsersTREE</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a árvore de users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de users.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore criada apartir da lista de users. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="19" column="11" bodyfile="data_tree.c" bodystart="152" bodyend="166" declfile="data_tree.h" declline="19" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1aba9218b7c62cb38d91fa79553d28cd8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+        <definition>TREEUSERS9 addUsersTREE9</definition>
+        <argsstring>(TREEUSERS9 tree, char *id, USERS user)</argsstring>
+        <name>addUsersTREE9</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que adiciona nodos a uma árvore de users da query 9. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos users.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o id a ser guardado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o login associado ao id.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore com o user adicionado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="20" column="12" bodyfile="data_tree.c" bodystart="179" bodyend="197" declfile="data_tree.h" declline="20" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a9c2e12210f7c4221da34aa2d80c7c1f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+        <definition>TREEUSERS9 iniUsersTREE9</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>iniUsersTREE9</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a árvore de users da query 9. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de users.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore criada apartir da lista de users. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="21" column="12" bodyfile="data_tree.c" bodystart="206" bodyend="219" declfile="data_tree.h" declline="21" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a2a2ad278cc5ba9d7ad9c44f0810016cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+        <definition>TREEREPOS addReposTREE</definition>
+        <argsstring>(TREEREPOS tree, char *id, char *message)</argsstring>
+        <name>addReposTREE</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Função que adiciona nodos a uma árvore de repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore a inserir os ID&apos;s dos repositórios.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o id a ser guardado.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a menssagem associado ao id.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Árvore com o repositório adicionado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="22" column="11" bodyfile="data_tree.c" bodystart="232" bodyend="250" declfile="data_tree.h" declline="22" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a1565fc2785db11f2e866e183768f35e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+        <definition>TREEREPOS iniReposTREE</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>iniReposTREE</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a árvore de repositórios. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore criada apartir da lista de repositórios. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="23" column="11" bodyfile="data_tree.c" bodystart="259" bodyend="273" declfile="data_tree.h" declline="23" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a34f5edb7f5874cc486858411974c0b96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+        <definition>TREEREPOS iniReposTREE9</definition>
+        <argsstring>(REPOS repos)</argsstring>
+        <name>iniReposTREE9</name>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a árvore de repositórios da query 9. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore criada apartir da lista de repositórios. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="24" column="11" bodyfile="data_tree.c" bodystart="282" bodyend="296" declfile="data_tree.h" declline="24" declcolumn="11"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1aeb08a84830917a5d5d0f343cff03f335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int search</definition>
+        <argsstring>(TREE tree, int x)</argsstring>
+        <name>search</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que procura numa árvore binária o elemento especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária aonde se irá procurar o elemento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a encontrar na árvore binária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se o elemento for encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="25" column="5" bodyfile="data_tree.c" bodystart="307" bodyend="316" declfile="data_tree.h" declline="25" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1aea5e5e964adbddeba8bc9b28edffa2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printTree</definition>
+        <argsstring>(TREE tree)</argsstring>
+        <name>printTree</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão in order da árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="26" column="6" bodyfile="data_tree.c" bodystart="323" bodyend="331" declfile="data_tree.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a35b0424230cce746bafe0fdb078c0e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTree</definition>
+        <argsstring>(TREE node)</argsstring>
+        <name>freeTree</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="27" column="6" bodyfile="data_tree.c" bodystart="338" bodyend="344" declfile="data_tree.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1af30f811f4a786e9f8845b60ab7161697" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTreeUsers</definition>
+        <argsstring>(TREEUSERS node)</argsstring>
+        <name>freeTreeUsers</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela árvore de users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="28" column="6" bodyfile="data_tree.c" bodystart="351" bodyend="357" declfile="data_tree.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a4e89413c85c0181bf82952e2a2f381bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTreeRepos</definition>
+        <argsstring>(TREEREPOS node)</argsstring>
+        <name>freeTreeRepos</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="29" column="6" bodyfile="data_tree.c" bodystart="364" bodyend="370" declfile="data_tree.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1ab10923aaf4bec3a6d226ddeec9a8c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int countnodes</definition>
+        <argsstring>(TREE tree)</argsstring>
+        <name>countnodes</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que o número de nodos de uma árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="30" column="5" bodyfile="data_tree.c" bodystart="378" bodyend="382" declfile="data_tree.h" declline="30" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a6bd8de736b75e89de56d0704c7067c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * searchUsers</definition>
+        <argsstring>(TREEUSERS tree, char *x)</argsstring>
+        <name>searchUsers</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que procura numa árvore de users o elemento especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de users aonde se irá procurar o elemento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a encontrar na árvore de users.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o elemento encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="31" column="7" bodyfile="data_tree.c" bodystart="393" bodyend="402" declfile="data_tree.h" declline="31" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1ab525532283c815cbf66c0b7be898122a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+        <definition>USERS searchUsers9</definition>
+        <argsstring>(TREEUSERS9 tree, char *x)</argsstring>
+        <name>searchUsers9</name>
+        <param>
+          <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que procura numa árvore de users da query 9 o elemento especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de users aonde se irá procurar o elemento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a encontrar na árvore de users da query 9.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o elemento encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="32" column="7" bodyfile="data_tree.c" bodystart="413" bodyend="422" declfile="data_tree.h" declline="32" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a5a0e82b471da785140fe1e1593b7c115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * searchRepos</definition>
+        <argsstring>(TREEREPOS tree, char *x)</argsstring>
+        <name>searchRepos</name>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que procura numa árvore de repositórios o elemento especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de repositórios aonde se irá procurar o elemento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a encontrar na árvore de repositórios.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o elemento encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="33" column="7" bodyfile="data_tree.c" bodystart="433" bodyend="442" declfile="data_tree.h" declline="33" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__tree_8h_1a0a88042ec7804bda4bf0a321ea03b4bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE friendsTreeF</definition>
+        <argsstring>(USERS users, int *k)</argsstring>
+        <name>friendsTreeF</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+<para>Função que cria uma árvore com os amigos de um determinado user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo do catalogo users.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de amigos.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore dos amigos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_tree.h" line="34" column="6" bodyfile="data_tree.c" bodystart="453" bodyend="493" declfile="data_tree.h" declline="34" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__users_8h" kindref="compound">data_users.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__commits_8h" kindref="compound">data_commits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__repos_8h" kindref="compound">data_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtree" kindref="compound">tree</ref><sp/>*<ref refid="data__tree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref>;</highlight></codeline>
+<codeline lineno="13" refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtreeUsers" kindref="compound">treeUsers</ref><sp/>*<ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref>;</highlight></codeline>
+<codeline lineno="14" refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtreeUsers9" kindref="compound">treeUsers9</ref><sp/>*<ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref>;</highlight></codeline>
+<codeline lineno="15" refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtreeRepos" kindref="compound">treeRepos</ref><sp/>*<ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="data__tree_8h_1a046d3ee75787615cc6a9cc1bca11521f" kindref="member">insert</ref><sp/>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="data__tree_8h_1a8d3d97f663d3b4a863d0fc67497451e8" kindref="member">filterRepos_Lang</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*lang,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/><ref refid="data__tree_8h_1ada3a24c7044092c8dce26bdb34793954" kindref="member">addUsersTREE</ref>(<ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>place,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*login);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/><ref refid="data__tree_8h_1ae83344c676461ec63338c1da6071ddcc" kindref="member">iniUsersTREE</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/><ref refid="data__tree_8h_1aba9218b7c62cb38d91fa79553d28cd8a" kindref="member">addUsersTREE9</ref>(<ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/><ref refid="structusers" kindref="compound">USERS</ref><sp/>user);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/><ref refid="data__tree_8h_1a9c2e12210f7c4221da34aa2d80c7c1f8" kindref="member">iniUsersTREE9</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/><ref refid="data__tree_8h_1a2a2ad278cc5ba9d7ad9c44f0810016cf" kindref="member">addReposTREE</ref>(<ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structtreeRepos_1a4accb8b2103b9aa5eff70f10a26b01f5" kindref="member">message</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/><ref refid="data__tree_8h_1a1565fc2785db11f2e866e183768f35e8" kindref="member">iniReposTREE</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/><ref refid="data__tree_8h_1a34f5edb7f5874cc486858411974c0b96" kindref="member">iniReposTREE9</ref>(<ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1aeb08a84830917a5d5d0f343cff03f335" kindref="member">search</ref><sp/>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1aea5e5e964adbddeba8bc9b28edffa2da" kindref="member">printTree</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1a35b0424230cce746bafe0fdb078c0e9e" kindref="member">freeTree</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/>node);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1af30f811f4a786e9f8845b60ab7161697" kindref="member">freeTreeUsers</ref>(<ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>node);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1a4e89413c85c0181bf82952e2a2f381bd" kindref="member">freeTreeRepos</ref>(<ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/>node);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__tree_8h_1ab10923aaf4bec3a6d226ddeec9a8c777" kindref="member">countnodes</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tree_8h_1a6bd8de736b75e89de56d0704c7067c73" kindref="member">searchUsers</ref><sp/>(<ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>x);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="data__tree_8h_1ab525532283c815cbf66c0b7be898122a" kindref="member">searchUsers9</ref><sp/>(<ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>x);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__tree_8h_1a5a0e82b471da785140fe1e1593b7c115" kindref="member">searchRepos</ref><sp/>(<ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/>x);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="data__tree_8h_1a0a88042ec7804bda4bf0a321ea03b4bf" kindref="member">friendsTreeF</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*k);<sp/></highlight></codeline>
+    </programlisting>
+    <location file="data_tree.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,247 @@
+\hypertarget{data__users_8h}{}\doxysection{data\+\_\+users.\+h File Reference}
+\label{data__users_8h}\index{data\_users.h@{data\_users.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for data\+\_\+users.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structusers}{users}} $\ast$ \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{data__users_8h_a1d0cf29796912254c90927f3878b39c8}{insert\+Data\+Users}} (FILE $\ast$file)
+\begin{DoxyCompactList}\small\item\em Função que guarda no catálogo os utilizadores do ficheiro \char`\"{}users-\/g2.\+csv\char`\"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data__users_8h_a0f635b6fe309a5ac5cdb01f9068f710f}{is\+Empty\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que verifica se a lista chegou ao fim. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{data__users_8h_a2fb4b2dab8473ceae9cac7cdc82193fc}{obtain\+\_\+next\+User}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo utilizador no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_a7deee81d08ec4e36a3810c73e692f0b3}{obtain\+\_\+type\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter qual o tipo do utilizador no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_aef195ddd430d9c550484241eb945d0ac}{obtain\+\_\+\+Id\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter qual o ID do utilizador no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_a8eb776fafbd03dd4e7c6e15262d805a9}{obtain\+\_\+\+Login\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter qual o login do utilizador no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_adf3c1b44e2941df2380b4026644e956b}{obtain\+\_\+followers\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter qual o número de followers. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_afa24648bc4b3dd3906a634b38fdcba97}{obtain\+\_\+followers\+List\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a lista de followers. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_a810da3218e7a83322d70237fd4f2e639}{obtain\+\_\+following\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter qual o número de following. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__users_8h_a27316e051f0b10eaf9a7ce1fa2e4e2e9}{obtain\+\_\+following\+List\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} \mbox{\hyperlink{structusers}{users}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a lista de following. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__users_8h_a861c0d0bb67b2ae11dbce9f36dc24fd3}{free\+Users}} (\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pelo catálogo de Users. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}\label{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}} 
+\index{data\_users.h@{data\_users.h}!USERS@{USERS}}
+\index{USERS@{USERS}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{USERS}{USERS}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structusers}{users}}$\ast$ \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{data__users_8h_a861c0d0bb67b2ae11dbce9f36dc24fd3}\label{data__users_8h_a861c0d0bb67b2ae11dbce9f36dc24fd3}} 
+\index{data\_users.h@{data\_users.h}!freeUsers@{freeUsers}}
+\index{freeUsers@{freeUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{freeUsers()}{freeUsers()}}
+{\footnotesize\ttfamily void free\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pelo catálogo de Users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Catálogo de Users. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__users_8h_a1d0cf29796912254c90927f3878b39c8}\label{data__users_8h_a1d0cf29796912254c90927f3878b39c8}} 
+\index{data\_users.h@{data\_users.h}!insertDataUsers@{insertDataUsers}}
+\index{insertDataUsers@{insertDataUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{insertDataUsers()}{insertDataUsers()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} insert\+Data\+Users (\begin{DoxyParamCaption}\item[{FILE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Função que guarda no catálogo os utilizadores do ficheiro \char`\"{}users-\/g2.\+csv\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro \char`\"{}users-\/g2.\+csv\char`\"{}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma lista ligada com os utilizadores -\/ Catálogo de Utilizadores. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a0f635b6fe309a5ac5cdb01f9068f710f}\label{data__users_8h_a0f635b6fe309a5ac5cdb01f9068f710f}} 
+\index{data\_users.h@{data\_users.h}!isEmptyUsers@{isEmptyUsers}}
+\index{isEmptyUsers@{isEmptyUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{isEmptyUsers()}{isEmptyUsers()}}
+{\footnotesize\ttfamily int is\+Empty\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que verifica se a lista chegou ao fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Lista ligada com todos os utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a lista chegou o fim. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_afa24648bc4b3dd3906a634b38fdcba97}\label{data__users_8h_afa24648bc4b3dd3906a634b38fdcba97}} 
+\index{data\_users.h@{data\_users.h}!obtain\_followersListUsers@{obtain\_followersListUsers}}
+\index{obtain\_followersListUsers@{obtain\_followersListUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_followersListUsers()}{obtain\_followersListUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+followers\+List\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a lista de followers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a lista de followers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_adf3c1b44e2941df2380b4026644e956b}\label{data__users_8h_adf3c1b44e2941df2380b4026644e956b}} 
+\index{data\_users.h@{data\_users.h}!obtain\_followersUsers@{obtain\_followersUsers}}
+\index{obtain\_followersUsers@{obtain\_followersUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_followersUsers()}{obtain\_followersUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+followers\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter qual o número de followers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de followers. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a27316e051f0b10eaf9a7ce1fa2e4e2e9}\label{data__users_8h_a27316e051f0b10eaf9a7ce1fa2e4e2e9}} 
+\index{data\_users.h@{data\_users.h}!obtain\_followingListUsers@{obtain\_followingListUsers}}
+\index{obtain\_followingListUsers@{obtain\_followingListUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_followingListUsers()}{obtain\_followingListUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+following\+List\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a lista de following. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a lista de following. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a810da3218e7a83322d70237fd4f2e639}\label{data__users_8h_a810da3218e7a83322d70237fd4f2e639}} 
+\index{data\_users.h@{data\_users.h}!obtain\_followingUsers@{obtain\_followingUsers}}
+\index{obtain\_followingUsers@{obtain\_followingUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_followingUsers()}{obtain\_followingUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+following\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter qual o número de following. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de following. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_aef195ddd430d9c550484241eb945d0ac}\label{data__users_8h_aef195ddd430d9c550484241eb945d0ac}} 
+\index{data\_users.h@{data\_users.h}!obtain\_IdUsers@{obtain\_IdUsers}}
+\index{obtain\_IdUsers@{obtain\_IdUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_IdUsers()}{obtain\_IdUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+\+Id\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter qual o ID do utilizador no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do utilizador. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a8eb776fafbd03dd4e7c6e15262d805a9}\label{data__users_8h_a8eb776fafbd03dd4e7c6e15262d805a9}} 
+\index{data\_users.h@{data\_users.h}!obtain\_LoginUsers@{obtain\_LoginUsers}}
+\index{obtain\_LoginUsers@{obtain\_LoginUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_LoginUsers()}{obtain\_LoginUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+\+Login\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter qual o login do utilizador no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o login do utilizador. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a2fb4b2dab8473ceae9cac7cdc82193fc}\label{data__users_8h_a2fb4b2dab8473ceae9cac7cdc82193fc}} 
+\index{data\_users.h@{data\_users.h}!obtain\_nextUser@{obtain\_nextUser}}
+\index{obtain\_nextUser@{obtain\_nextUser}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextUser()}{obtain\_nextUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}} obtain\+\_\+next\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo utilizador no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo dos utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o nodo do próximo utilizador. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__users_8h_a7deee81d08ec4e36a3810c73e692f0b3}\label{data__users_8h_a7deee81d08ec4e36a3810c73e692f0b3}} 
+\index{data\_users.h@{data\_users.h}!obtain\_typeUsers@{obtain\_typeUsers}}
+\index{obtain\_typeUsers@{obtain\_typeUsers}!data\_users.h@{data\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_typeUsers()}{obtain\_typeUsers()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+type\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__users_8h_a71fe1a6475f0342b4c6f7c3f2bc52760}{USERS}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter qual o tipo do utilizador no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Catálogo de Utilizadores.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o tipo de utilizador. 
+\end{DoxyReturn}

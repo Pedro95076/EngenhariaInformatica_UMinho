@@ -1,0 +1,1059 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="auxiliarStruct_8h" kind="file" language="C++">
+    <compoundname>auxiliarStruct.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includedby refid="auxiliarStruct_8c" local="yes">auxiliarStruct.c</includedby>
+    <includedby refid="HT__users_8h" local="yes">HT_users.h</includedby>
+    <includedby refid="HT__commits_8h" local="yes">HT_commits.h</includedby>
+    <includedby refid="HT__repos_8c" local="yes">HT_repos.c</includedby>
+    <includedby refid="HT__users_8c" local="yes">HT_users.c</includedby>
+    <includedby refid="queries_8c" local="yes">queries.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="2">
+        <label>auxiliarStruct.c</label>
+        <link refid="auxiliarStruct_8c"/>
+      </node>
+      <node id="4">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="6">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>HT_users.c</label>
+        <link refid="HT__users_8c"/>
+      </node>
+      <node id="3">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="12">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="11">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="10">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+      </node>
+      <node id="14">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" prot="public" static="no">
+        <type>struct <ref refid="structstring" kindref="compound">string</ref> *</type>
+        <definition>typedef struct string* STRING</definition>
+        <argsstring></argsstring>
+        <name>STRING</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="8" column="21" bodyfile="auxiliarStruct.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" prot="public" static="no">
+        <type>struct <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> *</type>
+        <definition>typedef struct topUsersStruct* TOPUSERSSTRUCT</definition>
+        <argsstring></argsstring>
+        <name>TOPUSERSSTRUCT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="9" column="29" bodyfile="auxiliarStruct.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" prot="public" static="no">
+        <type>struct <ref refid="structdata" kindref="compound">data</ref> *</type>
+        <definition>typedef struct data* DATA</definition>
+        <argsstring></argsstring>
+        <name>DATA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="10" column="19" bodyfile="auxiliarStruct.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="auxiliarStruct_8h_1ada3169e6890ea6f7dc3d9532e2017f69" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+        <definition>DATA insertData</definition>
+        <argsstring>(DATA data, char *info)</argsstring>
+        <name>insertData</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite inserir dados na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com a informação a guardar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista ligada com a informação guardada </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="11" column="6" bodyfile="auxiliarStruct.c" bodystart="52" bodyend="60" declfile="auxiliarStruct.h" declline="11" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1ac51017054b64d0038d0bacb675564f58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void topUsersSave</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int k, char *id, char *login, int counter)</argsstring>
+        <name>topUsersSave</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>counter</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda a informação dada numa determinada posição do array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indice a utilizar no array</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o ID a guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o login a guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>counter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>inteiro com o counter a guardar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="12" column="6" bodyfile="auxiliarStruct.c" bodystart="75" bodyend="80" declfile="auxiliarStruct.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1af4bbce7734c7fbfdf420f0b4050dc0e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>isEmptyString</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="13" column="5" bodyfile="auxiliarStruct.c" bodystart="89" bodyend="94" declfile="auxiliarStruct.h" declline="13" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a2e84c85ac884a50e4c4dba07c596081d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyData</definition>
+        <argsstring>(DATA data)</argsstring>
+        <name>isEmptyData</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite testar se a lista ligada se encontra vazia. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 quando a lista chega ao fim </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="14" column="5" bodyfile="auxiliarStruct.c" bodystart="103" bodyend="108" declfile="auxiliarStruct.h" declline="14" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a8755cda97982dccef62a997fca5b1ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyTopUsersStruct</definition>
+        <argsstring>(TOPUSERSSTRUCT top, int i)</argsstring>
+        <name>isEmptyTopUsersStruct</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>top</declname>
+          <defname>a</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Funçao que verifica se a estrutura chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com toda a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 no final caso a lista tenha chegado ao fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="15" column="5" bodyfile="auxiliarStruct.c" bodystart="117" bodyend="122" declfile="auxiliarStruct.h" declline="15" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a4a57017e275fd154d9ee47b8214873b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING obtain_nextString</definition>
+        <argsstring>(STRING top)</argsstring>
+        <name>obtain_nextString</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo do string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação necessária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o próximo nodo do string. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="16" column="8" bodyfile="auxiliarStruct.c" bodystart="131" bodyend="135" declfile="auxiliarStruct.h" declline="16" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a8d2bb05a6eba2992c23d4ca94700f1ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+        <definition>DATA obtain_nextData</definition>
+        <argsstring>(DATA data)</argsstring>
+        <name>obtain_nextData</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo nodo da lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do próximo nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="17" column="6" bodyfile="auxiliarStruct.c" bodystart="144" bodyend="148" declfile="auxiliarStruct.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1af3ed37e2dd10db67e2d97d3e49b9bdfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_stringID</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>obtain_stringID</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o id do nodo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o id do nodo. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="18" column="7" bodyfile="auxiliarStruct.c" bodystart="157" bodyend="160" declfile="auxiliarStruct.h" declline="18" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1af87ab0f2cf637213c21d13b0039cfbb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_dataInfo</definition>
+        <argsstring>(DATA data)</argsstring>
+        <name>obtain_dataInfo</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a informação guardada na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string pretendida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="19" column="6" bodyfile="auxiliarStruct.c" bodystart="169" bodyend="172" declfile="auxiliarStruct.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1ae0d64feea4fd024f4a4fa98b09e3eaf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_TopUsersCount</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int i)</argsstring>
+        <name>obtain_TopUsersCount</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor do counter da estrutura numa determinada posição. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com topUserStruc como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indice a procurar no array</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o valor do counter na posição i </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="20" column="5" bodyfile="auxiliarStruct.c" bodystart="183" bodyend="186" declfile="auxiliarStruct.h" declline="20" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1ae80380a8253c8efcf16d45486b05e352" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_TopUsersLogin</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int i)</argsstring>
+        <name>obtain_TopUsersLogin</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a string login da estrutura numa determinada posição. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com topUserStruc como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indice a procurar no array</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string login na posição i </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="21" column="6" bodyfile="auxiliarStruct.c" bodystart="197" bodyend="200" declfile="auxiliarStruct.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a3fe9941d01e7a7da9145b2d17904190a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_TopUsersId</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int i)</argsstring>
+        <name>obtain_TopUsersId</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a string ID da estrutura numa determinada posição. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com topUserStruct como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indice a procurar no array</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string ID na posição i </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="22" column="6" bodyfile="auxiliarStruct.c" bodystart="211" bodyend="214" declfile="auxiliarStruct.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1abf15a46491a344cfa6d9223074515799" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void obtain_topUsers</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int i, char *login, char *id, int *count)</argsstring>
+        <name>obtain_topUsers</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>login</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que obtém os valores presentes num determinado índice do array. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indice a utilizar no array</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>login</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde irá ser guardada a string login</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde irá ser guardada a string ID</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde irá ser guardado o valor do counter </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="23" column="6" bodyfile="auxiliarStruct.c" bodystart="229" bodyend="234" declfile="auxiliarStruct.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a31aaa97fe820b08dfc0ef934515593e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeString</definition>
+        <argsstring>(STRING head)</argsstring>
+        <name>freeString</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura String. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="24" column="6" bodyfile="auxiliarStruct.c" bodystart="242" bodyend="252" declfile="auxiliarStruct.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a99b6b46871044cce95ad55c3b74470b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeData</definition>
+        <argsstring>(DATA head)</argsstring>
+        <name>freeData</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela estrutura Data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista Ligada </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="25" column="6" bodyfile="auxiliarStruct.c" bodystart="259" bodyend="269" declfile="auxiliarStruct.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a5449ad6ed8d27cca7424e9c0294eb4bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTopUsersStruct</definition>
+        <argsstring>(TOPUSERSSTRUCT head)</argsstring>
+        <name>freeTopUsersStruct</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="26" column="6" declfile="auxiliarStruct.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a48ab880f7f68e304928b129385105749" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING countInfoStr</definition>
+        <argsstring>(STRING top, char *info, int *count)</argsstring>
+        <name>countInfoStr</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>top</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que acrescenta um valor ao counter caso a informação já se encontre na lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>top</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Informação a procurar ou inserir na lista ligada.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde será guardado o número de valores da lista ligada</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação e o respetivo número de ocorrências. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="27" column="8" bodyfile="auxiliarStruct.c" bodystart="283" bodyend="314" declfile="auxiliarStruct.h" declline="27" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a39070d8c45513dfbc1e143b05a1aa103" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* mostFreqString</definition>
+        <argsstring>(STRING string)</argsstring>
+        <name>mostFreqString</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o valor máximo de ocorrências de uma lista ligada. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com a informação.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a informação relativa ao maior número de ocorrências da lista ligada. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="28" column="6" bodyfile="auxiliarStruct.c" bodystart="323" bodyend="340" declfile="auxiliarStruct.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a20cd9c289d51fef072c3cc3592fd6fea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+        <definition>TOPUSERSSTRUCT initTopUsersStruct</definition>
+        <argsstring>(int N)</argsstring>
+        <name>initTopUsersStruct</name>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa o array da estrutura de dados <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do array com elementos do tipo <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço para o início do array </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="29" column="16" bodyfile="auxiliarStruct.c" bodystart="349" bodyend="360" declfile="auxiliarStruct.h" declline="29" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a38f54fcc1b7618e11718254852b58be3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void topUsersSort</definition>
+        <argsstring>(TOPUSERSSTRUCT a, int f)</argsstring>
+        <name>topUsersSort</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>f</declname>
+        </param>
+        <briefdescription>
+<para>Função que organiza os elementos do array de <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>a</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>f</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Indíce a utilizar no array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="30" column="6" bodyfile="auxiliarStruct.c" bodystart="369" bodyend="374" declfile="auxiliarStruct.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarStruct_8h_1a3a12481353efd99253e6bb48c26026f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTopUsersStructs</definition>
+        <argsstring>(TOPUSERSSTRUCT topUsers, int N)</argsstring>
+        <name>freeTopUsersStructs</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>topUsers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+<para>Função que elimina os elementos do array de <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>topUsers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array com <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> como elementos</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do array </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.h" line="31" column="6" bodyfile="auxiliarStruct.c" bodystart="383" bodyend="392" declfile="auxiliarStruct.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structstring" kindref="compound">string</ref><sp/>*<ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref>;</highlight></codeline>
+<codeline lineno="9" refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref><sp/>*<ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref>;</highlight></codeline>
+<codeline lineno="10" refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structdata" kindref="compound">data</ref><sp/>*<ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="auxiliarStruct_8h_1ada3169e6890ea6f7dc3d9532e2017f69" kindref="member">insertData</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="structdata" kindref="compound">data</ref>,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structdata_1a3af78372a5618382c6f9331566144630" kindref="member">info</ref>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1ac51017054b64d0038d0bacb675564f58" kindref="member">topUsersSave</ref><sp/>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*login,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>counter);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1af4bbce7734c7fbfdf420f0b4050dc0e5" kindref="member">isEmptyString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>top);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a2e84c85ac884a50e4c4dba07c596081d" kindref="member">isEmptyData</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="structdata" kindref="compound">data</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a8755cda97982dccef62a997fca5b1ea3" kindref="member">isEmptyTopUsersStruct</ref>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>top,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="auxiliarStruct_8h_1a4a57017e275fd154d9ee47b8214873b0" kindref="member">obtain_nextString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>top);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="auxiliarStruct_8h_1a8d2bb05a6eba2992c23d4ca94700f1ce" kindref="member">obtain_nextData</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="structdata" kindref="compound">data</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="auxiliarStruct_8h_1af3ed37e2dd10db67e2d97d3e49b9bdfa" kindref="member">obtain_stringID</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="auxiliarStruct_8h_1af87ab0f2cf637213c21d13b0039cfbb0" kindref="member">obtain_dataInfo</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="structdata" kindref="compound">data</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1ae0d64feea4fd024f4a4fa98b09e3eaf5" kindref="member">obtain_TopUsersCount</ref><sp/>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="auxiliarStruct_8h_1ae80380a8253c8efcf16d45486b05e352" kindref="member">obtain_TopUsersLogin</ref><sp/>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="auxiliarStruct_8h_1a3fe9941d01e7a7da9145b2d17904190a" kindref="member">obtain_TopUsersId</ref><sp/>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1abf15a46491a344cfa6d9223074515799" kindref="member">obtain_topUsers</ref>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*login,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a31aaa97fe820b08dfc0ef934515593e4" kindref="member">freeString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>head);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a99b6b46871044cce95ad55c3b74470b3" kindref="member">freeData</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/>head);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a5449ad6ed8d27cca7424e9c0294eb4bd" kindref="member">freeTopUsersStruct</ref>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>head);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="auxiliarStruct_8h_1a48ab880f7f68e304928b129385105749" kindref="member">countInfoStr</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/>top,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="structdata_1a3af78372a5618382c6f9331566144630" kindref="member">info</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="auxiliarStruct_8h_1a39070d8c45513dfbc1e143b05a1aa103" kindref="member">mostFreqString</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/><ref refid="auxiliarStruct_8h_1a20cd9c289d51fef072c3cc3592fd6fea" kindref="member">initTopUsersStruct</ref><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a38f54fcc1b7618e11718254852b58be3" kindref="member">topUsersSort</ref><sp/>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>a,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>f);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarStruct_8h_1a3a12481353efd99253e6bb48c26026f2" kindref="member">freeTopUsersStructs</ref>(<ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>topUsers,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N);</highlight></codeline>
+    </programlisting>
+    <location file="auxiliarStruct.h"/>
+  </compounddef>
+</doxygen>

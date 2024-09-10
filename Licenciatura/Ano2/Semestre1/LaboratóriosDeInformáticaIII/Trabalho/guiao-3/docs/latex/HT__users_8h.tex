@@ -1,0 +1,606 @@
+\hypertarget{HT__users_8h}{}\doxysection{H\+T\+\_\+users.\+h File Reference}
+\label{HT__users_8h}\index{HT\_users.h@{HT\_users.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Tree.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Struct.\+h\char`\"{}}\newline
+Include dependency graph for H\+T\+\_\+users.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structHashTableUser}{Hash\+Table\+User}} $\ast$ \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{HT__users_8h_ac8b92e3deef2ea06588f9cc685cb3c13}{init\+\_\+\+Hash\+Table\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que inicializa a Hashtable dos users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__users_8h_a91efb0a7516eeaf42e2921e666f5b920}{print\+\_\+table\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que imprime no terminal a Hashtable dos users. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_a5ab32ec89aa833d35727ac4ed0f87bc3}{insert\+\_\+\+Hash\+Table\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} node)
+\begin{DoxyCompactList}\small\item\em Função que insere elementos na Hashtable dos users. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} \mbox{\hyperlink{HT__users_8h_ac4a0b761f63a940b365c74b51cf91f8e}{find\+\_\+\+Hash\+Table\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que encontra o endereço de um determinado elemento da Hashtable. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} \mbox{\hyperlink{HT__users_8h_acbe8acfaf0364325683bf12562235574}{listU}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} users)
+\begin{DoxyCompactList}\small\item\em Função que permite copiar a informação de um nodo para outro. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_ae57dc7cc3dad65bff0ebbc611587b739}{find\+\_\+\+Hash\+Table\+Users\+Bool}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite saber se o ID se encontra na Hashtable. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__users_8h_a102f09769b656795cdf892e1145a4063}{increment\+Aux\+Count}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que incrementa o valor do contador de ocorrências de um nodo da Hashtable dos users. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__users_8h_a2e23a36de5e89d02810a676d6a2f8a93}{handle\+\_\+\+Users\+File}} (F\+I\+LE $\ast$file, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que permite fazer a verificação do ficheiros dos users e a criação do catálogo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} \mbox{\hyperlink{HT__users_8h_a69233cd7c7aee2aa886ccca24d47a63e}{find\+\_\+\+Hash\+Table\+Users\+Key}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash, int key)
+\begin{DoxyCompactList}\small\item\em Função que encontra um nodo copiado de um determinado elemento na Hashtable. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_ae469c2feb77ccc29bdfe96f86e5f741a}{obtain\+\_\+user\+Type}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} user)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o tipo de utilizador. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_abb1026ee15b7d4a5792b5ea205b28863}{obtain\+\_\+user\+Id}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} user)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do utilizador. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} \mbox{\hyperlink{HT__users_8h_a1800f1e07660fb9ac471475f2889018c}{obtain\+\_\+next\+User}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} user)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo elemento da lista ligada da Hashtable. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_aa8b0234a175bc8639d7b46b68e1c939b}{obtain\+\_\+user\+Login}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} user)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o login de utilizador. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_af40ce803abb0554f370e70435ff92f86}{obtain\+\_\+user\+Aux\+Count}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} user)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o campo aux\+Count do utilizador. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__users_8h_a6e4793c50a48dd2f74ee37515af9767e}{reset\+Users\+Counter}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$hash)
+\begin{DoxyCompactList}\small\item\em Função que permite o reset do campo aux\+Count. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_af8f08d0e64f91220a1370b545bc5177d}{find\+\_\+user\+Followers}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o número de seguidores de um utilizador em específico. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_a066995ca50e5385cfb6376bf1b6ce055}{find\+\_\+user\+Following}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o número de pessoas a seguir de um utilizador em específico. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_a36e191eaf5102e1b5806ca40df39354f}{find\+\_\+user\+Followers\+List}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a lista de seguidores de um usuário em específico. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_a772853896c4c8006e50e73f9a6c527f1}{find\+\_\+user\+Following\+List}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite obter a lista de pessoas a seguir de um usuário em específico. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{HT__users_8h_a1720390cad03b26a5eca8b17b4274f60}{find\+\_\+user\+Login}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Função que permite obter o login de um utilizador em específico. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_a65e9b28917c7bb36f47ddbdea16a0886}{count\+Type\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de utilizadores do tipo User. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_a28496df300b04743b54c869ec53474ca}{count\+Type\+Organizations}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de utilizadores do tipo Organization. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{HT__users_8h_ab88e91ff6dd53dc80de2e45b846cf5b3}{count\+Type\+Bots}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de utilizadores do tipo Bot. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{HT__users_8h_addbc4933953789669785fce58babbf77}{count\+Bots\+Tree}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} bots)
+\begin{DoxyCompactList}\small\item\em Função que guarda numa árvore binária os ID\textquotesingle{}s dos utilizadores do tipo Bot. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{HT__users_8h_a1e74c9c89c0359ab5b9f7342c48a6226}{friends\+Tree}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, char $\ast$id, int $\ast$k)
+\begin{DoxyCompactList}\small\item\em Função que cria uma árvore com os amigos de um determinado user. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{HT__users_8h_ae71e01f34dda9f4ed92fefab919d8a94}{count\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que conta o número de utilizadores existentes no catálogo. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} \mbox{\hyperlink{HT__users_8h_a656661bacae8cb37ac77d0b847cf80aa}{active\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} top\+Users, int N)
+\begin{DoxyCompactList}\small\item\em Função que guarda num array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} os top N utilizadores mais ativos(mais commits) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{HT__users_8h_ac445186d64c181b493fed1ef07832abf}{free\+\_\+\+Table\+Users}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função que liberta a memória ocupada pela Hashtable dos users. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}\label{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}} 
+\index{HT\_users.h@{HT\_users.h}!HT\_Users@{HT\_Users}}
+\index{HT\_Users@{HT\_Users}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{HT\_Users}{HT\_Users}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structHashTableUser}{Hash\+Table\+User}}$\ast$ \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{HT__users_8h_a656661bacae8cb37ac77d0b847cf80aa}\label{HT__users_8h_a656661bacae8cb37ac77d0b847cf80aa}} 
+\index{HT\_users.h@{HT\_users.h}!activeUsers@{activeUsers}}
+\index{activeUsers@{activeUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{activeUsers()}{activeUsers()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}} active\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{auxiliarStruct_8h_a48aa1db39f2f5469e456508832c9bcf6}{T\+O\+P\+U\+S\+E\+R\+S\+S\+T\+R\+U\+CT}}}]{top\+Users,  }\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+Função que guarda num array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} os top N utilizadores mais ativos(mais commits) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em top\+Users} & Array de \mbox{\hyperlink{structtopUsersStruct}{top\+Users\+Struct}} onde irá ser guardada a informação\\
+\hline
+{\em N} & Tamanho do array/\+Top N utilizadores mais ativos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o array com a informação guardada 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_addbc4933953789669785fce58babbf77}\label{HT__users_8h_addbc4933953789669785fce58babbf77}} 
+\index{HT\_users.h@{HT\_users.h}!countBotsTree@{countBotsTree}}
+\index{countBotsTree@{countBotsTree}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{countBotsTree()}{countBotsTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} count\+Bots\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{bots }\end{DoxyParamCaption})}
+
+
+
+Função que guarda numa árvore binária os ID\textquotesingle{}s dos utilizadores do tipo Bot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em bots} & Árvore onde irão ser guardados os ID\textquotesingle{}s\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore com a informação pretendida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ab88e91ff6dd53dc80de2e45b846cf5b3}\label{HT__users_8h_ab88e91ff6dd53dc80de2e45b846cf5b3}} 
+\index{HT\_users.h@{HT\_users.h}!countTypeBots@{countTypeBots}}
+\index{countTypeBots@{countTypeBots}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{countTypeBots()}{countTypeBots()}}
+{\footnotesize\ttfamily int count\+Type\+Bots (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de utilizadores do tipo Bot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de utilizadores do tipo Bot 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a28496df300b04743b54c869ec53474ca}\label{HT__users_8h_a28496df300b04743b54c869ec53474ca}} 
+\index{HT\_users.h@{HT\_users.h}!countTypeOrganizations@{countTypeOrganizations}}
+\index{countTypeOrganizations@{countTypeOrganizations}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{countTypeOrganizations()}{countTypeOrganizations()}}
+{\footnotesize\ttfamily int count\+Type\+Organizations (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de utilizadores do tipo Organization. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de utilizadores do tipo Organization 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a65e9b28917c7bb36f47ddbdea16a0886}\label{HT__users_8h_a65e9b28917c7bb36f47ddbdea16a0886}} 
+\index{HT\_users.h@{HT\_users.h}!countTypeUsers@{countTypeUsers}}
+\index{countTypeUsers@{countTypeUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{countTypeUsers()}{countTypeUsers()}}
+{\footnotesize\ttfamily int count\+Type\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de utilizadores do tipo User. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de utilizadores do tipo User 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ae71e01f34dda9f4ed92fefab919d8a94}\label{HT__users_8h_ae71e01f34dda9f4ed92fefab919d8a94}} 
+\index{HT\_users.h@{HT\_users.h}!countUsers@{countUsers}}
+\index{countUsers@{countUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{countUsers()}{countUsers()}}
+{\footnotesize\ttfamily float count\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que conta o número de utilizadores existentes no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable de users\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o número de utilizadores existentes 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ac4a0b761f63a940b365c74b51cf91f8e}\label{HT__users_8h_ac4a0b761f63a940b365c74b51cf91f8e}} 
+\index{HT\_users.h@{HT\_users.h}!find\_HashTableUsers@{find\_HashTableUsers}}
+\index{find\_HashTableUsers@{find\_HashTableUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableUsers()}{find\_HashTableUsers()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} find\+\_\+\+Hash\+Table\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que encontra o endereço de um determinado elemento da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users\\
+\hline
+{\em id} & string com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ae57dc7cc3dad65bff0ebbc611587b739}\label{HT__users_8h_ae57dc7cc3dad65bff0ebbc611587b739}} 
+\index{HT\_users.h@{HT\_users.h}!find\_HashTableUsersBool@{find\_HashTableUsersBool}}
+\index{find\_HashTableUsersBool@{find\_HashTableUsersBool}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableUsersBool()}{find\_HashTableUsersBool()}}
+{\footnotesize\ttfamily int find\+\_\+\+Hash\+Table\+Users\+Bool (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite saber se o ID se encontra na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Lista ligada da Hashtable\\
+\hline
+{\em id} & String com o ID a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 se encontrar 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a69233cd7c7aee2aa886ccca24d47a63e}\label{HT__users_8h_a69233cd7c7aee2aa886ccca24d47a63e}} 
+\index{HT\_users.h@{HT\_users.h}!find\_HashTableUsersKey@{find\_HashTableUsersKey}}
+\index{find\_HashTableUsersKey@{find\_HashTableUsersKey}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_HashTableUsersKey()}{find\_HashTableUsersKey()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} find\+\_\+\+Hash\+Table\+Users\+Key (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash,  }\item[{int}]{key }\end{DoxyParamCaption})}
+
+
+
+Função que encontra um nodo copiado de um determinado elemento na Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos repositórios\\
+\hline
+{\em key} & Índice do elemento a encontrar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_af8f08d0e64f91220a1370b545bc5177d}\label{HT__users_8h_af8f08d0e64f91220a1370b545bc5177d}} 
+\index{HT\_users.h@{HT\_users.h}!find\_userFollowers@{find\_userFollowers}}
+\index{find\_userFollowers@{find\_userFollowers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_userFollowers()}{find\_userFollowers()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+user\+Followers (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o número de seguidores de um utilizador em específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID do utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o número de seguidores 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a36e191eaf5102e1b5806ca40df39354f}\label{HT__users_8h_a36e191eaf5102e1b5806ca40df39354f}} 
+\index{HT\_users.h@{HT\_users.h}!find\_userFollowersList@{find\_userFollowersList}}
+\index{find\_userFollowersList@{find\_userFollowersList}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_userFollowersList()}{find\_userFollowersList()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+user\+Followers\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a lista de seguidores de um usuário em específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID de utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com a lista de seguidores 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a066995ca50e5385cfb6376bf1b6ce055}\label{HT__users_8h_a066995ca50e5385cfb6376bf1b6ce055}} 
+\index{HT\_users.h@{HT\_users.h}!find\_userFollowing@{find\_userFollowing}}
+\index{find\_userFollowing@{find\_userFollowing}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_userFollowing()}{find\_userFollowing()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+user\+Following (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o número de pessoas a seguir de um utilizador em específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID do utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o número de pessoas a seguir 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a772853896c4c8006e50e73f9a6c527f1}\label{HT__users_8h_a772853896c4c8006e50e73f9a6c527f1}} 
+\index{HT\_users.h@{HT\_users.h}!find\_userFollowingList@{find\_userFollowingList}}
+\index{find\_userFollowingList@{find\_userFollowingList}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_userFollowingList()}{find\_userFollowingList()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+user\+Following\+List (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a lista de pessoas a seguir de um usuário em específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID de utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com a lista de pessoas a seguir 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a1720390cad03b26a5eca8b17b4274f60}\label{HT__users_8h_a1720390cad03b26a5eca8b17b4274f60}} 
+\index{HT\_users.h@{HT\_users.h}!find\_userLogin@{find\_userLogin}}
+\index{find\_userLogin@{find\_userLogin}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{find\_userLogin()}{find\_userLogin()}}
+{\footnotesize\ttfamily char$\ast$ find\+\_\+user\+Login (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o login de um utilizador em específico. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID de utilizador\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o login do utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ac445186d64c181b493fed1ef07832abf}\label{HT__users_8h_ac445186d64c181b493fed1ef07832abf}} 
+\index{HT\_users.h@{HT\_users.h}!free\_TableUsers@{free\_TableUsers}}
+\index{free\_TableUsers@{free\_TableUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{free\_TableUsers()}{free\_TableUsers()}}
+{\footnotesize\ttfamily void free\+\_\+\+Table\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que liberta a memória ocupada pela Hashtable dos users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__users_8h_a1e74c9c89c0359ab5b9f7342c48a6226}\label{HT__users_8h_a1e74c9c89c0359ab5b9f7342c48a6226}} 
+\index{HT\_users.h@{HT\_users.h}!friendsTree@{friendsTree}}
+\index{friendsTree@{friendsTree}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{friendsTree()}{friendsTree()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} friends\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{char $\ast$}]{id,  }\item[{int $\ast$}]{k }\end{DoxyParamCaption})}
+
+
+
+Função que cria uma árvore com os amigos de um determinado user. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em id} & String com o ID do utilizador\\
+\hline
+{\em k} & Flag para o caso de o número de followers ou following ser 0\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore dos amigos. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a2e23a36de5e89d02810a676d6a2f8a93}\label{HT__users_8h_a2e23a36de5e89d02810a676d6a2f8a93}} 
+\index{HT\_users.h@{HT\_users.h}!handle\_UsersFile@{handle\_UsersFile}}
+\index{handle\_UsersFile@{handle\_UsersFile}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{handle\_UsersFile()}{handle\_UsersFile()}}
+{\footnotesize\ttfamily void handle\+\_\+\+Users\+File (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite fazer a verificação do ficheiros dos users e a criação do catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro a verificar e guardar\\
+\hline
+{\em users} & Hashtable dos users para fazer a verificação \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__users_8h_a102f09769b656795cdf892e1145a4063}\label{HT__users_8h_a102f09769b656795cdf892e1145a4063}} 
+\index{HT\_users.h@{HT\_users.h}!incrementAuxCount@{incrementAuxCount}}
+\index{incrementAuxCount@{incrementAuxCount}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{incrementAuxCount()}{incrementAuxCount()}}
+{\footnotesize\ttfamily void increment\+Aux\+Count (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash,  }\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Função que incrementa o valor do contador de ocorrências de um nodo da Hashtable dos users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users\\
+\hline
+{\em id} & String que contém o ID do aux\+Count do usuário a incrementar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__users_8h_ac8b92e3deef2ea06588f9cc685cb3c13}\label{HT__users_8h_ac8b92e3deef2ea06588f9cc685cb3c13}} 
+\index{HT\_users.h@{HT\_users.h}!init\_HashTableUsers@{init\_HashTableUsers}}
+\index{init\_HashTableUsers@{init\_HashTableUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{init\_HashTableUsers()}{init\_HashTableUsers()}}
+{\footnotesize\ttfamily void init\+\_\+\+Hash\+Table\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que inicializa a Hashtable dos users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__users_8h_a5ab32ec89aa833d35727ac4ed0f87bc3}\label{HT__users_8h_a5ab32ec89aa833d35727ac4ed0f87bc3}} 
+\index{HT\_users.h@{HT\_users.h}!insert\_HashTableUsers@{insert\_HashTableUsers}}
+\index{insert\_HashTableUsers@{insert\_HashTableUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{insert\_HashTableUsers()}{insert\_HashTableUsers()}}
+{\footnotesize\ttfamily int insert\+\_\+\+Hash\+Table\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que insere elementos na Hashtable dos users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users\\
+\hline
+{\em node} & Nodo a inserir na Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 quando o nodo é bem inserido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_acbe8acfaf0364325683bf12562235574}\label{HT__users_8h_acbe8acfaf0364325683bf12562235574}} 
+\index{HT\_users.h@{HT\_users.h}!listU@{listU}}
+\index{listU@{listU}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{listU()}{listU()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} listU (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{users }\end{DoxyParamCaption})}
+
+
+
+Função que permite copiar a informação de um nodo para outro. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Nodo a copiar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o novo nodo 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a1800f1e07660fb9ac471475f2889018c}\label{HT__users_8h_a1800f1e07660fb9ac471475f2889018c}} 
+\index{HT\_users.h@{HT\_users.h}!obtain\_nextUser@{obtain\_nextUser}}
+\index{obtain\_nextUser@{obtain\_nextUser}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextUser()}{obtain\_nextUser()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} obtain\+\_\+next\+User (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo elemento da lista ligada da Hashtable. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o endereço do nodo seguinte 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_af40ce803abb0554f370e70435ff92f86}\label{HT__users_8h_af40ce803abb0554f370e70435ff92f86}} 
+\index{HT\_users.h@{HT\_users.h}!obtain\_userAuxCount@{obtain\_userAuxCount}}
+\index{obtain\_userAuxCount@{obtain\_userAuxCount}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_userAuxCount()}{obtain\_userAuxCount()}}
+{\footnotesize\ttfamily int obtain\+\_\+user\+Aux\+Count (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o campo aux\+Count do utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o valor do aux\+Count do utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_abb1026ee15b7d4a5792b5ea205b28863}\label{HT__users_8h_abb1026ee15b7d4a5792b5ea205b28863}} 
+\index{HT\_users.h@{HT\_users.h}!obtain\_userId@{obtain\_userId}}
+\index{obtain\_userId@{obtain\_userId}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_userId()}{obtain\_userId()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+user\+Id (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o ID de utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_aa8b0234a175bc8639d7b46b68e1c939b}\label{HT__users_8h_aa8b0234a175bc8639d7b46b68e1c939b}} 
+\index{HT\_users.h@{HT\_users.h}!obtain\_userLogin@{obtain\_userLogin}}
+\index{obtain\_userLogin@{obtain\_userLogin}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_userLogin()}{obtain\_userLogin()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+user\+Login (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o login de utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o login de utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_ae469c2feb77ccc29bdfe96f86e5f741a}\label{HT__users_8h_ae469c2feb77ccc29bdfe96f86e5f741a}} 
+\index{HT\_users.h@{HT\_users.h}!obtain\_userType@{obtain\_userType}}
+\index{obtain\_userType@{obtain\_userType}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_userType()}{obtain\_userType()}}
+{\footnotesize\ttfamily char$\ast$ obtain\+\_\+user\+Type (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}}}]{user }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o tipo de utilizador. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em user} & Lista ligada da Hashtable\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma cópia da string com o tipo de utilizador 
+\end{DoxyReturn}
+\mbox{\Hypertarget{HT__users_8h_a91efb0a7516eeaf42e2921e666f5b920}\label{HT__users_8h_a91efb0a7516eeaf42e2921e666f5b920}} 
+\index{HT\_users.h@{HT\_users.h}!print\_tableUsers@{print\_tableUsers}}
+\index{print\_tableUsers@{print\_tableUsers}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{print\_tableUsers()}{print\_tableUsers()}}
+{\footnotesize\ttfamily void print\+\_\+table\+Users (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que imprime no terminal a Hashtable dos users. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{HT__users_8h_a6e4793c50a48dd2f74ee37515af9767e}\label{HT__users_8h_a6e4793c50a48dd2f74ee37515af9767e}} 
+\index{HT\_users.h@{HT\_users.h}!resetUsersCounter@{resetUsersCounter}}
+\index{resetUsersCounter@{resetUsersCounter}!HT\_users.h@{HT\_users.h}}
+\doxysubsubsection{\texorpdfstring{resetUsersCounter()}{resetUsersCounter()}}
+{\footnotesize\ttfamily void reset\+Users\+Counter (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{hash }\end{DoxyParamCaption})}
+
+
+
+Função que permite o reset do campo aux\+Count. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em hash} & Hashtable dos users \\
+\hline
+\end{DoxyParams}

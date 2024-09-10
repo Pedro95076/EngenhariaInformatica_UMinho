@@ -1,0 +1,78 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+commits.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+repos.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}verification.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}auxiliar\+Func.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}queries.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}interface.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{main_8c_a556e999a2eb50975a136671867248bec}{main\+With\+File}} (F\+I\+LE $\ast$commands)
+\begin{DoxyCompactList}\small\item\em Função que controla o fluxo da execução do programa com ficheiros. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_a8e8dfb58728937dee64b42ec8aa0a3fa}{main\+Without\+File}} ()
+\begin{DoxyCompactList}\small\item\em Função que controla o fluxo da execução do programa sem ficheiros. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8c_abf9e6b7e6f15df4b525a2e7705ba3089}{main}} (int argc, char const $\ast$argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em Função que controla o fluxo do programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_abf9e6b7e6f15df4b525a2e7705ba3089}\label{main_8c_abf9e6b7e6f15df4b525a2e7705ba3089}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char const $\ast$}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+Função que controla o fluxo do programa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Argumento a introduzir na linha de comandos\\
+\hline
+{\em argv} & Array do número de argumentos a introduzir na linha de argumentos\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a556e999a2eb50975a136671867248bec}\label{main_8c_a556e999a2eb50975a136671867248bec}} 
+\index{main.c@{main.c}!mainWithFile@{mainWithFile}}
+\index{mainWithFile@{mainWithFile}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{mainWithFile()}{mainWithFile()}}
+{\footnotesize\ttfamily int main\+With\+File (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{commands }\end{DoxyParamCaption})}
+
+
+
+Função que controla o fluxo da execução do programa com ficheiros. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em commands} & Ficheiro com os comandos a executar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 0 
+\end{DoxyReturn}
+\mbox{\Hypertarget{main_8c_a8e8dfb58728937dee64b42ec8aa0a3fa}\label{main_8c_a8e8dfb58728937dee64b42ec8aa0a3fa}} 
+\index{main.c@{main.c}!mainWithoutFile@{mainWithoutFile}}
+\index{mainWithoutFile@{mainWithoutFile}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{mainWithoutFile()}{mainWithoutFile()}}
+{\footnotesize\ttfamily int main\+Without\+File (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Função que controla o fluxo da execução do programa sem ficheiros. 
+
+\begin{DoxyReturn}{Returns}
+Retorna 0 
+\end{DoxyReturn}

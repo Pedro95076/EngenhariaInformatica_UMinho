@@ -1,0 +1,654 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="auxiliarFunc_8h" kind="file" language="C++">
+    <compoundname>auxiliarFunc.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includedby refid="auxiliarFunc_8c" local="yes">auxiliarFunc.c</includedby>
+    <includedby refid="auxiliarTree_8c" local="yes">auxiliarTree.c</includedby>
+    <includedby refid="HT__commits_8h" local="yes">HT_commits.h</includedby>
+    <includedby refid="HT__commits_8c" local="yes">HT_commits.c</includedby>
+    <includedby refid="HT__repos_8c" local="yes">HT_repos.c</includedby>
+    <includedby refid="HT__users_8c" local="yes">HT_users.c</includedby>
+    <includedby refid="verification_8h" local="yes">verification.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="queries_8c" local="yes">queries.c</includedby>
+    <includedby refid="test_8c" local="yes">test.c</includedby>
+    <incdepgraph>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>time.h</label>
+      </node>
+      <node id="1">
+        <label>auxiliarFunc.h</label>
+        <link refid="auxiliarFunc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="4">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="6">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>HT_users.c</label>
+        <link refid="HT__users_8c"/>
+      </node>
+      <node id="13">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="12">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>auxiliarTree.c</label>
+        <link refid="auxiliarTree_8c"/>
+      </node>
+      <node id="11">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="10">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+      </node>
+      <node id="9">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+      <node id="2">
+        <label>auxiliarFunc.c</label>
+        <link refid="auxiliarFunc_8c"/>
+      </node>
+      <node id="1">
+        <label>auxiliarFunc.h</label>
+        <link refid="auxiliarFunc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" prot="public" static="no">
+        <name>TABLE_SIZE</name>
+        <initializer>300000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="9" column="9" bodyfile="auxiliarFunc.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="auxiliarFunc_8h_1a0eedb8b8e152d4b032cd2e659dd17260" prot="public" static="no">
+        <type>struct <ref refid="structdata" kindref="compound">data</ref> *</type>
+        <definition>typedef struct data* Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="11" column="19" bodyfile="auxiliarFunc.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="auxiliarFunc_8h_1a85554b05d5d346698e1eeaa8ed79657c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isValidDate</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>isValidDate</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função auxlidade que verifica se a data é válida </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com a data</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 1 se for válida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="12" column="5" bodyfile="auxiliarFunc.c" bodystart="50" bodyend="114" declfile="auxiliarFunc.h" declline="12" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1aff2adc3f5dd651eb7c9dd6452ea3dc0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void check_File</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>check_File</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>função que verifica se o ficheiro está fazio </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>ficheiro a testar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="13" column="6" bodyfile="auxiliarFunc.c" bodystart="121" bodyend="128" declfile="auxiliarFunc.h" declline="13" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a2dbcb08eb0c82000bf354bb3a0d66e95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned int</type>
+        <definition>unsigned int hash_key</definition>
+        <argsstring>(char *id)</argsstring>
+        <name>hash_key</name>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>função que associada a key da hashtable a um determinado ID </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string que inclui o ID</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna a key associada a um determinado ID </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="14" column="14" bodyfile="auxiliarFunc.c" bodystart="137" bodyend="148" declfile="auxiliarFunc.h" declline="14" declcolumn="14"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1ade2f80ae86b94cd7702049f847149e27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testInt</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testInt</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se o valor é um inteiro </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string a testar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for verdadeiro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="15" column="5" bodyfile="auxiliarFunc.c" bodystart="157" bodyend="170" declfile="auxiliarFunc.h" declline="15" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a9b6cc458bbfc91f0c09dc65e56dddcc4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testString</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testString</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se o valor é uma string não nula </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string a testar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for verdadeiro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="16" column="5" bodyfile="auxiliarFunc.c" bodystart="180" bodyend="188" declfile="auxiliarFunc.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a9042a65fce0ae3a8f1d061ddd02fe0b1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testDateHour</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testDateHour</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="17" column="5" declfile="auxiliarFunc.h" declline="17" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a402c8ec88de23240900c57e989ac67fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testFollowersList</definition>
+        <argsstring>(char *follow, char *str)</argsstring>
+        <name>testFollowersList</name>
+        <param>
+          <type>char *</type>
+          <declname>follow</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se a lista de followers apresenta o mesmo número de elementos que o valor de followers </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>follow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o número de followers</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com a lista de followers</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for verdadeiro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="18" column="5" bodyfile="auxiliarFunc.c" bodystart="199" bodyend="226" declfile="auxiliarFunc.h" declline="18" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1ae91788c511212b6c4e1e8a7e7d496eee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testFollowingList</definition>
+        <argsstring>(char *follow, char *str)</argsstring>
+        <name>testFollowingList</name>
+        <param>
+          <type>char *</type>
+          <declname>follow</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se a lista de following apresenta o mesmo número de elementos que o valor de following </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>follow</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o número de following</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com a lista de following</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for verdadeiro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="19" column="5" bodyfile="auxiliarFunc.c" bodystart="237" bodyend="264" declfile="auxiliarFunc.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a29311211c6cdccc1d3d7a4ce70ce3747" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testType</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testType</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa o tipo do utilizador </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string a testar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for um tipo válido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="20" column="5" bodyfile="auxiliarFunc.c" bodystart="273" bodyend="281" declfile="auxiliarFunc.h" declline="20" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a83aafd5444efe74cd296e5d55943281e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testLogin</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testLogin</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se a string de login é válida </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string a testar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for um login válido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="21" column="5" bodyfile="auxiliarFunc.c" bodystart="290" bodyend="300" declfile="auxiliarFunc.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1aae011dbf5b7c0cad4b30a82a4ffa1daf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int testBool</definition>
+        <argsstring>(char *str)</argsstring>
+        <name>testBool</name>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>função que testa se a string é um booleano </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string a testar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>retorna 0 se for verdadeiro </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="22" column="5" bodyfile="auxiliarFunc.c" bodystart="309" bodyend="317" declfile="auxiliarFunc.h" declline="22" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a3531516a99f0ef533672db086599d419" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int compareDates</definition>
+        <argsstring>(char *start_date, char *end_date, char *date)</argsstring>
+        <name>compareDates</name>
+        <param>
+          <type>char *</type>
+          <declname>start_date</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>end_date</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a comparação entre 3 datas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data inicial.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data final.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data a descobrir se se encontra entre a inicial e a final.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se a data se encontra entre a inicial e a final. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="23" column="5" bodyfile="auxiliarFunc.c" bodystart="330" bodyend="335" declfile="auxiliarFunc.h" declline="23" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarFunc_8h_1a136be24413b8cc95cf6b84869e1fd38d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int verifyDate</definition>
+        <argsstring>(char *start_date, char *date)</argsstring>
+        <name>verifyDate</name>
+        <param>
+          <type>char *</type>
+          <declname>start_date</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a comparação entre 2 datas. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>start_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data inicial.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Data a descobrir se é maior do que a final.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se a data é maior do que a inicial. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarFunc.h" line="24" column="5" bodyfile="auxiliarFunc.c" bodystart="346" bodyend="351" declfile="auxiliarFunc.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="auxiliarFunc_8h_1a032503e76d6f69bc67e99e909c8125da" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TABLE_SIZE<sp/>300000</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="auxiliarFunc_8h_1a0eedb8b8e152d4b032cd2e659dd17260" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structdata" kindref="compound">data</ref><sp/>*<ref refid="auxiliarFunc_8h_1a0eedb8b8e152d4b032cd2e659dd17260" kindref="member">Data</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a85554b05d5d346698e1eeaa8ed79657c" kindref="member">isValidDate</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1aff2adc3f5dd651eb7c9dd6452ea3dc0b" kindref="member">check_File</ref>(FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a2dbcb08eb0c82000bf354bb3a0d66e95" kindref="member">hash_key</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1ade2f80ae86b94cd7702049f847149e27" kindref="member">testInt</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a9b6cc458bbfc91f0c09dc65e56dddcc4" kindref="member">testString</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a9042a65fce0ae3a8f1d061ddd02fe0b1" kindref="member">testDateHour</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a402c8ec88de23240900c57e989ac67fa" kindref="member">testFollowersList</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*follow,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1ae91788c511212b6c4e1e8a7e7d496eee" kindref="member">testFollowingList</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*follow,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a29311211c6cdccc1d3d7a4ce70ce3747" kindref="member">testType</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a83aafd5444efe74cd296e5d55943281e" kindref="member">testLogin</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1aae011dbf5b7c0cad4b30a82a4ffa1daf" kindref="member">testBool</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a3531516a99f0ef533672db086599d419" kindref="member">compareDates</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*start_date,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*end_date,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*date);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarFunc_8h_1a136be24413b8cc95cf6b84869e1fd38d" kindref="member">verifyDate</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*start_date,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*date);</highlight></codeline>
+    </programlisting>
+    <location file="auxiliarFunc.h"/>
+  </compounddef>
+</doxygen>

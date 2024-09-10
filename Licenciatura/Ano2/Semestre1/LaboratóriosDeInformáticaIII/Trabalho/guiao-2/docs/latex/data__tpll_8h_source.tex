@@ -1,0 +1,32 @@
+\hypertarget{data__tpll_8h_source}{}\doxysection{data\+\_\+tpll.\+h}
+\mbox{\hyperlink{data__tpll_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <math.h>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{data__commits_8h}{data\_commits.h}}"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{data__tree_8h}{data\_tree.h}}"{}}}
+\DoxyCodeLine{10 }
+\DoxyCodeLine{11 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtop}{top}} *\mbox{\hyperlink{data__tpll_8h_a94c874020391fad64a6cd6c6cd359bf0}{TOP}};}
+\DoxyCodeLine{12 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structstring}{string}} *\mbox{\hyperlink{data__tpll_8h_a9302c91a328419e92b8bcb9b9c8e266c}{STRING}};}
+\DoxyCodeLine{13 \mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{data__tpll_8h_a64229907cdac9ff75ca1d5a4a996dceb}{insertDataTop}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}}, \textcolor{keywordtype}{int} \mbox{\hyperlink{structstring_a1d229e94a7c86b3343e382ebacca68f5}{info}}, \textcolor{keywordtype}{int} \mbox{\hyperlink{structstring_a24b1548db3f161875bf8e3afc9ef1d1a}{counter}});}
+\DoxyCodeLine{14 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tpll_8h_a2af00ad4a8f102923bfd128bbad4a392}{isEmptyTop}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{15 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tpll_8h_af4bbce7734c7fbfdf420f0b4050dc0e5}{isEmptyString}}(\mbox{\hyperlink{structstring}{STRING}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{16 \mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{data__tpll_8h_a16ff7788af5fc1950b6c1a2e1dd57224}{obtain\_nextTop}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{17 \mbox{\hyperlink{structstring}{STRING}} \mbox{\hyperlink{data__tpll_8h_a4a57017e275fd154d9ee47b8214873b0}{obtain\_nextString}}(\mbox{\hyperlink{structstring}{STRING}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{18 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tpll_8h_a2282286c348e9454ccc6259c05069c92}{obtain\_CountTop}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{19 \mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{data__tpll_8h_a156fdd33549f0d46f5521d470b13b513}{countInfo}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}}, \textcolor{keywordtype}{int} \textcolor{keywordtype}{id});}
+\DoxyCodeLine{20 \mbox{\hyperlink{structstring}{STRING}} \mbox{\hyperlink{data__tpll_8h_a40d7e58fd1a6a2e87076de4936ded996}{countInfoStr}}(\mbox{\hyperlink{structstring}{STRING}} \mbox{\hyperlink{structtop}{top}}, \textcolor{keywordtype}{char} *\mbox{\hyperlink{structstring_a1d229e94a7c86b3343e382ebacca68f5}{info}});}
+\DoxyCodeLine{21 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tpll_8h_a3f712b43b6019c45e3651299b52864c3}{obtain\_topID}}(\mbox{\hyperlink{structtop}{TOP}} head);}
+\DoxyCodeLine{22 \textcolor{keywordtype}{char} * \mbox{\hyperlink{data__tpll_8h_ad221b70fe91f218ed78b97eb3a087ce4}{obtain\_stringID}}(\mbox{\hyperlink{structstring}{STRING}} head);}
+\DoxyCodeLine{23 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tpll_8h_a6f4175011e805cb33d3890b1b5e7f02e}{mostFreq}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}}, \textcolor{keywordtype}{int} *\textcolor{keywordtype}{id}, \textcolor{keywordtype}{int} *count);}
+\DoxyCodeLine{24 \textcolor{keywordtype}{char} * \mbox{\hyperlink{data__tpll_8h_a0282d3c4a44b6164a8acc8d29e81b0ea}{mostFreqString}}(\mbox{\hyperlink{structstring}{STRING}} \textcolor{keywordtype}{string});}
+\DoxyCodeLine{25 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tpll_8h_a8fa15ca2789b9ea7a59e11d0f308301a}{printTop}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}});}
+\DoxyCodeLine{26 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tpll_8h_aa7d4103a674b25e4133adc0daa1c628b}{printString}}(\mbox{\hyperlink{structstring}{STRING}} \textcolor{keywordtype}{string});}
+\DoxyCodeLine{27 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tpll_8h_a5304b1ea4178da332ad52059fb17a9ee}{freeTop}}(\mbox{\hyperlink{structtop}{TOP}} head);}
+\DoxyCodeLine{28 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tpll_8h_a31aaa97fe820b08dfc0ef934515593e4}{freeString}}(\mbox{\hyperlink{structstring}{STRING}} head);}
+\DoxyCodeLine{29 \mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{data__tpll_8h_a67ca1e74ce85876e6fd31746d5c1f7b6}{countInfoLen}}(\mbox{\hyperlink{structtop}{TOP}} \mbox{\hyperlink{structtop}{top}}, \textcolor{keywordtype}{int} \mbox{\hyperlink{structstring_a1d229e94a7c86b3343e382ebacca68f5}{info}}, \textcolor{keywordtype}{int} count);}
+
+\end{DoxyCode}

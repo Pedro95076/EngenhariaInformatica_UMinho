@@ -1,0 +1,1259 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="HT__commits_8h" kind="file" language="C++">
+    <compoundname>HT_commits.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">time.h</includes>
+    <includes refid="HT__users_8h" local="yes">HT_users.h</includes>
+    <includes refid="HT__repos_8h" local="yes">HT_repos.h</includes>
+    <includes refid="auxiliarStruct_8h" local="yes">auxiliarStruct.h</includes>
+    <includes refid="auxiliarFunc_8h" local="yes">auxiliarFunc.h</includes>
+    <includes refid="auxiliarTree_8h" local="yes">auxiliarTree.h</includes>
+    <includedby refid="HT__commits_8c" local="yes">HT_commits.c</includedby>
+    <includedby refid="interface_8h" local="yes">interface.h</includedby>
+    <includedby refid="queries_8h" local="yes">queries.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="verification_8h" local="yes">verification.h</includedby>
+    <includedby refid="test_8c" local="yes">test.c</includedby>
+    <incdepgraph>
+      <node id="9">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>stdlib.h</label>
+      </node>
+      <node id="6">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+      <node id="7">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>time.h</label>
+      </node>
+      <node id="8">
+        <label>math.h</label>
+      </node>
+      <node id="10">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>auxiliarFunc.h</label>
+        <link refid="auxiliarFunc_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="1">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="3">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="9">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="8">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="7">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" prot="public" static="no">
+        <type>struct <ref refid="structHashTableCommits" kindref="compound">HashTableCommits</ref> *</type>
+        <definition>typedef struct HashTableCommits* HT_Commits</definition>
+        <argsstring></argsstring>
+        <name>HT_Commits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="15" column="31" bodyfile="HT_commits.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="HT__commits_8h_1a429d7baf934fab7b003e3d13b1714abb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_HashTableCommits</definition>
+        <argsstring>(HT_Commits *hash)</argsstring>
+        <name>init_HashTableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a Hashtable dos commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="17" column="6" bodyfile="HT_commits.c" bodystart="33" bodyend="37" declfile="HT_commits.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a787657b0492580649d98d0e14b64e0c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_tableCommits</definition>
+        <argsstring>(HT_Commits *hash)</argsstring>
+        <name>print_tableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que imprime no terminal a Hashtable dos commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="18" column="6" bodyfile="HT_commits.c" bodystart="44" bodyend="64" declfile="HT_commits.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a0a72f11fefd9cad0dd05774ec746da30" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int insert_HashTableCommits</definition>
+        <argsstring>(HT_Commits *hash, HT_Commits node)</argsstring>
+        <name>insert_HashTableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere elementos na Hashtable dos Commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a inserir na Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 quando o nodo é bem inserido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="19" column="5" bodyfile="HT_commits.c" bodystart="75" bodyend="82" declfile="HT_commits.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a6a4e189faa5c88c5e9a888aeca49fe63" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+        <definition>HT_Commits find_HashTableCommits</definition>
+        <argsstring>(HT_Commits *hash, char *id)</argsstring>
+        <name>find_HashTableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra o endereço de um determinado elemento da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="20" column="12" bodyfile="HT_commits.c" bodystart="93" bodyend="100" declfile="HT_commits.h" declline="20" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1ae314971779f08f01783ca67bf085e960" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_HashTableCommitsBool</definition>
+        <argsstring>(HT_Commits *hash, char *id)</argsstring>
+        <name>find_HashTableCommitsBool</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o ID se encontra na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="21" column="5" bodyfile="HT_commits.c" bodystart="189" bodyend="198" declfile="HT_commits.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1abcaa810520d543c50dc309d43fa7f619" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void delete_tableCommits</definition>
+        <argsstring>(HT_Commits *hash, char *id)</argsstring>
+        <name>delete_tableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite eliminar um nodo da Hashtable dos commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do nodo a eliminar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="22" column="6" bodyfile="HT_commits.c" bodystart="207" bodyend="220" declfile="HT_commits.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1aefb10056b5a03061a37003f0fb2fc173" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void handle_CommitsFile</definition>
+        <argsstring>(FILE *file, HT_Commits *commits, HT_Users *users)</argsstring>
+        <name>handle_CommitsFile</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite fazer a verificação do ficheiros dos commits e a criação do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro a verificar e guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users para fazer a verificação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="23" column="6" bodyfile="HT_commits.c" bodystart="251" bodyend="299" declfile="HT_commits.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1af53a25b4857dd94d5a07e1f4d263bb87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+        <definition>HT_Commits find_HashTableCommitsKey</definition>
+        <argsstring>(HT_Commits *hash, int key)</argsstring>
+        <name>find_HashTableCommitsKey</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra um nodo copiado de um determinado elemento na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice do elemento a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="24" column="12" bodyfile="HT_commits.c" bodystart="111" bodyend="116" declfile="HT_commits.h" declline="24" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a374877063b8d3c078ca3667a96bda27d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+        <definition>HT_Commits obtain_nextCommit</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>obtain_nextCommit</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo elemento da lista ligada da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo seguinte </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="25" column="12" bodyfile="HT_commits.c" bodystart="125" bodyend="130" declfile="HT_commits.h" declline="25" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a3e5f4f23e96f53e534e65f415105e5bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_commitsAuthorId</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>obtain_commitsAuthorId</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do autor do commit do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do autor </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="26" column="6" bodyfile="HT_commits.c" bodystart="139" bodyend="142" declfile="HT_commits.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1ac6f8ad0b7b60002150d2b501fd46c083" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_commitsCommiterId</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>obtain_commitsCommiterId</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do commiter do commit do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do commiter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="27" column="6" bodyfile="HT_commits.c" bodystart="151" bodyend="154" declfile="HT_commits.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1af4134b842b0ba871555850f28a2196bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_commitsReposId</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>obtain_commitsReposId</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do repositório do commit do nodo apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com o ID do repositório </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="28" column="6" bodyfile="HT_commits.c" bodystart="163" bodyend="166" declfile="HT_commits.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1ada829c6e35fffd873f3e2d4d3a6224e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_commitsDate</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>obtain_commitsDate</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a data do commit apontado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a string com a data do commit </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="29" column="6" bodyfile="HT_commits.c" bodystart="175" bodyend="178" declfile="HT_commits.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a2935685e852b4f584c98dc603244677e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+        <definition>HT_Commits listC</definition>
+        <argsstring>(HT_Commits commits)</argsstring>
+        <name>listC</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite copiar a informação de um nodo para outro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a copiar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o novo nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="30" column="12" bodyfile="HT_commits.c" bodystart="229" bodyend="240" declfile="HT_commits.h" declline="30" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a4e7b0b5eac7adaeff5afd88e19218034" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+        <definition>DATA find_inactiveRepos</definition>
+        <argsstring>(DATA data, HT_Commits *commits, char *str)</argsstring>
+        <name>find_inactiveRepos</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1ac7c559dd4c068f16b0faccfd0f137c43" kindref="member">DATA</ref></type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda o ID dos repositórios inativos a partir de uma determinada data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada onde irão ser guardados os ID&apos;s dos repositórios selecionados</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a data a partir da qual os repositórios têm de ser inativos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Lista ligada com os ID&apos;s dos repositórios respetivos </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="31" column="6" bodyfile="HT_commits.c" bodystart="312" bodyend="333" declfile="HT_commits.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a486d7d1448d9d91971a18c7567736327" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+        <definition>STRING counter_AllCommiters</definition>
+        <argsstring>(STRING string, HT_Commits *commits, HT_Users *users, HT_Repos *repos, int *count)</argsstring>
+        <name>counter_AllCommiters</name>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a9302c91a328419e92b8bcb9b9c8e266c" kindref="member">STRING</ref></type>
+          <declname>string</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>count</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda numa estrutura auxiliar os ID&apos;s dos usuários que apresentam commits em repositórios de amigos e o número de commits respetivos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>string</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>count</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Variável onde será colocado o número de usuários com amigos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista ligada com a informação </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="32" column="8" bodyfile="HT_commits.c" bodystart="350" bodyend="381" declfile="HT_commits.h" declline="32" declcolumn="8"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1abb9bf465bfb09d5b937c7a40b0f8edea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE getAllColabs</definition>
+        <argsstring>(HT_Commits *commits, TREE colabs)</argsstring>
+        <name>getAllColabs</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>colabs</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda numa árvore binária os ID&apos;s dos usuários que são colaboradores. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>colabs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore com a informação guardada </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="33" column="6" bodyfile="HT_commits.c" bodystart="392" bodyend="424" declfile="HT_commits.h" declline="33" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a4ba1a16fd0a91e74857544d3ed78a9b6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE countAllBotsColabs</definition>
+        <argsstring>(HT_Commits *commits, TREE bots, TREE repos)</argsstring>
+        <name>countAllBotsColabs</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>bots</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta todos os bots que são colaboradores e guarda o repositório associado aos commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bots</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore com os ID&apos;s dos usuários que são bots</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore onde irá ser guardado o número de repositórios</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>TREE </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="34" column="6" bodyfile="HT_commits.c" bodystart="437" bodyend="466" declfile="HT_commits.h" declline="34" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a5ee4271f109de841c550b6de30180843" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float countCommits</definition>
+        <argsstring>(HT_Commits *commits)</argsstring>
+        <name>countCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o valor total de commits </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="35" column="7" bodyfile="HT_commits.c" bodystart="475" bodyend="492" declfile="HT_commits.h" declline="35" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1adfb4febb9f540660a6afad4ac79b7f4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void compareAllDates</definition>
+        <argsstring>(HT_Commits *commits, HT_Users *users, char *end_date, char *start_date)</argsstring>
+        <name>compareAllDates</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>end_date</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>start_date</declname>
+        </param>
+        <briefdescription>
+<para>Função que compara as datas obtidas a partir da query com a data do commit e conta o número de commits realizados. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>end_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a data final</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>start_date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a data inicial </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="36" column="6" bodyfile="HT_commits.c" bodystart="505" bodyend="525" declfile="HT_commits.h" declline="36" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a000dc5d3ee2f6e4a7d339621e262afd5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void countCommitsReposLanguage</definition>
+        <argsstring>(HT_Commits *commits, HT_Repos *repos, HT_Users *users, char *language, int flag)</argsstring>
+        <name>countCommitsReposLanguage</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__repos_8h_1a5b7b39054d958f80c98245666f1a0752" kindref="member">HT_Repos</ref> *</type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>language</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>flag</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta os commits associados a um determinado repositório filtrado através da linguagem. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>language</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com a linguagem que filtra os repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>flag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag que permite verificar se o ID do repositório corresponde ao da linguagem em questão </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="37" column="6" bodyfile="HT_commits.c" bodystart="540" bodyend="561" declfile="HT_commits.h" declline="37" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a9d89bd68c4dfd3667667b855f962dc16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void topNrepo</definition>
+        <argsstring>(char *repoID, HT_Users *users, HT_Commits *commits, FILE *file, int N)</argsstring>
+        <name>topNrepo</name>
+        <param>
+          <type>char *</type>
+          <declname>repoID</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter um top de repositórios consoante o tamanho de mensagem por repositório. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>repoID</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do repositório</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com os users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable com os commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá ser imprimido o resultado da query</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Valor inteiro que indica o top N </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="38" column="6" bodyfile="HT_commits.c" bodystart="576" bodyend="636" declfile="HT_commits.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__commits_8h_1a7eeb2633a09c276f45818afeb167f906" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void free_TableCommits</definition>
+        <argsstring>(HT_Commits *commits)</argsstring>
+        <name>free_TableCommits</name>
+        <param>
+          <type><ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref> *</type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que liberta a memória ocupada pela Hashtable dos commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.h" line="39" column="6" bodyfile="HT_commits.c" bodystart="643" bodyend="661" declfile="HT_commits.h" declline="39" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__users_8h" kindref="compound">HT_users.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="HT__repos_8h" kindref="compound">HT_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarStruct_8h" kindref="compound">auxiliarStruct.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarFunc_8h" kindref="compound">auxiliarFunc.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarTree_8h" kindref="compound">auxiliarTree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHashTableCommits" kindref="compound">HashTableCommits</ref><sp/>*<ref refid="HT__commits_8h_1af544423c8a45bace730c639a6214f7b9" kindref="member">HT_Commits</ref>;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a429d7baf934fab7b003e3d13b1714abb" kindref="member">init_HashTableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a787657b0492580649d98d0e14b64e0c2" kindref="member">print_tableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a0a72f11fefd9cad0dd05774ec746da30" kindref="member">insert_HashTableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash,<sp/><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>node);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/><ref refid="HT__commits_8h_1a6a4e189faa5c88c5e9a888aeca49fe63" kindref="member">find_HashTableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1ae314971779f08f01783ca67bf085e960" kindref="member">find_HashTableCommitsBool</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1abcaa810520d543c50dc309d43fa7f619" kindref="member">delete_tableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1aefb10056b5a03061a37003f0fb2fc173" kindref="member">handle_CommitsFile</ref>(FILE*<sp/>file,<sp/><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/><ref refid="HT__commits_8h_1af53a25b4857dd94d5a07e1f4d263bb87" kindref="member">find_HashTableCommitsKey</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/><ref refid="HT__commits_8h_1a374877063b8d3c078ca3667a96bda27d" kindref="member">obtain_nextCommit</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__commits_8h_1a3e5f4f23e96f53e534e65f415105e5bd" kindref="member">obtain_commitsAuthorId</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__commits_8h_1ac6f8ad0b7b60002150d2b501fd46c083" kindref="member">obtain_commitsCommiterId</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__commits_8h_1af4134b842b0ba871555850f28a2196bd" kindref="member">obtain_commitsReposId</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__commits_8h_1ada829c6e35fffd873f3e2d4d3a6224e4" kindref="member">obtain_commitsDate</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/><ref refid="HT__commits_8h_1a2935685e852b4f584c98dc603244677e" kindref="member">listC</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>commits);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="HT__commits_8h_1a4e7b0b5eac7adaeff5afd88e19218034" kindref="member">find_inactiveRepos</ref>(<ref refid="structdata" kindref="compound">DATA</ref><sp/><ref refid="structdata" kindref="compound">data</ref>,<sp/><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*str);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><ref refid="structstring" kindref="compound">STRING</ref><sp/><ref refid="HT__commits_8h_1a486d7d1448d9d91971a18c7567736327" kindref="member">counter_AllCommiters</ref>(<ref refid="structstring" kindref="compound">STRING</ref><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal">,<sp/><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*count);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__commits_8h_1abb9bf465bfb09d5b937c7a40b0f8edea" kindref="member">getAllColabs</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/>colabs);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__commits_8h_1a4ba1a16fd0a91e74857544d3ed78a9b6" kindref="member">countAllBotsColabs</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/>bots,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/>repos);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a5ee4271f109de841c550b6de30180843" kindref="member">countCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1adfb4febb9f540660a6afad4ac79b7f4d" kindref="member">compareAllDates</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*end_date,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*start_date);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a000dc5d3ee2f6e4a7d339621e262afd5" kindref="member">countCommitsReposLanguage</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/><ref refid="structHashTableRepos" kindref="compound">HT_Repos</ref><sp/>*repos,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*language,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>flag);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a9d89bd68c4dfd3667667b855f962dc16" kindref="member">topNrepo</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*repoID,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/><ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits,<sp/>FILE<sp/>*file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__commits_8h_1a7eeb2633a09c276f45818afeb167f906" kindref="member">free_TableCommits</ref>(<ref refid="structHashTableCommits" kindref="compound">HT_Commits</ref><sp/>*commits);</highlight></codeline>
+    </programlisting>
+    <location file="HT_commits.h"/>
+  </compounddef>
+</doxygen>

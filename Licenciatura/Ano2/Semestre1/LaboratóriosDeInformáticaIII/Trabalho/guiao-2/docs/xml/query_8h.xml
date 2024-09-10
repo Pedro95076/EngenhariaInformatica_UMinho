@@ -1,0 +1,953 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="query_8h" kind="file" language="C++">
+    <compoundname>query.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="data__users_8h" local="yes">data_users.h</includes>
+    <includes refid="data__commits_8h" local="yes">data_commits.h</includes>
+    <includes refid="data__repos_8h" local="yes">data_repos.h</includes>
+    <includes refid="data__tpll_8h" local="yes">data_tpll.h</includes>
+    <includes refid="data__tree_8h" local="yes">data_tree.h</includes>
+    <includes refid="data_8h" local="yes">data.h</includes>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="query_8c" local="yes">query.c</includedby>
+    <incdepgraph>
+      <node id="11">
+        <label>data.h</label>
+        <link refid="data_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>data_repos.h</label>
+        <link refid="data__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="5">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="3">
+        <label>query.c</label>
+        <link refid="query_8c"/>
+      </node>
+      <node id="1">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="query_8h_1add931d8d40ded2aec2c873d9e11993a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void queryID</definition>
+        <argsstring>(int n_file, int id, char *line, USERS users, COMMITS commits, REPOS repos, TREEUSERS usersArv, TREEREPOS reposArv, TREEUSERS9 usersArv9, TREEREPOS reposArv9)</argsstring>
+        <name>queryID</name>
+        <param>
+          <type>int</type>
+          <declname>n_file</declname>
+          <defname>i</defname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>usersArv</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>reposArv</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+          <declname>usersArv9</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>reposArv9</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento das diferentes queries, através das linhas do ficheiro de comandos. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>i</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número que determina a ordem e o nome dos ficheiros finais</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Número de dentificação da query</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Utilizadores</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reposArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv9</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users especifica para a query 9</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reposArv9</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Repositórios especifica para a query 9 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="15" column="6" bodyfile="query.c" bodystart="517" bodyend="556" declfile="query.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1a33c21f441983213a7c1e4c201a271143" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query1</definition>
+        <argsstring>(char *n_file, USERS users)</argsstring>
+        <name>query1</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 1. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 1</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Utilizadores </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="16" column="6" bodyfile="query.c" bodystart="13" bodyend="35" declfile="query.h" declline="16" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1a982acce8e95360360c055a8d996bb802" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query2</definition>
+        <argsstring>(char *n_file, REPOS repos, COMMITS commits)</argsstring>
+        <name>query2</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 2. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 2</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="17" column="6" bodyfile="query.c" bodystart="46" bodyend="88" declfile="query.h" declline="17" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1aef676697b33a377f1d5df8a31803c585" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query3</definition>
+        <argsstring>(char *n_file, USERS users, COMMITS commits)</argsstring>
+        <name>query3</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 3. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 3</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="18" column="6" bodyfile="query.c" bodystart="99" bodyend="151" declfile="query.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1afb45ea623956708fa97c492aad23be7e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query4</definition>
+        <argsstring>(char *n_file, USERS users, COMMITS commits)</argsstring>
+        <name>query4</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 4. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 4</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="19" column="6" bodyfile="query.c" bodystart="162" bodyend="183" declfile="query.h" declline="19" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1a825bf695ca913382b5c2fe588ddedac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query5</definition>
+        <argsstring>(char *n_file, char *line, COMMITS commits, TREEUSERS usersArv)</argsstring>
+        <name>query5</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>usersArv</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 5. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 5</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 5</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="20" column="6" bodyfile="query.c" bodystart="196" bodyend="234" declfile="query.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1a9724e73b5ff01437910c83a4e46a6994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query6</definition>
+        <argsstring>(char *n_file, char *line, COMMITS commits, REPOS repos, TREEUSERS usersArv)</argsstring>
+        <name>query6</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>usersArv</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 6. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 6</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 6</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="21" column="6" bodyfile="query.c" bodystart="249" bodyend="295" declfile="query.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1aa3a6c2d2e52839b577aaad810220f338" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query7</definition>
+        <argsstring>(char *n_file, char *line, REPOS repos, COMMITS commits, TREEREPOS reposArv)</argsstring>
+        <name>query7</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>reposArv</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 7. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 7</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 7</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reposArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="22" column="6" bodyfile="query.c" bodystart="310" bodyend="339" declfile="query.h" declline="22" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1a4fed9fad89babf8b19965b4c64bee692" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query8</definition>
+        <argsstring>(char *n_file, char *line, REPOS repos)</argsstring>
+        <name>query8</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 8. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 8</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 8</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Repositórios </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="23" column="6" bodyfile="query.c" bodystart="350" bodyend="388" declfile="query.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1adca995b0d1445a66529ccf7fe2c8817b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query9</definition>
+        <argsstring>(char *n_file, char *line, COMMITS commits, REPOS repos, TREEUSERS usersArv, TREEREPOS reposArv9, TREEUSERS9 usersArv9)</argsstring>
+        <name>query9</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__repos_8h_1ae323904139d1862c9eae86924398028d" kindref="member">REPOS</ref></type>
+          <declname>repos</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>usersArv</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a56fdcf9c363f3fb663c2f1553a83a6a9" kindref="member">TREEREPOS</ref></type>
+          <declname>reposArv9</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1ae7a19ed299494b455f1f935624022669" kindref="member">TREEUSERS9</ref></type>
+          <declname>usersArv9</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 9. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 9</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 9</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>repos</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos Repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reposArv9</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Repositórios especifica para a query 9</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv9</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users especifica para a query 9 </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="24" column="6" bodyfile="query.c" bodystart="408" bodyend="443" declfile="query.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="query_8h_1ae3df778e8857ad33d270885cf6dee067" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void query10</definition>
+        <argsstring>(char *n_file, char *line, COMMITS commits, TREEUSERS usersArv)</argsstring>
+        <name>query10</name>
+        <param>
+          <type>char *</type>
+          <declname>n_file</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>line</declname>
+        </param>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <param>
+          <type><ref refid="data__tree_8h_1a519b47b366ce8ed237efaf19c7cc1e4d" kindref="member">TREEUSERS</ref></type>
+          <declname>usersArv</declname>
+        </param>
+        <briefdescription>
+<para>Função que faz o tratamento da query 10. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>n_file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro onde irá guardar as informações pedidas na query 10</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>line</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Linha de comando da query 10</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usersArv</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore de Users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="query.h" line="25" column="6" bodyfile="query.c" bodystart="456" bodyend="492" declfile="query.h" declline="25" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__users_8h" kindref="compound">data_users.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__commits_8h" kindref="compound">data_commits.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__repos_8h" kindref="compound">data_repos.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__tpll_8h" kindref="compound">data_tpll.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data__tree_8h" kindref="compound">data_tree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="data_8h" kindref="compound">data.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1add931d8d40ded2aec2c873d9e11993a6" kindref="member">queryID</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>n_file,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>usersArv,<sp/><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/>reposArv,<sp/><ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/>usersArv9,<sp/><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/>reposArv9);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1a33c21f441983213a7c1e4c201a271143" kindref="member">query1</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1a982acce8e95360360c055a8d996bb802" kindref="member">query2</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1aef676697b33a377f1d5df8a31803c585" kindref="member">query3</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1afb45ea623956708fa97c492aad23be7e" kindref="member">query4</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1a825bf695ca913382b5c2fe588ddedac2" kindref="member">query5</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>usersArv);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1a9724e73b5ff01437910c83a4e46a6994" kindref="member">query6</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>usersArv);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1aa3a6c2d2e52839b577aaad810220f338" kindref="member">query7</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/>reposArv);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1a4fed9fad89babf8b19965b4c64bee692" kindref="member">query8</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1adca995b0d1445a66529ccf7fe2c8817b" kindref="member">query9</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structrepos" kindref="compound">REPOS</ref><sp/><ref refid="structrepos" kindref="compound">repos</ref>,<sp/><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>usersArv,<sp/><ref refid="structtreeRepos" kindref="compound">TREEREPOS</ref><sp/>reposArv9,<sp/><ref refid="structtreeUsers9" kindref="compound">TREEUSERS9</ref><sp/>usersArv9);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="query_8h_1ae3df778e8857ad33d270885cf6dee067" kindref="member">query10</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*n_file,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*line,<sp/><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>,<sp/><ref refid="structtreeUsers" kindref="compound">TREEUSERS</ref><sp/>usersArv);</highlight></codeline>
+    </programlisting>
+    <location file="query.h"/>
+  </compounddef>
+</doxygen>

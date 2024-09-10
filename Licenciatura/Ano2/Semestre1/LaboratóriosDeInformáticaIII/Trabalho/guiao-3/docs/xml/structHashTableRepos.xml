@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structHashTableRepos" kind="struct" language="C++" prot="public">
+    <compoundname>HashTableRepos</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com o ID do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="14" column="10" bodyfile="HT_repos.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::owner_id</definition>
+        <argsstring></argsstring>
+        <name>owner_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com o ID do owner do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="16" column="10" bodyfile="HT_repos.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com a descrição do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="18" column="10" bodyfile="HT_repos.c" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::language</definition>
+        <argsstring></argsstring>
+        <name>language</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com a linguagem de programação utilizada no repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="20" column="10" bodyfile="HT_repos.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::created_at</definition>
+        <argsstring></argsstring>
+        <name>created_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com a data de criação do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="22" column="10" bodyfile="HT_repos.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableRepos::updated_at</definition>
+        <argsstring></argsstring>
+        <name>updated_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com a mais recente data de atualização do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="24" column="10" bodyfile="HT_repos.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structHashTableRepos" kindref="compound">HashTableRepos</ref> *</type>
+        <definition>struct HashTableRepos* HashTableRepos::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>apontador para o próximo nodo da lista ligada da Hashtable </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_repos.c" line="26" column="25" bodyfile="HT_repos.c" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição dos elementos da Hashtable dos repositórios. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>HashTableRepos</label>
+        <link refid="structHashTableRepos"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="HT_repos.c" line="12" column="1" bodyfile="HT_repos.c" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="structHashTableRepos_1a1fe96407543d5d03fd1cbf07107d634c" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>created_at</name></member>
+      <member refid="structHashTableRepos_1a65704ccc7e3aedeed5e609d4c4dba587" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>description</name></member>
+      <member refid="structHashTableRepos_1a9195391b8dbda07d5ebf014eb9d4c627" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>id</name></member>
+      <member refid="structHashTableRepos_1a994de7a2060f9ff7508ec2b1b17a08a8" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>language</name></member>
+      <member refid="structHashTableRepos_1ab5436fc8f0dd5f946e13bdcb5ecf9dbf" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>next</name></member>
+      <member refid="structHashTableRepos_1a9ab5c4453a06786d84fec527249db066" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>owner_id</name></member>
+      <member refid="structHashTableRepos_1a4e5a99793bfefa98314ebac77ac63f11" prot="public" virt="non-virtual"><scope>HashTableRepos</scope><name>updated_at</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

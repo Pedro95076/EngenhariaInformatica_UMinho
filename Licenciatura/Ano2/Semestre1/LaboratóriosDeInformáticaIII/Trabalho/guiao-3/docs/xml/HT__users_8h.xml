@@ -1,0 +1,1282 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="HT__users_8h" kind="file" language="C++">
+    <compoundname>HT_users.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">time.h</includes>
+    <includes refid="auxiliarTree_8h" local="yes">auxiliarTree.h</includes>
+    <includes refid="auxiliarStruct_8h" local="yes">auxiliarStruct.h</includes>
+    <includedby refid="HT__commits_8h" local="yes">HT_commits.h</includedby>
+    <includedby refid="HT__repos_8h" local="yes">HT_repos.h</includedby>
+    <includedby refid="HT__commits_8c" local="yes">HT_commits.c</includedby>
+    <includedby refid="HT__users_8c" local="yes">HT_users.c</includedby>
+    <includedby refid="interface_8h" local="yes">interface.h</includedby>
+    <includedby refid="queries_8h" local="yes">queries.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="queries_8c" local="yes">queries.c</includedby>
+    <includedby refid="test_8c" local="yes">test.c</includedby>
+    <incdepgraph>
+      <node id="8">
+        <label>auxiliarStruct.h</label>
+        <link refid="auxiliarStruct_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="6">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>time.h</label>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="3">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="2">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="4">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>HT_users.c</label>
+        <link refid="HT__users_8c"/>
+      </node>
+      <node id="1">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="10">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="9">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="8">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+      </node>
+      <node id="12">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" prot="public" static="no">
+        <type>struct <ref refid="structHashTableUser" kindref="compound">HashTableUser</ref> *</type>
+        <definition>typedef struct HashTableUser* HT_Users</definition>
+        <argsstring></argsstring>
+        <name>HT_Users</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="12" column="28" bodyfile="HT_users.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="HT__users_8h_1ac8b92e3deef2ea06588f9cc685cb3c13" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void init_HashTableUsers</definition>
+        <argsstring>(HT_Users *hash)</argsstring>
+        <name>init_HashTableUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que inicializa a Hashtable dos users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="14" column="6" bodyfile="HT_users.c" bodystart="39" bodyend="43" declfile="HT_users.h" declline="14" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a91efb0a7516eeaf42e2921e666f5b920" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_tableUsers</definition>
+        <argsstring>(HT_Users *hash)</argsstring>
+        <name>print_tableUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que imprime no terminal a Hashtable dos users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="15" column="6" bodyfile="HT_users.c" bodystart="50" bodyend="67" declfile="HT_users.h" declline="15" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a5ab32ec89aa833d35727ac4ed0f87bc3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int insert_HashTableUsers</definition>
+        <argsstring>(HT_Users *hash, HT_Users node)</argsstring>
+        <name>insert_HashTableUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere elementos na Hashtable dos users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a inserir na Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 quando o nodo é bem inserido </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="16" column="5" bodyfile="HT_users.c" bodystart="78" bodyend="85" declfile="HT_users.h" declline="16" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ac4a0b761f63a940b365c74b51cf91f8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+        <definition>HT_Users find_HashTableUsers</definition>
+        <argsstring>(HT_Users *hash, char *id)</argsstring>
+        <name>find_HashTableUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra o endereço de um determinado elemento da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>string com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="17" column="10" bodyfile="HT_users.c" bodystart="96" bodyend="103" declfile="HT_users.h" declline="17" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1acbe8acfaf0364325683bf12562235574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+        <definition>HT_Users listU</definition>
+        <argsstring>(HT_Users users)</argsstring>
+        <name>listU</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite copiar a informação de um nodo para outro. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Nodo a copiar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o novo nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="18" column="10" bodyfile="HT_users.c" bodystart="229" bodyend="243" declfile="HT_users.h" declline="18" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ae57dc7cc3dad65bff0ebbc611587b739" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int find_HashTableUsersBool</definition>
+        <argsstring>(HT_Users *hash, char *id)</argsstring>
+        <name>find_HashTableUsersBool</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite saber se o ID se encontra na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 0 se encontrar </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="19" column="5" bodyfile="HT_users.c" bodystart="114" bodyend="123" declfile="HT_users.h" declline="19" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a102f09769b656795cdf892e1145a4063" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void incrementAuxCount</definition>
+        <argsstring>(HT_Users *hash, char *id)</argsstring>
+        <name>incrementAuxCount</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que incrementa o valor do contador de ocorrências de um nodo da Hashtable dos users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String que contém o ID do auxCount do usuário a incrementar </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="20" column="6" bodyfile="HT_users.c" bodystart="132" bodyend="141" declfile="HT_users.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a2e23a36de5e89d02810a676d6a2f8a93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void handle_UsersFile</definition>
+        <argsstring>(FILE *file, HT_Users *users)</argsstring>
+        <name>handle_UsersFile</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite fazer a verificação do ficheiros dos users e a criação do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro a verificar e guardar</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users para fazer a verificação </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="21" column="6" bodyfile="HT_users.c" bodystart="252" bodyend="328" declfile="HT_users.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a69233cd7c7aee2aa886ccca24d47a63e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+        <definition>HT_Users find_HashTableUsersKey</definition>
+        <argsstring>(HT_Users *hash, int key)</argsstring>
+        <name>find_HashTableUsersKey</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+<para>Função que encontra um nodo copiado de um determinado elemento na Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos repositórios</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>key</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Índice do elemento a encontrar</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="22" column="10" bodyfile="HT_users.c" bodystart="153" bodyend="158" declfile="HT_users.h" declline="22" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ae469c2feb77ccc29bdfe96f86e5f741a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_userType</definition>
+        <argsstring>(HT_Users user)</argsstring>
+        <name>obtain_userType</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o tipo de utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o tipo de utilizador </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="23" column="6" bodyfile="HT_users.c" bodystart="181" bodyend="184" declfile="HT_users.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1abb1026ee15b7d4a5792b5ea205b28863" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_userId</definition>
+        <argsstring>(HT_Users user)</argsstring>
+        <name>obtain_userId</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o ID de utilizador </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="24" column="6" bodyfile="HT_users.c" bodystart="193" bodyend="196" declfile="HT_users.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a1800f1e07660fb9ac471475f2889018c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+        <definition>HT_Users obtain_nextUser</definition>
+        <argsstring>(HT_Users user)</argsstring>
+        <name>obtain_nextUser</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo elemento da lista ligada da Hashtable. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o endereço do nodo seguinte </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="25" column="10" bodyfile="HT_users.c" bodystart="167" bodyend="172" declfile="HT_users.h" declline="25" declcolumn="10"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1aa8b0234a175bc8639d7b46b68e1c939b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* obtain_userLogin</definition>
+        <argsstring>(HT_Users user)</argsstring>
+        <name>obtain_userLogin</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o login de utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o login de utilizador </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="26" column="6" bodyfile="HT_users.c" bodystart="205" bodyend="208" declfile="HT_users.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1af40ce803abb0554f370e70435ff92f86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int obtain_userAuxCount</definition>
+        <argsstring>(HT_Users user)</argsstring>
+        <name>obtain_userAuxCount</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o campo auxCount do utilizador. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>user</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada da Hashtable</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o valor do auxCount do utilizador </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="27" column="5" bodyfile="HT_users.c" bodystart="217" bodyend="220" declfile="HT_users.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a6e4793c50a48dd2f74ee37515af9767e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void resetUsersCounter</definition>
+        <argsstring>(HT_Users *hash)</argsstring>
+        <name>resetUsersCounter</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>hash</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite o reset do campo auxCount. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>hash</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="28" column="6" bodyfile="HT_users.c" bodystart="335" bodyend="347" declfile="HT_users.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1af8f08d0e64f91220a1370b545bc5177d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_userFollowers</definition>
+        <argsstring>(HT_Users *users, char *id)</argsstring>
+        <name>find_userFollowers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o número de seguidores de um utilizador em específico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o número de seguidores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="29" column="6" bodyfile="HT_users.c" bodystart="358" bodyend="368" declfile="HT_users.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a066995ca50e5385cfb6376bf1b6ce055" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_userFollowing</definition>
+        <argsstring>(HT_Users *users, char *id)</argsstring>
+        <name>find_userFollowing</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o número de pessoas a seguir de um utilizador em específico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o número de pessoas a seguir </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="30" column="6" bodyfile="HT_users.c" bodystart="379" bodyend="388" declfile="HT_users.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a36e191eaf5102e1b5806ca40df39354f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_userFollowersList</definition>
+        <argsstring>(HT_Users *users, char *id)</argsstring>
+        <name>find_userFollowersList</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a lista de seguidores de um usuário em específico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID de utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com a lista de seguidores </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="31" column="6" bodyfile="HT_users.c" bodystart="399" bodyend="408" declfile="HT_users.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a772853896c4c8006e50e73f9a6c527f1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_userFollowingList</definition>
+        <argsstring>(HT_Users *users, char *id)</argsstring>
+        <name>find_userFollowingList</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a lista de pessoas a seguir de um usuário em específico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID de utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com a lista de pessoas a seguir </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="32" column="6" bodyfile="HT_users.c" bodystart="419" bodyend="428" declfile="HT_users.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a1720390cad03b26a5eca8b17b4274f60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char* find_userLogin</definition>
+        <argsstring>(HT_Users *users, char *id)</argsstring>
+        <name>find_userLogin</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o login de um utilizador em específico. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID de utilizador</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma cópia da string com o login do utilizador </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="33" column="6" bodyfile="HT_users.c" bodystart="439" bodyend="448" declfile="HT_users.h" declline="33" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a65e9b28917c7bb36f47ddbdea16a0886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int countTypeUsers</definition>
+        <argsstring>(HT_Users *users)</argsstring>
+        <name>countTypeUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de utilizadores do tipo User. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de utilizadores do tipo User </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="34" column="5" bodyfile="HT_users.c" bodystart="513" bodyend="532" declfile="HT_users.h" declline="34" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a28496df300b04743b54c869ec53474ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int countTypeOrganizations</definition>
+        <argsstring>(HT_Users *users)</argsstring>
+        <name>countTypeOrganizations</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de utilizadores do tipo Organization. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de utilizadores do tipo Organization </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="35" column="5" bodyfile="HT_users.c" bodystart="485" bodyend="504" declfile="HT_users.h" declline="35" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ab88e91ff6dd53dc80de2e45b846cf5b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int countTypeBots</definition>
+        <argsstring>(HT_Users *users)</argsstring>
+        <name>countTypeBots</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de utilizadores do tipo Bot. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de utilizadores do tipo Bot </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="36" column="5" bodyfile="HT_users.c" bodystart="457" bodyend="476" declfile="HT_users.h" declline="36" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1addbc4933953789669785fce58babbf77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE countBotsTree</definition>
+        <argsstring>(HT_Users *users, TREE bots)</argsstring>
+        <name>countBotsTree</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>bots</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda numa árvore binária os ID&apos;s dos utilizadores do tipo Bot. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>bots</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore onde irão ser guardados os ID&apos;s</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore com a informação pretendida </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="37" column="6" bodyfile="HT_users.c" bodystart="543" bodyend="567" declfile="HT_users.h" declline="37" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a1e74c9c89c0359ab5b9f7342c48a6226" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE friendsTree</definition>
+        <argsstring>(HT_Users *users, char *id, int *k)</argsstring>
+        <name>friendsTree</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+<para>Função que cria uma árvore com os amigos de um determinado user. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>String com o ID do utilizador</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>k</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Flag para o caso de o número de followers ou following ser 0</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore dos amigos. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="38" column="6" bodyfile="HT_users.c" bodystart="580" bodyend="618" declfile="HT_users.h" declline="38" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ae71e01f34dda9f4ed92fefab919d8a94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float countUsers</definition>
+        <argsstring>(HT_Users *users)</argsstring>
+        <name>countUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que conta o número de utilizadores existentes no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable de users</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de utilizadores existentes </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="39" column="7" bodyfile="HT_users.c" bodystart="627" bodyend="644" declfile="HT_users.h" declline="39" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1a656661bacae8cb37ac77d0b847cf80aa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+        <definition>TOPUSERSSTRUCT activeUsers</definition>
+        <argsstring>(HT_Users *users, TOPUSERSSTRUCT topUsers, int N)</argsstring>
+        <name>activeUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <param>
+          <type><ref refid="auxiliarStruct_8h_1a48aa1db39f2f5469e456508832c9bcf6" kindref="member">TOPUSERSSTRUCT</ref></type>
+          <declname>topUsers</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>N</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda num array de <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> os top N utilizadores mais ativos(mais commits) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>topUsers</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Array de <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref> onde irá ser guardada a informação</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>N</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Tamanho do array/Top N utilizadores mais ativos</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o array com a informação guardada </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="40" column="16" bodyfile="HT_users.c" bodystart="657" bodyend="694" declfile="HT_users.h" declline="40" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="HT__users_8h_1ac445186d64c181b493fed1ef07832abf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void free_TableUsers</definition>
+        <argsstring>(HT_Users *users)</argsstring>
+        <name>free_TableUsers</name>
+        <param>
+          <type><ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref> *</type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que liberta a memória ocupada pela Hashtable dos users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Hashtable dos users </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_users.h" line="42" column="6" bodyfile="HT_users.c" bodystart="701" bodyend="722" declfile="HT_users.h" declline="42" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;time.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarTree_8h" kindref="compound">auxiliarTree.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="auxiliarStruct_8h" kindref="compound">auxiliarStruct.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structHashTableUser" kindref="compound">HashTableUser</ref><sp/>*<ref refid="HT__users_8h_1a60c017eb07df48e30ae895c8a7eeb82d" kindref="member">HT_Users</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1ac8b92e3deef2ea06588f9cc685cb3c13" kindref="member">init_HashTableUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a91efb0a7516eeaf42e2921e666f5b920" kindref="member">print_tableUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a5ab32ec89aa833d35727ac4ed0f87bc3" kindref="member">insert_HashTableUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>node);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/><ref refid="HT__users_8h_1ac4a0b761f63a940b365c74b51cf91f8e" kindref="member">find_HashTableUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/><ref refid="HT__users_8h_1acbe8acfaf0364325683bf12562235574" kindref="member">listU</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>users);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1ae57dc7cc3dad65bff0ebbc611587b739" kindref="member">find_HashTableUsersBool</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a102f09769b656795cdf892e1145a4063" kindref="member">incrementAuxCount</ref><sp/>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a2e23a36de5e89d02810a676d6a2f8a93" kindref="member">handle_UsersFile</ref>(FILE*<sp/>file,<sp/><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/><ref refid="HT__users_8h_1a69233cd7c7aee2aa886ccca24d47a63e" kindref="member">find_HashTableUsersKey</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>key);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1ae469c2feb77ccc29bdfe96f86e5f741a" kindref="member">obtain_userType</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>user);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1abb1026ee15b7d4a5792b5ea205b28863" kindref="member">obtain_userId</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>user);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/><ref refid="HT__users_8h_1a1800f1e07660fb9ac471475f2889018c" kindref="member">obtain_nextUser</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>user);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1aa8b0234a175bc8639d7b46b68e1c939b" kindref="member">obtain_userLogin</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>user);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1af40ce803abb0554f370e70435ff92f86" kindref="member">obtain_userAuxCount</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>user);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a6e4793c50a48dd2f74ee37515af9767e" kindref="member">resetUsersCounter</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*hash);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1af8f08d0e64f91220a1370b545bc5177d" kindref="member">find_userFollowers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1a066995ca50e5385cfb6376bf1b6ce055" kindref="member">find_userFollowing</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1a36e191eaf5102e1b5806ca40df39354f" kindref="member">find_userFollowersList</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1a772853896c4c8006e50e73f9a6c527f1" kindref="member">find_userFollowingList</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="HT__users_8h_1a1720390cad03b26a5eca8b17b4274f60" kindref="member">find_userLogin</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a65e9b28917c7bb36f47ddbdea16a0886" kindref="member">countTypeUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1a28496df300b04743b54c869ec53474ca" kindref="member">countTypeOrganizations</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1ab88e91ff6dd53dc80de2e45b846cf5b3" kindref="member">countTypeBots</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__users_8h_1addbc4933953789669785fce58babbf77" kindref="member">countBotsTree</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/><ref refid="structtree" kindref="compound">TREE</ref><sp/>bots);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__users_8h_1a1e74c9c89c0359ab5b9f7342c48a6226" kindref="member">friendsTree</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*k);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1ae71e01f34dda9f4ed92fefab919d8a94" kindref="member">countUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/><ref refid="HT__users_8h_1a656661bacae8cb37ac77d0b847cf80aa" kindref="member">activeUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/><ref refid="structtopUsersStruct" kindref="compound">TOPUSERSSTRUCT</ref><sp/>topUsers,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>N);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="HT__users_8h_1a1e74c9c89c0359ab5b9f7342c48a6226" kindref="member">friendsTree</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*</highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*k);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="HT__users_8h_1ac445186d64c181b493fed1ef07832abf" kindref="member">free_TableUsers</ref>(<ref refid="structHashTableUser" kindref="compound">HT_Users</ref><sp/>*users);</highlight></codeline>
+    </programlisting>
+    <location file="HT_users.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structtopUsersStruct" kind="struct" language="C++" prot="public">
+    <compoundname>topUsersStruct</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtopUsersStruct_1a9c47ceb28562f2fa15085630f8182628" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* topUsersStruct::login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o login a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.c" line="36" column="10" bodyfile="auxiliarStruct.c" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtopUsersStruct_1a86b307c277319a751fadea3d9ad6f450" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* topUsersStruct::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id a guardar </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.c" line="38" column="10" bodyfile="auxiliarStruct.c" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structtopUsersStruct_1a912702ffafd2cadf4304816da5ee5463" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int topUsersStruct::counter</definition>
+        <argsstring></argsstring>
+        <name>counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro que contém o número de ocorrências da informação </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarStruct.c" line="40" column="9" bodyfile="auxiliarStruct.c" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da estrutura <ref refid="structtopUsersStruct" kindref="compound">topUsersStruct</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="auxiliarStruct.c" line="34" column="1" bodyfile="auxiliarStruct.c" bodystart="33" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structtopUsersStruct_1a912702ffafd2cadf4304816da5ee5463" prot="public" virt="non-virtual"><scope>topUsersStruct</scope><name>counter</name></member>
+      <member refid="structtopUsersStruct_1a86b307c277319a751fadea3d9ad6f450" prot="public" virt="non-virtual"><scope>topUsersStruct</scope><name>id</name></member>
+      <member refid="structtopUsersStruct_1a9c47ceb28562f2fa15085630f8182628" prot="public" virt="non-virtual"><scope>topUsersStruct</scope><name>login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="structHashTableCommits" kind="struct" language="C++" prot="public">
+    <compoundname>HashTableCommits</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structHashTableCommits_1a9805ffc80d0c5c970e8f8a85fa867a05" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableCommits::repo_id</definition>
+        <argsstring></argsstring>
+        <name>repo_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com o ID do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="15" column="10" bodyfile="HT_commits.c" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableCommits_1ae95adb96346ec36c03a5f871157e813e" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableCommits::author_id</definition>
+        <argsstring></argsstring>
+        <name>author_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com o ID do autor do commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="17" column="10" bodyfile="HT_commits.c" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableCommits_1ab5c2a37979e95bfb938bdf5a8b15f416" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableCommits::commiter_id</definition>
+        <argsstring></argsstring>
+        <name>commiter_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com o ID da pessoa que realizou o commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="19" column="10" bodyfile="HT_commits.c" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableCommits_1a0e0f15894b83f157f9bdee853a4cce33" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* HashTableCommits::commit_at</definition>
+        <argsstring></argsstring>
+        <name>commit_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string com a data do commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="21" column="10" bodyfile="HT_commits.c" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableCommits_1abf14aa9ad2f99e2a7266d85da090e687" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int HashTableCommits::message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>inteiro com o tamanho da mensagem do commit </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="23" column="9" bodyfile="HT_commits.c" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structHashTableCommits_1a73dc061c3dc62dc9b876c0f97e7246b1" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structHashTableCommits" kindref="compound">HashTableCommits</ref> *</type>
+        <definition>struct HashTableCommits* HashTableCommits::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>apontador para o próximo nodo da lista ligada da Hashtable </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HT_commits.c" line="25" column="27" bodyfile="HT_commits.c" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição dos elementos da Hashtable dos commits. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>HashTableCommits</label>
+        <link refid="structHashTableCommits"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="HT_commits.c" line="13" column="1" bodyfile="HT_commits.c" bodystart="12" bodyend="26"/>
+    <listofallmembers>
+      <member refid="structHashTableCommits_1ae95adb96346ec36c03a5f871157e813e" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>author_id</name></member>
+      <member refid="structHashTableCommits_1a0e0f15894b83f157f9bdee853a4cce33" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>commit_at</name></member>
+      <member refid="structHashTableCommits_1ab5c2a37979e95bfb938bdf5a8b15f416" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>commiter_id</name></member>
+      <member refid="structHashTableCommits_1abf14aa9ad2f99e2a7266d85da090e687" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>message</name></member>
+      <member refid="structHashTableCommits_1a73dc061c3dc62dc9b876c0f97e7246b1" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>next</name></member>
+      <member refid="structHashTableCommits_1a9805ffc80d0c5c970e8f8a85fa867a05" prot="public" virt="non-virtual"><scope>HashTableCommits</scope><name>repo_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

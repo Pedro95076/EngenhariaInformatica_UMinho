@@ -1,0 +1,388 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="auxiliarTree_8h" kind="file" language="C++">
+    <compoundname>auxiliarTree.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="auxiliarTree_8c" local="yes">auxiliarTree.c</includedby>
+    <includedby refid="HT__users_8h" local="yes">HT_users.h</includedby>
+    <includedby refid="HT__repos_8h" local="yes">HT_repos.h</includedby>
+    <includedby refid="HT__commits_8h" local="yes">HT_commits.h</includedby>
+    <includedby refid="HT__commits_8c" local="yes">HT_commits.c</includedby>
+    <includedby refid="HT__users_8c" local="yes">HT_users.c</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="1">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>HT_commits.c</label>
+        <link refid="HT__commits_8c"/>
+      </node>
+      <node id="4">
+        <label>HT_commits.h</label>
+        <link refid="HT__commits_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>interface.c</label>
+        <link refid="interface_8c"/>
+      </node>
+      <node id="6">
+        <label>interface.h</label>
+        <link refid="interface_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>HT_users.c</label>
+        <link refid="HT__users_8c"/>
+      </node>
+      <node id="3">
+        <label>HT_users.h</label>
+        <link refid="HT__users_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>verification.c</label>
+        <link refid="verification_8c"/>
+      </node>
+      <node id="12">
+        <label>verification.h</label>
+        <link refid="verification_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="2">
+        <label>auxiliarTree.c</label>
+        <link refid="auxiliarTree_8c"/>
+      </node>
+      <node id="1">
+        <label>auxiliarTree.h</label>
+        <link refid="auxiliarTree_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>queries.c</label>
+        <link refid="queries_8c"/>
+      </node>
+      <node id="10">
+        <label>queries.h</label>
+        <link refid="queries_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>HT_repos.c</label>
+        <link refid="HT__repos_8c"/>
+      </node>
+      <node id="14">
+        <label>HT_repos.h</label>
+        <link refid="HT__repos_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>test.c</label>
+        <link refid="test_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" prot="public" static="no">
+        <type>struct <ref refid="structtree" kindref="compound">tree</ref> *</type>
+        <definition>typedef struct tree* TREE</definition>
+        <argsstring></argsstring>
+        <name>TREE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="9" column="19" bodyfile="auxiliarTree.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="auxiliarTree_8h_1a046d3ee75787615cc6a9cc1bca11521f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+        <definition>TREE insert</definition>
+        <argsstring>(TREE tree, int x)</argsstring>
+        <name>insert</name>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que insere os elementos na árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária onde se irá guardar o elemento.</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a guardar na árvore binária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a árvore com o elemento inserido. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="10" column="6" bodyfile="auxiliarTree.c" bodystart="27" bodyend="42" declfile="auxiliarTree.h" declline="10" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarTree_8h_1aeb08a84830917a5d5d0f343cff03f335" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int search</definition>
+        <argsstring>(TREE tree, int x)</argsstring>
+        <name>search</name>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Função que procura numa árvore binária o elemento especificado. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária aonde se irá procurar o elemento</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Elemento a encontrar na árvore binária.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se o elemento for encontrado. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="11" column="5" bodyfile="auxiliarTree.c" bodystart="53" bodyend="62" declfile="auxiliarTree.h" declline="11" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarTree_8h_1aea5e5e964adbddeba8bc9b28edffa2da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printTree</definition>
+        <argsstring>(TREE tree)</argsstring>
+        <name>printTree</name>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite a impressão in order da árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tree</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore binária a imprimir. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="12" column="6" bodyfile="auxiliarTree.c" bodystart="69" bodyend="77" declfile="auxiliarTree.h" declline="12" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarTree_8h_1a35b0424230cce746bafe0fdb078c0e9e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeTree</definition>
+        <argsstring>(TREE node)</argsstring>
+        <name>freeTree</name>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pela árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="13" column="6" bodyfile="auxiliarTree.c" bodystart="84" bodyend="90" declfile="auxiliarTree.h" declline="13" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="auxiliarTree_8h_1ab10923aaf4bec3a6d226ddeec9a8c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int countnodes</definition>
+        <argsstring>(TREE tree)</argsstring>
+        <name>countnodes</name>
+        <param>
+          <type><ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref></type>
+          <declname>tree</declname>
+        </param>
+        <briefdescription>
+<para>Função que o número de nodos de uma árvore binária. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>node</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Árvore. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="auxiliarTree.h" line="14" column="5" bodyfile="auxiliarTree.c" bodystart="97" bodyend="101" declfile="auxiliarTree.h" declline="14" declcolumn="5"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="4"><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structtree" kindref="compound">tree</ref><sp/>*<ref refid="auxiliarTree_8h_1ac0e4efc186caf2b97b1366033992c135" kindref="member">TREE</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="auxiliarTree_8h_1a046d3ee75787615cc6a9cc1bca11521f" kindref="member">insert</ref><sp/>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarTree_8h_1aeb08a84830917a5d5d0f343cff03f335" kindref="member">search</ref><sp/>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarTree_8h_1aea5e5e964adbddeba8bc9b28edffa2da" kindref="member">printTree</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="auxiliarTree_8h_1a35b0424230cce746bafe0fdb078c0e9e" kindref="member">freeTree</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/>node);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="auxiliarTree_8h_1ab10923aaf4bec3a6d226ddeec9a8c777" kindref="member">countnodes</ref>(<ref refid="structtree" kindref="compound">TREE</ref><sp/><ref refid="structtree" kindref="compound">tree</ref>);</highlight></codeline>
+    </programlisting>
+    <location file="auxiliarTree.h"/>
+  </compounddef>
+</doxygen>

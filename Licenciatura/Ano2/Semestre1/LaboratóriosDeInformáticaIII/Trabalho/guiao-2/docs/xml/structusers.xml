@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structusers" kind="struct" language="C++" prot="public">
+    <compoundname>users</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structusers_1a122769550cd0326010054b6fce516921" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="12" column="10" bodyfile="data_users.c" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1a9f530f8509ee725e94b4144f0524b588" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::login</definition>
+        <argsstring></argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o login </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="14" column="10" bodyfile="data_users.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1a954776a448646338b78e5d4cfc1218dc" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o tipo de user </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="16" column="10" bodyfile="data_users.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1ada655491948cfb09eed893eaa3bc6482" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::created_at</definition>
+        <argsstring></argsstring>
+        <name>created_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a data </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="18" column="10" bodyfile="data_users.c" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1adb047348c55045fcb0dae2c83aae8ced" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::followers</definition>
+        <argsstring></argsstring>
+        <name>followers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de seguidores </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="20" column="10" bodyfile="data_users.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1a1ebb3aab197db547d12c858f411ca691" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::followers_list</definition>
+        <argsstring></argsstring>
+        <name>followers_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a lista dos seguidores </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="22" column="10" bodyfile="data_users.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1a0226550810a9374cae5af120ace35153" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::following</definition>
+        <argsstring></argsstring>
+        <name>following</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de seguidores que o user segue </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="24" column="10" bodyfile="data_users.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1a2debc93f7ceab057f665c74a6110cb75" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::following_list</definition>
+        <argsstring></argsstring>
+        <name>following_list</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a lista dos seguidores que o user segue </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="26" column="10" bodyfile="data_users.c" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1aef13f0c74daba0e47a79023b30919fc8" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::public_gists</definition>
+        <argsstring></argsstring>
+        <name>public_gists</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de gists </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="28" column="10" bodyfile="data_users.c" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1aea02d930db13d1ffcb95fe09ab4df273" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* users::public_repos</definition>
+        <argsstring></argsstring>
+        <name>public_repos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de repositórios publicos </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="30" column="10" bodyfile="data_users.c" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structusers_1af44b9210e4c11a1f11776678def84458" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structusers" kindref="compound">users</ref> *</type>
+        <definition>struct users* users::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>struct de users que aponta para o próximo user </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.c" line="32" column="16" bodyfile="data_users.c" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da struct users. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>users</label>
+        <link refid="structusers"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="data_users.c" line="9" column="1" bodyfile="data_users.c" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="structusers_1ada655491948cfb09eed893eaa3bc6482" prot="public" virt="non-virtual"><scope>users</scope><name>created_at</name></member>
+      <member refid="structusers_1adb047348c55045fcb0dae2c83aae8ced" prot="public" virt="non-virtual"><scope>users</scope><name>followers</name></member>
+      <member refid="structusers_1a1ebb3aab197db547d12c858f411ca691" prot="public" virt="non-virtual"><scope>users</scope><name>followers_list</name></member>
+      <member refid="structusers_1a0226550810a9374cae5af120ace35153" prot="public" virt="non-virtual"><scope>users</scope><name>following</name></member>
+      <member refid="structusers_1a2debc93f7ceab057f665c74a6110cb75" prot="public" virt="non-virtual"><scope>users</scope><name>following_list</name></member>
+      <member refid="structusers_1a122769550cd0326010054b6fce516921" prot="public" virt="non-virtual"><scope>users</scope><name>id</name></member>
+      <member refid="structusers_1a9f530f8509ee725e94b4144f0524b588" prot="public" virt="non-virtual"><scope>users</scope><name>login</name></member>
+      <member refid="structusers_1af44b9210e4c11a1f11776678def84458" prot="public" virt="non-virtual"><scope>users</scope><name>next</name></member>
+      <member refid="structusers_1aef13f0c74daba0e47a79023b30919fc8" prot="public" virt="non-virtual"><scope>users</scope><name>public_gists</name></member>
+      <member refid="structusers_1aea02d930db13d1ffcb95fe09ab4df273" prot="public" virt="non-virtual"><scope>users</scope><name>public_repos</name></member>
+      <member refid="structusers_1a954776a448646338b78e5d4cfc1218dc" prot="public" virt="non-virtual"><scope>users</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

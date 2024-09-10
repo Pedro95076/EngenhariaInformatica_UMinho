@@ -1,0 +1,474 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__users_8h" kind="file" language="C++">
+    <compoundname>data_users.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="data__tree_8h" local="yes">data_tree.h</includedby>
+    <includedby refid="data__users_8c" local="yes">data_users.c</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="query_8h" local="yes">query.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="4">
+        <label>data_tpll.c</label>
+        <link refid="data__tpll_8c"/>
+      </node>
+      <node id="3">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>data_tree.c</label>
+        <link refid="data__tree_8c"/>
+      </node>
+      <node id="2">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>data_users.c</label>
+        <link refid="data__users_8c"/>
+      </node>
+      <node id="1">
+        <label>data_users.h</label>
+        <link refid="data__users_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="7">
+        <label>query.c</label>
+        <link refid="query_8c"/>
+      </node>
+      <node id="6">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" prot="public" static="no">
+        <type>struct <ref refid="structusers" kindref="compound">users</ref> *</type>
+        <definition>typedef struct users* USERS</definition>
+        <argsstring></argsstring>
+        <name>USERS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="9" column="20" bodyfile="data_users.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__users_8h_1a1d0cf29796912254c90927f3878b39c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+        <definition>USERS insertDataUsers</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>insertDataUsers</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda no catálogo os utilizadores do ficheiro &quot;users-g2.csv&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro &quot;users-g2.csv&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma lista ligada com os utilizadores - Catálogo de Utilizadores. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="10" column="7" bodyfile="data_users.c" bodystart="42" bodyend="106" declfile="data_users.h" declline="10" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a0f635b6fe309a5ac5cdb01f9068f710f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>isEmptyUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que verifica se a lista chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com todos os utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se a lista chegou o fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="11" column="5" bodyfile="data_users.c" bodystart="115" bodyend="119" declfile="data_users.h" declline="11" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a2fb4b2dab8473ceae9cac7cdc82193fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+        <definition>USERS obtain_nextUser</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_nextUser</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo utilizador no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o nodo do próximo utilizador. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="12" column="7" bodyfile="data_users.c" bodystart="128" bodyend="131" declfile="data_users.h" declline="12" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a7deee81d08ec4e36a3810c73e692f0b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_typeUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_typeUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter qual o tipo do utilizador no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o tipo de utilizador. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="13" column="7" bodyfile="data_users.c" bodystart="140" bodyend="143" declfile="data_users.h" declline="13" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1aef195ddd430d9c550484241eb945d0ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_IdUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_IdUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter qual o ID do utilizador no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do utilizador. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="14" column="7" bodyfile="data_users.c" bodystart="152" bodyend="155" declfile="data_users.h" declline="14" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a8eb776fafbd03dd4e7c6e15262d805a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_LoginUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_LoginUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter qual o login do utilizador no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o login do utilizador. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="15" column="7" bodyfile="data_users.c" bodystart="164" bodyend="167" declfile="data_users.h" declline="15" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1adf3c1b44e2941df2380b4026644e956b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_followersUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_followersUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter qual o número de followers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de followers. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="16" column="7" bodyfile="data_users.c" bodystart="176" bodyend="179" declfile="data_users.h" declline="16" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1afa24648bc4b3dd3906a634b38fdcba97" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_followersListUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_followersListUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a lista de followers. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista de followers. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="17" column="7" bodyfile="data_users.c" bodystart="188" bodyend="191" declfile="data_users.h" declline="17" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a810da3218e7a83322d70237fd4f2e639" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_followingUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_followingUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter qual o número de following. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o número de following. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="18" column="7" bodyfile="data_users.c" bodystart="200" bodyend="203" declfile="data_users.h" declline="18" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a27316e051f0b10eaf9a7ce1fa2e4e2e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_followingListUsers</definition>
+        <argsstring>(USERS users)</argsstring>
+        <name>obtain_followingListUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>users</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a lista de following. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>users</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Utilizadores.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a lista de following. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="19" column="7" bodyfile="data_users.c" bodystart="212" bodyend="215" declfile="data_users.h" declline="19" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__users_8h_1a861c0d0bb67b2ae11dbce9f36dc24fd3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeUsers</definition>
+        <argsstring>(USERS head)</argsstring>
+        <name>freeUsers</name>
+        <param>
+          <type><ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pelo catálogo de Users. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Users. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_users.h" line="20" column="6" bodyfile="data_users.c" bodystart="222" bodyend="232" declfile="data_users.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structusers" kindref="compound">users</ref><sp/>*<ref refid="data__users_8h_1a71fe1a6475f0342b4c6f7c3f2bc52760" kindref="member">USERS</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="data__users_8h_1a1d0cf29796912254c90927f3878b39c8" kindref="member">insertDataUsers</ref>(FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__users_8h_1a0f635b6fe309a5ac5cdb01f9068f710f" kindref="member">isEmptyUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="data__users_8h_1a2fb4b2dab8473ceae9cac7cdc82193fc" kindref="member">obtain_nextUser</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1a7deee81d08ec4e36a3810c73e692f0b3" kindref="member">obtain_typeUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1aef195ddd430d9c550484241eb945d0ac" kindref="member">obtain_IdUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1a8eb776fafbd03dd4e7c6e15262d805a9" kindref="member">obtain_LoginUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1adf3c1b44e2941df2380b4026644e956b" kindref="member">obtain_followersUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1afa24648bc4b3dd3906a634b38fdcba97" kindref="member">obtain_followersListUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1a810da3218e7a83322d70237fd4f2e639" kindref="member">obtain_followingUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__users_8h_1a27316e051f0b10eaf9a7ce1fa2e4e2e9" kindref="member">obtain_followingListUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/><ref refid="structusers" kindref="compound">users</ref>);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__users_8h_1a861c0d0bb67b2ae11dbce9f36dc24fd3" kindref="member">freeUsers</ref>(<ref refid="structusers" kindref="compound">USERS</ref><sp/>head);</highlight></codeline>
+    </programlisting>
+    <location file="data_users.h"/>
+  </compounddef>
+</doxygen>

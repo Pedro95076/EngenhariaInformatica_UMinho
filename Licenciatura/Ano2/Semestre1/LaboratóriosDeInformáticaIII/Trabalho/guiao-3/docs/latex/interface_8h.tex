@@ -1,0 +1,62 @@
+\hypertarget{interface_8h}{}\doxysection{interface.\+h File Reference}
+\label{interface_8h}\index{interface.h@{interface.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+commits.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+repos.\+h\char`\"{}}\newline
+Include dependency graph for interface.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{interface_8h_a4e57f3abfb9f8c26fcf48b34449fc44a}{main\+Menu}} (\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função do menu principal. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_8h_a5f2a18ad9c22c7243d2e200d39069707}{choose\+Query}} (int query, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função que seleciona a interface a utilizar consoante a query. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{interface_8h_a5f2a18ad9c22c7243d2e200d39069707}\label{interface_8h_a5f2a18ad9c22c7243d2e200d39069707}} 
+\index{interface.h@{interface.h}!chooseQuery@{chooseQuery}}
+\index{chooseQuery@{chooseQuery}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{chooseQuery()}{chooseQuery()}}
+{\footnotesize\ttfamily void choose\+Query (\begin{DoxyParamCaption}\item[{int}]{query,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que seleciona a interface a utilizar consoante a query. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em query} & ID da query\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8h_a4e57f3abfb9f8c26fcf48b34449fc44a}\label{interface_8h_a4e57f3abfb9f8c26fcf48b34449fc44a}} 
+\index{interface.h@{interface.h}!mainMenu@{mainMenu}}
+\index{mainMenu@{mainMenu}!interface.h@{interface.h}}
+\doxysubsubsection{\texorpdfstring{mainMenu()}{mainMenu()}}
+{\footnotesize\ttfamily void main\+Menu (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função do menu principal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,125 @@
+\hypertarget{auxiliarTree_8h}{}\doxysection{auxiliar\+Tree.\+h File Reference}
+\label{auxiliarTree_8h}\index{auxiliarTree.h@{auxiliarTree.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for auxiliar\+Tree.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structtree}{tree}} $\ast$ \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{auxiliarTree_8h_a046d3ee75787615cc6a9cc1bca11521f}{insert}} (\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{structtree}{tree}}, int x)
+\begin{DoxyCompactList}\small\item\em Função que insere os elementos na árvore binária. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarTree_8h_aeb08a84830917a5d5d0f343cff03f335}{search}} (\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{structtree}{tree}}, int x)
+\begin{DoxyCompactList}\small\item\em Função que procura numa árvore binária o elemento especificado. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarTree_8h_aea5e5e964adbddeba8bc9b28edffa2da}{print\+Tree}} (\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que permite a impressão in order da árvore binária. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarTree_8h_a35b0424230cce746bafe0fdb078c0e9e}{free\+Tree}} (\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} node)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pela árvore binária. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarTree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}{countnodes}} (\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} \mbox{\hyperlink{structtree}{tree}})
+\begin{DoxyCompactList}\small\item\em Função que o número de nodos de uma árvore binária. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}\label{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!TREE@{TREE}}
+\index{TREE@{TREE}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{TREE}{TREE}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtree}{tree}}$\ast$ \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{auxiliarTree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}\label{auxiliarTree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!countnodes@{countnodes}}
+\index{countnodes@{countnodes}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{countnodes()}{countnodes()}}
+{\footnotesize\ttfamily int countnodes (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que o número de nodos de uma árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarTree_8h_a35b0424230cce746bafe0fdb078c0e9e}\label{auxiliarTree_8h_a35b0424230cce746bafe0fdb078c0e9e}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!freeTree@{freeTree}}
+\index{freeTree@{freeTree}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{freeTree()}{freeTree()}}
+{\footnotesize\ttfamily void free\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{node }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pela árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Árvore. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarTree_8h_a046d3ee75787615cc6a9cc1bca11521f}\label{auxiliarTree_8h_a046d3ee75787615cc6a9cc1bca11521f}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!insert@{insert}}
+\index{insert@{insert}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{insert()}{insert()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}} insert (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{tree,  }\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que insere os elementos na árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária onde se irá guardar o elemento.\\
+\hline
+{\em x} & Elemento a guardar na árvore binária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a árvore com o elemento inserido. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarTree_8h_aea5e5e964adbddeba8bc9b28edffa2da}\label{auxiliarTree_8h_aea5e5e964adbddeba8bc9b28edffa2da}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!printTree@{printTree}}
+\index{printTree@{printTree}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{printTree()}{printTree()}}
+{\footnotesize\ttfamily void print\+Tree (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{tree }\end{DoxyParamCaption})}
+
+
+
+Função que permite a impressão in order da árvore binária. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária a imprimir. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarTree_8h_aeb08a84830917a5d5d0f343cff03f335}\label{auxiliarTree_8h_aeb08a84830917a5d5d0f343cff03f335}} 
+\index{auxiliarTree.h@{auxiliarTree.h}!search@{search}}
+\index{search@{search}!auxiliarTree.h@{auxiliarTree.h}}
+\doxysubsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily int search (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{auxiliarTree_8h_ac0e4efc186caf2b97b1366033992c135}{T\+R\+EE}}}]{tree,  }\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Função que procura numa árvore binária o elemento especificado. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Árvore binária aonde se irá procurar o elemento\\
+\hline
+{\em x} & Elemento a encontrar na árvore binária.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se o elemento for encontrado. 
+\end{DoxyReturn}

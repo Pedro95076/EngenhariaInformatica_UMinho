@@ -1,0 +1,313 @@
+\hypertarget{auxiliarFunc_8c}{}\doxysection{auxiliar\+Func.\+c File Reference}
+\label{auxiliarFunc_8c}\index{auxiliarFunc.c@{auxiliarFunc.c}}
+{\ttfamily \#include \char`\"{}auxiliar\+Func.\+h\char`\"{}}\newline
+Include dependency graph for auxiliar\+Func.\+c\+:
+% FIG 0
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structdata}{data}}
+\begin{DoxyCompactList}\small\item\em estrutura de dados auxiliar para a verificação da data \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{auxiliarFunc_8c_a0b2aa71ea21b6ed331980c7865e69650}{M\+A\+X\+\_\+\+YR}}~2022
+\begin{DoxyCompactList}\small\item\em variável global que determina o ano máximo para verificação \end{DoxyCompactList}\item 
+\#define \mbox{\hyperlink{auxiliarFunc_8c_aea9407755a0c8534283a029c582e0d8f}{M\+I\+N\+\_\+\+YR}}~2005
+\begin{DoxyCompactList}\small\item\em variável global que determina o ano mínimo para verificação \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a258d2c58d645c5147993e948fbc4081c}{Is\+Leap\+Year}} (int year)
+\begin{DoxyCompactList}\small\item\em função auxiliar que verifica se o ano é bissexto \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a85554b05d5d346698e1eeaa8ed79657c}{is\+Valid\+Date}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função auxlidade que verifica se a data é válida \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{auxiliarFunc_8c_aff2adc3f5dd651eb7c9dd6452ea3dc0b}{check\+\_\+\+File}} (F\+I\+LE $\ast$file)
+\begin{DoxyCompactList}\small\item\em função que verifica se o ficheiro está fazio \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{auxiliarFunc_8c_a2dbcb08eb0c82000bf354bb3a0d66e95}{hash\+\_\+key}} (char $\ast$id)
+\begin{DoxyCompactList}\small\item\em função que associada a key da hashtable a um determinado ID \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_ade2f80ae86b94cd7702049f847149e27}{test\+Int}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se o valor é um inteiro \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a9b6cc458bbfc91f0c09dc65e56dddcc4}{test\+String}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se o valor é uma string não nula \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a402c8ec88de23240900c57e989ac67fa}{test\+Followers\+List}} (char $\ast$follow, char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se a lista de followers apresenta o mesmo número de elementos que o valor de followers \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_ae91788c511212b6c4e1e8a7e7d496eee}{test\+Following\+List}} (char $\ast$follow, char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se a lista de following apresenta o mesmo número de elementos que o valor de following \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a29311211c6cdccc1d3d7a4ce70ce3747}{test\+Type}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa o tipo do utilizador \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a83aafd5444efe74cd296e5d55943281e}{test\+Login}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se a string de login é válida \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_aae011dbf5b7c0cad4b30a82a4ffa1daf}{test\+Bool}} (char $\ast$str)
+\begin{DoxyCompactList}\small\item\em função que testa se a string é um booleano \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a3531516a99f0ef533672db086599d419}{compare\+Dates}} (char $\ast$start\+\_\+date, char $\ast$end\+\_\+date, char $\ast$date)
+\begin{DoxyCompactList}\small\item\em Função que permite a comparação entre 3 datas. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{auxiliarFunc_8c_a136be24413b8cc95cf6b84869e1fd38d}{verify\+Date}} (char $\ast$start\+\_\+date, char $\ast$date)
+\begin{DoxyCompactList}\small\item\em Função que permite a comparação entre 2 datas. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Macro Definition Documentation}
+\mbox{\Hypertarget{auxiliarFunc_8c_a0b2aa71ea21b6ed331980c7865e69650}\label{auxiliarFunc_8c_a0b2aa71ea21b6ed331980c7865e69650}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!MAX\_YR@{MAX\_YR}}
+\index{MAX\_YR@{MAX\_YR}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{MAX\_YR}{MAX\_YR}}
+{\footnotesize\ttfamily \#define M\+A\+X\+\_\+\+YR~2022}
+
+
+
+variável global que determina o ano máximo para verificação 
+
+\mbox{\Hypertarget{auxiliarFunc_8c_aea9407755a0c8534283a029c582e0d8f}\label{auxiliarFunc_8c_aea9407755a0c8534283a029c582e0d8f}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!MIN\_YR@{MIN\_YR}}
+\index{MIN\_YR@{MIN\_YR}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{MIN\_YR}{MIN\_YR}}
+{\footnotesize\ttfamily \#define M\+I\+N\+\_\+\+YR~2005}
+
+
+
+variável global que determina o ano mínimo para verificação 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{auxiliarFunc_8c_aff2adc3f5dd651eb7c9dd6452ea3dc0b}\label{auxiliarFunc_8c_aff2adc3f5dd651eb7c9dd6452ea3dc0b}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!check\_File@{check\_File}}
+\index{check\_File@{check\_File}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{check\_File()}{check\_File()}}
+{\footnotesize\ttfamily void check\+\_\+\+File (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+função que verifica se o ficheiro está fazio 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & ficheiro a testar \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{auxiliarFunc_8c_a3531516a99f0ef533672db086599d419}\label{auxiliarFunc_8c_a3531516a99f0ef533672db086599d419}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!compareDates@{compareDates}}
+\index{compareDates@{compareDates}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{compareDates()}{compareDates()}}
+{\footnotesize\ttfamily int compare\+Dates (\begin{DoxyParamCaption}\item[{char $\ast$}]{start\+\_\+date,  }\item[{char $\ast$}]{end\+\_\+date,  }\item[{char $\ast$}]{date }\end{DoxyParamCaption})}
+
+
+
+Função que permite a comparação entre 3 datas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+\_\+date} & Data inicial.\\
+\hline
+{\em end\+\_\+date} & Data final.\\
+\hline
+{\em date} & Data a descobrir se se encontra entre a inicial e a final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a data se encontra entre a inicial e a final. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a2dbcb08eb0c82000bf354bb3a0d66e95}\label{auxiliarFunc_8c_a2dbcb08eb0c82000bf354bb3a0d66e95}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!hash\_key@{hash\_key}}
+\index{hash\_key@{hash\_key}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{hash\_key()}{hash\_key()}}
+{\footnotesize\ttfamily unsigned int hash\+\_\+key (\begin{DoxyParamCaption}\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+função que associada a key da hashtable a um determinado ID 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & string que inclui o ID\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna a key associada a um determinado ID 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a258d2c58d645c5147993e948fbc4081c}\label{auxiliarFunc_8c_a258d2c58d645c5147993e948fbc4081c}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!IsLeapYear@{IsLeapYear}}
+\index{IsLeapYear@{IsLeapYear}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{IsLeapYear()}{IsLeapYear()}}
+{\footnotesize\ttfamily int Is\+Leap\+Year (\begin{DoxyParamCaption}\item[{int}]{year }\end{DoxyParamCaption})}
+
+
+
+função auxiliar que verifica se o ano é bissexto 
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & inteiro que indica o ano\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 1 se for verdade 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a85554b05d5d346698e1eeaa8ed79657c}\label{auxiliarFunc_8c_a85554b05d5d346698e1eeaa8ed79657c}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!isValidDate@{isValidDate}}
+\index{isValidDate@{isValidDate}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{isValidDate()}{isValidDate()}}
+{\footnotesize\ttfamily int is\+Valid\+Date (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função auxlidade que verifica se a data é válida 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string com a data\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 1 se for válida 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_aae011dbf5b7c0cad4b30a82a4ffa1daf}\label{auxiliarFunc_8c_aae011dbf5b7c0cad4b30a82a4ffa1daf}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testBool@{testBool}}
+\index{testBool@{testBool}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testBool()}{testBool()}}
+{\footnotesize\ttfamily int test\+Bool (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se a string é um booleano 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string a testar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for verdadeiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a402c8ec88de23240900c57e989ac67fa}\label{auxiliarFunc_8c_a402c8ec88de23240900c57e989ac67fa}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testFollowersList@{testFollowersList}}
+\index{testFollowersList@{testFollowersList}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testFollowersList()}{testFollowersList()}}
+{\footnotesize\ttfamily int test\+Followers\+List (\begin{DoxyParamCaption}\item[{char $\ast$}]{follow,  }\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se a lista de followers apresenta o mesmo número de elementos que o valor de followers 
+
+
+\begin{DoxyParams}{Parameters}
+{\em follow} & string com o número de followers\\
+\hline
+{\em str} & string com a lista de followers\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for verdadeiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_ae91788c511212b6c4e1e8a7e7d496eee}\label{auxiliarFunc_8c_ae91788c511212b6c4e1e8a7e7d496eee}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testFollowingList@{testFollowingList}}
+\index{testFollowingList@{testFollowingList}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testFollowingList()}{testFollowingList()}}
+{\footnotesize\ttfamily int test\+Following\+List (\begin{DoxyParamCaption}\item[{char $\ast$}]{follow,  }\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se a lista de following apresenta o mesmo número de elementos que o valor de following 
+
+
+\begin{DoxyParams}{Parameters}
+{\em follow} & string com o número de following\\
+\hline
+{\em str} & string com a lista de following\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for verdadeiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_ade2f80ae86b94cd7702049f847149e27}\label{auxiliarFunc_8c_ade2f80ae86b94cd7702049f847149e27}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testInt@{testInt}}
+\index{testInt@{testInt}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testInt()}{testInt()}}
+{\footnotesize\ttfamily int test\+Int (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se o valor é um inteiro 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string a testar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for verdadeiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a83aafd5444efe74cd296e5d55943281e}\label{auxiliarFunc_8c_a83aafd5444efe74cd296e5d55943281e}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testLogin@{testLogin}}
+\index{testLogin@{testLogin}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testLogin()}{testLogin()}}
+{\footnotesize\ttfamily int test\+Login (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se a string de login é válida 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string a testar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for um login válido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a9b6cc458bbfc91f0c09dc65e56dddcc4}\label{auxiliarFunc_8c_a9b6cc458bbfc91f0c09dc65e56dddcc4}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testString@{testString}}
+\index{testString@{testString}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testString()}{testString()}}
+{\footnotesize\ttfamily int test\+String (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa se o valor é uma string não nula 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string a testar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for verdadeiro 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a29311211c6cdccc1d3d7a4ce70ce3747}\label{auxiliarFunc_8c_a29311211c6cdccc1d3d7a4ce70ce3747}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!testType@{testType}}
+\index{testType@{testType}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{testType()}{testType()}}
+{\footnotesize\ttfamily int test\+Type (\begin{DoxyParamCaption}\item[{char $\ast$}]{str }\end{DoxyParamCaption})}
+
+
+
+função que testa o tipo do utilizador 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & string a testar\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+retorna 0 se for um tipo válido 
+\end{DoxyReturn}
+\mbox{\Hypertarget{auxiliarFunc_8c_a136be24413b8cc95cf6b84869e1fd38d}\label{auxiliarFunc_8c_a136be24413b8cc95cf6b84869e1fd38d}} 
+\index{auxiliarFunc.c@{auxiliarFunc.c}!verifyDate@{verifyDate}}
+\index{verifyDate@{verifyDate}!auxiliarFunc.c@{auxiliarFunc.c}}
+\doxysubsubsection{\texorpdfstring{verifyDate()}{verifyDate()}}
+{\footnotesize\ttfamily int verify\+Date (\begin{DoxyParamCaption}\item[{char $\ast$}]{start\+\_\+date,  }\item[{char $\ast$}]{date }\end{DoxyParamCaption})}
+
+
+
+Função que permite a comparação entre 2 datas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\+\_\+date} & Data inicial.\\
+\hline
+{\em date} & Data a descobrir se é maior do que a final.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a data é maior do que a inicial. 
+\end{DoxyReturn}

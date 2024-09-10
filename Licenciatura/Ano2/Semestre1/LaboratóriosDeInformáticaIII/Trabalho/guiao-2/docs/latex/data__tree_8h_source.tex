@@ -1,0 +1,37 @@
+\hypertarget{data__tree_8h_source}{}\doxysection{data\+\_\+tree.\+h}
+\mbox{\hyperlink{data__tree_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 }
+\DoxyCodeLine{4 \textcolor{preprocessor}{\#include <stdio.h>}}
+\DoxyCodeLine{5 \textcolor{preprocessor}{\#include <stdlib.h>}}
+\DoxyCodeLine{6 \textcolor{preprocessor}{\#include <string.h>}}
+\DoxyCodeLine{7 \textcolor{preprocessor}{\#include <math.h>}}
+\DoxyCodeLine{8 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{data__users_8h}{data\_users.h}}"{}}}
+\DoxyCodeLine{9 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{data__commits_8h}{data\_commits.h}}"{}}}
+\DoxyCodeLine{10 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{data__repos_8h}{data\_repos.h}}"{}}}
+\DoxyCodeLine{11 }
+\DoxyCodeLine{12 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtree}{tree}} *\mbox{\hyperlink{data__tree_8h_ac0e4efc186caf2b97b1366033992c135}{TREE}};}
+\DoxyCodeLine{13 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtreeUsers}{treeUsers}} *\mbox{\hyperlink{data__tree_8h_a519b47b366ce8ed237efaf19c7cc1e4d}{TREEUSERS}};}
+\DoxyCodeLine{14 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtreeUsers9}{treeUsers9}} *\mbox{\hyperlink{data__tree_8h_ae7a19ed299494b455f1f935624022669}{TREEUSERS9}};}
+\DoxyCodeLine{15 \textcolor{keyword}{typedef} \textcolor{keyword}{struct }\mbox{\hyperlink{structtreeRepos}{treeRepos}} *\mbox{\hyperlink{data__tree_8h_a56fdcf9c363f3fb663c2f1553a83a6a9}{TREEREPOS}};}
+\DoxyCodeLine{16 \mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{data__tree_8h_a046d3ee75787615cc6a9cc1bca11521f}{insert}} (\mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{17 \mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{data__tree_8h_a8d3d97f663d3b4a863d0fc67497451e8}{filterRepos\_Lang}}(\textcolor{keywordtype}{char} *lang, \mbox{\hyperlink{structrepos}{REPOS}} \mbox{\hyperlink{structrepos}{repos}}, \mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{structtree}{tree}});}
+\DoxyCodeLine{18 \mbox{\hyperlink{structtreeUsers}{TREEUSERS}} \mbox{\hyperlink{data__tree_8h_ada3a24c7044092c8dce26bdb34793954}{addUsersTREE}}(\mbox{\hyperlink{structtreeUsers}{TREEUSERS}} place, \textcolor{keywordtype}{char} *\textcolor{keywordtype}{id}, \textcolor{keywordtype}{char} *login);}
+\DoxyCodeLine{19 \mbox{\hyperlink{structtreeUsers}{TREEUSERS}} \mbox{\hyperlink{data__tree_8h_ae83344c676461ec63338c1da6071ddcc}{iniUsersTREE}}(\mbox{\hyperlink{structusers}{USERS}} \mbox{\hyperlink{structusers}{users}});}
+\DoxyCodeLine{20 \mbox{\hyperlink{structtreeUsers9}{TREEUSERS9}} \mbox{\hyperlink{data__tree_8h_aba9218b7c62cb38d91fa79553d28cd8a}{addUsersTREE9}}(\mbox{\hyperlink{structtreeUsers9}{TREEUSERS9}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{char} *\textcolor{keywordtype}{id}, \mbox{\hyperlink{structusers}{USERS}} user);}
+\DoxyCodeLine{21 \mbox{\hyperlink{structtreeUsers9}{TREEUSERS9}} \mbox{\hyperlink{data__tree_8h_a9c2e12210f7c4221da34aa2d80c7c1f8}{iniUsersTREE9}}(\mbox{\hyperlink{structusers}{USERS}} \mbox{\hyperlink{structusers}{users}});}
+\DoxyCodeLine{22 \mbox{\hyperlink{structtreeRepos}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a2a2ad278cc5ba9d7ad9c44f0810016cf}{addReposTREE}}(\mbox{\hyperlink{structtreeRepos}{TREEREPOS}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{char} *\textcolor{keywordtype}{id}, \textcolor{keywordtype}{char} *\mbox{\hyperlink{structtreeRepos_a4accb8b2103b9aa5eff70f10a26b01f5}{message}});}
+\DoxyCodeLine{23 \mbox{\hyperlink{structtreeRepos}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a1565fc2785db11f2e866e183768f35e8}{iniReposTREE}}(\mbox{\hyperlink{structrepos}{REPOS}} \mbox{\hyperlink{structrepos}{repos}});}
+\DoxyCodeLine{24 \mbox{\hyperlink{structtreeRepos}{TREEREPOS}} \mbox{\hyperlink{data__tree_8h_a34f5edb7f5874cc486858411974c0b96}{iniReposTREE9}}(\mbox{\hyperlink{structrepos}{REPOS}} \mbox{\hyperlink{structrepos}{repos}});}
+\DoxyCodeLine{25 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tree_8h_aeb08a84830917a5d5d0f343cff03f335}{search}} (\mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{int} x);}
+\DoxyCodeLine{26 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tree_8h_aea5e5e964adbddeba8bc9b28edffa2da}{printTree}}(\mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{structtree}{tree}});}
+\DoxyCodeLine{27 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tree_8h_a35b0424230cce746bafe0fdb078c0e9e}{freeTree}}(\mbox{\hyperlink{structtree}{TREE}} node);}
+\DoxyCodeLine{28 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tree_8h_af30f811f4a786e9f8845b60ab7161697}{freeTreeUsers}}(\mbox{\hyperlink{structtreeUsers}{TREEUSERS}} node);}
+\DoxyCodeLine{29 \textcolor{keywordtype}{void} \mbox{\hyperlink{data__tree_8h_a4e89413c85c0181bf82952e2a2f381bd}{freeTreeRepos}}(\mbox{\hyperlink{structtreeRepos}{TREEREPOS}} node);}
+\DoxyCodeLine{30 \textcolor{keywordtype}{int} \mbox{\hyperlink{data__tree_8h_ab10923aaf4bec3a6d226ddeec9a8c777}{countnodes}}(\mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{structtree}{tree}});}
+\DoxyCodeLine{31 \textcolor{keywordtype}{char} * \mbox{\hyperlink{data__tree_8h_a6bd8de736b75e89de56d0704c7067c73}{searchUsers}} (\mbox{\hyperlink{structtreeUsers}{TREEUSERS}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{char} * x);}
+\DoxyCodeLine{32 \mbox{\hyperlink{structusers}{USERS}} \mbox{\hyperlink{data__tree_8h_ab525532283c815cbf66c0b7be898122a}{searchUsers9}} (\mbox{\hyperlink{structtreeUsers9}{TREEUSERS9}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{char} * x);}
+\DoxyCodeLine{33 \textcolor{keywordtype}{char} * \mbox{\hyperlink{data__tree_8h_a5a0e82b471da785140fe1e1593b7c115}{searchRepos}} (\mbox{\hyperlink{structtreeRepos}{TREEREPOS}} \mbox{\hyperlink{structtree}{tree}}, \textcolor{keywordtype}{char} * x);}
+\DoxyCodeLine{34 \mbox{\hyperlink{structtree}{TREE}} \mbox{\hyperlink{data__tree_8h_a0a88042ec7804bda4bf0a321ea03b4bf}{friendsTreeF}}(\mbox{\hyperlink{structusers}{USERS}} \mbox{\hyperlink{structusers}{users}},\textcolor{keywordtype}{int} *k); }
+
+\end{DoxyCode}

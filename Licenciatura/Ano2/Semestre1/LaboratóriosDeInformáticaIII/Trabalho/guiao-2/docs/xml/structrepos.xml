@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="structrepos" kind="struct" language="C++" prot="public">
+    <compoundname>repos</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structrepos_1a8f6b1484308b1046c0c6af50fc9f51f7" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="12" column="10" bodyfile="data_repos.c" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1aff1a54405d3672b86bc90723b30cb90b" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::owner_id</definition>
+        <argsstring></argsstring>
+        <name>owner_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o id do dono repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="14" column="10" bodyfile="data_repos.c" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a84f8557ad7832986c8c9f576408ed374" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::full_name</definition>
+        <argsstring></argsstring>
+        <name>full_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o nome do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="16" column="10" bodyfile="data_repos.c" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a15e09efffdd712538848120fdaa6c8de" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::license</definition>
+        <argsstring></argsstring>
+        <name>license</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a licensa do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="18" column="10" bodyfile="data_repos.c" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a172d6ced7045a3d79f2fd5f735a0ed12" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::has_wiki</definition>
+        <argsstring></argsstring>
+        <name>has_wiki</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que verifica se o repositório tem wiki </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="20" column="10" bodyfile="data_repos.c" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1afb494b12250465df5cafe777a246837a" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::description</definition>
+        <argsstring></argsstring>
+        <name>description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a descrição do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="22" column="10" bodyfile="data_repos.c" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a8c28c467ebb1d9e32829cf3fa01d420c" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::language</definition>
+        <argsstring></argsstring>
+        <name>language</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o idioma do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="24" column="10" bodyfile="data_repos.c" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a4bb94a259f82f3a09ae233e986fa959b" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::default_branch</definition>
+        <argsstring></argsstring>
+        <name>default_branch</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que refere o default branch </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="26" column="10" bodyfile="data_repos.c" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a53e805e4ae548bcae1d0148e134c680b" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::created_at</definition>
+        <argsstring></argsstring>
+        <name>created_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a data de criação do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="28" column="10" bodyfile="data_repos.c" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a7b4bd3761b7bca5097d51433c498f57f" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::updated_at</definition>
+        <argsstring></argsstring>
+        <name>updated_at</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém a data do último update do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="30" column="10" bodyfile="data_repos.c" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a98fd3567ca7506c4ce448b765b86a339" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::forks_count</definition>
+        <argsstring></argsstring>
+        <name>forks_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de cópias do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="32" column="10" bodyfile="data_repos.c" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a5cee8a4570a72411103b9fcc152f0366" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::open_issues</definition>
+        <argsstring></argsstring>
+        <name>open_issues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o número de problemas em aberto </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="34" column="10" bodyfile="data_repos.c" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a3aece8acbc9b2240174db468f4772eb7" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::stargazers_count</definition>
+        <argsstring></argsstring>
+        <name>stargazers_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o númerod de stargazers </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="36" column="10" bodyfile="data_repos.c" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a35cd89ee966e3bf2776978bcd81d7520" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* repos::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>string que contém o tamanho do repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="38" column="10" bodyfile="data_repos.c" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structrepos" kindref="compound">repos</ref> *</type>
+        <definition>struct repos* repos::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>struct de repositórios que aponta para o próximo repositório </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_repos.c" line="40" column="17" bodyfile="data_repos.c" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Definição da struct repos. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>repos</label>
+        <link refid="structrepos"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="data_repos.c" line="9" column="1" bodyfile="data_repos.c" bodystart="10" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structrepos_1a53e805e4ae548bcae1d0148e134c680b" prot="public" virt="non-virtual"><scope>repos</scope><name>created_at</name></member>
+      <member refid="structrepos_1a4bb94a259f82f3a09ae233e986fa959b" prot="public" virt="non-virtual"><scope>repos</scope><name>default_branch</name></member>
+      <member refid="structrepos_1afb494b12250465df5cafe777a246837a" prot="public" virt="non-virtual"><scope>repos</scope><name>description</name></member>
+      <member refid="structrepos_1a98fd3567ca7506c4ce448b765b86a339" prot="public" virt="non-virtual"><scope>repos</scope><name>forks_count</name></member>
+      <member refid="structrepos_1a84f8557ad7832986c8c9f576408ed374" prot="public" virt="non-virtual"><scope>repos</scope><name>full_name</name></member>
+      <member refid="structrepos_1a172d6ced7045a3d79f2fd5f735a0ed12" prot="public" virt="non-virtual"><scope>repos</scope><name>has_wiki</name></member>
+      <member refid="structrepos_1a8f6b1484308b1046c0c6af50fc9f51f7" prot="public" virt="non-virtual"><scope>repos</scope><name>id</name></member>
+      <member refid="structrepos_1a8c28c467ebb1d9e32829cf3fa01d420c" prot="public" virt="non-virtual"><scope>repos</scope><name>language</name></member>
+      <member refid="structrepos_1a15e09efffdd712538848120fdaa6c8de" prot="public" virt="non-virtual"><scope>repos</scope><name>license</name></member>
+      <member refid="structrepos_1a41c2595a0a8216021ae75e8cd1ed2a40" prot="public" virt="non-virtual"><scope>repos</scope><name>next</name></member>
+      <member refid="structrepos_1a5cee8a4570a72411103b9fcc152f0366" prot="public" virt="non-virtual"><scope>repos</scope><name>open_issues</name></member>
+      <member refid="structrepos_1aff1a54405d3672b86bc90723b30cb90b" prot="public" virt="non-virtual"><scope>repos</scope><name>owner_id</name></member>
+      <member refid="structrepos_1a35cd89ee966e3bf2776978bcd81d7520" prot="public" virt="non-virtual"><scope>repos</scope><name>size</name></member>
+      <member refid="structrepos_1a3aece8acbc9b2240174db468f4772eb7" prot="public" virt="non-virtual"><scope>repos</scope><name>stargazers_count</name></member>
+      <member refid="structrepos_1a7b4bd3761b7bca5097d51433c498f57f" prot="public" virt="non-virtual"><scope>repos</scope><name>updated_at</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

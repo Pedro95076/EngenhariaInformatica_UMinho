@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="data__commits_8h" kind="file" language="C++">
+    <compoundname>data_commits.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">math.h</includes>
+    <includedby refid="data__commits_8c" local="yes">data_commits.c</includedby>
+    <includedby refid="data__tpll_8h" local="yes">data_tpll.h</includedby>
+    <includedby refid="data__tree_8h" local="yes">data_tree.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="query_8h" local="yes">query.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>stdio.h</label>
+      </node>
+      <node id="3">
+        <label>stdlib.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>data_commits.c</label>
+        <link refid="data__commits_8c"/>
+      </node>
+      <node id="1">
+        <label>data_commits.h</label>
+        <link refid="data__commits_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>data_tpll.c</label>
+        <link refid="data__tpll_8c"/>
+      </node>
+      <node id="3">
+        <label>data_tpll.h</label>
+        <link refid="data__tpll_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>data_tree.c</label>
+        <link refid="data__tree_8c"/>
+      </node>
+      <node id="8">
+        <label>data_tree.h</label>
+        <link refid="data__tree_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="7">
+        <label>query.c</label>
+        <link refid="query_8c"/>
+      </node>
+      <node id="6">
+        <label>query.h</label>
+        <link refid="query_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" prot="public" static="no">
+        <type>struct <ref refid="structcommits" kindref="compound">commits</ref> *</type>
+        <definition>typedef struct commits* COMMITS</definition>
+        <argsstring></argsstring>
+        <name>COMMITS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="9" column="22" bodyfile="data_commits.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="data__commits_8h_1a9db38fcd8d20cfae8f7bbc5c99875e4a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+        <definition>COMMITS insertDataCommits</definition>
+        <argsstring>(FILE *file)</argsstring>
+        <name>insertDataCommits</name>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+<para>Função que guarda no catálogo os commits do ficheiro &quot;commits-g2.csv&quot;. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>file</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Ficheiro &quot;commits-g2.csv&quot;.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna uma lista ligada com os commits - Catálogo de commits. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="10" column="9" bodyfile="data_commits.c" bodystart="32" bodyend="81" declfile="data_commits.h" declline="10" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a9430f592e299524db42c26d9b182c137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int isEmptyCommits</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>isEmptyCommits</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que verifica se a lista chegou ao fim. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Lista ligada com todos os commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna 1 se a lista chegou o fim. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="11" column="5" bodyfile="data_commits.c" bodystart="90" bodyend="94" declfile="data_commits.h" declline="11" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a9a745d4c49c473b8739fb619ce84e256" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+        <definition>COMMITS obtain_nextCommit</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_nextCommit</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o próximo commit do catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo dos commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o nodo do próximo commit. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="12" column="9" bodyfile="data_commits.c" bodystart="103" bodyend="107" declfile="data_commits.h" declline="12" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a620e872e5a1a4a35bc908c131fa52e4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_commitsReposId</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_commitsReposId</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do repositório no Catálogo de Commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do repositório do commit. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="13" column="7" bodyfile="data_commits.c" bodystart="116" bodyend="119" declfile="data_commits.h" declline="13" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a4a4174f1f9aa3cbb78f8fe15fc2c5cf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_commitsAuthorId</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_commitsAuthorId</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do autor do repositório no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do autor do repositório. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="14" column="7" bodyfile="data_commits.c" bodystart="128" bodyend="131" declfile="data_commits.h" declline="14" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a47ced3595a56b488451bbdeeb02c01da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_commitsDate</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_commitsDate</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a data do commit no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a data do commit. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="15" column="7" bodyfile="data_commits.c" bodystart="140" bodyend="143" declfile="data_commits.h" declline="15" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a1582c737b38f7c3e8c2d557122b4b9a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_commiterId</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_commiterId</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter o ID do commiter no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna o ID do commiter. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="16" column="7" bodyfile="data_commits.c" bodystart="152" bodyend="155" declfile="data_commits.h" declline="16" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a2cc5e27d32b1b5c221403bccc8a45e56" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char *</type>
+        <definition>char * obtain_messageCommit</definition>
+        <argsstring>(COMMITS commits)</argsstring>
+        <name>obtain_messageCommit</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>commits</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite obter a mensagem do commit no catálogo. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>commits</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits.</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Retorna a mensagem do commit. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="17" column="7" bodyfile="data_commits.c" bodystart="164" bodyend="167" declfile="data_commits.h" declline="17" declcolumn="7"/>
+      </memberdef>
+      <memberdef kind="function" id="data__commits_8h_1a5516ac3c82210aca962594bc79539011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void freeCommits</definition>
+        <argsstring>(COMMITS head)</argsstring>
+        <name>freeCommits</name>
+        <param>
+          <type><ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref></type>
+          <declname>head</declname>
+        </param>
+        <briefdescription>
+<para>Função que permite libertar o espaço ocupado pelo catálogo de Commits. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>head</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Catálogo de Commits. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="data_commits.h" line="18" column="6" bodyfile="data_commits.c" bodystart="175" bodyend="185" declfile="data_commits.h" declline="18" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structcommits" kindref="compound">commits</ref><sp/>*<ref refid="data__commits_8h_1a02dfeedb4e14fb2ddb895c064cb2304f" kindref="member">COMMITS</ref>;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="data__commits_8h_1a9db38fcd8d20cfae8f7bbc5c99875e4a" kindref="member">insertDataCommits</ref>(FILE<sp/>*file);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="data__commits_8h_1a9430f592e299524db42c26d9b182c137" kindref="member">isEmptyCommits</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="data__commits_8h_1a9a745d4c49c473b8739fb619ce84e256" kindref="member">obtain_nextCommit</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__commits_8h_1a620e872e5a1a4a35bc908c131fa52e4f" kindref="member">obtain_commitsReposId</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__commits_8h_1a4a4174f1f9aa3cbb78f8fe15fc2c5cf4" kindref="member">obtain_commitsAuthorId</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__commits_8h_1a47ced3595a56b488451bbdeeb02c01da" kindref="member">obtain_commitsDate</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);<sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__commits_8h_1a1582c737b38f7c3e8c2d557122b4b9a1" kindref="member">obtain_commiterId</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<sp/><ref refid="data__commits_8h_1a2cc5e27d32b1b5c221403bccc8a45e56" kindref="member">obtain_messageCommit</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/><ref refid="structcommits" kindref="compound">commits</ref>);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="data__commits_8h_1a5516ac3c82210aca962594bc79539011" kindref="member">freeCommits</ref>(<ref refid="structcommits" kindref="compound">COMMITS</ref><sp/>head);</highlight></codeline>
+    </programlisting>
+    <location file="data_commits.h"/>
+  </compounddef>
+</doxygen>

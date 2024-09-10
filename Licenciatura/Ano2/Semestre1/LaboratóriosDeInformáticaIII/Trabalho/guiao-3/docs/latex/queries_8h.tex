@@ -1,0 +1,295 @@
+\hypertarget{queries_8h}{}\doxysection{queries.\+h File Reference}
+\label{queries_8h}\index{queries.h@{queries.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$time.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+users.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+commits.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}H\+T\+\_\+repos.\+h\char`\"{}}\newline
+Include dependency graph for queries.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{queries_8h_a1879ea7f15f51c7523a6ecaaf86f2380}{handle\+\_\+\+Queries}} (int i, int id, char $\ast$line, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função que trata do fluxo de ação das queries. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_ac9b9b6d3036f66244ce82a354aa9fc41}{query1}} (char $\ast$n\+\_\+file, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função referente à query 1(quantidade de bots, organization e users) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a1c4114eb3ee0dd09666dcbb260f156a7}{query2}} (char $\ast$n\+\_\+file, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 2(número médio de colaboradores por repositório) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a081af48516b1379bb0e0904e00e1944f}{query3}} (char $\ast$n\+\_\+file, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits)
+\begin{DoxyCompactList}\small\item\em Função referente à query 3(quantidade de repositórios com bots) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a84f7e105b828cfc5367f3277887f81d1}{query4}} (char $\ast$n\+\_\+file, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits)
+\begin{DoxyCompactList}\small\item\em Função referente à query 4(quantidade média de commits por utilizador) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a1d7331b17d536386c1d2f79ba3f22511}{query5}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users)
+\begin{DoxyCompactList}\small\item\em Função referente à query 5(top N utilizadores mais ativos num intervalo de datas) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a977559af30e5f401ae1713a5377eb673}{query6}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 6(top N de utilizadores com mais commits em repositórios de uma determinada linguagem) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a81202f8af7fc3668f4280afd691b1152}{query7}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 7(repositórios inativos a partir de uma determinada data) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a398993dbac1db7452b54f9f52966ecfc}{query8}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 8(top N de linguagens mais utilizadas a partir de uma determinada data) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a55b525903c9ad6a035b8d889b8419787}{query9}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 9(top N de utilizadores com mais commits em repositórios cujo owner é um amigo seu) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a1718cdfe8943df1df6313e5d3ff14bfb}{query10}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 10(top N de utilizadores com as maiores mensagens de commit por repositório) \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{queries_8h_a0450953f5ab92bfbffe27d853ff8c366}{query11}} (char $\ast$n\+\_\+file, char $\ast$line, \mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$users, \mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$commits, \mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$repos)
+\begin{DoxyCompactList}\small\item\em Função referente à query 11(top N utilizadores mais ativos num repositório específico) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{queries_8h_a1879ea7f15f51c7523a6ecaaf86f2380}\label{queries_8h_a1879ea7f15f51c7523a6ecaaf86f2380}} 
+\index{queries.h@{queries.h}!handle\_Queries@{handle\_Queries}}
+\index{handle\_Queries@{handle\_Queries}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{handle\_Queries()}{handle\_Queries()}}
+{\footnotesize\ttfamily void handle\+\_\+\+Queries (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{id,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que trata do fluxo de ação das queries. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & Variável com o valor a atribuir ao ficheiro de resultados\\
+\hline
+{\em id} & ID da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_ac9b9b6d3036f66244ce82a354aa9fc41}\label{queries_8h_ac9b9b6d3036f66244ce82a354aa9fc41}} 
+\index{queries.h@{queries.h}!query1@{query1}}
+\index{query1@{query1}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query1()}{query1()}}
+{\footnotesize\ttfamily void query1 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 1(quantidade de bots, organization e users) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irão ser imprimidos os resultados da query\\
+\hline
+{\em users} & Hashtable dos users \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a1718cdfe8943df1df6313e5d3ff14bfb}\label{queries_8h_a1718cdfe8943df1df6313e5d3ff14bfb}} 
+\index{queries.h@{queries.h}!query10@{query10}}
+\index{query10@{query10}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query10()}{query10()}}
+{\footnotesize\ttfamily void query10 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 10(top N de utilizadores com as maiores mensagens de commit por repositório) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a0450953f5ab92bfbffe27d853ff8c366}\label{queries_8h_a0450953f5ab92bfbffe27d853ff8c366}} 
+\index{queries.h@{queries.h}!query11@{query11}}
+\index{query11@{query11}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query11()}{query11()}}
+{\footnotesize\ttfamily void query11 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 11(top N utilizadores mais ativos num repositório específico) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a1c4114eb3ee0dd09666dcbb260f156a7}\label{queries_8h_a1c4114eb3ee0dd09666dcbb260f156a7}} 
+\index{queries.h@{queries.h}!query2@{query2}}
+\index{query2@{query2}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query2()}{query2()}}
+{\footnotesize\ttfamily void query2 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 2(número médio de colaboradores por repositório) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a081af48516b1379bb0e0904e00e1944f}\label{queries_8h_a081af48516b1379bb0e0904e00e1944f}} 
+\index{queries.h@{queries.h}!query3@{query3}}
+\index{query3@{query3}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query3()}{query3()}}
+{\footnotesize\ttfamily void query3 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 3(quantidade de repositórios com bots) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a84f7e105b828cfc5367f3277887f81d1}\label{queries_8h_a84f7e105b828cfc5367f3277887f81d1}} 
+\index{queries.h@{queries.h}!query4@{query4}}
+\index{query4@{query4}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query4()}{query4()}}
+{\footnotesize\ttfamily void query4 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 4(quantidade média de commits por utilizador) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a1d7331b17d536386c1d2f79ba3f22511}\label{queries_8h_a1d7331b17d536386c1d2f79ba3f22511}} 
+\index{queries.h@{queries.h}!query5@{query5}}
+\index{query5@{query5}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query5()}{query5()}}
+{\footnotesize\ttfamily void query5 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 5(top N utilizadores mais ativos num intervalo de datas) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em users} & Hashtable dos users \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a977559af30e5f401ae1713a5377eb673}\label{queries_8h_a977559af30e5f401ae1713a5377eb673}} 
+\index{queries.h@{queries.h}!query6@{query6}}
+\index{query6@{query6}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query6()}{query6()}}
+{\footnotesize\ttfamily void query6 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 6(top N de utilizadores com mais commits em repositórios de uma determinada linguagem) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a81202f8af7fc3668f4280afd691b1152}\label{queries_8h_a81202f8af7fc3668f4280afd691b1152}} 
+\index{queries.h@{queries.h}!query7@{query7}}
+\index{query7@{query7}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query7()}{query7()}}
+{\footnotesize\ttfamily void query7 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 7(repositórios inativos a partir de uma determinada data) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a398993dbac1db7452b54f9f52966ecfc}\label{queries_8h_a398993dbac1db7452b54f9f52966ecfc}} 
+\index{queries.h@{queries.h}!query8@{query8}}
+\index{query8@{query8}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query8()}{query8()}}
+{\footnotesize\ttfamily void query8 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 8(top N de linguagens mais utilizadas a partir de uma determinada data) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{queries_8h_a55b525903c9ad6a035b8d889b8419787}\label{queries_8h_a55b525903c9ad6a035b8d889b8419787}} 
+\index{queries.h@{queries.h}!query9@{query9}}
+\index{query9@{query9}!queries.h@{queries.h}}
+\doxysubsubsection{\texorpdfstring{query9()}{query9()}}
+{\footnotesize\ttfamily void query9 (\begin{DoxyParamCaption}\item[{char $\ast$}]{n\+\_\+file,  }\item[{char $\ast$}]{line,  }\item[{\mbox{\hyperlink{HT__users_8h_a60c017eb07df48e30ae895c8a7eeb82d}{H\+T\+\_\+\+Users}} $\ast$}]{users,  }\item[{\mbox{\hyperlink{HT__commits_8h_af544423c8a45bace730c639a6214f7b9}{H\+T\+\_\+\+Commits}} $\ast$}]{commits,  }\item[{\mbox{\hyperlink{HT__repos_8h_a5b7b39054d958f80c98245666f1a0752}{H\+T\+\_\+\+Repos}} $\ast$}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função referente à query 9(top N de utilizadores com mais commits em repositórios cujo owner é um amigo seu) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n\+\_\+file} & Ficheiro onde irá ser imprimido o resultado da query\\
+\hline
+{\em line} & Linha de comando com as informações necessárias\\
+\hline
+{\em users} & Hashtable dos users\\
+\hline
+{\em commits} & Hashtable dos commits\\
+\hline
+{\em repos} & Hashtable dos repositórios \\
+\hline
+\end{DoxyParams}

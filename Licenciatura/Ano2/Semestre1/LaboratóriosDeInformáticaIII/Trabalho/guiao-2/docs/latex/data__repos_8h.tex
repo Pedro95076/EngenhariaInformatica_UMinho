@@ -1,0 +1,207 @@
+\hypertarget{data__repos_8h}{}\doxysection{data\+\_\+repos.\+h File Reference}
+\label{data__repos_8h}\index{data\_repos.h@{data\_repos.h}}
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+Include dependency graph for data\+\_\+repos.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structrepos}{repos}} $\ast$ \mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{data__repos_8h_a27021e05980c9edfdb7deedceb8f02df}{insert\+Data\+Repos}} (FILE $\ast$file)
+\begin{DoxyCompactList}\small\item\em Função que guarda no catálogo os repositórios do ficheiro \char`\"{}repos-\/g2.\+csv\char`\"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{data__repos_8h_a84ffbc5e48520c0bd4b30252cd93b3a9}{is\+Empty\+Repos}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que verifica se a lista chegou ao fim. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{data__repos_8h_a85b0a74908377addc0e65b5365762001}{obtain\+\_\+next\+Repos}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o próximo repositório do catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__repos_8h_a443b53153950cbac18091b4043164d73}{obtain\+\_\+lang\+Repos}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a linguagem utilizada no repositório no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__repos_8h_aa3f24d11e660e420a06e4bc8bf803403}{obtain\+\_\+repos\+Date}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a data de update do repositório no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__repos_8h_a04e9275ad9aeaafcd7767169ea35d041}{obtain\+\_\+repos\+ID}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do repositório no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__repos_8h_ae0e3caa7b2a0c1cba9a931fa03bb3422}{obtain\+\_\+repos\+Owner\+ID}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter o ID do dono do repositório no catálogo. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{data__repos_8h_a5383a8bee5e18c00bccd97b4db3ea90a}{obtain\+\_\+repos\+Description}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} \mbox{\hyperlink{structrepos}{repos}})
+\begin{DoxyCompactList}\small\item\em Função que permite obter a descrição do repositório no catálogo. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{data__repos_8h_adb060cf8a6b22bb137df1cf1ca1a0dd6}{free\+Repos}} (\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} head)
+\begin{DoxyCompactList}\small\item\em Função que permite libertar o espaço ocupado pelo catálogo de Repositórios. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{data__repos_8h_ae323904139d1862c9eae86924398028d}\label{data__repos_8h_ae323904139d1862c9eae86924398028d}} 
+\index{data\_repos.h@{data\_repos.h}!REPOS@{REPOS}}
+\index{REPOS@{REPOS}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{REPOS}{REPOS}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structrepos}{repos}}$\ast$ \mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{data__repos_8h_adb060cf8a6b22bb137df1cf1ca1a0dd6}\label{data__repos_8h_adb060cf8a6b22bb137df1cf1ca1a0dd6}} 
+\index{data\_repos.h@{data\_repos.h}!freeRepos@{freeRepos}}
+\index{freeRepos@{freeRepos}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{freeRepos()}{freeRepos()}}
+{\footnotesize\ttfamily void free\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{head }\end{DoxyParamCaption})}
+
+
+
+Função que permite libertar o espaço ocupado pelo catálogo de Repositórios. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em head} & Catálogo de Commits. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{data__repos_8h_a27021e05980c9edfdb7deedceb8f02df}\label{data__repos_8h_a27021e05980c9edfdb7deedceb8f02df}} 
+\index{data\_repos.h@{data\_repos.h}!insertDataRepos@{insertDataRepos}}
+\index{insertDataRepos@{insertDataRepos}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{insertDataRepos()}{insertDataRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} insert\+Data\+Repos (\begin{DoxyParamCaption}\item[{FILE $\ast$}]{file }\end{DoxyParamCaption})}
+
+
+
+Função que guarda no catálogo os repositórios do ficheiro \char`\"{}repos-\/g2.\+csv\char`\"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em file} & Ficheiro \char`\"{}repos-\/g2.\+csv\char`\"{}.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna uma lista ligada com os repositórios -\/ Catálogo de Repositórios. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_a84ffbc5e48520c0bd4b30252cd93b3a9}\label{data__repos_8h_a84ffbc5e48520c0bd4b30252cd93b3a9}} 
+\index{data\_repos.h@{data\_repos.h}!isEmptyRepos@{isEmptyRepos}}
+\index{isEmptyRepos@{isEmptyRepos}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{isEmptyRepos()}{isEmptyRepos()}}
+{\footnotesize\ttfamily int is\+Empty\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que verifica se a lista chegou ao fim. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Lista ligada com todos os repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna 1 se a lista chegou o fim. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_a443b53153950cbac18091b4043164d73}\label{data__repos_8h_a443b53153950cbac18091b4043164d73}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_langRepos@{obtain\_langRepos}}
+\index{obtain\_langRepos@{obtain\_langRepos}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_langRepos()}{obtain\_langRepos()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+lang\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a linguagem utilizada no repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a linguagem do repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_a85b0a74908377addc0e65b5365762001}\label{data__repos_8h_a85b0a74908377addc0e65b5365762001}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_nextRepos@{obtain\_nextRepos}}
+\index{obtain\_nextRepos@{obtain\_nextRepos}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_nextRepos()}{obtain\_nextRepos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}} obtain\+\_\+next\+Repos (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o próximo repositório do catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo dos repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o nodo do próximo repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_aa3f24d11e660e420a06e4bc8bf803403}\label{data__repos_8h_aa3f24d11e660e420a06e4bc8bf803403}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_reposDate@{obtain\_reposDate}}
+\index{obtain\_reposDate@{obtain\_reposDate}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposDate()}{obtain\_reposDate()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+repos\+Date (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a data de update do repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a data de update do repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_a5383a8bee5e18c00bccd97b4db3ea90a}\label{data__repos_8h_a5383a8bee5e18c00bccd97b4db3ea90a}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_reposDescription@{obtain\_reposDescription}}
+\index{obtain\_reposDescription@{obtain\_reposDescription}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposDescription()}{obtain\_reposDescription()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+repos\+Description (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter a descrição do repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna a descrição do repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_a04e9275ad9aeaafcd7767169ea35d041}\label{data__repos_8h_a04e9275ad9aeaafcd7767169ea35d041}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_reposID@{obtain\_reposID}}
+\index{obtain\_reposID@{obtain\_reposID}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposID()}{obtain\_reposID()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+repos\+ID (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do repositório. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{data__repos_8h_ae0e3caa7b2a0c1cba9a931fa03bb3422}\label{data__repos_8h_ae0e3caa7b2a0c1cba9a931fa03bb3422}} 
+\index{data\_repos.h@{data\_repos.h}!obtain\_reposOwnerID@{obtain\_reposOwnerID}}
+\index{obtain\_reposOwnerID@{obtain\_reposOwnerID}!data\_repos.h@{data\_repos.h}}
+\doxysubsubsection{\texorpdfstring{obtain\_reposOwnerID()}{obtain\_reposOwnerID()}}
+{\footnotesize\ttfamily char $\ast$ obtain\+\_\+repos\+Owner\+ID (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{data__repos_8h_ae323904139d1862c9eae86924398028d}{REPOS}}}]{repos }\end{DoxyParamCaption})}
+
+
+
+Função que permite obter o ID do dono do repositório no catálogo. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em repos} & Catálogo de Repositórios.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Retorna o ID do dono do repositório. 
+\end{DoxyReturn}
