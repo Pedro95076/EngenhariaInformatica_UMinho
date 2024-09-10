@@ -1,0 +1,16 @@
+.map-grid-content {
+	border:3px solid white;
+}
+
+a {
+    text-decoration:none;
+}
+
+.map-grid-content:hover {
+	background-color: #ccc;
+	/* border:3px solid white; */
+}
+
+.map-grid-wrapper {
+	padding-left: 8px;
+}

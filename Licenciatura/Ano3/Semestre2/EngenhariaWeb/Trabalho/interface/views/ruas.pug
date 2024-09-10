@@ -1,0 +1,95 @@
+extends layout 
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+      // Float links to the right. Hide them on small screens
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/ruas/") Ruas
+        a.w3-bar-item.w3-button(href="/posts") Posts
+        a.w3-bar-item.w3-button(href="/perfil/") Perfil
+        a.w3-bar-item.w3-button(href="/logout") Logout
+  
+  // Header
+  header#home(style='width: 100vw; height: 800px; overflow: hidden; position: relative;')
+    img.header-image(src='/images/defaults/bloom_consulting_braga-5-curiosities.jpg', alt='Header Image', style='width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;')
+    .w3-display-middle.w3-margin-top.w3-center
+      h1.w3-xxlarge.w3-text-white
+        span.w3-padding.w3-black.w3-opacity-min
+          b RUAS
+        span.w3-hide-small.w3-text-light-grey DE BRAGA
+  
+  // Page content
+  .w3-content.w3-padding(style='max-width:1564px')
+    input(type="text" style="width:90%" placeholder="Pesquisa por nome, data, entidade, lugar..." onkeyup="selectfunction()").w3-input.w3-border.w3-padding-large.w3-margin-top.w3-margin-bottom#input
+    button.w3-button.w3-light-grey.w3-border.w3-margin-top.w3-margin-bottom(onclick='search()') Pesquisa
+    .w3-dropdown-click.w3-margin
+      button(onclick="showFilters()").w3-button.w3-light-grey.w3-border.w3-padding-large Ordenar
+      .w3-dropdown-content.w3-bar-block.w3-border#demo
+        button.w3-bar-item.w3-button(onclick='order("asc")') Ordem Crescente
+        button.w3-bar-item.w3-button(onclick='order("desc")') Ordem Decrescente
+
+    .spacer(style='height: 50px;')
+    .w3-left
+      button.w3-btn.w3-black.w3-round(style="margin-right:10px")
+        a(href=`/ruas/add` style="text-decoration: none; color: inherit;")
+          i.fa.fa-edit
+          |  Adicionar Rua
+    .spacer(style='height: 20px;')
+  
+    #projects.w3-container.w3-padding-32
+      - var index = 0;
+      each rua, idx in ruas
+        if (idx % 4 == 0)
+          .w3-row-padding
+        .w3-col.l3.m6.w3-margin-bottom
+          .w3-display-container
+            .w3-display-topleft.w3-black.w3-padding #[a(href="/ruas/"+rua._id) #{rua.nome}]
+            if rua.figuras.length > 0 && rua.figuras[0].figuraId === 'atual'
+              img.rua-image(src="/images/imagem/" + encodeURIComponent(rua.figuras[0].imagem))
+            else 
+              img.rua-image(src="/images/defaults/default_image.jpg")
+    
+    if ruas.length === 0
+      h5.w3-margin.w3-padding.w3-center.w3-opacity Não existem ruas para mostrar
+    
+  // Footer
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}
+  
+  // Estilos Inline
+  style.
+    .header-image {
+      width: 100%;
+      height: 800px;
+      object-fit: cover;
+    }
+    .rua-image {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+  // Script Inline
+  script.
+    function showFilters() {
+      var x = document.getElementById("demo");
+      if (x.className.indexOf("w3-show") == -1) { 
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    function search() {
+      var termoPesquisa = document.getElementById('input').value;
+      window.location.href = '/ruas/pesquisa?elemento=' + encodeURIComponent(termoPesquisa);
+    }
+
+    function order(type){
+      if(type=="asc") window.location.href = '/ruas/pesquisa?ordem=asc';
+      else if(type=="desc") window.location.href = '/ruas/pesquisa?ordem=desc';
+    }

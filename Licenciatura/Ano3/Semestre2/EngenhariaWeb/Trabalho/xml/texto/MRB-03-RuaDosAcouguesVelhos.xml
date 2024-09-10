@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>3</número>
+        <nome>Rua dos Açougues velhos</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-03-nascente">
+            <imagem path="../imagem/MRB-03-RuaDosAcouguesVelhos-nascente.PNG"/>
+            <legenda>Rua dos Açougues Velhos - vista nascente. </legenda>
+        </figura>
+        <figura id="MRB-03-poente">
+            <imagem path="../imagem/MRB-03-RuaDosAcouguesVelhos-poente.PNG"/>
+            <legenda>Rua dos Açougues Velhos - vista poente. </legenda>
+        </figura>
+        <para>Pequenina rua que liga a fachada da <lugar>Sé</lugar> com a <lugar>rua Nova</lugar>.</para>
+         <para>Aberta possivelmente na Idade Media nela existiram ate ao <data>sec. XV</data> os açougues da cidade. Nessa data a rua era mais longa, prolongando-se até quase ao início da <lugar>rua do Poço</lugar>.</para>
+         <para>Actualmente poucas alterações de peso há nesta rua quanto ao Mappa e nenhuma respeitante ao seu tamanho e largura. O edifício pertencente à <lugar>Sé</lugar> foi porém substancialmente aumentado em altura, apresentando-se hoje radicalmente diferente.</para>
+          <para>Pena foi que as casas dos prazos n.° 3 e 4 desta rua, ja em <data>1750</data> com um só inquilino, tivessem sido destruídos, pois apresentavam uma curiosíssima janela de canto e um jogo de telhados estranho.</para>
+        <para>Das duas casas do lado Norte e 6 do Sul pertenciam ao <entidade tipo="instituição">Cabido</entidade> 1 e 6 respectivamente.</para>
+        <para>Não sabemos quando o seu nome mudou para a <lugar>rua do Cabido</lugar>. No mapa de <data>1857</data> tem ainda o nome de <lugar>Travessa dos Açougues Velhos</lugar>.</para> 
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Corresponde à casa nº16 da <lugar>Praça do Pão</lugar> para onde tem a frontaria e serventia principais. </para></desc>
+            </casa>
+            <casa>
+                <número>2,3,4</número>
+                <enfiteuta>Padre Francisco Xavier de Campos</enfiteuta>
+                <foro>610 reis e 1 capão</foro>
+                <desc><para>Estas casas foram construídas depois de <data>1550</data>, em pertenças do nº16, da <lugar>Praça do Pão</lugar> e, desde o ano de <data>1725</data>, constituem um só prazo.</para></desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Teresa Tomásia, viúva de Agostinho Marques da Silva, ourives</enfiteuta>
+                <foro>105 reis e 1 galinha</foro>
+                <desc><para>A última porta do nº6, para o lado do norte, é serventia do nº7 da <lugar>rua Nova</lugar>. Encontram-se unidas desde o ano de <data>1641</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Teresa Tomásia, viúva de Agostinho Marques da Silva, ourives</enfiteuta>
+                <foro>120 reis e 1 galinha</foro>
+                <desc><para>A última porta do nº6, para o lado do norte, é serventia do nº7 da <lugar>rua Nova</lugar>. Encontram-se unidas desde o ano de <data>1641</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>7 e 8</número>
+                <desc><para>Desde do ano <data>1644</data> que correspondem ao nº5 da <lugar>Rua Nova de Sousa</lugar>, para onde têm a frontaria e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Pedro Pereira</enfiteuta>
+                <foro>40 reis e 1 galinha</foro>
+                <desc><para>Foi demolida para alargamento das casas do <entidade tipo="instituição">Cabido</entidade>, depois do ano de <data>1793</data>.</para></desc>
+            </casa>
+        </lista-casas>
+        
+    </corpo>
+</rua>

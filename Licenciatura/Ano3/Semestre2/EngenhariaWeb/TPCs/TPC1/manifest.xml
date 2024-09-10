@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC1: Exemplo</title>
+        <author>
+            <id>a95076</id>
+            <nome>Pedro Marcelo Bogas Oliveira</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Neste trabalho, desenvolvi um website que apresenta informações sobre 60 ruas de Braga. Utilizei arquivos XML fornecidos pelo docente, contendo dados sobre as ruas, fotos atuais e fotos de esboços do século XVIII das mesmas ruas. O processo de desenvolvimento envolveu várias etapas:</p>
+        <ol>
+            <li>Primeiramente, criei um script em Python para processar os arquivos XML, utilizando a biblioteca `xml.etree.ElementTree` para manipulação desses arquivos.</li>
+            <li>Em seguida, implementei uma função para gerar o índice do website, que lista todas as ruas de forma ordenada e fornece links para as páginas individuais de cada rua.</li>
+            <li>Para cada rua, o script gera uma página HTML correspondente, que exibe todas as informações disponíveis sobre a rua, incluindo número, nome, descrição, fotos atuais e fotos dos esboços do século XVIII.</li>
+            <li>Utilizei a biblioteca `xmldt` para facilitar a conversão do formato dos dados XML para HTML, definindo regras para transformação dos elementos XML em elementos HTML.</li>
+            <li>Finalmente, organizei o código de forma a garantir a integridade e consistência do website gerado, garantindo uma experiência de usuário consistente e intuitiva.</li>
+        </ol>
+        <p>O resultado final é um website funcional que permite aos usuários explorar e obter informações detalhadas sobre as ruas de Braga de forma fácil e intuitiva.</p>
+    </resumo>
+
+    <resultados>
+        <resultado>Como resultado deste trabalho, foi desenvolvido com sucesso um website funcional que apresenta informações detalhadas sobre 60 ruas de Braga. O website permite aos usuários consultar e navegar pelas informações das ruas, apresentando uma lista alfabética de ruas na página inicial. Ao clicar em uma rua, o usuário é direcionado para uma página individual que exibe todas as informações disponíveis sobre a rua, incluindo número, nome, descrição, fotos atuais e fotos dos esboços do século XVIII. Além disso, foi implementado um link para retornar à página inicial a partir de cada página de rua, proporcionando uma experiência de navegação intuitiva.</resultado>
+    </resultados>
+
+</doc>

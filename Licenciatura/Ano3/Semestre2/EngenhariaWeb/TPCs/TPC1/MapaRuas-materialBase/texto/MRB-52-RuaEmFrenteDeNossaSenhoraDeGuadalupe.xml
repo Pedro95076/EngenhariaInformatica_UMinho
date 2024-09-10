@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../MRB-rua (3).xsd">
+    <meta>
+        <número>52</número>
+        <nome>Rua em Frente de Nossa Senhora de Guadalupe</nome>
+    </meta>
+    <corpo>
+        
+        <para>Troço da <lugar>Cangosta de Guadalupe</lugar>, situado em frente à capela do mesmo nome.</para>
+        <para>Parcialmente construído em <data>1725</data>, tinha, 25 anos mais tarde, ainda 3 «chãos». 
+            Um significativo espaço era ocupado por um grande quintal e pela fachada lateral 
+            de uma casa da <lugar norm="Rua de Nossa Senhora de Guadalupe">rua de Nossa Senhora de Guadalupe</lugar>, o que mostra bem a 
+            subalternização total desta rua.</para>
+        <para>As 5 casas construídas eram extremamente simples e tinham as janelas vazadas. 
+            Todos esses prédios estavam emprazados ao <entidade tipo="instituição">Cabido</entidade>.</para>
+        <para>Chama-se actualmente <lugar norm="Rua de Guadalupe">rua de Guadalupe</lugar>.</para>
+        
+        <nome>Rua da Guerreira Margarida</nome>
+        
+        <para>Pequena artéria, mais parecida com uma cangosta, ligava a <lugar norm="Igreja de S. Vicente">igreja de S. Vicente</lugar> 
+            com a <lugar norm="Capela de Guadalupe">capela de Guadalupe</lugar>.</para>
+        <para><lugar>Rua de arrabalde</lugar>, na vertente Noroeste do então chamado <lugar norm="Monte de Santa Margarida">monte de Santa Margarida</lugar>, 
+            tinha do lado Norte — o único representado no Mappa, onze habitações 
+            de um piso e duas de dois. Essas casas eram muito simples, do tipo com porta 
+            ladeada de janela. No extremo Este está uma casa de pedra, de dois pisos, bem 
+            definida por fortes pilastras, que tem a ladeá-la um bonito, mas singelo, portão 
+            de pedra.</para>
+        <para><data>Na década de 60 do séc. XVIII</data>, a rua sofreu uma alteração de traçado - 
+            que é o que actualmente se vê - devido à construção, neste local, do <lugar norm="Convento e Capela das Teresinhas">convento e capela das Teresinhas</lugar>, 
+            facto que motivou a amortização dos prazos 1 a 8.</para>
+        <para>Das 13 casas representadas no Mappa, 9 eram foreiras do <entidade tipo="instituição">cabido</entidade>.</para>
+        <para>Desde <data>5 de Junho de 1880</data> passou, oficialmente, a chamar-se <lugar norm="Rua de Camões">rua de Camões</lugar>.</para>
+        
+        <figura id="MRB-52-a">
+            <imagem path="../imagem/MRB-52-RuaEmFrenteDeNossaSDeGuadalupe-a.jpg"/>
+            <legenda>Rua em frente da N. Sra. de Guadalupe - Vista poente.</legenda>
+        </figura>
+        
+        <figura id="MRB-52-b">
+            <imagem path="../imagem/MRB-52-RuaEmFrenteDeNossaSDeGuadalupe-b.jpg"/>
+            <legenda>Rua da Regueira Margarida - Vista norte.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Vid. casa n.º9 da rua de N. Sr.ª de Guadalupe.</enfiteuta>
+                <desc>
+                    <para>Pertence à casa n.° 17 da <lugar norm="Rua de Nossa Senhora de Guadalupe">Rua de N. Sra. de Guadalupe</lugar>, 
+                        para onde tem frontaria e serventia principais.</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+            <casa>
+                <número>2</número>
+                <desc>
+                    <para>Quintal da casa n.° 1.</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+            <casa>
+                <número>3, 4 e 5</número>
+                <enfiteuta>Vid. casa n.º9 da rua de N. Sr.ª de Guadalupe.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Silvestre de Oliveira</entidade>, jornaleiro, casado com 
+                        <entidade tipo="pessoa">Inês Dantas</entidade>, paga 2000 reis, pelo chão n.° 3 e 
+                        pelos n.º 4 e 5, ao subenfiteuta da casa n.° 9 
+                        da <lugar norm="Rua de Nossa Senhora de Guadalupe">Rua de N. Sra. de Guadalupe</lugar>.</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+            <casa>
+                <número>6</número>
+                <desc>
+                    <para>Portal de serventia do quintal que anda 
+                        subemprazado juntamente com a casa n.° 9 da 
+                        <lugar norm="Rua de Nossa Senhora de Guadalupe">Rua N. Sra. de Guadalupe</lugar>.</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+            <casa>
+                <número>7 a 9</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>Pertencem ao <entidade tipo="família">casal dos Chãos ou Quinteiro</entidade>, a 
+                        cujo enfiteuta se paga foro. Nos livros dos 
+                        prazos do <entidade tipo="instituição">cabido</entidade> não se encontram escrituras se 
+                        subemprazamento</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+            <casa>
+                <número>10 e 11</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>Chãos de casa do prazo do <entidade tipo="família">casal dos Chãos ou Quinteiro</entidade>.</para>
+                </desc>
+                <vista>Poente</vista>
+            </casa>
+        </lista-casas>
+        
+        <lista-casas>
+            <casa>
+                <número>1, 2, 3 e 4</número>
+                <enfiteuta>Jácome Borges Pereira Pacheco, enfiteuta principal do prazo do casal de Infias ou Flores.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Paulo Francisco</entidade>, ferreiro, casado com <entidade tipo="pessoa">Jerónima da Silva</entidade>, 
+                        paga 400 reis ao enfiteuta do prazo do 
+                        <entidade tipo="família">casal de Infias ou Flores</entidade>.</para>
+                    <para>Só parte do n.° 1 é foreiro ao <entidade tipo="instituição">cabido</entidade>.</para>
+                </desc>
+                <vista>Norte</vista>
+            </casa>
+            <casa>
+                <número>5, 6 e 7</número>
+                <enfiteuta>Jácome Borges Pereira Pacheco, enfiteuta principal do prazo do casal de Infias ou Flores.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">João da Costa</entidade>, cutileiro, casado com <entidade tipo="pessoa">Maria Ferreira</entidade>, 
+                        paga 400 reis ao enfiteuta do prazo do 
+                        <entidade tipo="família">casal de Infias e Flores</entidade>, conforme o 
+                        subemprazamento de <data>1720</data>.</para>
+                    <para>No ano de <data>1729</data> foram feitas escrituras 
+                        subalternas dos n.° 6 e 7. Só parte do n.° 7 é 
+                        deste subenfiteuta.</para>
+                </desc>
+                <vista>Norte</vista>
+            </casa>
+            <casa>
+                <número>7 e 8</número>
+                <enfiteuta>Vid. casa n.º 5.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Garcia Fernandes</entidade>, casado com <entidade tipo="pessoa">Narcisa Francisca</entidade>, 
+                        paga 600 reis ao subenfiteuta da casa 
+                        n.° 5. Só parte do n.° 7 é deste subenfiteuta.</para>
+                </desc>
+                <vista>Norte</vista>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Jácome Borges Pereira Pacheco, enfiteuta principal do prazo do casal de Infias ou Flores.</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteura do prazo do <entidade tipo="família">casal de Infias ou Flores</entidade>.</para>
+                </desc>
+                <vista>Norte</vista>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Jácome Borges Pereira Pacheco, enfiteuta principal do prazo do casal de Infias ou Flores.</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteuta do prazo do <entidade tipo="família">casal de Infias ou Flores</entidade>. 
+                        Confronta, do nascente, com 
+                        casa foreira à <entidade tipo="instituição">confraria de S. João do Souto</entidade>.</para>
+                </desc>
+                <vista>Norte</vista>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

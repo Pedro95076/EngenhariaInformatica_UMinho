@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>60</número>
+        <nome>Cangosta da Rua das Águas</nome>
+    </meta>
+    <corpo>
+        <para> Pequena artéria que partindo da <lugar>rua das Águas</lugar> passava pela quingosta da <lugar>Palha</lugar> e de dirigia ao <lugar>Campo de Nossa Senhora a Branca</lugar>. No volume 2, dos Índices das Casas dos Prazos do <lugar>Cabido</lugar>, a páginas 273-278 é chamada Cangosta Que Vai Para Nossa Senhora a Branca.</para>
+        <para>No Mappa não há, porém, indicações de que estes edifícios sejam foreiros ao <lugar>Cabido</lugar>, o que cintraria os Índices.</para> 
+        <para> A 7 casas que vemos no Mappa são bastante simples, pobres até, de arquitetura tradicional. Seis são térreas e uma tem três pisos, sendo o último andar, contudo, mais baixo e de mais pequenas aberturas.</para>
+        <para>Em <data> 1891 </data>a Câmara decidiu fazer um pequeno largo <lugar>(o Rechicho)</lugar> no seu extremo Oeste e alargá-la.</para>
+        <para> Atual <lugar>rua do Raio e largo João Penha (ou do Rechicho). </lugar></para>        
+        <figura id="MRB-60-norte">
+            <imagem path="../imagem/MRB-60-CangostaDaRuaDasAguas-norte.jpg"/>
+            <legenda>Cangosta da Rua das Águas - norte.</legenda>
+        </figura>
+        <lista-casas>
+            <casa>
+                <número>37 a 42</número>
+                <enfiteuta>*Vid.casa nº33 da Rua das Águas (rua 36)</enfiteuta>
+                <desc> 
+                   <para> A numeração que lhe é atribuída pelos índices dá seguimento à da <lugar>rua das Águas</lugar>.</para>
+                    <para>A casa nº37 confronta, de poente, com o nº36 da <lugar>rua das Águas</lugar>.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>
+

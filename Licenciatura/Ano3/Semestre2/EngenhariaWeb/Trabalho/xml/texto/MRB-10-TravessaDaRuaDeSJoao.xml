@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/Users/Francisca/Desktop/4Ano/Publica%C3%A7%C3%A3o_Eletr%C3%B3nica/Projeto%20Final/MRB-rua.xsd">
+    <meta>
+        <número>10</número>
+        <nome>Travessa da Rua de S. João para a do Forno</nome>
+    </meta>
+    <corpo>
+        <para>Rua em forma de cotovelo, tendo uma espécie de
+            protuberância no ângulo, mais parecendo duas vias
+            que se encontrava num ponto que se alargava, formando
+            aí um «Rexio».</para>
+        <para>Seria um pouco estranho de compreender o seu traçado,
+            se não soubessemos que no ponto onde se encontrava os
+            seus troços Sul e Oeste terá passado, possivelmente,
+            a muralha da cidade romana. Só assim se pode aceitar
+            que esta artéria não tivesse sequência até à <lugar>Igreja
+            de S. João de Souto</lugar>, ou à <lugar>Porta de S. João</lugar>.</para>
+        <para>Sem unidade no tipo de casas que a formavam, tinha
+            prédios de dois pisos, alternando com outros de três
+            ou até um; edifícios com longa fachada, a par com outros
+            de pequena e média dimensão. </para>
+        <para>Todas as casas são de arquitectura tradicional, talvez
+            na sua maioria em pedra, com seis raras varandas e apenas
+            três gelosias, e uma forte percentagem (60%) de janelas
+            típicas de <lugar>Braga</lugar>. De notar a casa grande situada no canto
+            Sudoeste do <lugar>«Rexio de S. João»</lugar> que tem um grande terreno
+            de cultivo virado à rua, estando o prédio implantado
+            atrás, na linha de barreira que fecha a Sul o «Rexio».</para>
+        <para>Das 10 casas existentes do lado Norte e outras tantas
+            do lado Sul são prazos do <entidade tipo="instituição">Cabido</entidade> 5 e 6 respectivamente.</para>
+        <para>Se bem que todo o bairro a Sul da <lugar>Sé</lugar>, pelo entrecruzar
+            de ruas, seja conhecido como <lugar>Bairro das Travessas</lugar> é muito
+            estranho e nada aceitável o nome desta rua que ora tratamos.
+            Na Idade Média a parte Este desta artéria, que no Mappa tem
+            o nome de <lugar>«Travessa para a rua de S. João»</lugar>, era conhecida como
+            <lugar>rua da Carrapata</lugar> e a parte Sul, sem designação especial
+            no Mappa, tinha o nome de <entidade tipo="pessoa">Paio Manta</entidade>, talvez uma pessoa
+            dominante que aí vivesse. No séc. XVI, a <lugar>rua de Paio Manta</lugar>
+            tomou o nome de <lugar>rua Coelho</lugar> que manteve até <data>19/12/1892</data>, data
+            em que passou a denominar-se de <entidade tipo="pessoa">El-Rei</entidade>. Em <data>24 de Fevereiro de
+                1944</data> recebeu o nome de <entidade tipo="pessoa">D. Afonso Henriques</entidade>.</para>
+        <para>Desde <data>1892</data> que esta rua está muito alterada, embora se
+            mantenha a sua função: A <lugar>rua de «Coelho»</lugar> foi alargada,
+            o <lugar>«Rexio de S. João»</lugar> desapareceu e a <lugar>«Travessa para o Rexio
+            de S. João»</lugar> integrou o novo <lugar>largo de S. João de Souto</lugar>, então
+            formado juntamente com parte da <lugar>rua de S. João</lugar> e outros
+            terrenos. Grosso modo, podemos dizer que esta travessa se
+            integra hoje na <lugar>rua D. Afonso Henriques</lugar> e <lugar>Largo de
+                S. João de Souto</lugar>.</para>
+        
+        <figura id="MRB-10-norte">
+            <imagem path="../imagem/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Norte.jpg"/>
+            <legenda>Travessa da Rua de S. João para a do Forno - vista norte. </legenda>
+        </figura>
+        
+        <figura id="MRB-10-sul">
+            <imagem path="../imagem/MRB-10-TravessaDaRuaDeSJoaoParaADoForno-Sul.jpg"/>
+            <legenda>Travessa da Rua de S. João para a do Forno - vista sul. </legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Corresponde ao n.º 7 da <lugar>Rua de S. João</lugar>,
+                    para onde tem a frontaria e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>No ano de <data>1607</data>, por escambo realizado entre o <entidade tipo="instituição">Cabido</entidade>
+                    e a <entidade tipo="instituição">Companhia de Jesus</entidade>, esta casa foi trocada com o <lugar>casal de Real</lugar>,
+                    situado na <lugar>freguesia de S. Jerónimo de Real</lugar>.
+                    Confronta com quintal dos padres da <entidade tipo="instituição">Companhia de Jesus</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Teresa de Araújo, mulher de Manuel de Sousa, vidraceiro</enfiteuta>
+                <foro>240 reis e 1 capão</foro>
+                <desc><para>Emprazamento feito em <data>1724</data>. Confronta, do nascente, com casa for. ao chantrado.</para></desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Manuel de Faria</enfiteuta>
+                <foro>400 reis e 1 capão</foro>
+                <desc><para>Foi construída em pertenças da casa n.º 3, depois do ano de <data>1534</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Carlos de Magalhães de Azevedo, Cónego</enfiteuta>
+                <foro>475 reis e 2 capões</foro>
+                <desc><para>A casa n.º 6 confronta, de nascente, com casa for. à cororaria.
+                    Pertence, também, ao enfiteuta destas duas casas o n.º 12 da <lugar>rua do Forno</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Carlos de Magalhães de Azevedo, Cónego</enfiteuta>
+                <foro>250 reis e galinhas</foro>
+                <desc><para>A casa n.º 6 confronta, de nascente, com casa for. à cororaria.
+                    Pertence, também, ao enfiteuta destas duas casas o n.º 12 da <lugar>rua do Forno</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Félix José Machado</enfiteuta>
+                <foro>420 e 4 galinhas</foro>
+                <desc><para>Encontram-se unidos a este prazo os n.º 10 e 11 da <lugar>Rua do Forno</lugar>,
+                    desde o ano de <data>1596</data></para></desc>
+            </casa>
+            <casa>
+                <número>8 e 9</número>
+                <desc><para>Pertencem ao n.º 9 da <lugar>Rua do Forno</lugar>, para onde têm a frontaria e serventia principais.
+                    A casa n.º 9 confronta, do nascente, com casa foreira cororaria e ficou unida ao n.º 8 no ano
+                    de <data>1674</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <foro>115 reis e 8 pretos (de censo)</foro>
+                <desc><para>Parte desta casa pertence à <entidade tipo="instituição">Esmola</entidade> e parte ao chantrado.
+                    Confronta, do poente, com casa foreira à cororaria e com o n.º 9.</para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Padre Luís de Faria</enfiteuta>
+                <foro>100 reis e 1 galinha</foro>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Lic. Manuel de Faria da Cunha</enfiteuta>
+                <foro>70 reis e 1 galinha</foro>
+                <desc><para>Foi construída em pertenças do n.º 11 no ano de <data>1694</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Manuel Francisco, alfaiate</enfiteuta>
+                <foro>410 e 4 galinhas</foro>
+                <desc><para>Confronta, do nascente, com casa foreira ao <lugar>Hospital de S. Marcos</lugar>.</para></desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

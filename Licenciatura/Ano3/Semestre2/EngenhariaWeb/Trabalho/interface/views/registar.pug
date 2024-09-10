@@ -1,0 +1,53 @@
+extends layout
+
+block content
+    .w3-top
+        .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+            a.w3-bar-item.w3-button(href='/ruas/')
+                b RUAS DE BRAGA 
+            // Float links to the right. Hide them on small screens
+            .w3-right.w3-hide-small
+                a.w3-bar-item.w3-button.w3-disabled(href="/") Início
+
+    // Page content
+    .w3-content.w3-padding(style='max-width:1564px; min-height: calc(100vh - 200px); display: flex; align-items: center; justify-content: center;')
+        .w3-container.w3-card-4(style='width:100%; max-width:600px;')
+            .w3-center
+                h3.w3-xlarge.w3-text-black Introduza as seguintes informações:
+            form(action='/registo' method='post' enctype='application/x-www-form-urlencoded')
+                .w3-section
+                    label.w3-text-black Nome de Utilizador
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='text', name='username', required)
+
+                .w3-section
+                    label.w3-text-black Nome
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='text', name='name', required)
+
+                .w3-section
+                    label.w3-text-black Email
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='email', name='email', required)
+
+                .w3-section
+                    label.w3-text-black Filiação
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='text', name='filiacao', required)
+
+                .w3-section
+                    label.w3-text-black Password
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='password', name='password', required)
+
+                .w3-section
+                    label.w3-text-black Confirm Password
+                    input.w3-input.w3-margin-bottom.w3-animate-input(type='password', name='confpassword', required)
+
+                input(type='hidden', name='level', value='user')
+
+                .w3-section
+                    button.w3-button.w3-black.w3-section(type='submit') Registar
+
+                .w3-section
+                    a.w3-button.w3-black.w3-section(href='/login' style='text-decoration: none;') Ir para o Login
+
+    // Footer
+    footer.w3-center.w3-black.w3-padding-16
+        p
+            | Gerado por EngWeb2024 em #{d}

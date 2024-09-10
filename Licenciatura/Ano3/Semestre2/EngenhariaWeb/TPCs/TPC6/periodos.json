@@ -1,0 +1,686 @@
+[
+      {
+      "id": "P1",
+      "nome": "Barroco",
+      "compositores": [
+        {
+          "id": "C26",
+          "nome": "Alessandro Marcello"
+        },
+        {
+          "id": "C48",
+          "nome": "Alessandro Scarlatti"
+        },
+        {
+          "id": "C76",
+          "nome": "Altnickol, Johann Christoph"
+        },
+        {
+          "id": "C204",
+          "nome": "Antoine Forqueray"
+        },
+        {
+          "id": "C156",
+          "nome": "Antonio Lotti"
+        },
+        {
+          "id": "C50",
+          "nome": "Antonio Lucio Vivaldi"
+        },
+        {
+          "id": "C148",
+          "nome": "Antonio Soler"
+        },
+        {
+          "id": "C274",
+          "nome": "Ariosti, Attilio"
+        },
+        {
+          "id": "C278",
+          "nome": "Bach, Johann Sebastian"
+        },
+        {
+          "id": "C238",
+          "nome": "Bach, Wilhelm Friedemann"
+        },
+        {
+          "id": "C336",
+          "nome": "Balbastre, Claude"
+        },
+        {
+          "id": "C28",
+          "nome": "Baldassare Galuppi"
+        },
+        {
+          "id": "C282",
+          "nome": "Barbara of Portugal"
+        },
+        {
+          "id": "C334",
+          "nome": "Benda, Franz"
+        },
+        {
+          "id": "C322",
+          "nome": "Biber, Carl Heinrich"
+        },
+        {
+          "id": "C166",
+          "nome": "Bononcini, Giovanni Battista"
+        },
+        {
+          "id": "C326",
+          "nome": "Bonporti, Francesco Antonio"
+        },
+        {
+          "id": "C168",
+          "nome": "Caldara, Antonio"
+        },
+        {
+          "id": "C94",
+          "nome": "Corelli, Arcangelo"
+        },
+        {
+          "id": "C300",
+          "nome": "Couperin, Armand-Louis"
+        },
+        {
+          "id": "C106",
+          "nome": "David Perez"
+        },
+        {
+          "id": "C54",
+          "nome": "Domenico Alberti"
+        },
+        {
+          "id": "C96",
+          "nome": "Domenico Scarlatti"
+        },
+        {
+          "id": "C286",
+          "nome": "Durante, Francesco"
+        },
+        {
+          "id": "C142",
+          "nome": "Emanuele d'Astorga"
+        },
+        {
+          "id": "C188",
+          "nome": "Francesco Feo"
+        },
+        {
+          "id": "C288",
+          "nome": "Francesco Geminiani"
+        },
+        {
+          "id": "C32",
+          "nome": "Francesco Maria Veracini"
+        },
+        {
+          "id": "C170",
+          "nome": "Friederike Sophie Wilhelmine"
+        },
+        {
+          "id": "C224",
+          "nome": "Fux, Johann Joseph"
+        },
+        {
+          "id": "C254",
+          "nome": "Georg Bohm"
+        },
+        {
+          "id": "C160",
+          "nome": "Georg Muffat"
+        },
+        {
+          "id": "C56",
+          "nome": "Georg Philipp Telemann"
+        },
+        {
+          "id": "C324",
+          "nome": "Gibbs, Joseph"
+        },
+        {
+          "id": "C90",
+          "nome": "Giovanni Battista Bassani"
+        },
+        {
+          "id": "C34",
+          "nome": "Giuseppe Tartini"
+        },
+        {
+          "id": "C146",
+          "nome": "Grigny, Nicolas de"
+        },
+        {
+          "id": "C58",
+          "nome": "Handel, George Frideric"
+        },
+        {
+          "id": "C132",
+          "nome": "Hasse, Johann Adolph"
+        },
+        {
+          "id": "C82",
+          "nome": "Haym, Nicola Francesco"
+        },
+        {
+          "id": "C196",
+          "nome": "Henri Desmarets"
+        },
+        {
+          "id": "C78",
+          "nome": "Jan Dismas Zelenka"
+        },
+        {
+          "id": "C86",
+          "nome": "Jean-Joseph Mouret"
+        },
+        {
+          "id": "C330",
+          "nome": "Jean-Marie Leclair"
+        },
+        {
+          "id": "C306",
+          "nome": "Jeremiah Clarke"
+        },
+        {
+          "id": "C16",
+          "nome": "Johann Christoph(er) Pepusch"
+        },
+        {
+          "id": "C212",
+          "nome": "Johann David Heinichen"
+        },
+        {
+          "id": "C70",
+          "nome": "Johann Ernst Eberlin"
+        },
+        {
+          "id": "C270",
+          "nome": "Johann Gottlieb Goldberg"
+        },
+        {
+          "id": "C6",
+          "nome": "Johann Joachim Quantz"
+        },
+        {
+          "id": "C110",
+          "nome": "Johann Krieger"
+        },
+        {
+          "id": "C178",
+          "nome": "Johann Nicolaus Bach"
+        },
+        {
+          "id": "C8",
+          "nome": "Johann Pachelbel"
+        },
+        {
+          "id": "C66",
+          "nome": "Johann Tobias Krebs"
+        },
+        {
+          "id": "C198",
+          "nome": "John Eccles"
+        },
+        {
+          "id": "C214",
+          "nome": "Krebs, Johann Ludwig"
+        },
+        {
+          "id": "C312",
+          "nome": "Kuhnau, Johann"
+        },
+        {
+          "id": "C294",
+          "nome": "Leo, Leonardo"
+        },
+        {
+          "id": "C328",
+          "nome": "Louis Marchand"
+        },
+        {
+          "id": "C24",
+          "nome": "Louis-Claude Daquin"
+        },
+        {
+          "id": "C134",
+          "nome": "Marais, Marin"
+        },
+        {
+          "id": "C118",
+          "nome": "Marcello, Benedetto"
+        },
+        {
+          "id": "C290",
+          "nome": "Martini, Giovanni Battista"
+        },
+        {
+          "id": "C46",
+          "nome": "Mattheson, Johann"
+        },
+        {
+          "id": "C218",
+          "nome": "Maurice Greene"
+        },
+        {
+          "id": "C256",
+          "nome": "Michel Richard Delalande"
+        },
+        {
+          "id": "C332",
+          "nome": "Mondonville, Jean-Joseph"
+        },
+        {
+          "id": "C298",
+          "nome": "Neander, Joachim"
+        },
+        {
+          "id": "C40",
+          "nome": "Nicola Porpora"
+        },
+        {
+          "id": "C190",
+          "nome": "Nicolas Siret"
+        },
+        {
+          "id": "C200",
+          "nome": "Nicolaus Bruhns"
+        },
+        {
+          "id": "C98",
+          "nome": "Pergolesi, Giovanni Battista"
+        },
+        {
+          "id": "C64",
+          "nome": "Purcell, Henry"
+        },
+        {
+          "id": "C14",
+          "nome": "Rameau, Jean-Philippe"
+        },
+        {
+          "id": "C232",
+          "nome": "Robert de Visee"
+        },
+        {
+          "id": "C276",
+          "nome": "Rousseau, Jean-Jacques"
+        },
+        {
+          "id": "C264",
+          "nome": "Sammartini, Giovanni Battista"
+        },
+        {
+          "id": "C320",
+          "nome": "Sammartini, Giuseppe"
+        },
+        {
+          "id": "C258",
+          "nome": "Schenck, Johannes"
+        },
+        {
+          "id": "C42",
+          "nome": "Seixas, Carlos"
+        },
+        {
+          "id": "C164",
+          "nome": "Steffani, Agostino"
+        },
+        {
+          "id": "C20",
+          "nome": "Thomas Arne"
+        },
+        {
+          "id": "C102",
+          "nome": "Tomaso Albinoni"
+        },
+        {
+          "id": "C314",
+          "nome": "Veracini, Antonio"
+        },
+        {
+          "id": "C216",
+          "nome": "Weldon, John"
+        },
+        {
+          "id": "C172",
+          "nome": "Wilhelmine of Prussia"
+        },
+        {
+          "id": "C296",
+          "nome": "William Boyce"
+        },
+        {
+          "id": "C246",
+          "nome": "Zachow, Friedrich Wilhelm"
+        },
+        {
+          "id": "C104",
+          "nome": "Zipoli, Domenico"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "nome": "Renascimento",
+      "compositores": [
+        {
+          "id": "C206",
+          "nome": "Alessandro Stradella"
+        },
+        {
+          "id": "C192",
+          "nome": "Andrea Falconieri"
+        },
+        {
+          "id": "C242",
+          "nome": "Anerio, Felice"
+        },
+        {
+          "id": "C244",
+          "nome": "Anerio, Giovanni Francesco"
+        },
+        {
+          "id": "C88",
+          "nome": "Antonio Maria Abbatini"
+        },
+        {
+          "id": "C128",
+          "nome": "Bach, Johann Christoph"
+        },
+        {
+          "id": "C152",
+          "nome": "Bach, Johann Michael"
+        },
+        {
+          "id": "C284",
+          "nome": "Bernardo Pasquini"
+        },
+        {
+          "id": "C292",
+          "nome": "Biber, Heinrich Ignaz Franz"
+        },
+        {
+          "id": "C318",
+          "nome": "Boyvin, Jacques"
+        },
+        {
+          "id": "C202",
+          "nome": "Bull, John"
+        },
+        {
+          "id": "C272",
+          "nome": "Cabanilles, Juan Bautista"
+        },
+        {
+          "id": "C122",
+          "nome": "Carissimi, Giacomo"
+        },
+        {
+          "id": "C138",
+          "nome": "Cavalieri, Emilio de'"
+        },
+        {
+          "id": "C120",
+          "nome": "Cavalli, Francesco"
+        },
+        {
+          "id": "C116",
+          "nome": "Cesti, Antonio"
+        },
+        {
+          "id": "C124",
+          "nome": "Cristofaro Caresana"
+        },
+        {
+          "id": "C2",
+          "nome": "Dieterich Buxtehude"
+        },
+        {
+          "id": "C268",
+          "nome": "Diogo Dias Melgas"
+        },
+        {
+          "id": "C226",
+          "nome": "Duarte Lobo"
+        },
+        {
+          "id": "C230",
+          "nome": "Duarte Lôbo"
+        },
+        {
+          "id": "C130",
+          "nome": "Elisabeth Sophie of Mecklenburg"
+        },
+        {
+          "id": "C174",
+          "nome": "Esteban Lopez Morago"
+        },
+        {
+          "id": "C68",
+          "nome": "Estevao de Brito"
+        },
+        {
+          "id": "C234",
+          "nome": "Ferdinand Iii, Holy Roman Emperor"
+        },
+        {
+          "id": "C302",
+          "nome": "Fernandes, Gaspar"
+        },
+        {
+          "id": "C126",
+          "nome": "Filipe De Magalhaes"
+        },
+        {
+          "id": "C162",
+          "nome": "Frescobaldi, Girolamo"
+        },
+        {
+          "id": "C108",
+          "nome": "Froberger, Johann Jakob"
+        },
+        {
+          "id": "C114",
+          "nome": "Gibbons, Orlando"
+        },
+        {
+          "id": "C266",
+          "nome": "Giovanni Battista Vitali"
+        },
+        {
+          "id": "C4",
+          "nome": "Giovanni Gabrieli"
+        },
+        {
+          "id": "C310",
+          "nome": "Giovanni Legrenzi"
+        },
+        {
+          "id": "C208",
+          "nome": "Giulio Caccini"
+        },
+        {
+          "id": "C60",
+          "nome": "Gregor Aichinger"
+        },
+        {
+          "id": "C62",
+          "nome": "Gregorio Allegri"
+        },
+        {
+          "id": "C222",
+          "nome": "Hans Leo Haßler"
+        },
+        {
+          "id": "C44",
+          "nome": "Heinrich Scheidemann"
+        },
+        {
+          "id": "C30",
+          "nome": "Jan Pieterszoon Sweelinck"
+        },
+        {
+          "id": "C72",
+          "nome": "Johann Hermann Schein"
+        },
+        {
+          "id": "C154",
+          "nome": "Johann Schop"
+        },
+        {
+          "id": "C182",
+          "nome": "John 04 Of Portugal"
+        },
+        {
+          "id": "C18",
+          "nome": "John Blow"
+        },
+        {
+          "id": "C280",
+          "nome": "John Dowland"
+        },
+        {
+          "id": "C180",
+          "nome": "John IV"
+        },
+        {
+          "id": "C240",
+          "nome": "Leopold I"
+        },
+        {
+          "id": "C38",
+          "nome": "Louis Couperin"
+        },
+        {
+          "id": "C304",
+          "nome": "Luigi de Rossi"
+        },
+        {
+          "id": "C236",
+          "nome": "Lully, Jean-Baptiste"
+        },
+        {
+          "id": "C228",
+          "nome": "Lôbo, Duarte"
+        },
+        {
+          "id": "C80",
+          "nome": "Machado, Manuel"
+        },
+        {
+          "id": "C194",
+          "nome": "Madre De Deus, Filpe Da"
+        },
+        {
+          "id": "C308",
+          "nome": "Manuel Cardoso"
+        },
+        {
+          "id": "C112",
+          "nome": "Manuel Correia"
+        },
+        {
+          "id": "C260",
+          "nome": "Manuel Rodriguez Coelho"
+        },
+        {
+          "id": "C10",
+          "nome": "Marc-Antoine Charpentier"
+        },
+        {
+          "id": "C144",
+          "nome": "Maurice, Landgrave of Hesse-Kassel"
+        },
+        {
+          "id": "C136",
+          "nome": "Melchior Schildt"
+        },
+        {
+          "id": "C250",
+          "nome": "Michael Praetorius"
+        },
+        {
+          "id": "C184",
+          "nome": "Monsieur de Sainte-Colombe"
+        },
+        {
+          "id": "C52",
+          "nome": "Monteverdi, Claudio"
+        },
+        {
+          "id": "C150",
+          "nome": "Nivers, Guillaume-Gabriel"
+        },
+        {
+          "id": "C100",
+          "nome": "Paolo Agostino"
+        },
+        {
+          "id": "C92",
+          "nome": "Pedro de Araujo"
+        },
+        {
+          "id": "C12",
+          "nome": "Peri, Jacopo"
+        },
+        {
+          "id": "C252",
+          "nome": "Peter Philips"
+        },
+        {
+          "id": "C220",
+          "nome": "Pierre Beauchamp"
+        },
+        {
+          "id": "C186",
+          "nome": "Pietro Della Valle"
+        },
+        {
+          "id": "C210",
+          "nome": "Reincken, Johann Adam"
+        },
+        {
+          "id": "C176",
+          "nome": "Robert Cambert"
+        },
+        {
+          "id": "C140",
+          "nome": "Samuel Scheidt"
+        },
+        {
+          "id": "C248",
+          "nome": "Sanz, Gaspar"
+        },
+        {
+          "id": "C84",
+          "nome": "Stefano Landi"
+        },
+        {
+          "id": "C158",
+          "nome": "Strozzi, Barbara"
+        },
+        {
+          "id": "C22",
+          "nome": "Thomas Campion"
+        },
+        {
+          "id": "C262",
+          "nome": "Thomas Weelkes"
+        },
+        {
+          "id": "C36",
+          "nome": "Titelouze, Jean"
+        },
+        {
+          "id": "C316",
+          "nome": "Viadana, Lodovico Grossi da"
+        },
+        {
+          "id": "C74",
+          "nome": "Wilbye, John"
+        }
+      ]
+    }
+]

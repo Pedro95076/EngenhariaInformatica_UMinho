@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/E:/Desktop/UM/4%C2%BA%20ano%20(She%27s%20close)/1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/Projeto%20final/MRB-rua.xsd">
+    <meta>
+        <número>37</número>
+        <nome>Rua de S. Lázaro</nome>
+    </meta>
+    <corpo>
+        <para>
+            Troço da grande via que ligava a <lugar>Arcada</lugar> à ponte de <lugar>Guimarães</lugar>, entre a
+            <lugar>rua de Águas</lugar> e o <lugar>terreiro de S. Lázaro</lugar>.
+        </para>
+        <para>
+            Aberta ainda na Idade Média esta velha rua tem o prazo mais antigo com a data de <data>1451</data>.
+        </para>
+        <para>
+            Apesar de em <data>1750</data> ser ainda de arrabalde, havia nas suas casas uma certa diferença em relação
+            a outras com função semelhante: embora apenas com dois pisos, e apesar de haver algumas habitações do tipo já descrito
+            de porta com janela ao lado no piso térreo, a maior largura das suas fachadas, a existência de uma ou outra
+            varanda de ferro ou recoberta por gelosias, ou ainda de "molduras" de pedra, sobretudo em algumas portas, confere-lhe quase
+            outro estatuto de grandeza.
+        </para>
+        <para>
+            É curioso notar que nesta rua, que tinha 19 casas do lado Nascente e 29 do Poente, todos os edifícios estavam emprazados ao <entidade tipo="instituição">Cabido</entidade>.
+        </para>
+        <para>
+            A <lugar>rua de S. Lázaro</lugar> corresponde hoje ao fragmento da <lugar>avenida da Liberdade</lugar>, entre o <lugar>largo do Rechicho</lugar> e a <lugar>rua 25 de Abril</lugar>.
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <foro>1200 reis, 10 alqueires de trigo, 16 de pão meado e 2 capões</foro>
+                <desc><para>O enfiteuta era filho de <entidade tipo="pessoa">Franciso de Barros de Almeida</entidade> e de sua mulher,
+                <entidade tipo="pessoa">D.Isabel Cecília Pereira de Carvalho</entidade>.</para>
+                <para>A casa confronta, do norte, com a cangosta que vai da <lugar>Rua das Águas</lugar> para <lugar>Nossa Senhora a Branca</lugar>.
+                O emprazamento mais antigo que se conhece é de <data>1451</data>. Pertencem a este prazo os nºs 2 a 23 e, na 
+                <lugar>Rua da Ponte de Guimarães</lugar>, os nºs 1 a 19 e 75 a 88, bem como a leira de hortas na <lugar>freguesia de S. Pedro de Maximinos</lugar>. Esta casa
+                    é cabeça de prazo denominado <lugar>"Casal ou quinta de Portas"</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2 e 3</número>
+                <enfiteuta>Herdeiros de Domingos Fernandes</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Manuel Gomes de Oliveira</entidade>, ourives, casado com <entidade tipo="pessoa">Ângela de Araújo</entidade>, paga 190 reis ao subenfiteuta da casa nº 4. A casa nº 2 confronta, do norte, com o quintal do nº 1.</para></desc>
+            </casa>
+            <casa>
+                <número>4 e 5</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Domingos Fernandes</entidade>, palmilhador, viúvo de <entidade tipo="pessoa">Ana Lopes</entidade>, pagam 380 reis ao nº 1. Nesta
+                pensão estão incluídos os nº 2 e 3.</para>
+                <para>A casa nº 4 foi construída antes de <data>1702</data> e a nº 5 antes de <data>1695</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">António Lopes Pereira</entidade>, casado com <entidade tipo="pessoa">Mariana Francisca</entidade>, pagam 310 reis ao nº 1. Foram construídas antes de <data>1720</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>7 e 8</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">João Barbosa</entidade>, sombreeiro, casado com <entidade tipo="pessoa">Maria Francisca</entidade>, pagam 620 reis ao nº 1.
+                Foram construídas antes de <data>1720</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>                
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">João Correia</entidade>, pintor, casado com <entidade tipo="pessoa">Custódia Gomes</entidade>, pagam 265 reis ao nº 1.
+                Foi construída antes de <data>1666</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para>Padre <entidade tipo="pessoa">Francisco Gomes da Costa</entidade> paga 265 reis ao nº 1.
+                    Foi construída antes de <data>1666</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>11, 12, 13 e 14</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">José Rodrigues</entidade>, estudante, filho de <entidade tipo="pessoa">Manuel Rodrigues</entidade>, sombreireiro, paga 540 reis ao nº 1.
+                    Foram construídas antes de <data>1650</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Apolónia Mendes</entidade> viúva de <entidade tipo="pessoa">Manuel Rodrigues</entidade> sombreireiro, paga 510 reis ao nº 1.</para>
+                    <para>Foi construída antes de <data>1650</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>16 e 17</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Dionísio José de Gouveia Ferraz</entidade> paga 1020 reis ao nº 1.</para></desc>
+            </casa>
+            <casa>
+                <número>18 e 19</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Manuel de Faria</entidade> tabelião de <lugar>Braga</lugar>, paga 1005 reis ao nº 1.</para>
+                    <para>A casa nº 19 foi construída antes de <data>1576</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Diogo Leite Coelho</entidade>, inquiridor do <entidade tipo="instituição">secular</entidade>, casado com <entidade tipo="pessoa">Serafina Pereira de Araújo</entidade> paga 1030 reis ao nº 1.
+                    Foi construída antes de <data>1618</data> e esteve unida, entre os anos 1629 e 1720, à casa nº 21.</para></desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Miguel de Sousa</entidade>, casado com <entidade tipo="pessoa">Teresa da Silva</entidade>, paga 1020 reis ao nº 1.</para></desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <desc><para>Porta de serventia do <lugar>Casal de Portas (casa nº1)</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta>Lopo de Barros e Almeida</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Agostinho Ribeiro Mirrado</entidade>, casado com <entidade tipo="pessoa">Páscoa do Vale</entidade> paga 2780 reis ao nº 1. Confronta, do sul, com o nº1 da
+                    <lugar>Rua da Ponte de Guimarães</lugar> ou <lugar>Terreiro de S. Lázaro</lugar>, e foi construída antes de 1592. Até 1720 fizeram parte desta escritura de prazo, as casas nº 1, 2 e 3 da referida <lugar>Rua da Ponte de Guimarães</lugar>.
+                    </para></desc>
+            </casa>
+            <casa>
+                <número>24 e 25</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Rosa Maria</entidade>, solteira, paga 562 reis ao nº 42.</para>
+                    <para>A casa nº 24 possui a frontaria e serventia principais para o <lugar>terreiro de S. Lázaro</lugar>, com a qual confronta de sul. O nº 25 foi unido ao nº 24 em<data>1725</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>26 e 27</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">António Vieira</entidade> paga 603 reis ao nº 42.
+                    Foram construídas antes de <data>1625</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Catarina Gomes</entidade> paga 410 reis ao nº 42.
+                    Foi construída antes de <data>1625</data> e esteve unida, até <data>1732</data>, ao nº 30.</para></desc>
+            </casa>
+            <casa>
+                <número>29 e 30</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Luís de Abreu</entidade>, sapateiro, casado com <entidade tipo="pessoa">Maria Mendes</entidade>, paga 416 reis ao nº 42.
+                    </para></desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Custódia Dantas</entidade>, viúva, paga 3005 reis ao nº 42.
+                    Foi construída antes de <data>1701</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>32 e 33</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Joana de Araújo</entidade>, viúva de <entidade tipo="pessoa">João Pereira</entidade>, torneiro, paga 1806 reis ao nº 42.
+                    Encontram-se unidas desde o ano de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>34</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Domingos</entidade>, filho de <entidade tipo="pessoa">André Francisco</entidade>, trabalhador, e de sua mulher, <entidade tipo="pessoa">Maria Afonso</entidade>, paga, por esta casa, (que era de seus pais), 1206 reis ao nº 42.
+                    Foi construída antes de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>35</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">João Francisco</entidade>, viúvo, paga 2010 reis ao nº 42.
+                    Foi construída antes de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>36</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Guilherme António</entidade>, ferreiro, casado com <entidade tipo="pessoa">Helena Francisca</entidade>, paga 128 reis ao nº 42.
+                    Foi construída antes de <data>1732</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>37</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">João Martins</entidade>, torneiro, casado com <entidade tipo="pessoa">Maria de Freitas</entidade>, paga 2205 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>38</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Jerónima Correia</entidade>, viúva de <entidade tipo="pessoa">Miguel Ferreira</entidade>, paga 1108 reis ao nº 42.
+                    Foi construída antes de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>39</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para>Lic. <entidade tipo="pessoa">Domingos Soares da Silva</entidade>, juiz das sisas, paga 1108 reis ao nº 42.
+                    Foi construída antes de <data>1700</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>40</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">António de Araújo</entidade>, sapateiro, casado com <entidade tipo="pessoa">Maria Ferreira</entidade>, paga 1503 reis ao nº 42.
+                    Foi construída antes de <data>1732</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>41</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">António da Costa de Araújo</entidade>, casado com <entidade tipo="pessoa">Ventura Cerqueira</entidade>, paga 304 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1719</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>42</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <foro>840 reis e 2 galinhas</foro>
+                <desc><para>Esta casa é cabeça de prazo denominado <lugar>"Casal dos Alamos"</lugar>. Em 1670 este prazo era constituído pelos nº 24 a 53, nº 9 a 12 da <lugar>Rua de Trás de S. Marcos</lugar>, ou <lugar>Granjinhos</lugar>, e, ainda, por uma leira e
+                    casas na <lugar>Rua da Ponte de Guimarães</lugar> ou <lugar>Terreiro de S. Lázaro</lugar>, nº 89 a 92. Foi construída antes de 1485.</para></desc>
+            </casa>
+            <casa>
+                <número>43</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Os herdeiros de António de Araújo</entidade>, casado com <entidade tipo="pessoa">Grácia Antunes</entidade>, pagam 2100 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1724</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>44</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Os herdeiros de Pedro Rodrigues</entidade>, escrivão de <lugar>Braga</lugar>, casado com <entidade tipo="pessoa">Helena de Almeida</entidade>, pagam 4200 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1722</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>45</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Os herdeiros de João Francisco</entidade>, torneiro, casado com <entidade tipo="pessoa">Isabel Correia</entidade>, pagam 2100 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1719</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>46</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Bento</entidade>, filho de <entidade tipo="pessoa">Manuel Ferreira</entidade>, mercador, paga 2100 reis ao nº 42.
+                    Foi construída antes de <data>1718</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>47</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Agostinho de Araújo</entidade>, sombreeiro, casado com <entidade tipo="pessoa">Francisca da Silva</entidade>, paga 2100 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1718</data>, em pertenças do nº 50, prazo à qual esteve unida até <data>1732</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>48</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Domingos Gonçalves de Paiva</entidade>, ourives, casado com <entidade tipo="pessoa">Ursula Correia</entidade>, paga 2600 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1718</data>, em pertenças do nº 50, prazo à qual esteve unida até <data>1732</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>49</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para>Padre <entidade tipo="pessoa">Custódio Correia Faria</entidade>, paga 1600 reis ao nº 42.
+                    Foi construída antes de <data>1718</data>, em pertenças do nº 50, prazo à qual esteve unida até <data>1732</data>.</para></desc>
+            </casa><casa>
+                <número>50</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Manuel de Freitas</entidade>, sombreeiro, casado com <entidade tipo="pessoa">Maria de Araújo</entidade>, paga 2100 reis ao nº 42.</para>
+                    <para>Até ao ano de <data>1732</data>faziam parte desta escritura de prazo os nº 47, 48 e 49.</para></desc>
+            </casa>
+            <casa>
+                <número>51</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Francisco Monteiro</entidade>, tecelão de seda, casado com <entidade tipo="pessoa">Teresa da Rocha</entidade>, paga 2000 reis ao nº 42.
+                    Foi construída antes de <data>1720</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>52</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">António Marques</entidade>, casado com <entidade tipo="pessoa">Custódia de Araújo</entidade>, paga 2000 reis ao nº 42.</para>
+                    <para>Foi construída antes de <data>1718</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>53</número>
+                <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+                <desc><para><entidade tipo="pessoa">Manuel Ferreira</entidade>, estudante, paga 2000 reis ao nº 42.
+                    Confronta, do norte, com a cangosta que vem de trás de <lugar>S. Marcos</lugar> para a <lugar>Rua das Águas</lugar>. Foi construída antes <data>1718</data>.</para></desc>
+            </casa>
+        </lista-casas>
+        
+        <figura id="MRB-37-nascente">
+            <imagem path="../imagem/MRB-37-RuaDeSLazaro-Nascente.jpg"/>
+            <legenda>Rua de S.Lázaro - Nascente.</legenda>
+        </figura>
+        <figura id="MRB-37-poente">
+            <imagem path="../imagem/MRB-37-RuaDeSLazaro-Poente.jpg"/>
+            <legenda>Rua de S.Lázaro - Poente.</legenda>
+        </figura>
+    </corpo>
+</rua>

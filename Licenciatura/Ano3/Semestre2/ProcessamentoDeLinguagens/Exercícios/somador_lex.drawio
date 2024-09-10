@@ -1,0 +1,34 @@
+<mxfile host="65bd71144e">
+    <diagram id="8hPIOHlV3piHhIOKTxhb" name="Page-1">
+        <mxGraphModel dx="666" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="180" width="440" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="INITIAL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="330" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="t_EQUALS" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="230" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="t_ON" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="434" y="230" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="t_OFF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="230" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="t_NUMBER&lt;br&gt;&lt;font color=&quot;#ff9999&quot;&gt;counton&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="t_NUMBER&lt;br&gt;&lt;font color=&quot;#ff9999&quot;&gt;countoff&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="414" y="300" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Se tivessemos algum estado exclusivo" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FF9999;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="255" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/maria/OneDrive/%C3%81rea%20de%20Trabalho/UMINHO/4%C2%BA%20ANO/1%C2%BA%20SEMESTRE/Publica%C3%A7%C3%B5es%20Eletr%C3%B3nicas/PROJETO%20FINAL/MRB-rua.xsd">
+    <meta>
+        <número>48</número>
+        <nome>Praça do Gavião</nome>
+    </meta>
+    <corpo>
+        <para>
+            Centro nevrálgico de todo o bairro da Gavieira, a <lugar>praça do Gavião</lugar>, de cujos vértices partiam 4 ruas, teve o seu início em «Abril de 1725... [data em que] se começou a quebrar pedra e a fazer casas no bairro da Gavieira, chamado o Quinteiro ou Reduto que é prazo do <entidade tipo="instituição">Cabido</entidade> de que é enfiteuta <entidade tipo="pessoa">António Barreto Gavião</entidade>».
+            Caso ímpar na cidade de <lugar>Braga</lugar> e, do ponto de vista histórico, talvez o primeiro loteamento do país, ainda não foi, infelizmente, estudado: não sabemos as razões que levaram à sua criação (aumento de população?), nem o nome do seu urbanista ou do arquitecto, nem quem veio morar para aqui, etc.
+            Sabemos apenas o que os desenhos que o Mappa nos mostra dizem: há uma nova forma de pensar as fachadas (grandes aberturas nas portas e janelas), há uma intervenção, talvez de arquitecto — por oposição a formas tradicionais —nesse projecto, e há indícios de, pelo menos, ter existido alguma contingentação no desenho das fachadas das casas: poderiam ir além de seis varas de largura previstas para cada lote, mas as linhas das empenas e de separação de dois pisos tinha que ser contínua, apesar do desnível do terreno onde estão implantadas; as portas e janelas tinham sempre «molduras» em pedra.
+            Com 9 casas construídas em <data>1725</data> e 27 para construir, não sabemos quanto tempo levou a preencher todos os lotes.
+            Cerca de <data>1775</data>, foi aqui colocada uma fonte, de desenho «rocaille».
+            Com uma unidade arquitectónica ainda hoje notável tem apenas a destoar as duas casas, construídas em <data>1871</data> e <data>1872</data>, que ocupam os espaços correspondentes aos prazos n.º 17, 18 e 19.
+            A <lugar>praça do Gavião</lugar>, que no <data>século XVIII</data> também foi conhecida por, Quinteiro, Reduto ou campo Novo do Reduto, tem actualmente a designação oficial de <lugar>praça Mouzinho de Albuquerque</lugar>, que lhe foi dada pela Câmara Municipal em 4 de Janeiro de 1898. É mais conhecida, porém, por Campo Novo.
+        </para>
+        <figura id="MRB-48-nascente">
+            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(nascente).jpg"/>
+            <legenda>Praça do Gavião - Nascente.</legenda>
+        </figura>
+        <figura id="MRB-48-norte">
+            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(norte).jpg"/>
+            <legenda>Praça do Gavião - Norte.</legenda>
+        </figura>
+        <figura id="MRB-48-poente">
+            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(poente).jpg"/>
+            <legenda>Praça do Gavião - Poente.</legenda>
+        </figura>
+        <figura id="MRB-48-sul">
+            <imagem path="../imagem/MRB-48-PracaDoGaviao-a(sul).jpg"/>
+            <legenda>Praça do Gavião - Sul.</legenda>
+        </figura>
+      
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>
+                        Pertence ao n.° 11 da <lugar>Rua de S. Gonçalo</lugar>, para onde tem frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Paga foro ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Francisco do Vale</entidade>, da freguesia de <lugar>S. Paio de Pousada</lugar>, paga 2000 reis ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                        Foi construída antes de <data>1740</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Paga foro ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Paga foro ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6,7 e 8</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» do prazo do casal dos Chãos ou Quinteiro.
+                        O chão n.° 8 confronta, do poente, com o chão n.° 26 da <lugar>Rua Sto. André</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Paga foro ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                        Confronta, do sul, com a casa n.° 25 da <lugar>Rua de Sto. André</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10 a 16</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» do prazo do casal dos Chãos ou Quinteiro. 
+                        O chão n.° 16 confronta, do norte, com a casa n.° 1 da <lugar>Rua das Oliveiras</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17 e 18</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Martinho de Araújo</entidade>, pedreiro, paga 2000 reis ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                        As casas foram construídas depois de <data>1725</data>. O n.° 17. confronta, do poente, com a casa n.° 36 da <lugar>Rua das Oliveiras</lugar>.
+                        
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19 a 26</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» do prazo do casal dos Chãos ou Quinteiro. 
+                        O chão n.° 26 confronta, do poente, com o chão n.° 1 da <lugar>Rua de N. Sra. de Guadalupe</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>27 a 32</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» do prazo do casal dos Chãos ou Quinteiro.
+                        O chão n.° 27 confronta, do norte, con o chão n.° 35 da <lugar>Rua de N. Sra. de Guadalupe</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>33</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Mariana Cardoso</entidade>, da freguesia de <lugar>Nogueira</lugar>, paga 2000 reis ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                        Esta casa foi construída antes do ano de <data>1735</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>34 a 36</número>
+                <enfiteuta>D. Agostinha Maria de Barros Gavião, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» do prazo do casal dos Chãos ou Quinteiro. 
+                        O chão n.° 36 confronta, do sul, com o chão n.° 12 da <lugar>Rua de S. Gonçalo</lugar>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

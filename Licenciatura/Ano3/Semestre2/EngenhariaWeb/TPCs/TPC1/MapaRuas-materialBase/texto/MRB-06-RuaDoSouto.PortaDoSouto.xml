@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>6</número>
+        <nome> Rua do Souto Porta do Souto </nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-06-norte">
+            <imagem path="../imagem/MRB-06-RuaDoSouto.PortaDoSouto-norte.png"/>
+            <legenda>Rua do Souto, Porta do Souto - vista norte.</legenda>
+        </figura>
+        <figura id="MRB-06-sul">
+            <imagem path="../imagem/MRB-06-RuaDoSouto.PortaDoSouto-sul.png"/>
+            <legenda>Rua do Souto, Porta do Souto - vista sul.</legenda>
+        </figura>
+        <para>Rua chave de todo o urbanismo e vida económica bracarense, a <lugar>rua do Souto</lugar>, terá sido, pelo menos desde o séc. XVII, a mais importante da cidade.</para>
+        <para>Quando se construiram as <lugar>muralhas de Braga</lugar> pensou-se logo no possível crescimento citadino. A metade Sul, 
+            já habitada e arruada com artérias cujo traçado remonta aos romanos, ficou protegida; a metade Norte continuou vazia, com campos, que lentamente se foram enchendo. </para>
+        <para>Primeiro foi a <lugar>rua Nova</lugar>, mais tarde chamada do Campo; depois, em <data>1565</data>, a dos Gatos ou da Misericórdia.</para>
+        <para>A rua que delimitou as duas zonas foi a do Souto. Era longa, bem lançada e recta, unia o <lugar>Paço dos Arcebispos</lugar> com o <lugar>Castelo</lugar> e uma <lugar>porta da muralha</lugar>, no seu extremo. </para>
+        <para>Não importa agora que tipo de casas teria naquela longínqua data. O Mappa mostra-nos que em <data>1750</data> era uma artéria muito bem organizada, 
+            tendo quase todas as casas com três pisos, gelosias, muitas varandas de madeira cobertas também com gelosias e, no piso térreo, 
+            grandes portas de madeira, permitindo o comércio. É verdadeiramente magnífico de beleza e de unidade este conjunto! 
+            Pena foi que, nas décadas de 60 ou 70 do séc. XIX, todas as gelosias tivessem sido destruídas.</para>
+        <para>No desenho das fachadas sobressaem apenas o conjunto monumental do <lugar>largo do Paço</lugar>, obra já dos Arcebispos que vão de <entidade tipo="pessoa">D. Diogo de Sousa</entidade> a <entidade tipo="pessoa">D. Rodrigo de Moura Teles</entidade>,
+            e as casas a seguir aos prazos n.° 2, com um belo trabalho de pedra nas janelas e n. ° 50, com os pisos superiores assentes sobre duas finas colunas. </para>
+        <para>Hoje a estrutura das suas casas mantém-se, excepto no que respeita às gelosias. Em <data>1923</data> e <data>1954</data> a <lugar>rua do Souto</lugar> foi cortada pelas <lugar>rua Justino Cruz </lugar>
+            (que a ligou ao <lugar>Campo da Vinha</lugar>) e pela <lugar>rua Francisco Sanches</lugar> (no enfiamento da anterior, estabelecendo ligação para carros com o <lugar>largo de S. João do Souto</lugar>,
+            uma vez que a passagem de pessoas já era feita através da <lugar>Casa do Passadiço</lugar>). </para>
+        <para>A zona denominada <lugar>Porta do Souto</lugar>, que corresponde à parte do <lugar>Largo Barão de S. Martinho</lugar> entre a <lugar>rua dos Janes</lugar> e a <entidade tipo="empresa">Foto Pelicano</entidade>,
+            foi totalmente alterada em <data>1853</data>, quando foi destruído o <lugar>arco da Porta do Souto</lugar>.</para>
+        <para>Das 37 casas do lado Norte e 55 do lado Sul eram prazos do Cabido 16 e 33 respectivamente. 
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Agostinha Maia, viúva de Domingos Antunes da Rocha, ourives</enfiteuta>
+                <foro>250 reis e 2 galinhas</foro>
+                <desc>
+                    <para> Metade desta casa é pertença do <entidade tipo="instituição">cabido de Lamego</entidade>. Confronta, do poente, com os <lugar>Paços Arcebispais</lugar> (onde se situavam, em <data>1550</data> as <lugar>casas novas da Relação</lugar> e, no séc. XVIII, o <lugar>Aljube</lugar>); do sul com a parte pertencente ao <entidade tipo="instituição">cabido de Lamego</entidade>, e, do norte com a <lugar>Relação Eclesiástica</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta> Luís Fernandes Braga</enfiteuta>
+                <foro>320 reis e 2 galinhas</foro>
+                <desc><para>Confronta, de poente, com <lugar>casa foreira à Mitra</lugar> e, do nascente, com <lugar>casa do morgado dos Leites</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta> Rev. Cónego João Pinheiro Leite </enfiteuta>
+                <foro>620 reis e 2 galinhas </foro>
+                <desc><para> Confronta, do nascente, com casa foreira à <lugar>Igreja de S. Pedro d'Este</lugar> e, do poente, com casa foreira ao Morgado dos Leites. Este prazo foi comprado pelo Cabido, em <data>1485</data>, ao <entidade tipo="pessoa">Rei D. João II</entidade>. 
+                </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Maria Ferreira, viúva de Custódio Barroso </enfiteuta>
+                <foro>200 reis e 1 galinha </foro>
+                <desc><para>Confronta, do poente, com casa foreira à <lugar>Igreja de S. Pedro d'Este</lugar>. 
+                </para>
+                </desc>
+            </casa>
+            
+            
+            <casa>
+                <número>5</número>
+                <enfiteuta>Os herdeiros de André Loureiro </enfiteuta>
+                <foro>  600 reis e 3 galinhas</foro>
+                <desc><para></para></desc>
+            </casa>
+            
+            <casa>
+                <número>6</número>
+                <enfiteuta>Luísa Maria</enfiteuta>
+                <foro>500 reis e 2 galinhas</foro>
+                <desc><para>A enfiteuta era filha de <entidade tipo="pessoa">Francisco João</entidade>, mercador, e de sua 1ª mulher,<entidade tipo="pessoa">Vicência Rebelo</entidade> , a quem sucedeu neste Prazo. </para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Carlos Veloso</enfiteuta>
+                <foro>300 reis e 2 galinhas</foro>
+                <desc><para> Confronta, do nascente, com <lugar>casa dízima a  Deus</lugar> e, do poente, com casa foreira à <lugar>confraria de Santiago da Cividade</lugar>. </para></desc>
+            </casa>
+            
+            <casa>
+                <número>8</número>
+                <enfiteuta> António Rebelo de Matos, abade de Tadim</enfiteuta>
+                <foro>520 reis e 2 capões</foro>
+                <desc><para>Confronta, do poente, com <lugar>casa dízima a Deus</lugar>. Tem uma serventia para a Loura desde o ano de <data>1534</data>. O quintal desta casa é foreiro à <lugar>confraria de S. João do Souto</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta> Isabel Maria da Silva, viúva do Dr. Santos de Araújo</enfiteuta>
+                <foro>600 reis e 4 galinhas</foro>
+                <desc><para>Confronta, do nascente, com casa foreira à <lugar>capela dos Cerveiras</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Dr. Domingos Soares</enfiteuta>
+                <foro>800 reis e 2 galinhas</foro>
+                <desc><para>  O enfiteuta possuia este prazo por sucessão de <entidade tipo="pessoa">João Soares Braga</entidade>, juiz das sizas, e de sua mulher, <entidade tipo="pessoa">Jerónima Vaz</entidade>. Confronta, do nascente. com a casa foreira à <lugar>confraria de S. João do Souto</lugar> e, do poente, com <lugar>casa dízima a Deus</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Padre João da Silva </enfiteuta>
+                <foro>600 reis e 2 galinhas</foro>
+                <desc><para> Confronta, do poente, com casa foreira à <lugar>confraria de S. João do Souto</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta> Os herdeiros de Jerónimo Peixoto</enfiteuta>
+                <foro>460 reis e 2 galinhas</foro>
+                <desc><para> </para></desc>
+            </casa>
+            
+            <casa>
+                <número>13</número>
+                <enfiteuta> Madre Maria Clara, religiosa do Salvador </enfiteuta>
+                <foro>650 reis e 5 galinhas </foro>
+                <desc><para></para></desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Dr. António Pinheiro</enfiteuta>
+                <foro>480 reis e 2 galinhas</foro>
+                <desc><para>  Confronta, do poente, com casa foreira à <lugar>capela de Sta. Bárbara</lugar>.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>15</número>
+                <enfiteuta> Manuel de Araújo, abade de Sta. Eufémia</enfiteuta>
+                <foro>120 reis e 1 galinha </foro>
+                <desc><para>O emprazamento foi feito no ano de <data>1706</data>. </para></desc>
+            </casa>
+            
+            <casa>
+                <número>16</número>
+                <enfiteuta>Leonel da Mota</enfiteuta>
+                <foro>120 reis e 1 galinha</foro>
+                <desc><para> Foi construída em <data>1591</data>, em pertenças da casa nº 15. Fica situada no canto da <lugar>Rua do Souto</lugar> e <lugar>Terreiro do Castelo</lugar>. Confronta, do nascente, com o dito Terreiro, do Sul, com a rua e, do poente, com o nº 15.
+                </para></desc>
+            </casa>
+            
+            <casa>
+                <número>17</número>
+                <enfiteuta> Ursula Josefa </enfiteuta>
+                <foro>650 reis e 2 galinhas</foro>
+                <desc><para>Situa-se à <lugar>porta do Souto</lugar>, defronte do <lugar>Terreiro do Castelo</lugar> e confronta, do nascente, com casa foreira à <lugar>Igreja de Fraião</lugar> e, do poente, com casa foreira à <lugar>confraria de S. João do Souto</lugar>.
+                </para></desc>
+            </casa>
+            
+            <casa>
+                <número>18</número>
+                <enfiteuta> </enfiteuta>
+                <foro></foro>
+                <desc><para>É foreira à <lugar>obra da Sé</lugar> desde o ano de <data>1484</data>. por escambo feito com o cabido, ao qual ficou a pertencer o nº 46, que confronta, do nascente, com casa foreira à <entidade tipo="instituição">Câmara</entidade>. Paga, de pensão ou foro, 480 reis.</para></desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Jerónima Rodrigues, viúva de Frutuoso Marques </enfiteuta>
+                <foro>600 reis e 2 galinhas</foro>
+                <desc><para>Confronta, do sul, com a casa da <lugar>Rua de Janes</lugar>, foreira à <lugar>confraria de S. João do Souto</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta> Porcina Maria, viúva  </enfiteuta>
+                <foro>520 reis e 2 galinhas</foro>
+                <desc><para> Confronta, do nascente, com casa foreira ao <lugar>Convento do Carmo</lugar> ou aos Padres Coreiros: do poente, com casa da comenda de Adaúfe, dos Padres Coreiros; e, do sul, com casa da <lugar>Rua de Janes</lugar>, foreira a <lugar>S. João do Souto</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta> Luís Vaz Vieira e sua mulher, Antónia Maria Ferreira </enfiteuta>
+                <foro>460 reis e 4 galinhas</foro>
+                <desc><para>O emprazamento foi feito no ano de <data>1724</data>. Confronta, do nascente, com casa foreira ao <lugar>Mosteiro de Adaúfe</lugar>; do poente, com casa de S. Pedro d'Este; e, do sul, com casa foreira a S. João do Souto. Foi incorporada neste prazo a casa nº 11 da <lugar>Rua de Janes</lugar>. 
+                </para></desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta></enfiteuta>
+                <foro>75 reis (de censo)</foro>
+                <desc><para> À casa nº 23 pertence, ainda, o nº 10 da <lugar>Rua de Janes</lugar>.</para><para><entidade tipo="pessoa">João Carneiro</entidade> paga de censo, respectivamente, 75 e 72 reis</para></desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta> </enfiteuta>
+                <foro>72 reis (de censo)</foro>
+                <desc><para>À casa nº 23 pertence, ainda, o nº 10 da <lugar>Rua de Janes</lugar>.</para><para><entidade tipo="pessoa">João Carneiro</entidade> paga de censo, respectivamente, 75 e 72 reis </para></desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <enfiteuta> </enfiteuta>
+                <foro>13 reis e 5 pretos </foro>
+                <desc><para><entidade tipo="pessoa">Alexandre Brandão</entidade> paga de censo, 13 reis e 5 pretos, ou seja, meio maravedi.</para></desc>
+            </casa>
+            <casa>
+                <número>25</número>
+                <enfiteuta>Manuel Moreira, cerigueiro  </enfiteuta>
+                <foro>430 e 2 galinhas</foro>
+                <desc><para> Foi construída, no ano de <data>1538</data>, em pertenças do nº 26. O prazo é constituído por casa e rossio, tendo este serventia pelo nº 8 da <lugar>Rua de Janes</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <enfiteuta>Mariana da Costa, viúva de Pedro Mendes</enfiteuta>
+                <foro>200 reis e 2 galinhas</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta> Dr. João de Matos </enfiteuta>
+                <foro>400 reis e 2 galinhas </foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Padre Baltazar Ferreira da Silva</enfiteuta>
+                <foro>580 reis e 2 galinhas</foro>
+                <desc><para>  Foi construída no ano de <data>1513</data>, em pertenças do nº 29. No ano de <data>1596</data>. foi-lhe incorporada a casa n° 26.</para></desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Domingos Martins Teixeira </enfiteuta>
+                <foro>840 reis e 2 capões</foro>
+                <desc><para> A este prazo pertence a casa nº 7, da <lugar>Rua de Janes</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <enfiteuta>  Os herdeiros de André Loureiro </enfiteuta>
+                <foro> 270 reis e 1 galinha </foro>
+                <desc><para>  Foi construída em <data>1524</data>, em pertenças do nº 31, e acrescentada, no ano de <data>1609</data>, uma parte do quintal do nº 33 e uma casa pequena do nº 31.</para></desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <enfiteuta>Manuel Francisco da Cruz </enfiteuta>
+                <foro> 220 reis e 1 galinha</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>32</número>
+                <enfiteuta> Jácome de Brito Leite</enfiteuta>
+                <foro> 250 reis e 2 galinhas</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>33</número>
+                <enfiteuta> António Pereira Regalo</enfiteuta>
+                <foro>500 reis e 3 galinhas</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>34</número>
+                <enfiteuta>Padre António da Silva </enfiteuta>
+                <foro>300 reis</foro>
+                <desc><para> Confronta, do poente, com casa foreira à <lugar>Igreja de S. Pedro d'Este</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>35</número>
+                <enfiteuta> </enfiteuta>
+                <foro>13 reis e 2 pretos (de censo)</foro>
+                <desc><para> Paga, também 7 reis ao porteiro da massa. O censo é pago por <entidade tipo="pessoa">Ascenso Antunes</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>36</número>
+                <enfiteuta> </enfiteuta>
+                <foro>13 reis e 2 pretos (de censo)</foro>
+                <desc><para>O censo é pago pelo livreiro, <entidade tipo="pessoa">Manuel Ferreira</entidade>. </para></desc>
+            </casa>
+            <casa>
+                <número>37</número>
+                <enfiteuta> </enfiteuta>
+                <foro>13 reis e 2 pretos (de censo)</foro>
+                <desc><para>O censo é pago por <entidade tipo="pessoa">Ascenso Antunes</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>38</número>
+                <enfiteuta> Padre António da Rocha Ferreira</enfiteuta>
+                <foro>370 reis e 2 galinhas </foro>
+                <desc><para> O emprazamento foi feito em <data>1727</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>39</número>
+                <enfiteuta> </enfiteuta>
+                <foro></foro>
+                <desc><para> Corresponde ao Passadiço do nº 5, da <lugar>Rua de S. João</lugar>, para onde tem a frontaria e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>40</número>
+                <enfiteuta>Francisco Gomes, livreiro</enfiteuta>
+                <foro>430 reis e 2 capões</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>41 e 42</número>
+                <enfiteuta>Padre José António de Lima </enfiteuta>
+                <foro>600 reis e 2 capões </foro>
+                <desc><para> Encontram-se unidas num só prazo, desde o ano de <data>1637</data>. Também já se encontraram unidas entre os anos de <data>1491</data> e <data>1551</data>. </para></desc>
+            </casa>
+            <casa>
+                <número>43</número>
+                <enfiteuta> Os herdeiros de Francisco Rodrigues da Costa, mercador </enfiteuta>
+                <foro>300 reis e 2 capões </foro>
+                <desc><para> O nº 43 esteve unido ao nº 44, entre os anos de <data>1482</data> e <data>1532</data>. Enquanto estiveram separados, a serventia do nº 44 fazia-se por uma porta e corredor situados por baixo do nº 43.</para></desc>
+            </casa>
+            <casa>
+                <número>44</número>
+                <enfiteuta>  Os herdeiros de Francisco Rodrigues da Costa, mercador </enfiteuta>
+                <foro>220 reis e 1 galinha</foro>
+                <desc><para>O nº 43 esteve unido ao nº 44, entre os anos de <data>1482</data> e <data>1532</data>. Enquanto estiveram separados, a serventia do nº 44 fazia-se por uma porta e corredor situados por baixo do nº 43. </para></desc>
+            </casa>
+            <casa>
+                <número>45</número>
+                <enfiteuta> Dr. Manuel Gomes Lages</enfiteuta>
+                <foro>340 reis e 2 galinhas</foro>
+                <desc><para> </para></desc>
+            </casa>
+            <casa>
+                <número>46</número>
+                <enfiteuta> Bernardina de Sena Maurícia, solteira</enfiteuta>
+                <foro>480 reis</foro>
+                <desc><para> A enfiteuta era filha de <entidade tipo="pessoa">Gregório Ferreira</entidade> e de sua mulher, <entidade tipo="pessoa">Antónia Maria</entidade>, e herdou este prazo que seu pai comprara. Confronta, do sul, com pertenças do nº 48; e do poente com a parte do nº 47, foreira à <lugar>confraria de S. João do Souto</lugar>. Possui duas portas para a rua: uma que serve para a loja, em que estão as drogas de botica e outras mercearias e outra que é a serventia desta casa. </para></desc>
+            </casa>
+            <casa>
+                <número>47</número>
+                <enfiteuta>Os herdeiros de João Marques da Veiga </enfiteuta>
+                <foro>150 reis e 2 galinhas</foro>
+                <desc><para> Metade desta casa (parte nascente) é foreira à <lugar>confraria de S. João do Souto</lugar>, e confronta com o nº 48. </para></desc>
+            </casa>
+            <casa>
+                <número>48</número>
+                <enfiteuta> Dr. António Fernandes do Vale, médico </enfiteuta>
+                <foro> 600 reis, 2 capões e 2 galinhas</foro>
+                <desc><para>A parte poente da casa confronta com <lugar>casa dízima a Deus</lugar>. Desde o ano de <data>1566</data>, que está unida a uma casa que se desmembrou do nº 46. </para></desc>
+            </casa>
+            <casa>
+                <número>49</número>
+                <enfiteuta>José Loureiro </enfiteuta>
+                <foro>430 reis e 2 galinhas</foro>
+                <desc><para> Confronta, do nascente, com <lugar>casa dízima a Deus</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>50</número>
+                <enfiteuta> Manuel Pereira da Costa, livreiro</enfiteuta>
+                <foro>470 reis e 2 capões</foro>
+                <desc><para>Confronta, do nascente, com casa foreira à <lugar>cororaria</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>51</número>
+                <enfiteuta>Domingos José de Melo </enfiteuta>
+                <foro>265 reis e 2 galinhas</foro>
+                <desc><para>Do nascente e poente confronta com casas dízimas a Deus. Até ao ano de <data>1679</data> o cabido possuía apenas as traseiras desta casa. A parte da frente era dízima a Deus. Posteriormente, <entidade tipo="pessoa">Domingos Pinheiro Leite </entidade>doou ao cabido a parte que lhe cabia "se alcançasse sentença a seu favor no pleito que trazia sobre a dita parte com <entidade tipo="pessoa">Mariana Vieira</entidade>, viúva".  </para></desc>
+            </casa>
+            
+            
+        </lista-casas>
+    </corpo>
+</rua>

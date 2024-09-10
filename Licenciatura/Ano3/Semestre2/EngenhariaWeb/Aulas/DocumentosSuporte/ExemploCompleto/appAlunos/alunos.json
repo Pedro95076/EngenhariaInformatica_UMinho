@@ -1,0 +1,73 @@
+{
+  "alunos": [
+    {
+      "id": "A100893",
+      "nome": "Luís de Castro Rodrigues Caetano",
+      "gitlink": "https://github.com/056zedelta/EngWeb2024.git"
+    },
+    {
+      "id": "A100701",
+      "nome": "Pedro Duarte Nobre Viana",
+      "gitlink": "https://github.com/dvianaa/EngWeb2024"
+    },
+    {
+      "id": "A100615",
+      "nome": "João Miguel Mendes Moura",
+      "gitlink": "https://github.com/joaomoura12/EngWeb2024"
+    },
+    {
+      "id": "A100759",
+      "nome": "Pedro Afonso Moreira Lopes",
+      "gitlink": "https://github.com/LerdoPopes/EngWeb2024/tree/main/TPC1"
+    },
+    {
+      "id": "A94015",
+      "nome": "Bruno Daniel da Silva Carvalho",
+      "gitlink": "https://github.com/joodanic/EngWeb2024"
+    },
+    {
+      "id": "A95345",
+      "nome": "Miguel Miguel Pacheco Silva",
+      "gitlink": "https://github.com/dud4s/EngWeb2024"
+    },
+    {
+      "id": "A100660",
+      "nome": "Miguel Macedo Ferreira",
+      "gitlink": "https://github.com/chicoferreira/EngWeb2024"
+    },
+    {
+      "id": "A96208",
+      "nome": "Rafael João Ferreira Gomes",
+      "gitlink": "RafaGomes1/EngWeb2024 (github.com)"
+    },
+    {
+      "id": "A97455",
+      "nome": "Miguel Nuno Marinho Malheiro",
+      "gitlink": "https://github.com/a97455/EngWeb2024",
+      "tpc1": "1",
+      "tpc2": "1"
+    },
+    {
+      "id": "A95076",
+      "nome": "Pedro Marcelo Bogas Oliveira ",
+      "gitlink": "https://github.com/Pedro95076",
+      "tpc1": "1",
+      "tpc2": "1",
+      "tpc3": "1",
+      "tpc4": "1",
+      "tpc5": "1",
+      "tpc6": "1",
+      "tpc7": "1",
+      "tpc8": "1"
+    },
+    {
+      "id": "A99999",
+      "nome": "Pedro",
+      "gitlink": "linkDoGit.com",
+      "tpc1": "1",
+      "tpc2": "1",
+      "teste": "12",
+      "pratica": "14"
+    }
+  ]
+}

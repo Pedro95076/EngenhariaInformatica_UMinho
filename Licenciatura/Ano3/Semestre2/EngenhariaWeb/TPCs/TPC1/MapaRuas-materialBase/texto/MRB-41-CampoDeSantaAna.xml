@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/micas/Desktop/Maria/Uminho/4%C2%BAano/1%C2%BAsemestre/publicacao_eletronica/Trabalho%20Final/MRB-rua.xsd">
+    <meta>
+        <número>41</número>
+        <nome>Campo de Santa Ana</nome>
+    </meta>
+    <corpo>
+        <para>Grande espaço aberto em frente à <lugar>porta de Souto</lugar>, onde já na Idade Média
+        passava uma rua- a <lugar>Corredoura</lugar>- que levava à <lugar>Senhora a Branca</lugar> e
+        <lugar>S.Victor</lugar>, donde partia a estrada para <lugar>Chaves</lugar> ou <lugar>Bom Jesus</lugar>.</para>
+        <para>Nos inícios do <data>séc. XVI</data> «era todo cheio de vinhas e árvores e não tinha mais
+        espaço nem campo saindo da <lugar>porta do Souto</lugar> para <lugar>Santa Maria a Branca</lugar>».
+        O <entidade tipo="pessoa">arcebispo D.Diogo de Sousa</entidade>, «mandou fazer o rocio de Santa Ana...
+        e comprou estas vinhas e campos até ao padrão onde está uma cruz acerca de Nossa Senhora e meteu
+        tudo neste rocio de Santa Ana, e do dito padrão para diante alargou aquele campo até Nossa Senhora»,
+        criando assim um espaço amplo e belo onde «fez de novo a Ermida se Santa Ana, com a sua capela e 
+        escada... e poz de redor delas certas colunas escritas do tempo dos romanos» e «uma Cruz... com 
+        seus degraus e haste».</para>
+        <para>Era a transformação deste local em amplo espaço urbano. Até essa data apenas existia a capela
+        de S.Gonçalo, fundada poucos anos antes, em <data>1500</data>, por <entidade tipo="pessoa">D.Jorge da 
+        Costa</entidade>, além da <lugar>rua da Corredoura</lugar>.</para>
+        <para>Com a construção de uma casa «à<lugar>porta do Souto</lugar>...[para] estrebarias e alpendre
+        com suas colunas para pousarem de praça os Almocreves» e de «um pelourinho de pedra». por ordem
+        também de <entidade tipo="pessoa">D.Diogo</entidade>, ficava imediatamente criado um polo de atracção
+        e comércio que pela proximidade com que estava deste campo, não deixaria de o afectar; o que aliás
+        é visível no desenho das casas existentes no seu extremo Sudoeste.</para>
+        <para>Em <data>1652</data> foi fundado o <entidade tipo="instituição">recolhimento das Beatas da
+        Penha de França</entidade>, que seria ampliado em <data>1720</data>, com mais quartos e uma igreja.</para>
+        <para>Passados 34 anos instalaram-se aqui os <entidade tipo="instituição">Oratorianos</entidade> que
+        lançaram a primeira pedra para a sua igreja em <data>1689</data>. Em <data>1739-1766</data>
+        conseguiram construir o seu magnífico convento e igreja (dos Congregados), onde andou a mão de
+        <entidade tipo="pessoa">André Soares</entidade>.</para>
+        <para>Em <data>1722</data> a capela de S.Gonçalo foi totalmente reedificada, fundando-se na mesma
+        data o <entidade tipo="instituição">Recolhimento das Convertidas</entidade>, em espaço contíguo.</para>
+        <para>Com todas estas instituições, onde nos permitimos salientar os <entidade tipo="instituição">Oratonianos</entidade> pela forma com que souberam atrair as populações, <lugar>campo de Santa Ana</lugar> 
+        foi tomando uma importância na vida da cidade que atingiu o seu máximo em meados do século passado,
+        e que ainda hoje mantém.</para>
+        <para>Em <data>1750</data>, e embora o Mappa nos mostre apenas algumas das suas casas, nota-se bem
+        a excelente qualidade de muitas delas, sobretudo as do lado Norte (excepto a do prazo n.º5) e a
+        situada no seu extremo Sudoeste. São amplas, de grande fachada, construídas em pedra e ladeadas por 
+        pilastras, com fartas aberturas, e as janelas do piso nobre transformadas em varandas. O lado Sul 
+        contrasta totalmente; exceptuando a magnífica e grande casa localizada no gaveto com a 
+        <lugar>rua de Águas</lugar> que tem quatro vãos e três pisos, com uma raríssima varanda corrida no 
+        seu último andar, todas as outras são bastantes diferentes. São habitações na sua maioria de três
+        pisos (sendo o terceiro sobradado em quatro delas), com amplas portas para possibilitar melhor comércio
+        e com janelas bracarenses. Curiosamente não encontramos aqui nenhuma casa recoberta de gelosias.</para>
+        <para>No extremo Sudeste está o <entidade tipo="instituição">convento dos Congregados</entidade>,
+        ainda em construção.</para>
+        <para>Não deixa de ser curioso assinalar que quando na <data>segunda metade do séc.XIX</data> se 
+        reconstruiram muitos destes edifícios, os do lado Norte continuaram a ter grande vulto e dos do Sul
+        mantiveram também as pequenas proporções de 100 anos atrás.</para>
+        <para>Das 8 casas do lado Norte e 20 do Sul, eram prazos do <entidade tipo="instituição">Cabido</entidade>
+         5 e 2, respectivamente.</para>
+        <para>O <lugar>campo de Santa Ana</lugar> tem o nome actual de <lugar>avenida Central</lugar>.</para>
+        
+        <figura id="MRB-41-norte">
+            <imagem path="../imagem/MRB-41-CampoDeSantaAna-Norte.jpg"/>
+            <legenda>Campo de Santa Ana - Norte.</legenda>
+        </figura>
+        
+        <figura id="MRB-41-sul">
+            <imagem path="../imagem/MRB-41-CampoDeSantaAna-Sul.jpg"/>
+            <legenda>Campo de Santa Ana - Sul.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>D.Agostinha de Barros Gavião, enfiteuta principal do casal dos Chãos ou Quinteiro, 
+                sito na freguesia de S.José de S.Lázaro</enfiteuta>
+                <desc>
+                    <para>Uma parte do quintal desta casa é pertença do prazo do casal dos Chãos ou Quinteiro, 
+                        sito na freguesia de S.José de S.Lázaro, à face do qual está subemprazado.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>D.Agostinha de Barros Gavião, enfiteuta principal do casal dos Chãos ou Quinteiro, 
+                    sito na freguesia de S.José de S.Lázaro</enfiteuta>
+                <desc>
+                    <para>Uma parte do quintal desta casa é pertença do prazo do casal dos Chãos ou Quinteiro, 
+                        a face do qual está subemprazado.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>D.Agostinha de Barros Gavião, enfiteuta principal do casal dos Chãos ou Quinteiro, 
+                    sito na freguesia de S.José de S.Lázaro</enfiteuta>
+                <desc>
+                    <para>Uma parte do quintal desta casa é pertença do prazo do casal dos Chãos ou Quinteiro, 
+                        à face do qual está subemprazado.</para>
+                    <para>Confronta, do poente, com casa foreira ao <entidade tipo="instituição">Convento de Vilar de Frades</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>D.Agostinha de Barros Gavião, enfiteuta principal do casal dos Chãos ou Quinteiro, 
+                    sito na freguesia de S.José de S.Lázaro</enfiteuta>
+                <desc>
+                    <para>Uma parte do quintal desta casa é pertença do prazo do casal dos Chãos ou Quinteiro, 
+                        à face do qual está subemprazado.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>D.Agostinha de Barros Gavião, enfiteuta principal do casal dos Chãos ou Quinteiro, 
+                    sito na freguesia de S.José de S.Lázaro</enfiteuta>
+                <desc>
+                    <para>Uma parte do quintal desta casa é pertença do prazo do casal dos Chãos ou Quinteiro, 
+                        à face do qual está subemprazado. A casa e a parte sul do quintal pagam foro ao
+                    <entidade tipo="instituição">mosteiro de Vilar de Frades.</entidade> Confronta, do nascente, 
+                    com a <lugar>rua de S.Gonçalo</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Vincente Francisco</entidade>, casado com <entidade tipo="pessoa">Francisca Ferreira</entidade>, 
+                    paga, de pensões ou foro, 10 reis ao n.º3 da <lugar>Rua das Águas</lugar>, por um 
+                    pedaço de terra que se separou do <lugar>campo da Rua das Águas</lugar> ou do
+                    <lugar>Caminho Novo</lugar>.</para>
+                    <para>A casa e a outra parte do quintal não são foreiras ao <entidade tipo="instituição">cabido</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Gualter da Fonseca Pereira</entidade>, reitor de
+                    <entidade tipo="instituição">Sta. Maria de Covelo</entidade>, paga, de pensão ou foro, 
+                        50 reis ao n.º3 da <lugar>Rua das Águas</lugar> ou do <lugar>Caminho Novo</lugar>.</para>
+                    <para>A casa e a outra parte do quintal não são foreiras ao <entidade tipo="instituição">cabido</entidade>.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

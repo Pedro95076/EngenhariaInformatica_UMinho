@@ -1,0 +1,13 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2019/Debian) (preloaded base=mf 2023.1.13)  14 JAN 2023 00:03
+**\mode:=ljfour; mag:=1; nonstopmode; input xydash10
+(/mnt/d/OneDrive/Ambiente de Trabalho/cp2223/xydash10.mf
+! I can't find file `xyd2'.
+l.63 input xyd2
+               
+Please type another input file name
+! Emergency stop.
+l.63 input xyd2
+               
+*** (job aborted, file error in nonstop mode)
+
+Font metrics written on xydash10.tfm.

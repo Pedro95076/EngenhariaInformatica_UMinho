@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Cristiana%20Carvalho/Desktop/Publica%C3%A7%C3%A3o%20eletr%C3%B3nica/PROJETO%20FINAL/MRM-rua.xsd">
+    <meta>
+        <número>15</número>
+        <nome>Travessa da Rua do Poço para a de D.Gualdim</nome>
+    </meta>
+    <corpo>
+        <para>
+            Fragmento da actual <lugar>rua D. Afonso Henriques</lugar>, entre as <lugar>ruas D. Gonçalo Pereira e D. Gualdim Pais</lugar>.
+        </para>
+        <para>
+            Se na sua pequeníssima extensão poucas casas há (1 do lado Norte e 4 do lado Sul, todas prazos do <entidade tipo="instituição">Cabido</entidade>) não deixa de ter mesmo assim dois edifícios interessantes: a dos prazos 5 e 6, boa casa de pedra com uma notável porta varanda dos finais de seiscentos; e a dos números 1 e 2 por ser uma casa muito grande com o piso superior sobradado, à maneira antiga.
+        </para>
+        <para>
+           Curiosos são ainda os prazos n.ºs 3 e 4 onde se vêem 2 habitações com «porta ladeada de uma janela» que eram frequentes, sobretudo, nas ruas existentes no exterior das muralhas.
+        </para>  
+        <para>
+           Alargadas nos finais do séc. XIX, não se conservam hoje nenhuma das casas desta rua existentes no Mappa.
+        </para>
+        
+        <figura id="MRB-15-norte">
+            <imagem path="../imagem/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Norte.jpg"/>
+            <legenda>Travessa da Rua do Poço para a de D.Gualdim - vista norte.</legenda>
+        </figura>
+        <figura id="MRB-15-sul">
+            <imagem path="../imagem/MRB-15-TravessaDaRuaDoPocoParaADeDGualdim-Sul.jpg"/>
+            <legenda>Travessa da Rua do Poço para a de D.Gualdim - vista sul.</legenda>
+        </figura>
+        
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>
+                        Pertencem ao n.º 21 da <lugar>Rua do Poço</lugar>, para onde têm a frontaria e serventia principais. Foram unidas no ano de <data>1609</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <desc>
+                    <para>
+                        Pertencem ao n.º 21 da <lugar>Rua do Poço</lugar>, para onde têm a frontaria e serventia principais. Foram unidas no ano de <data>1609</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Os herdeiros de Francisco Almeida Cabral e de sua mulher, D. Josefa Luísa de Araújo</enfiteuta>
+                <foro>180 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        As casa n.º 2 e 3 estiveram unidas, num só prazo, ao n° 4, entre os anos de <data>1533 e 1597</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Os herdeiros de Francisco Almeida Cabral e de sua mulher, D.Josefa Luísa de Araújo</enfiteuta>
+                <foro>200 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        As casa n.º 2 e 3 estiveram unidas, num só prazo, ao n° 4, entre os anos de <data>1533 e 1597</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Miguel Luís Dias, escrivão dos casamentos da cidade de Braga, e sua mulher Adriana Maria Ribeiro</enfiteuta>
+                <foro>330 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        O n.º 5 situa-se defronte da porta do <lugar>açougue</lugar>. 
+                    </para>
+                    <para>
+                        Ao n° 6, pertence uma casa terceira da rua que vai desta <lugar>travess</lugar>a para <lugar>Santiago</lugar>. Possui frontaria para a <lugar>Rua de D. Gualdim.</lugar>
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Miguel Luís Dias, escrivão dos casamentos da cidade de Braga, e sua mulher Adriana Maria Ribeiro</enfiteuta>
+                <foro>450 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        O n.º 5 situa-se defronte da porta do <lugar>açougue</lugar>. 
+                    </para>
+                    <para>
+                        Ao n° 6, pertence uma casa terceira da rua que vai desta <lugar>travess</lugar>a para <lugar>Santiago</lugar>. Possui frontaria para a <lugar>Rua de D. Gualdim.</lugar>
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <desc>
+                    <para>
+                        Correspondem ao n° 7 da <lugar>Rua de D. Gualdim</lugar>, para onde têm a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <desc>
+                    <para>
+                        Correspondem ao n° 7 da <lugar>Rua de D. Gualdim</lugar>, para onde têm a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <desc>
+                    <para>
+                        Corresponde ao n° 22 da <lugar>Rua do Poço</lugar>, para onde tem a frontaria principal.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

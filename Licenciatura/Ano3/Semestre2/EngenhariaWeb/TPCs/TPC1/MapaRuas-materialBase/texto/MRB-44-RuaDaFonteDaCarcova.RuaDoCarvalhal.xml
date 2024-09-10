@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/micas/Desktop/Maria/Uminho/4%C2%BAano/1%C2%BAsemestre/publicacao_eletronica/Trabalho%20Final/MRB-rua.xsd">
+    <meta>
+        <número>44</número>
+        <nome>Rua da Fonte da Carcova</nome>
+    </meta>
+    <corpo>
+        <para>A sua fundação, remontará talvez aos inícios do <data>séc. XVI</data>. Marginando a muralha
+        medieval, fazia ligação entre os dois novos e amplos campos então abertos, de <lugar>Santa Ana</lugar>
+        e da <lugar>Vinha</lugar>.</para>
+        <para>No seu extremo Este existia, desde a Idade Média, uma fonte, conhecida pela <lugar>Fonte da
+        Cárcova ou Cárcoda</lugar>.</para>
+        <para>Embora a sua ocupação se tenha iniciado de imediato (p.ex. o prazo do <entidade tipo="instituição">Cabido</entidade>
+        mais antigo nesta rua data de <data>1531</data>), ee incidiu apenas sobre o lado Norte, porque no mapa
+        de Braunio não se vê ainda nenhuma construção encostada à muralha.</para>
+        <para>Em <data>1750</data> mostrava bem a razão por que foi denominada, em data que desconehcemos,
+        de <lugar>rua dos Mercadores</lugar>: o rés-do-chão era totalmente ocupado com largas portas de madeira
+        que durante o dia se abriam para afzer o comércio.</para>
+        <para>De resto é predominantemente ocupada com prédios de 3 andares, e janelas bracarenses, e poucas varandas
+        e gelosias. Diferentes são apenas os prazos 5, 6 e sobretudo o 7, onde se vê uma construção setecentista
+        já de certa dimensão, com duas varandas, «molduras» de pedra nas aberturas e, sobretudo, um dos vãos
+        extremos da casa tem mais um piso, reminiscência talvez de opções estilísticas mais arcaicas.</para>
+        <para>Das 27 casas aqui desenhadas e que correspondem apenas ao lado Norte da rua, 10 eram prazos do
+        <entidade tipo="instituição">Cabido</entidade>.</para>
+        <para>Desde <data>1865</data> que passou a ser oficialmente denominada de <lugar>rua dos Capelistas</lugar>.</para>
+        
+        <nome>Rua do Carvalhal</nome>
+        <para>Aberta em data desconhecida. No Tombo do Cabido (cª <data>1369-80</data>), já figura este
+        topónimo.</para>
+        <para>Estabelecida a ligação entre o <lugar>largo dos Penedos</lugar> e os espaços onde bastante
+        mais tarde, nos meados do <data>séc. XVII</data>, se construiu a igreja e <entidade tipo="instituição">convento do Carmo</entidade>.</para>
+        <para>Em <data>1750</data>, era uma rua que alternava, um pouco a esmo, casas de 1, 2 ou 3 pisos,
+        de bom ou mau desenho, de famílias pobres ou ricas, numa indefinição absoluta: vêem-se aqui
+        casas grandes, com bom trabalho de pedra e casas do tipo de porta com janela ao lado, no piso 
+        térreo. Só com uma leitura dos prazos se poderá definir o tipo de vivência que nela se fazia,
+        o que nos parece poder dar resultados muitíssimo interessantes.</para>
+        <para>Das 27 casas aqui desenhadas e que correspondem apenas ao lado Sul da rua, 18 eram prazos 
+        do <entidade tipo="instituição">Cabido</entidade>.</para>
+        <para>Mantém o nome de <lugar>rua do Carvalhal</lugar>.</para>
+        
+        <figura id="MRB-44-norte">
+            <imagem path="../imagem/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Norte.jpg"/>
+            <legenda>Rua da Fonte da Carcova- Norte.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <vista>Norte</vista>
+                <enfiteuta>Os herdeiros de Gregório João, tratantem casado com Maria Veloso</enfiteuta>
+                <foro>25 reis e 1 galinha</foro>
+                <desc>
+                    <para>Confronta, do poente, com cada foreira à capela de Sta. Marta.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <vista>Norte</vista>
+                <enfiteuta>António Francisco</enfiteuta>
+                <foro>30 reis e 1 galinha</foro>
+                <desc>
+                    <para>A casa n.º2 esteve unida ao n.º1 entre os anos de <data>1608 e 1690</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <vista>Norte</vista>
+                <enfiteuta>António Francisco</enfiteuta>
+                <foro>20 reis e 2 galinhas</foro>
+                <desc>
+                    <para>A casa n.º2 esteve unida ao n.º1 entre os anos de <data>1608 e 1690</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <vista>Norte</vista>
+                <enfiteuta>António Francisco</enfiteuta>
+                <foro>50 reis</foro>
+                <desc>
+                    <para>A casa n.º2 esteve unida ao n.º1 entre os anos de <data>1608 e 1690</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5 e 6</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria</enfiteuta>
+                <foro>50 reis e 1 galinha</foro>
+                <desc>
+                    <para>Os n.º5 e 6 encontram-se unidos desde o ano de <data>1541</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria</enfiteuta>
+                <foro>30 reis e 1 galinha</foro>
+                <desc>
+                    <para>Os n.º5 e 6 encontram-se unidos desde o ano de <data>1541</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <vista>Norte</vista>
+                <enfiteuta>Ana Maria de Carvalho</enfiteuta>
+                <foro>20 reis e 1 galinha</foro>
+                <desc>
+                    <para>Esteve unida ao n.º9 entre os anos de <data>1531 e 1625</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <vista>Norte</vista>
+                <enfiteuta>João Martins Teixeira, mercador, casado com Ana Maria da Silva</enfiteuta>
+                <foro>10 reis e 1 galinha</foro>                
+            </casa>
+            <casa>
+                <número>10</número>
+                <vista>Norte</vista>
+                <enfiteuta>Manuel Marques Pereira</enfiteuta>
+                <foro>10 reis e 1 galinha</foro>
+                <desc>
+                    <para>O enfiteuta foi herdeiro de <entidade tipo="pessoa">Brígida Marques</entidade>,
+                    casada com <entidade tipo="pessoa">Manuel da Costa</entidade>, marceneiro.</para>
+                    <para>Esteve unida ao n.º8 entre os anos de <data>1531 e 1617</data>.</para>
+                    <para>Confronta, do nascente, com o <lugar>Eirado</lugar>.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+        
+        <figura id="MRB-44-sul">
+            <imagem path="../imagem/MRB-44-RuaDaFonteDaCarcova.RuaDoCarvalhal-Sul.jpg"/>
+            <legenda>Rua da Fonte da Carcova- Sul</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                    <número>1</número>
+                    <vista>Sul</vista>
+                    <desc>
+                        <para>Pertence à casa n.º24 da <lugar>Rua dos Chãos de Baixo</lugar>, para onde tem
+                        a frontaria e serventia principais.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>2</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Pedro Sepúlvedra</entidade>, casado com 
+                        <entidade tipo="pessoa">Ângela das Neves</entidade>, paga 72 reis ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>3</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">José Francisco</entidade>, lavrador da
+                            <lugar>Freguesia de Sta. Lucrécia</lugar>, casado com <entidade tipo="pessoa">Maria Lopes</entidade>,
+                            paga 72 reis ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>4</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">João da Costa</entidade>, casado com 
+                            <entidade tipo="pessoa">Teresa Ferreira</entidade>, paga 117 reis ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>5</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Francisco Dantas</entidade>, escrivão dos direitos reais,
+                            casado com <entidade tipo="pessoa">Grácia Maria de São Boaventura</entidade>, paga 504 reis ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>6 a 9</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para>O <entidade tipo="pessoa">Padre Manuel Álvares</entidade> paga 1184 reis
+                            e 2 galinhas ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>10</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>Os herdeiros de Francisco João, sapateiro, casado com Ana Dias.</enfiteuta>
+                    <foro>588 reis e 1 galinha</foro>
+                </casa>
+                <casa>
+                    <número>11</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Crispiana Soares</entidade>, solteira,
+                            paga 592 reis e 1 galinha ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>12</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Manuel Falcão Cotta</entidade>, fidalgo da casa de sua
+                        Magestade, paga 1185 reis e 2 galinhas ao n.º10; e, por um pedaço de quintal (que se
+                        desmembrou do n.º8 da <lugar>Rua dos Chãos de Baixo</lugar>), paga 1 alqueire de pão
+                        meado e meia galinha.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>13 e 14</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Francisco de Meira Carrilho</entidade>, cónegro
+                            de <lugar>Braga</lugar>, paga 820 reis e 1 galinha ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>15 e 17</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para>Pertencem ao enfiteuta da casa n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>16</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Crispim da Silva</entidade>,surrador, paga 264 reis ao n.º18.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>18</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>D.Mónica Isabel de Brito e Távora, de Vila do Conde, assistente em Lisboa.</enfiteuta>
+                    <foro>800 reis, 3 galinhas e 1 capão</foro>
+                    <desc>
+                        <para>Denominado «Casal de Portas». Foi subemprazado, no ano de <data>1736</data>, a
+                        <entidade tipo="pessoa">Ursula Josefa de Araújo</entidade>, viúva do Lic.
+                        <entidade tipo="pessoa">Manuel da Costa Maia</entidade>, pelo foro 2.513 reis, e 
+                        750 reis e 2 galinhas. A este prazo pertencem os n.º15 e 17, bem como uma devesa no
+                        <lugar>monte de Castro</lugar>, junto a <lugar>S. Lourenço</lugar>, e os foros das casas
+                        que lhe andam subenfiteuticadas nesta <lugar>Rua do Carvalhal</lugar>, desde os n.º 1 a
+                        14 e 16 e, na <lugar>Rua dos Chãos de Baixo</lugar>, os n.º12 e 24.</para>
+                        <para>Confronta, do poente, com casas foreiras a <entidade tipo="pessoa">António Barreto de Meneses</entidade>.</para>
+                    </desc>
+                </casa>
+        </lista-casas>
+    </corpo>
+    
+    
+</rua>

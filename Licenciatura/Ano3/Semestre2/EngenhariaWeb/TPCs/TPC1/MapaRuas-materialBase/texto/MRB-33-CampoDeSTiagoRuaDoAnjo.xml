@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/tiago/OneDrive/Documents/workspace_xml/trabalhofinal/MRB-rua.xsd">
+    <meta>
+        <número>33</número>
+        <nome>Campo de S. Tiago</nome>
+    </meta>
+    <corpo>
+        <para>
+            Grande largo mandado abrir por <entidade tipo="pessoa">D. Diogo de Sousa</entidade>, em frente à porta da muralha que tem o mesmo nome.
+        </para>
+        <para>
+            Ponto de chegada da estrada do <lugar>Porto</lugar>, que subia a <lugar>rua dos Pelames</lugar>, este campo passou a ter uma maior importância a partir da construção das novas instalações do <lugar>Colégio de S. Paulo</lugar> (na década de <data>1560-1570</data>) sobre a muralha, no local onde agora se encontra o <lugar>Seminário de Santiago</lugar>. Este edifício, contudo, tinha apenas duas fiadas corridas de janelas abertas para ele.
+        </para>
+        <para>
+            Rapidamente todo este espaço foi preenchido. Com <entidade tipo="pessoa">D. Frei Bartolomeu dos Mártires</entidade> a zona envolvente ao Colégio (<lugar>ruas dos Pelames</lugar>, <lugar>rua S. Paulo</lugar>, <lugar>largo de S. Paulo</lugar> e <lugar>campo de S. Tiago</lugar>) foi limpa das prostitutas e dos ociosos que aí habitavam, para neles poderem viver, em melhor ambiente, os estudantes que chegaram a atingir um número máximo de 2000 alunos.
+        </para>
+        <para>
+            Em <data>1623</data> a <entidade tipo="instituição">Câmara</entidade> mandou construir uma fonte «cêrca da torre e porta de S. Tiago e em frente da <lugar>rua dos Pellames</lugar>», que foi removida em <data>1745</data>, por determinação do <entidade tipo="pessoa">Arcebispo D. José de Bragança</entidade>, fazendo-se então o actual chafariz.
+        </para>
+        <para>
+            Em <data>1759</data>, com a expulsão dos <entidade tipo="instituição">Jesuítas</entidade>, a quem fora confiado o ensino neste colégio, o <lugar>campo de S. Tiago</lugar> deverá ter perdido grande parte da sua vida.
+        </para>
+        <para>
+            Em <data>1750</data> no lado Sul deste largo havia onze casas, todas prazos do <entidade tipo="instituição">Cabido</entidade>, que se podiam dividir em três grupos: um, mais pobre, (casas dos prazos 5 a 11) de desenho de fachada simples, com janelas do tipo bracarense, parcialmente cobertas por gelosias; outro (casas dos prazos 2 a 4) mais cuidado, com portas com rebordo saliente e frisos, também de pedra, sobre as janelas; e o terceiro, formado pela belíssima <lugar>casa dos Falcões Cota</lugar>, mandada fazer em <data>1703</data> pelo <entidade tipo="pessoa">Cónego Meira Carrilho</entidade>, e onde actualmente está instalado o <entidade tipo="instituição">Governo Civil</entidade>.
+        </para>        
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Estevão Falcão Costa</enfiteuta>
+                <foro>350 reis e 3 galinhas</foro>
+                <desc>
+                    <para>
+                        Esta casa é cabeça do prazo, denominado, «<lugar>Lugar do Pombal</lugar>», que foi feito em <data>1508</data> a <entidade tipo="pessoa">Maria de Teive</entidade>, viúva, e a seu filho <entidade tipo="pessoa">Fernando Pertenceu</entidade>, depois, a <entidade tipo="pessoa">Tristão Pereira de Abreu</entidade>, da <lugar>freguesia de Sta. Maria de Mujão</lugar>.
+                    </para>
+                    <para>
+                        Posteriormente foi emprazado ao <entidade tipo="pessoa">Cónego Francisco de Meira Carilho</entidade>, a quem sucedeu seu sobrinho neto, <entidade tipo="pessoa">Estevão Falcão Cotta</entidade>. À face deste prazo foram feitas escrituras de suemprazamento das casas nº 7 a 13, da cangosta das cruzes.
+                    </para> 
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <foro>500 reis, 8 alqueires de pão meado, 2 galinhas e 2 capões</foro>
+                <desc>
+                    <para>
+                        Esta casa é cabeça de prazo do <lugar>Campo de Avelar, Figueira e Laranjeira</lugar>, que foi emprazada em <data>1524</data> a <entidade tipo="pessoa">Rodrigo de Moura, Escudeiro de Lamego</entidade>, e a sua mulher, <entidade tipo="pessoa">Maria Sotem</entidade>. Pertenceu a <entidade tipo="pessoa">Diogo Lopes de Lemos Leão, cidadão de Braga</entidade>, casado com <entidade tipo="pessoa">D. Antónia Pereira</entidade>, de quem foi herdeiro, <entidade tipo="pessoa">Francisco Pinheiro Lobo</entidade>. À face deste prazo foram feitas diversas escrituras de subemprazamento das casas nº 3 a 11 do <lugar>Campo de Santigo</lugar>; dos nº 1 a 20, da <lugar>Rua dos Pelames</lugar>, e dos nº 1 a 8 da <lugar>Rua do Alcaide</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3 e 4</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Sebastião Afonso, lavrados</entidade>, casado com <entidade tipo="pessoa">Branca Fernandes</entidade> pagam 300 reis por cada morada, ou seja, 600 reis ao nº 2. Estas casas foram construídas em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Miguel Dias</entidade>, filho de <entidade tipo="pessoa">Salvador Dias</entidade> da <lugar>freguesia de Cervães</lugar>, pagam 320 reis ao nº 2. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Miguel Dias</entidade>, filho de <entidade tipo="pessoa">Salvador Dias</entidade> da <lugar>freguesia de Cervães</lugar>, pagam 320 reis ao nº 2. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">João do Rio, alfaiate</entidade>, casado com <entidade tipo="pessoa">Maria Pires</entidade> pagam 300 reis e 1 galinha ao nº 2. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Domingo Pires, carpinteiro</entidade>, pagam 300 reis e 1 galinha ao nº 2. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">João Pires, carpinteiro</entidade>, casado com <entidade tipo="pessoa">Joana Pires</entidade>, pagam 300 reis e 1 galinha ao nº 2. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Francisco Fernandes, carpinteiro</entidade>, casado com <entidade tipo="pessoa">Isabel Fernandes</entidade>, pagam 200 reis e 1 galinha ao nº 2. Foi edificada em <data>1636</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Francisco Pinheiro Lobo</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Maria de Olvieira</entidade>, viúva de <entidade tipo="pessoa">Domingos de Matos</entidade>, pagam 160 reis ao nº 2. Confronta, do poente, com a <lugar>Rua dos Pelames</lugar> e, do sul, com o nº 2 da mesma rua. Foi edificada em <data>1550</data>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+        
+        <figura id="MR-33-a">
+            <imagem path="../imagem/MRB-33-CampoDeSTiagoRuaDoAnjo-primeira.jpg"/>
+            <legenda>Campo de São Tiago - Sul</legenda>
+        </figura>
+        
+        
+        
+        <nome>Rua do Anjo</nome>
+        <para>
+            Rua extramuros, ao longo da parte Sul da muralha, servia de ligação entre os campos de S. Tiago e dos Remédios, ambos abertos por <entidade tipo="pessoa">D. Diogo de Sousa</entidade>.
+        </para>
+        <para>
+            Esta rua cujas «...casas ccom seus quintais que do ano de <data>1540</data> para diante se começaram a edificar...» seria também uma consequência, embora indirecta, da obra daquele grande arcebispo.
+        </para>
+        <para>
+            Tendo do lado Norte casas que encostavam à muralha e que talvez fossem prazos da <entidade tipo="instituição">Câmara</entidade>, estava, já em <data>1594</data>, totalmente edificada na parte Sul conforme se vê no mapa de Braunio.
+        </para>
+        <para>
+            Lentamente se terá mudado o estatuto social dos seus moradores. É que embora haja hoje em dia muitos edifícios do séc. XVII a XIX de grande qualidade, a ponto de a tornar uma das ruas mais interessantes da cidade actual, em <data>1750</data>, ao lado de apenas 3 casas grandes havia uma série de outras pequenas, do tipo com porta ladeada de janela no piso térreo, e que já vimos ser característica das ruas secundárias e mais distantes do centro.
+        </para>
+        <para>
+            No seu extremo nascente, com fachada virada ao <lugar>campo dos Remédios</lugar>, estava a <lugar>igreja de Santa Cruz</lugar>, cujo alçado lateral Norte faceava inteiramente esta rua.
+        </para>
+        <para>
+            Das 16 casas aqui apresentadas só uma, a que ficava imediatamente atrás daquela igreja, não era prazo do <entidade tipo="instituição">Cabido</entidade>.
+        </para>
+        
+       <lista-casas>
+           <casa>
+               <número>1</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       <entidade tipo="pessoa">António de Araújo Ferreira, alfaiate</entidade>, paga 70 reis, de foro, ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1582</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>2</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros de <entidade tipo="pessoa">Jerónimo Portilho</entidade>, casado com <entidade tipo="pessoa">Filipa Gonçalves</entidade>, pagam 80 reis, de foro, ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1584</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>3, 4 e 5</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga foro ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Estes nº, encontram-se unidos, numa só morada. O nº 4 foi construído em <data>1633</data> e o nº 5 em <data>1655</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>6</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros de <entidade tipo="pessoa">Francisco Gonçalves, violeiro</entidade>, casado com <entidade tipo="pessoa">Ana de Azevedo</entidade>, pagam 125 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1603</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>7</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 125 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>8</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros de <entidade tipo="pessoa">Salvador Francisco, moleiro</entidade>, casado com <entidade tipo="pessoa">Maria da Silva</entidade>, pagam 300 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1631</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>9</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros do <entidade tipo="pessoa">Padre Manuel Machado</entidade> pagam 305 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1668</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>10</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 150 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1558</data>, juntamente com o nº 11, e pagavam 300 reis de foro.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>11</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 150 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Esteve unida à casa nº 10.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>12</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 100 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1641</data>, juntamente com o nº 13, e pagavam de foro 300 reis.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>13</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 100 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo.
+                   </para>
+                   <para>
+                       Esteve unida ao nº 12, constituindo uma só morada, juntamente com o nº 5 da <lugar>cangosta das Cruzes</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>14</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 400 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Pertence ao prazo o nº 4 da <lugar>cangosta das Cruzes</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>15</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 300 reis e 1 galinha ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1576</data>. Pertence ao prazo o nº 3 da <lugar>cangosta das Cruzes</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>16</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros do <entidade tipo="pessoa">cónego Manuel Antunes</entidade> pagam 300 reis e 1 galinha ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. Foi construída depois de <data>1630</data>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>17 e 18</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros de <entidade tipo="pessoa">Inácio de Azevedo Barbosa</entidade> pagam 1110 reis por estas casas, (unidas em <data>1643</data>), ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>19</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Paga 200 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>20</número>
+               <enfiteuta>Estevão Falcão Costa</enfiteuta>
+               <desc>
+                   <para>
+                       Os herdeiros de <entidade tipo="pessoa">Bento Aranha de Brito, abade de S. Cosme</entidade>, pagam 330 reis ao enfiteuta principal do prazo do campo ou lugar de Castelo Rodrigo. O emprazamento foi feito em <data>1663</data>. Confronta, do sul, com o <lugar>Campo de Santiago</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>21 a 27</número>
+               <desc>
+                   <para>
+                       Pertenceram ao prazo do campo ou lugar de Castelo Rodrigo. Foram demolidas antes de <data>1715</data>, «ficando o enfiteuta principal obrigado a sub-rogar ao cabido outra em seu lugar».
+                   </para>
+                   <para>
+                       O cabido recebeu, assim, do <entidade tipo="pessoa">Cónego Francisco de Meira Carrilho</entidade>, enfiteuta principal, em troca dos nº 25, 26 e 27, a casa nº7 da <lugar>Rua dos Chãos de Baixo</lugar>, bem como 30.000 reis que andavam a juro, «para satisfação de algum prejuízo, que pudesse haver nesta subrogação».
+                   </para>
+               </desc>
+           </casa>
+       </lista-casas>
+        <figura id="MR-33-b">
+            <imagem path="../imagem/MRB-33-CampoDeSTiagoRuaDoAnjo-segunda.jpg"/>
+            <legenda>Rua do Anjo - Sul.</legenda>
+        </figura>
+    </corpo>
+</rua>

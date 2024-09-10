@@ -1,0 +1,47 @@
+﻿@model HomeModel
+
+<div class="text-center">
+    <h1 class="display-4">Feiras Emporium</h1>
+</div>
+
+@{
+    List<Feira> feiras = new List<Feira>();
+    feiras = Model.Feiras;
+    List<string> categorias = new List<string>();
+    categorias = Model.categorias;
+    for (int i = 0; i < categorias.Count(); i++)
+    {
+        <h1 class="display-4">@categorias[i]</h1>
+
+        List<Feira> feirasCate = new List<Feira>();
+
+        foreach (Feira f in feiras)
+        {
+            if (f.Categoria == categorias[i])
+            {
+                feirasCate.Add(f);
+            }
+        }
+
+        for (int h = 0; h < feirasCate.Count(); h++)
+        {
+            string s = "~/images/" + feirasCate[h].Imagem+".jpg";
+            Console.WriteLine(s);
+            <figure class="figure">
+                <p class="display-4">@feirasCate[h].Id</p>
+                <img src="~/images/legumes1.jpg" width="250" height="250">
+                <figcaption class="figure-caption">@feirasCate[h].Categoria</figcaption>
+            </figure>
+        }
+
+
+    }
+    <form method="post" action="/Home/entrarFeira">
+        <input type="text" name="h" />
+        <input hidden type="text" name="idUser" value=@Model.IdUser />
+        <input type="submit" />
+    </form>
+
+
+
+}

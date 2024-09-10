@@ -1,0 +1,35 @@
+﻿@model Feira
+
+@{
+    ViewData["Title"] = "Feira";
+}
+
+
+<div class="text-center">
+
+    <h1> Listagem de Produtos </h1>
+@{
+    List<ProdutoModel> produtosFeira = new List<ProdutoModel>();
+    produtosFeira = Model.produtosFeira;
+  
+    for (int i = 0; i < produtosFeira.Count(); i++) {
+            <figure class="figure">
+                <h1 class="display-4">Id: @produtosFeira[i].Id</h1>
+                <h1 class="display-4">Nome: @produtosFeira[i].nome</h1>
+                <figcaption class="figure-caption">Preço: @produtosFeira[i].preco</figcaption>
+                </figure>
+ 
+       }
+        <h1> Em seguida introduza o id do produto que deseja comprar:</h1>
+    <form method="post" action="/Home/entrarProduto">
+        <input type="text" name="h" />
+            <input hidden type="text" name="idUser" value=@Model.IdUser />
+        <input type="submit" value="Comprar produtos" />
+    </form>
+
+
+            
+}
+
+
+

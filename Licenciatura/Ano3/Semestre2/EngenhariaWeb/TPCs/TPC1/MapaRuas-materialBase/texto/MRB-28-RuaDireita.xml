@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Weeb_diogo/Desktop/publica%C3%A7%C3%A3o%20eletronica/aula8/MRB-rua.xsd">
+    <meta>
+        <número>28</número>
+        <nome>Rua Direita</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-28-poente">
+            <imagem path="../imagem/MRB-28-RuaDireita-Poente.png"/>
+            <legenda>Rua Direita - poente</legenda>
+        </figura>
+        <figura id="MRB-28-nascente">
+            <imagem path="../imagem/MRB-28-RuaDireita-Nascente.png"/>
+            <legenda> Rua Direita - nascente</legenda>
+        </figura>
+        <para>
+            Longa rua, no enfiamento da <lugar>rua Cruz de Pedra</lugar>, que se prolongava até ao
+            <lugar>Monte das Penas</lugar>, ponto extremo da cidade onde havia uma igreja e que corresponde 
+            actualmente ao espaço compreendido entre o <lugar>largo de Maximinos</lugar> e a <lugar>praça do Condestável</lugar>
+        </para>
+        <para>
+            Aberta em data que desconhecemos torna-se notável pela ordenação dos seus edifícios,
+            muito singelos, de pedra, com dois pisos, com porta e janela portadas de madeira no.º1 piso
+            e com duas janelas bracarenses no andar superior; as empenas, corridas, estão quase todas ao mesmo nível.
+            No extremo da rua, no <lugar>Monte das Penas</lugar>, vê-se uma casa grande, talvez de quinta e, a seu lado,
+            ruínas de outra.
+        </para>
+        <para>
+            Com 41 casas do lado Nascente e 29 do Poente, nenhuma destas casas, curiosamente, era prazo do Cabido.  
+        </para>
+        <para>
+            Mantém actualmente o mesmo nome.
+        </para>
+        
+        <lista-casas>
+            <casa>
+                <número>-</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Não tem casas foreiras ao cabido.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

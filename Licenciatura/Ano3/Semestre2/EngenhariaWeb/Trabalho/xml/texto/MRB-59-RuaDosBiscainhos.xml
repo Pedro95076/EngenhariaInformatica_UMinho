@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>59</número>
+        <nome>Rua dos Biscaínhos</nome>
+    </meta>
+    <corpo>
+        <para>Aberta no <data>séc. XVI</data> no tempo de <entidade tipo="pessoa">D.Diogo de Sousa</entidade>, unia o <lugar>campo da Vinha com o campo das Hortas</lugar>.</para>
+        <para> Em finais do <data> séc.XVI</data>, tinha já muitos edifícios conforme nos mostra o mapa de Braunio.</para>
+        <para>No Mappa, contudo, estão apenas desenhados três edifícios do lado Norte: dois de três pisos e o palácio dos Biscaínhos .</para>
+        <para>Se as casas são simples e de arquitetura tradicional, o palácio é o magnífico edifício que, felizmente, ainda hoje se mantém intacto.</para>
+        <para>Curiosamente, no Mappa, não há indicações de que qualquer um destes edifícios foram foreiros ao <lugar>Cabido</lugar>. No volume 4 dos Índices dos Prazos do <lugar>Cabido</lugar> (p.441 e 442) há, porém, notícia de duas destas casas serem emprazadas.</para>
+        <para> Mantém a designação de <lugar>rua dos Biscaínhos</lugar>.</para>
+    
+        <figura id="MRB-59-norte">
+            <imagem path="../imagem/MRB-59-RuaDosBiscainhos-norte.jpg"/>
+            <legenda>Rua Dos Biscaínhos - norte.</legenda>
+        </figura>
+        
+    <lista-casas>
+        <casa>
+            <número>1</número>
+            <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da Quinta da Cónega.</enfiteuta>
+            <desc> 
+                <para>Os herdeiros do Lic. <entidade tipo="pessoa"> Domingos Correia de Abreu</entidade> pagam 150 reis e 2 alqueires e meio de trigo ao enfiteuta do prazo da <lugar>Quinta da Cónega</lugar></para>
+            </desc>
+        </casa>
+        <casa>
+            <número>2</número>
+            <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da Quinta da Cónega.</enfiteuta>
+            <desc> 
+                <para>Pertence ao nº1 da <lugar>Rua da Cónega</lugar>, para onde tem, também, frontaria.</para>
+                <para>A fachada situa-se no <lugar>Campo da Vinha</lugar>.</para>
+            </desc>
+        </casa>
+    </lista-casas>
+    </corpo>
+</rua>

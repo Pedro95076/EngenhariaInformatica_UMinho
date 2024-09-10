@@ -1,0 +1,14 @@
+This is METAFONT, Version 2.7182818 (TeX Live 2019/Debian) (preloaded base=mf 2023.1.13)  14 JAN 2023 00:05
+**\mode:=ljfour; mag:=1; nonstopmode; input xybtip10
+(/mnt/d/OneDrive/Ambiente de Trabalho/cp2223/xybtip10.mf
+(/mnt/d/OneDrive/Ambiente de Trabalho/cp2223/xytech.mf)
+! I can't find file `xybtip'.
+l.29 input xybtip
+                 
+Please type another input file name
+! Emergency stop.
+l.29 input xybtip
+                 
+*** (job aborted, file error in nonstop mode)
+
+Font metrics written on xybtip10.tfm.

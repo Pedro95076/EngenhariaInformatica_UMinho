@@ -1,0 +1,31 @@
+﻿@model ProdutoModel
+
+@{
+    ViewData["Title"] = "Feira";
+}
+
+
+<div class="text-center">
+
+    <h1> Produto </h1>
+    @{
+        ProdutoModel produto = new ProdutoModel();
+        produto = Model;
+
+
+        <h1> Nome :@produto.nome </h1>
+        <h1> Preço :@produto.preco </h1>
+        <h1> Stock :@produto.stock </h1>
+        
+        <h1> Em seguida introduza a quantidade a adicionar ao carrinho</h1>
+        <form method="post" action="/Carrinho/Entrar">
+            <input type="number" name="quantidade"/>
+            <input hidden type="text" name="idProd" value=@Model.Id />
+            <input hidden type="text" name="idUser" value=@Model.IdUser />
+                <input type="submit" />
+            </form>
+        
+    }
+
+
+

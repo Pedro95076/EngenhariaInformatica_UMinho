@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>32</número>
+        <nome>Rua dos Pelames</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-32-nascente">
+            <imagem path="../imagem/MRB-32-Nascente.png"/>
+            <legenda>Rua dos Pelames - Nascente.</legenda>
+        </figura>
+        <figura id="MRB-32-poente">
+            <imagem path="../imagem/MRB-32-Poente.png"/>
+            <legenda>Rua dos Pelames - Poente.</legenda>
+        </figura>
+        <para>
+            Longa rua que descia a colina da Cividade, ligando o <lugar>largo de S.Tiago</lugar> com a <lugar>ponte dos Pelames</lugar>,
+            donde partia a estrada estreita para o <lugar>Porto</lugar>.
+        </para>
+        <para>
+            Correspondendo ao decumano da cidade romana esta artéria foi aberta no tempo do <entidade tipo="pessoa">arcebispo infante 
+            D.Henrique</entidade> (<data>1533</data>-<data>1540</data>), recebendo então o nome de <lugar>rua do Infante</lugar>
+            Mas desde logo foi conhecida pelo <lugar>de Pelames</lugar>, em razão da indústria de curtumes aí existente. Em <data>1618</data>
+            passaria a ser denominada por <lugar>rua de S.Geraldo</lugar>, a quem fora dedicado o <lugar>Convento da Conceição</lugar>, existente
+            no seu extremo Sul, designação que a par de Pelames, ainda hoje se mantém.
+        </para>
+        <para>
+            Em <data>1750</data> esta rua era habitada sobretudo por estudantes do <entidade tipo="instituição">Colégio de S.Paulo</entidade> e também,
+            talvez, por industriais e trabalhadores de curtumes, tinha suas casas de feição bastante irregular, de fachadas díspares, na sua maioria de 
+            dois pisos e com janelas bracarenses, que conforme se descia a rua se iam banalisando ou, inclusivé, perdendo um piso. Notáveis
+            eram as casas dos prazos nº 5 e sobretudo a do nº 10, com a sua loggia virada a Sul que, felizmente,
+            ainda hoje se conservam; a meio, do lado Este, estava a casa, hoje demolida, dos <entidade tipo="pessoa">Correias da Cunha</entidade>, com pedra
+            de armas; no extremo Sul situavam-se a casa do Avelar, da família dos <entidade tipo="pessoa">Jácomes</entidade> que aí viviam desde 
+            <data>1509</data>, e o <lugar>Convento da Conceição</lugar>, fundado em <data>1625</data> pelo <entidade tipo="pessoa">cónego Geraldo
+            Gomes</entidade> para as freiras da <entidade tipo="instituição">ordem da Conceição</entidade>, cuja igreja foi totalmente reformulada em
+            <data>1725</data>.
+        </para>
+        <para>
+            Das 34 casas do lado Nascente e 30 do Poente era prazos do <entidade tipo="instituição">Cabido</entidade> 9 e 7 respectivamente, que se localizavam
+            apenas na parte Norte da rua.
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Pertence ao nº 11 do <lugar>Campo de Santiago</lugar>, para onde tem frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Isabel de Oliveira</entidade>, casada com <entidade tipo="pessoa">Lourenço Correia</entidade>, 
+                        pagam 160 reis ao nº 2 do <lugar>Campo de Santiago</lugar>. Entre os anos de 1648 e 1718 esteve unida ao n° 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">João de Oliveira Bouro</entidade>, alfaite, casado com <entidade tipo="pessoa">Faustina João</entidade>, 
+                        pagam foro ao nº 2 do Campo de Santiago.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Domingos de Oliveira</entidade>, carpinteiro, pagam 205 reis ao n° 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Paga foro ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Afonso Cerveira</entidade>, casado com <entidade tipo="pessoa">Catarina de Magalhães</entidade>, 
+                        pagam 150 reis e 1 galinha ao n° 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">João Rodrigues</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Luísa de 
+                        Oliveira</entidade>, pagam 480 reis e 2 galinhas ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Olaia Fernandes</entidade> pagam 150 reis ao nº 2 do
+                        <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9 e 10</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">João Pinto do Eirado</entidade>, cónego de Braga, pagam 
+                        800 reis e 1 galinha ao nº 2 do <lugar>Campo de Santiago</lugar>. Encontram-se 
+                        unidas desde <data>1602</data>. A casa nº 10 confronta, do sul, com parte 
+                        da casa foreira à <lugar>Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Serafina Cerqueira</entidade> pagam 65 reis ao n° 2 do 
+                        <lugar>Campo de Santiago</lugar>. Confronta, do sul, com parte da casa foreira à <lugar>Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Domingos Jorge Tinoco,abade de Trandeiras</entidade>,
+                        pagam 300 reis, meia galinha e meio frango, ao n° 2 do <lugar>Campo de 
+                        Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Paga foro ao n° 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Padre João da Costa</entidade> pagam 355 reis ao nº 2 do 
+                        <lugar>Campo de Santiago</lugar>
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Maria da Costa</entidade>, viúva, pagam 260 reis e 1 galinha 
+                        ao nº 2 do Campo de Santiago.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Manuel Francisco</entidade>, jardineiro do <entidade tipo="pessoa">Arcebispo D. Veríssimo</entidade>, 
+                        casado com <entidade tipo="pessoa">Maria Rodrigues</entidade>, pagam 225 reis ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Paga foro ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Anastácia da Silva</entidade>, casada com <entidade tipo="pessoa">Cipriano Pedrosa</entidade>, paga 60 reis e 
+                        meia galinha ao nº 2 do <lugar>Campo de Santiago</lugar>. Entre os anos de <data>1550</data> e 
+                        <data>1624</data> esteve unida aos nºs 19 e 20.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Manuel Correia da Cunha</entidade>, do <lugar>couto de Moure de 
+                            Olivais</lugar>, pagam 130 reis ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Vid. casa nº2 do Campo do Santiago (rua nº 25).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Francisco de Magalhães</entidade>, filho de <entidade tipo="pessoa">Francisco Gonçalves, 
+                        o Louro,</entidade> e de sua 1ª mulher, <entidade tipo="pessoa">Isabel de Magalhães</entidade>, pagam 160 reis e 
+                        1 galinha ao nº 2 do <lugar>Campo de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>14</número>
+        <nome>Rua de Sta. Maria ou do Poço</nome>
+    </meta>
+    <corpo>
+        <para>Longa e importantíssima artéria que ligava a
+            <lugar>Catedral</lugar> com o <lugar>terreiro de S. Paulo ou de S. Tiago</lugar>
+            onde existia a principal porta da cidade virada a Sul,
+            a <lugar>Porta de S. Tiago</lugar>, depois chamada do <lugar>Colégio</lugar>.</para>
+        <para>Rua de farta história foi um eixo fundamental da
+            cidade, só deixando de o ser a partir da data em que
+            o centro se mudou para o eixo <lugar>rua do Souto-Arcada</lugar>.</para>
+        <para>Na Idade Média era por aqui que se tinha acesso à
+            feira que se fazia algures, junto à porta da <lugar>muralha</lugar>,
+            no <lugar>Terreiro de S. Tiago</lugar>. Nela também talvez tivesse
+            havido um mercado de forragens, pois foi conhecida,
+            no <data>séc. XIV</data>, com o nome de <lugar>rua da Erva</lugar>.</para>
+        <para>No <data>séc. XV</data>, instalou-se em casa logo pegada à actual
+            <lugar>Igreja de Santiago</lugar>, a <lugar>Sinagoga</lugar>, sendo arruada esta
+            artéria aos judeus, por decisão do <entidade tipo="instituição">Senado</entidade>; a rua
+            passou então a ser conhecida como <lugar>rua da Judiaria</lugar>.</para>
+        <para>Em <data>1465</data>, pelo menos, foi decidido mudar os judeus
+            para uma rua que não ficasse tão próxima da <lugar>Sé</lugar>, pois
+            causava má impressão haver tantas moradas de «casas
+            de hereges» em local tão próximo da <lugar>Catedral</lugar>, ou
+            <lugar>Igreja de Santa Maria de Braga</lugar>.</para>
+        <para>Começou então a ser conhecida por <lugar>rua de Santa Maria</lugar>
+            e, também, por rua da <lugar>Judiaria Velha</lugar>.</para>
+        <para>Entretanto instalou-se no contíguo <lugar>terreiro de
+            S. Tiago</lugar> o <entidade tipo="instituição">Colégio de S. Paulo</entidade>, onde existiram os
+            Estudos Gerais.</para>
+        <para>No <data>séc. XVIII</data>, tinha o nome de <lugar>rua do Poço</lugar>, que provinha de um poço municipal existente quase no
+            extremo Noroeste desta artéria que serviu desde a Idade Média até ao <data>séc. XIX</data>. A metade Sul, além da
+            <lugar>rua das Travessas</lugar>, foi também conhecida pelo nome de <lugar>rua de S. Tiago</lugar>.</para>
+        <para>Alargada em fins do <data>séc. XIX</data>, manterá a sua importância como eixo. O comércio, esse,
+            é que não voltou.</para>
+        <para>Hoje perdeu quase todas as casas que vemos no Mappa; e algumas eram bem interessantes como, por
+            exemplo, a casa do prazo n.° 16, com uma bela janela de canto, renascentista.</para>
+        <para>Das 18 casas existentes no lado Nascente e 14 do lado Poente eram prazos do
+            <entidade tipo="instituição">Cabido</entidade> 16 e 11 respectivamente.</para>
+        <para>Tendo recebido ainda outros nomes, foi em <data>24 de Fevereiro de 1944</data>
+            designada de <lugar>rua D. Gonçalo Pereira</lugar>, que mantém.</para>
+        
+        <figura id="MRB-14-nascente">
+            <imagem path="../imagem/MRB-14-RuaDeSMariaOuDoPoco-Nascente.jpg"/>
+            <legenda>Rua de Sta. Maria ou do Poço - vista Nascente.</legenda>
+        </figura>
+        
+        <figura id="MRB-14-poente">
+            <imagem path="../imagem/MRB-14-RuaDeSMariaOuDoPoco-Poente.jpg"/>
+            <legenda>Rua de Sta. Maria ou do Poço - vista Poente.</legenda>
+        </figura>
+        
+        
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc><para>Corresponde ao n.º 17 da <lugar>Rua das Oussias</lugar>, para onde tem a frontaria
+                    e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Padre José Lopes</enfiteuta>
+                <foro>420 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Padre José Lopes</enfiteuta>
+                <foro>250 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>António Ferreira, moleiro</enfiteuta>
+                <foro>125 reis e galinha</foro>
+                <desc><para>Estas casas, juntamente com o n.º 5
+                    foram construídas depois de <data>1543</data>, em pertenças
+                    do n.º3.</para></desc>
+            </casa>
+            <casa>
+                <número>5 e 6</número>
+                <desc><para>Aqui vivem os vigário da <lugar>Sé</lugar>.
+                    O <entidade tipo="instituição">Cabido</entidade> doou o n.º 5 (depois de <data>1703</data>), e o n.º 6
+                    (depois de <data>1631</data>), aos vigários da <lugar>Sé</lugar>, para sua
+                    residência. A casa n.º 5 foi construída em pertenças
+                    do n.º 4, a partir do referido ano de <data>1703</data>.
+                </para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Dr. Francisco Gomes do Couto</enfiteuta>
+                <foro>180 reis e 4 galinhas</foro>
+                <desc><para>Foi construída depois de <data>1559</data>, em pertenças que
+                    foram do n.º 6.</para></desc>
+            </casa>
+            <casa>
+                <número>8 e 9</número>
+                <enfiteuta>Lic. Paulo de Sousa de Magalhães, de Barcelos</enfiteuta>
+                <foro>1270 reis, 6 galinhas e 2 capões</foro>
+                <desc><para>O n.º 8 foi unida, num só prazo, ao n.º 9.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Francisco Pereira, alfaiate e sua mulher, Francisca de Campos</enfiteuta>
+                <foro>250 reis e 2 capões</foro>
+                <desc><para>O emprazamento foi feito no ano de <data>1727</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Manuel Francisco, tratante, e sua mulher, Teresa Antunes</enfiteuta>
+                <foro>210 reis e 4 galinhas</foro>
+                <desc><para>A designação de «Casa do Poço» advém-lhe do poço que possuia junto à rua.</para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Padre Diogo da Rocha</enfiteuta>
+                <foro>110 reis e 1 capão</foro>
+                <desc><para>Foi construída depois de <data>1727</data>, em pertenças do n.º 5,
+                    da <lugar>rua Pequena</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>13, 14 e 15</número>
+                <desc><para>Correspondem ao n.º 7 da travessa que vai da <lugar>Rua de Santa
+                    Maria</lugar> ou <lugar>do Poço</lugar> para a <lugar>do Forno</lugar>, para onde têm a frontaria e
+                    serventia principais. O n.º 13 foi unido, num só prazo, ao n.º 14,
+                    depois do ano de <data>1561</data>. Posteriormente, no ano de <data>1672</data>, foram unidas
+                    ao n? 15. Em <data>1681</data>, foram feitas escrituras de sub-emprazamento das
+                    casas 13 e 14, à face do n.º 15.</para></desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <desc><para>Corresponde ao n.º 6 da travessa que vai da <lugar>Rua de Santa
+                    Maria</lugar> ou <lugar>do Poço</lugar> para a <lugar>do Forno</lugar>, para onde têm a frontaria e
+                    serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <enfiteuta>D. Bernarda Inácia Pereira Pimentel, viúva de José de Coimbra e Andrade, da cidade de Braga</enfiteuta>
+                <foro>80 reis e 1 galinha</foro>
+                <desc><para>O emprazamento é de <data>1744</data>. Foi construída em pertenças do
+                    n.º 16, depois do ano de <data>1524</data>. Confronta, do sul, com o <entidade tipo="instituição">Hospital de 
+                    Santiago</entidade> ou <entidade tipo="instituição">das Velhas</entidade>, do <lugar>morgado de Real</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Os herdeiros de Manuel Machado, alfaiate</enfiteuta>
+                <foro>170 reis e 1 galinha</foro>
+                <desc><para>Confronta, do sul, com casa foreira à comenda de <lugar>Riofrio</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <desc><para>A casa é foreira à obra da <lugar>Sé</lugar>.
+                    São enfiteutas, os herdeiros de <entidade tipo="pessoa">Manuel Nogueira, sapateiro</entidade>,
+                    que pagam de foro 120 reis.</para></desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Padre Custódio Correira, vigário de Santiago</enfiteuta>
+                <foro>680 reis e 2 galinhas</foro>
+                <desc><para>O enfiteuta herdara este prazo de seu tio,
+                    o <entidade tipo="pessoa">Padre João Correia</entidade>, vigário da <lugar>Igreja de Santiago da Cividade</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta>Os herdeiros de Francisco de Almeida Cabral,
+                    meirinho do Secular da cidade de Braga</enfiteuta>
+                <foro>700 reis e 4 galinhas </foro>
+                <desc><para>A este prazo pertencem as casas n.ºs 1 e 2 da travessa que vai da <lugar>Rua do Poço</lugar> para a <lugar>de D. Gualdim</lugar>.
+                    Confronta, do norte, com a dita travessa. No ano de <data>1609</data> o n.º 2 da mesma travessa foi unido, num só prazo, ao n.º 21.
+                </para></desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>Dr. Francisco Gomes do Couto</enfiteuta>
+                <foro>340 reis e 2 galinhas</foro>
+                <desc><para>O n.º 23 foi construído em pertenças do n° 22, no ano de <data>1543</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta>Dr. Francisco Gomes do Couto</enfiteuta>
+                <foro>600 reis e 4 galinhas</foro>
+                <desc><para>O n.º 23 foi construído em pertenças do n° 22, no ano de <data>1543</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <enfiteuta>Os herdeiros do Cónego Bento da Silva Teles</enfiteuta>
+                <foro>720 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>25</número>
+                <enfiteuta>Cónego Francisco da Silva Teles</enfiteuta>
+                <foro>900 reis e 4 galinhas</foro>
+                <desc><para>O enfiteuta foi sobrinho e herdeiro do <entidade tipo="pessoa">Cónego Bento da Silva Teles</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <enfiteuta>Dr. Francisco Gomes do Couto</enfiteuta>
+                <foro>90 reis e 1 galinha</foro>
+                <desc><para>Estiveram unidas, num só prazo, entre os anos de <data>1554</data> e <data>1670</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta>Dr. Francisco Gomes do Couto</enfiteuta>
+                <foro>140 reis e 1 galinha</foro>
+                <desc><para>Estiveram unidas, num só prazo, entre os anos de <data>1554</data> e <data>1670</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>António de Campos Peixoto</enfiteuta>
+                <foro>290 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>29 e 30</número>
+                <enfiteuta>Tomaz de Araújo e Brito, Abade</enfiteuta>
+                <foro>600 reis e 6 galinhas</foro>
+                <desc><para>Estão unidas, num só prazo, desde o ano de <data>1574</data>.
+                    Em <data>1631</data> foi-lhe incorporada um casa, dízima a Deus, que o
+                    Mestre Escola, <entidade tipo="pessoa">Cristóvão de Matos</entidade>, doara ao <entidade tipo="instituição">Cabido</entidade>. A casa n.º 30
+                    confronta, do norte, com casa foreira à <lugar>capela de S. Bento</lugar>, a qual
+                    fica situada debaixo do coro da <lugar>Sé</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <desc><para>Corresponde ao n.º 1 da <lugar>Praça do Pão</lugar>, para onde tem a frontaria e serventia principais.</para></desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

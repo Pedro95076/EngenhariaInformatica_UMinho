@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Cristiana%20Carvalho/Desktop/Publica%C3%A7%C3%A3o%20eletr%C3%B3nica/PROJETO%20FINAL/MRM-rua.xsd">
+    <meta>
+        <número>16</número>
+        <nome>Rua de D. Gualdim</nome>
+    </meta>
+    <corpo>
+        <para>
+            Longa e curiosíssima rua que no Mappa se estende da <lugar>praça do Pão</lugar> até ao <lugar>Terreiro de Sto. António</lugar>.
+        </para>  
+        <para>
+            Aberta sobre uma rua do reticulado da cidade romana é hoje uma das raras artérias medievais que não sofreu o alargamento feito nos finais do séc. XIX a quase todas as ruas do <lugar>bairro das Travessas</lugar>.
+        </para>
+        <para>
+            Em data que desconhecemos, foi dividida em duas: <lugar>rua de D. Gualdim</lugar>, da <lugar>Sé</lugar> até à <lugar>rua D. Afonso Henriques</lugar>, e <lugar>rua de S. Tiago</lugar>, daí até à <lugar>rua de S. Paulo</lugar>.
+        </para>   
+        <para>   
+            Não sabemos hoje qual a casa onde viveu <entidade tipo="pessoa">D. Gualdim Pais</entidade>, célebre guerreiro do nosso primeiro rei, e que apenas a tradição diz aqui ter habitado; ou onde se situou a casa cedida pelo <entidade tipo="pessoa">arcebispo D. Paio Mendes</entidade> aos Templários para hospício dos peregrinos. Sabemos sim que esta rua aparece no mais antigo livro de Nota do <lugar>Arquivo da Câmara Municipal de Braga</lugar>, onde a <data>12 de Fevereiro de 1445</data> <entidade tipo="pessoa">Vasco Jorge</entidade>, escrivão da <lugar>Câmara</lugar>, lançou o primeiro prazo dos seus bens, com o nome de Cruz da Picota. Em <data>1459</data> vem já noutro prazo como <lugar>rua de D. Gualdím</lugar>.
+        </para>   
+        <para>   
+            Por essa data já as duas partes da rua se deviam assumir e ter populações bem diferentes: as da metade Norte, mais rica, próximas da <lugar>Sé</lugar> e <lugar>praça do Pão</lugar>, centro fundamental da <lugar>cidade medieval</lugar> e onde um século mais tarde seria construído, por mando de <entidade tipo="pessoa">D. Diogo de Sousa</entidade>, o novo edifício da <lugar>Câmara</lugar>. E a parte Sul junto à porta de <entidade tipo="pessoa">S. Tiago</entidade>, com a sua igreja própria (<lugar>a Igreja de Santiago</lugar>, hoje <lugar>Igreja da Cividade</lugar>) então virada para esta rua.
+        </para>   
+        <para>   
+            Em <data>1750</data> muita da sua importância foi alterada: o <entidade tipo="pessoa">arcebispo D. José de Bragança</entidade> já mandara fazer a ala barroca do seu <lugar>palácio </lugar>e na sua ideia já gravitava a vontade de mudar o edifício da <lugar>Câmara</lugar> para mais perto de si, o que fez em <data>1754</data>. O comércio há muito que saíra da <lugar>rua dos Burgueses</lugar> para a do<lugar>Souto</lugar>; e, também, já desde <entidade tipo="pessoa">D. Diogo de Sousa</entidade> que os mercados se tinham implantado, com recintos próprios, noutros locais, um deles, até relativamente próximo. E a <lugar>Igreja de Santiago</lugar>, viria a ser reconstruída, mas com a planta invertida, isto é, com a fachada virada para a <lugar>rua D. Gonçalo Pereira</lugar>, 37 anos após.
+        </para>   
+        <para>   
+            Como dissemos, hoje a <lugar>rua de D. Gualdim</lugar>, isto é, a parte Norte, conserva muitíssimo bem o aspecto que mostra no Mappa. Pena só que as curiosas casas sobradadas do prazo n.º 1, a casa do prazo n.º 18 e o edifício da <lugar>Câmara</lugar> tenham sido perdidas na voragem dos séculos.
+        </para>  
+        <para>   
+            A metade Sul, essa, mercê do alargamento que recebeu nos inícios do nosso século, transformou-se totalmente, sendo hoje uma das ruas mais incaracterísticas de <lugar>Braga</lugar>.
+        </para>  
+        <para>   
+            Das 20 casas do lado Nascente e 23 do Poente eram 10 e 13, respectivamente, prazos do <entidade tipo="instituição">Cabido</entidade>.   
+        </para>
+        
+        <figura id="MRB-16-poente">
+            <imagem path="../imagem/MRB-16-RuaDeDGualdim-Poente.jpg"/>
+            <legenda>Rua de D. Gualdim - vista Poente.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 11 da <lugar>Praça do Pão</lugar>, para onde tem a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Manuel da Costa Vasconcelos</enfiteuta>
+                <foro>410 reis e 2 galinhas</foro>
+                <desc>
+                    <para> 
+                        Confronta, de norte, com casa dízima a Deus.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Maria de Faria, viúva de António Machado</enfiteuta>
+                <foro>165 reis e 1 galinha</foro>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Miguel Luís Dias</enfiteuta>
+                <foro>320 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Ficaram unidas, num só prazo, no ano de <data>1671</data>. 
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Miguel Luís Dias</enfiteuta>
+                <foro>320 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Ficaram unidas, num só prazo, no ano de <data>1671</data>. 
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>A mulher de Veríssimo da Rocha</enfiteuta>
+                <foro>620 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte e sul, com casas foreiras a uma <lugar>capela</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta></enfiteuta>
+                <foro>600 reis e 4 galinhas</foro>
+                <desc>
+                    <para>
+                        Situa-se no terreiro da <lugar>Rua de D. Gualdim</lugar>, na esquina para a <lugar>travessa</lugar> que vem da <lugar>Rua do Poço</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 6 da <lugar>travessa</lugar> que vem da <lugar>Rua do Poço</lugar> para a <lugar>Rua de D. Gualdim</lugar>, para onde tem a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Isabel Pereira</enfiteuta>
+                <foro>185 reis</foro>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Miguel Luís Dias, escrivão de casamentos da cidade de Braga, casado com Adriana Ribeiro.</enfiteuta>
+                <foro>120 reis</foro>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>António de Campos Peixoto, escultor, casado com Ventura da Costa.</enfiteuta>
+                <foro>240 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Situa-se defronte da <lugar>Igreja de Santiago da Cividade</lugar> 
+                        e possui frontaria para o <lugar>terreiro de Santo António</lugar>.
+                        
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta></enfiteuta>
+                <foro>500 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Situa-se defronte da <lugar>Igreja de Santiago da Cividade</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta></enfiteuta>
+                <foro>120 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        A casa n° 13 foi construída em pertenças do prazo n.º 14, depois do ano de <data>1554</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta></enfiteuta>
+                <foro>120 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        A casa n° 13 foi construída em pertenças do prazo n.º 14, depois do ano de <data>1554</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <desc>
+                    <para>
+                        Correspondem ao n.° 4 da <lugar>Rua de Santo António</lugar>, para onde têm a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <desc>
+                    <para>
+                        Correspondem ao n.° 4 da <lugar>Rua de Santo António</lugar>, para onde têm a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <desc>
+                    <para>
+                        Correspondem ao n.° 4 da <lugar>Rua de Santo António</lugar>, para onde têm a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <desc>
+                    <para>
+                        A casa é foreira à obra da <lugar>Sé</lugar> e possui frontaria para a <lugar>travessa</lugar> que vai para a <lugar>Rua das Chagas</lugar> e de <lugar>Sto. António</lugar>. São enfiteutas os herdeiros de <entidade tipo="pessoa">Gabriel Pereira Sampaio</entidade>, que pagam de foro 270 reis.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Faustino da Cunha Pedrosa</enfiteuta>
+                <foro>160 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Faustino da Cunha Pedrosa</enfiteuta>
+                <foro>180 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta>Bento Leite Pereira</enfiteuta>
+                <foro>250 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        O enfiteuta foi filho e herdeiro de <entidade tipo="pessoa">D. Rosa Soares de Novais</entidade>. Confronta, do norte, com casa dízima a Deus. No ano de <data>1610</data>, por doação de <entidade tipo="pessoa">Isabel Fernandes Bravo</entidade>, foram unidas ao ênxido desta casa três varas de terra que se desmembraram de uma casa contínua, dízima a Deus.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>D. Brites de Abreu, religiosa do Salvador</enfiteuta>
+                <foro>450 reis 2 capões</foro>
+                <desc>
+                    <para>
+                        Foi construída depois de <data>1515</data>, em pertenças do n.° 23.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta>Os herdeiros de Domingos da Costa Murta</enfiteuta>
+                <foro>450 reis e 2 capões</foro>
+            </casa>
+            <casa>
+                <número>24</número>
+                <enfiteuta>Manuel da Costa Vasconcelos</enfiteuta>
+                <foro>670 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa foreira à <lugar>confraria de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25</número>
+                <enfiteuta>António Fernandes Veloso</enfiteuta>
+                <foro>150 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        Paga foro igual à obra da <lugar>Sé</lugar>. Confronta, do norte, com <lugar>casa do Concelho</lugar> e, do sul, com <lugar>casa foreira à confraria de Santiago</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <enfiteuta>Senado da Câmara de Braga</enfiteuta>
+                <foro>4000 reis</foro>
+                <desc>
+                    <para>
+                        Situa-se defronte da <lugar>Sé</lugar> e foi mandada edificar, em <data>1518</data>, pelo <entidade tipo="pessoa">Arcebispo D. Diogo de Sousa</entidade>. No ano de <data>1634</data> procedeu-se à sua ampliação, tendo para o efeito sido efectuado um contrato (nota do tabelião <entidade tipo="pessoa">Diogo de Magalhães</entidade>), através do qual, o <entidade tipo="instituição">Cabido</entidade> cedeu as casas n.º 26 da <lugar>Rua de D. Gualdim</lugar> e n.° 1 da <lugar>Rua de Maximinos</lugar> ao <entidade tipo="instituição">Senado da Câmara de Braga</entidade>, abrigando-se este a pagar àquela entidade a quantia anual de 4000 reis. Posteriormente, já no pontificado do <entidade tipo="pessoa">arcebispo D. José de Bragança</entidade> (<data>1741-1756</data>), dado o mau estado de conservação e a falta de espaço, (agravada pelas audiências dos ministros judiciais, que nelas se realizavam), foi decidido construir uma casa mais ampla na actual <lugar>Praça do Município</lugar>, então denominada Campo de Touros.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

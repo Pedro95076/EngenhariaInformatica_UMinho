@@ -1,0 +1,181 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/ruas/") Voltar
+
+  .w3-content.w3-padding(style='max-width:1564px')
+    #projects.w3-container.w3-padding-32
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Adicionar Rua:
+      p Preencha o formulário para criar uma rua:
+      form(action="/ruas/add", method="post", enctype="multipart/form-data")
+        input.w3-input.w3-border.w3-animate-input(type='text' placeholder='Nome da Rua' required name='nome')
+        input.w3-input.w3-section.w3-border.w3-animate-input(type='text' placeholder='Descrição' required name='para' rows="5")
+
+        // Casas
+        p Casas:
+        button.w3-button.w3-light-grey.w3-section(type="button" onclick="addHome()") Adicionar Casa
+        .casas-container
+
+        // Figuras
+        p Figuras:
+        button.w3-button.w3-light-grey.w3-section(type="button" onclick="addFigura()") Adicionar Figura
+        .figuras-container
+
+        // Entidades
+        p Entidades:
+        button.w3-button.w3-light-grey.w3-section(type="button" onclick="addEnt()") Adicionar Entidade
+        .entidades-container
+
+        // Datas
+        p Datas:
+        button.w3-button.w3-light-grey.w3-section(type="button" onclick="addDate()") Adicionar Data
+        .datas-container
+
+        // Locais
+        p Locais:
+        button.w3-button.w3-light-grey.w3-section(type="button" onclick="addPlace()") Adicionar Lugar
+        .lugares-container
+
+        button.w3-button.w3-black.w3-section(type='submit') Adicionar Rua
+
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}
+
+  script.
+    function deleteElement(button, selector) {
+      const element = button.closest(selector);
+      element.parentNode.removeChild(element);
+    }
+
+    function addHome() {
+      const container = document.querySelector('.casas-container');
+      const casaIndex = container.children.length;
+      const newCasa = document.createElement('div');
+      newCasa.classList.add('casa', 'w3-row', 'w3-section', 'w3-light-gray', 'w3-padding', 'w3-round-xlarge');
+      newCasa.innerHTML = `
+        <div class="w3-col m2 w3-margin" style="width:21%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type='text' placeholder='Número' required name='lista_casas[${casaIndex}][_id]'>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:21%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type='text' placeholder='Enfiteuta' required name='lista_casas[${casaIndex}][enfiteuta]'>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:21%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type='text' placeholder='Foro' required name='lista_casas[${casaIndex}][foro]'>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:21%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type='text' placeholder='Descricao' required name='lista_casas[${casaIndex}][desc]'>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:7%">
+          <button class="w3-button w3-dark-grey w3-right" style="width:100%; margin-top:2%" type="button" onclick="deleteElement(this, '.casa')"><b>Remover</b></button>
+        </div>
+      `;
+      container.appendChild(newCasa);
+    }
+
+    function addFigura() {
+      const container = document.querySelector('.figuras-container');
+      const figuraIndex = container.children.length;
+      const newFigura = document.createElement('div');
+      newFigura.classList.add('figura', 'w3-row', 'w3-section', 'w3-light-gray', 'w3-padding', 'w3-round-xlarge');
+      newFigura.innerHTML = `
+        <div class="w3-col m2 w3-margin" style="width:20%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type="file" name="imagens" accept="image/*" onchange="previewImages(event, ${figuraIndex})" />
+          <div class="image-preview" style="width:85%; margin-bottom:4%"></div>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:20%">
+          <label>Legenda:</label>
+          <input class="w3-input w3-animate-input w3-border" name="legenda[]" required/>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:20%">
+          <label>Tipo:</label>
+          <input class="w3-input w3-animate-input w3-border" name="figuraId[]" required/>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:20%">
+          <label>ID:</label>
+          <input class="w3-input w3-animate-input w3-border" name="id[]" required/>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:10%">
+          <button class="w3-button w3-dark-grey w3-right" style="width:100%; margin-top:2%" type="button" onclick="deleteElement(this, '.figura')"><b>Remover</b></button>
+        </div>
+      `;
+      container.appendChild(newFigura);
+    }
+
+    function addDate() {
+      const container = document.querySelector('.datas-container');
+      const dateIndex = container.children.length;
+      const newDate = document.createElement('div');
+      newDate.classList.add('data', 'w3-ul', 'w3-round-xlarge');
+      newDate.innerHTML = `
+        <li class="w3-display-container w3-light-gray w3-margin-top" style="width:13%">
+          <input class="w3-input w3-animate-input" type="text" placeholder="Data" name="datas[${dateIndex}][nome]">
+          <span onclick="deleteElement(this, '.data')" class="w3-button w3-dark-grey w3-display-right">&times;</span>
+        </li>
+      `;
+      container.appendChild(newDate);
+    }
+
+    function addPlace() {
+      var container = document.querySelector('.lugares-container');
+      const placeIndex = container.children.length;
+      var newPlace = document.createElement('div');
+      newPlace.classList.add('lugar', 'w3-ul', 'w3-round-xlarge');
+      newPlace.innerHTML = `
+        <li class="w3-display-container w3-light-gray w3-margin-top" style="width:20%">
+          <input class="w3-input w3-animate-input" type="text" placeholder="Lugar" name="lugares[${placeIndex}][nome]">
+          <span onclick="deleteElement(this, '.lugar')" class="w3-button w3-dark-grey w3-display-right">&times;</span>
+        </li>
+      `;
+      container.appendChild(newPlace);
+    }
+
+    function addEnt() {
+      var container = document.querySelector('.entidades-container');
+      const entidadeIndex = container.children.length;
+      var newEntity = document.createElement('div');
+      newEntity.classList.add('entidade', 'w3-row', 'w3-section', 'w3-light-gray', 'w3-padding', 'w3-round-xlarge');
+      newEntity.innerHTML = `
+        <div class="w3-col m2 w3-margin" style="width:15%">
+          <label>Tipo:</label>
+          <select class="w3-select w3-border" name="entidades[${entidadeIndex}][tipo]" required>
+            <option value="" disabled selected>Escolha a entidade</option>
+            <option value="Instituição"> Instituição</option>
+            <option value="Pessoa"> Pessoa</option>
+          </select>
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:65%">
+          <input class="w3-input w3-section w3-border w3-animate-input" type='text' placeholder='Entidade' required name="entidades[${entidadeIndex}][nome]">
+        </div>
+        <div class="w3-col m2 w3-margin" style="width:7%">
+          <span onclick="deleteElement(this, '.entidade')" class="w3-button w3-dark-grey w3-display-right">&times;</span>
+        </div>
+      `;
+      container.appendChild(newEntity);
+    }
+
+    function previewImages(event, index) {
+      var input = event.target;
+      var container = input.nextElementSibling;
+      container.innerHTML = '';
+
+      if (input.files && input.files.length > 0) {
+        for (var i = 0; i < input.files.length; i++) {
+          var reader = new FileReader();
+          reader.onload = function(e) {
+            var image = document.createElement('img');
+            image.src = e.target.result;
+            image.classList.add('image-preview');
+            image.style.maxWidth = "100%";
+            image.style.maxHeight = "200px";
+            container.appendChild(image);
+          };
+          reader.readAsDataURL(input.files[i]);
+        }
+      }
+    }

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>4</número>
+        <nome>Praça do Pão</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-04-norte">
+            <imagem path="../imagem/MRB-04-PracaDoPao-norte.PNG"/>
+            <legenda>Praça do Pão - vista norte.</legenda>
+        </figura>
+        <figura id="MRB-04-sul">
+            <imagem path="../imagem/MRB-04-PracaDoPao-sul.PNG"/>
+            <legenda>Praça do Pão - vista sul.</legenda>
+        </figura>
+        <para>Pequena praça em frente à fachada da <lugar>Sé</lugar>, que ao longo dos séculos foi tendo uma vida e importância diferentes, mas sempre descendente.</para>
+        <para>Aberta talvez no <data>séc. XV</data>, resultou da destruição da <lugar>rua dos Açougues</lugar>, pequena artéria que então ligava as actuais <lugar>rua D. Gonçalo Pereira</lugar> e <lugar>D. Gualdim Pais</lugar>. Nessa data instalou-se nela a <lugar>Praça do Pão</lugar>. No tempo de <lugar>D. Diogo de Sousa</lugar> construiu-se, no ângulo que esta praça faz com a <lugar>rua de Maximinos</lugar>, o novo edifício da Câmara Municipal, que seria destruído nos inícios do <data>séc. XIX</data> (No Mappa está na rua de <lugar>D. Gualdim</lugar>).</para>
+        <para>A partir de meados do <data>séc. XVIII</data>, com a mudança da vida comercial para a <lugar>rua do Souto</lugar> e zona exterior da porta que tem o mesmo nome, com a erecção da ala barroca do <lugar>Palácio dos Arcebispos</lugar> e, defrontando-a, com o novo edifício da Câmara <data>(1755)</data>, a <lugar>praça do Pão</lugar> irá perdendo toda a sua importância comercial e política.</para>
+        <para>Em <data>1868</data> foi projectado o alargamento da <lugar>rua de Maximinos</lugar>, que rapidamente foi levado a cabo, recebendo a nova rua a largura total da <lugar>praça do Pão</lugar>. A partir daí deixou de fazer sentido a existência de duas artérias diferentes, sendo este largo integrado na nova rua que, desde <data>26/11/1925</data>, se passou a chamar <lugar>rua D. Paio Mendes</lugar>.</para>
+        <para>Hoje ainda se conservam algumas das casas existentes no Mappa. Mas as mais interessantes, as dos prazos 4-6 e 13-14 já desapareceram.</para>
+        <para>Das 5 casas do lado Norte e 9 do lado Sul eram prazos do <entidade tipo="instituição">Cabido</entidade> 4 e 9, respectivamente.</para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Maria Barbosa, viúva de Manuel Fernandes, alfaiate do Campo de S. Sebastião</enfiteuta>
+                <foro>370 reis e 2 galinhas</foro>
+                <desc><para>Confronta, de nascente, com a <lugar>Rua do Poço</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>José Gomes Ferraz</enfiteuta>
+                <foro>480 reis e 2 galinhas</foro>
+                <desc></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Félix Francisco</enfiteuta>
+                <foro>480 reis e 2 galinhas</foro>
+                
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>D. Paula Francisca de Melo, viúva de Francisco da Rocha Tinoco</enfiteuta>
+                <foro>620 reis e 2 galinhas</foro>
+                <desc><para>As casas nº 5 e 6, passaram a constituir um único prazo, em <data>1702</data>. Em <data>1789</data>, o nº 4 foi também integrado no mesmo prazo.</para></desc>
+                
+            </casa>
+            <casa>
+                <número>5 e 6</número>
+                <enfiteuta>D. Paula Francisca de Melo, viúva de Francisco da Rocha Tinoco</enfiteuta>
+                <foro>825 reis e 2 galinhas</foro>
+                <desc><para>As casas nº 5 e 6, passaram a constituir um único prazo, em <data>1702</data>. Em <data>1789</data>, o nº 4 foi também integrado no mesmo prazo.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Padre Ambrósio Lourenço</enfiteuta>
+                <foro>520 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Dr. José de Araújo</enfiteuta>
+                <foro>730 reis e 2 galinhas</foro>
+                <desc><para>O enfiteuta sucedeu a seu pai, <entidade tipo="pessoa">Francisco de Araújo</entidade>, o qual era filho de <entidade tipo="pessoa">José de Araújo</entidade>, barbeiro, e de sua mulher <entidade tipo="pessoa">Ana Maria</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Dr. José de Araújo</enfiteuta>
+                <foro>520 reis e 2 galinhas</foro>
+                <desc><para>O enfiteuta sucedeu a seu pai, <entidade tipo="pessoa">Francisco de Araújo</entidade>, o qual era filho de <entidade tipo="pessoa">José de Araújo</entidade>, barbeiro, e de sua mulher <entidade tipo="pessoa">Ana Maria</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Manuel da Costa Vasconcelos</enfiteuta>
+                <foro>570 reis e 2 capões</foro>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>D. Teresa Maria Ferreira Santarém</enfiteuta>
+                <foro>150 reis</foro>
+                <desc><para>Esta casa possui frontaria para a <lugar>Rua de D. Gualdim</lugar>. Igual pensão é paga ao <entidade tipo="instituição">Hospital de S. Marcos</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>João Francisco, tratante</enfiteuta>
+                <foro>550 reis e 2 galinhas</foro>
+                <desc><para>A parte do poente é foreira ao <entidade tipo="instituição">Hospital de S. Marcos</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>13 e 14</número>
+                <enfiteuta>Dr. António da Costa</enfiteuta>
+                <foro>1800 reis, 2 capões e 2 galinhas</foro>
+                <desc><para>Encontram-se unidas num único prazo desde o ano de <data>1660</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Rev. Francisco da Costa, Abade de Tadim</enfiteuta>
+                <foro>1010 reis e 4 galinhas</foro>
+                <desc><para>No ano de <data>1660</data> foi incorporado neste prazo uma torre pertencente ao nº 16, e, no ano de <data>1724</data>, um quintal do nº 2 da <lugar>Rua dos Açougues Velhos</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>José Luís. alfaiate</enfiteuta>
+                <foro>260 reis e 1 capão</foro>
+            </casa>
+            
+        </lista-casas>
+    </corpo>
+</rua>

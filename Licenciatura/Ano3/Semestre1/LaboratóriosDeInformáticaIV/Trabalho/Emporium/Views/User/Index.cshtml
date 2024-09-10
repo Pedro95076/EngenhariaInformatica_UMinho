@@ -1,0 +1,64 @@
+@model List<UsersModel>
+@{
+    ViewData["Title"] = "User";
+}
+
+<div class="text-center">
+
+    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+        <a class="btn btn-primary" role="button" asp-controller="Leiloes" asp-action="CriarLeilao"> Adicionar Leilão </a>
+    </div>
+
+    <h1> Listagem de Leilões </h1>
+
+    <table class="table">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Produto</th>
+        <th scope="col">Feirante</th>
+        <th scope="col">Oferta Atual</th>
+        <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if(Model != null && Model.Any()){
+            foreach(UsersModel users in Model){
+        <tr>
+        <th scope="row">@users.Id</th>
+        <td>@users.Name</td>
+        <td>@users.Email</td>
+        <td>@users.Password</td>
+        <td>
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-route-id="@users.Id" asp-controller="Users" asp-action="Criar"> Fazer Proposta</a>
+            </div>
+        </td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>fat</td>
+        <td>
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Leiloes" asp-action="FazerProposta"> Fazer Proposta</a>
+            </div>
+        </td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>fat</td>
+        <td>
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Leiloes" asp-action="FazerProposta"> Fazer Proposta</a>
+            </div>
+        </td>
+        </tr>
+        }
+    }
+    </tbody>
+    </table>
+</div>

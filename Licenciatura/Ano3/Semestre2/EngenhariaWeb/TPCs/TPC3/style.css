@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0; 
+    color: #333; 
+}
+
+.custom-list {
+    padding: 0;
+    margin: 0;
+}
+
+.custom-list li {
+    background-color: #ffffff; 
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.custom-list li a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit text color from parent (if not desired, set a specific color here) */
+}
+
+.without_underlines li a {
+    color: inherit; /* Inherit text color from parent (if not desired, set a specific color here) */
+}
+

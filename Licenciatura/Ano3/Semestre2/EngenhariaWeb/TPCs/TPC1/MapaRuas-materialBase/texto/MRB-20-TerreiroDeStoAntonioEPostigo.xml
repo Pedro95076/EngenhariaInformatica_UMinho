@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/home/teresa-queiroga/MedInf/PublicacaoEletronica/Projeto_final/MRB-rua(1).xsd">
+    <meta>
+        <número>20</número>
+        <nome>Terreiro de Sto. António e Postigo</nome>
+    </meta>
+    <corpo>
+        <para>
+            Pequena artéria que ligava o <lugar>terreiro de S. Tiago</lugar> ao <lugar>Postigo de S.Sebastião</lugar>.
+        </para>
+        <para>
+            Mantendo o traçado de uma rua da cidade romana, já no séc. XIV nos aparece com os nomes 
+            de <lugar>rua Travessa</lugar> e <lugar>rua do Postigo</lugar>.
+        </para>
+        <para>
+            Com a expulsão dos judeus a sua designação passará a ser de Santo António, a mesma 
+            da rua que lhe era contígua.
+        </para>
+        <para> <!-- o que são os Estudos Gerais? -->
+            Poucos anos mais tarde <entidade tipo="pessoa">D. Diogo de Sousa</entidade> criou os Estudos Gerais, que os seus sucessores
+            <entidade tipo="pessoa">D. Henrique</entidade> e <entidade tipo="pessoa">D. Frei Bartolomeu dos Mártires</entidade> muito protegeram; 
+            a sua capela, com a invocação 
+            de S. Paulo, faceava com o lado Sul do Terreiro, que aqui aparece como <lugar>rua do Terreiro de Santo 
+            António</lugar>.
+        </para> <!-- é suposto identificar o S. Paulo como uma pessoa? -->
+        <para>
+            Ao lado da capela, não se sabe se relacionada com os Estudos Gerais, havia uma estupenda 
+            casa seiscentista, com um belíssimo e muito raro trabalho de pedra nas janelas, e portão, lateral,
+            brasonado.
+        </para>
+        <para>
+            O impacto económico da saída dos muitos estudantes aqui hospedados, após a expulsão dos jesuítas em <data>1759</data>,
+            e, consequente encerramento dos Estudos Gerais, ainda não foi estudado. 
+        </para>
+        <para>
+            No último quartel do séc. XIX foi esta rua alargada desaparecendo a sua face Sul, bem com o <lugar>«postigo»
+            da muralha</lugar>.
+        </para>
+        <para>
+            A face Norte manteve-se excepto a casa mais recuada, que, nos inícios do séc. XIX, foi totalmente <!-- séculos são datas -->
+            alterada.
+        </para>
+        <para>
+            Actual <lugar>rua de S. Paulo</lugar>.
+        </para>
+        
+        <figura id="MRB-20-norte">
+            <imagem path="../imagem/MRB-20-TerreiroDeStoAntonioEPostigo-norte.jpg"/>
+            <legenda>RUa das Chagas - norte</legenda>
+        </figura>
+        
+        <figura id="MRB-20-sul">
+            <imagem path="../imagem/MRB-20-TerreiroDeStoAntonioEPostigo-sul.jpg"/>
+            <legenda>RUa das Chagas - poente</legenda>
+        </figura>
+        
+        <lista-casas>
+            
+            <!-- casas 1 e 2-->
+            <casa>
+                <número>1 e 2</número>
+                <enfiteuta>Fernando da Cunha Sottomayor</enfiteuta>
+                <foro>320 reis e 4 galinhas</foro>
+                <desc>
+                    <para>
+                       Encontram-se unidas, num só prazo, desde <data>1569</data>. A casa n.º 1 confronta, do nascente, com 
+                       uma parte da casa que é foreira à comenda de <lugar>S. Pedro de Merelim</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 3 -->
+            <casa>
+                <número>3</número>
+                <enfiteuta>João Domingues, casado com Maria Vaz</enfiteuta>
+                <foro>320 reis e 4 galinhas</foro>
+                <desc>
+                    <para>
+                        O enfiteuta é da freguesia de <lugar>Penso</lugar>, concelho de <lugar>Melgaço</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 4 -->
+            <casa>
+                <número>4</número>
+                <enfiteuta>D. Doroteia de Vasconcelos, viúva de Francisca Ferreira da Costa</enfiteuta>
+                <foro>250 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Confronta, do poente, com casa foreira ao <lugar>mosteiro de Bouro</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 5 -->
+            <casa>
+                <número>5</número>
+                <enfiteuta>D. Doroteia de Vasconcelos, viúva</enfiteuta>
+                <foro>170 reis e 1 galinha</foro>
+            </casa>
+            
+            <!-- casas 6, 7, 8 e 9 -->
+            <casa> <!-- o que signifiva o asterisco? -->
+                <número>6, 7, 8 e 9</número>
+                <enfiteuta>D. Doroteia de Vasconcelos, viúva de Francisca Ferreira da Costa</enfiteuta>
+                <desc>
+                    <para>
+                        Foram construídas, depois do ano de 1683, no quintal da casa n.º 4 e pagavam foro a 
+                        este prazo.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 10 -->
+            <casa>
+                
+                <número>10</número>
+                <enfiteuta>Quitéria Maria</enfiteuta>
+                <foro>300 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        A enfiteuta é filha de <entidade tipo="pessoa">António de Araújo</entidade>, escrivão das apelações, e de sua 2.ª mulher, 
+                        <entidade tipo="pessoa">Ursula de Araújo</entidade>. A casa foi construída, depois do ano de <data>1557</data>, em pertenças do n.º 12, 
+                        da <lugar>Rua de D. Gualdim</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 11 -->
+            <casa>
+                <número>11</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 11 da <lugar>Rua de D. Gualdim</lugar>, para onde tem frontaria 
+                        e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

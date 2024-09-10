@@ -1,0 +1,16 @@
+
+@{
+    ViewData["Title"] = "Categorias";
+
+}
+
+<div class="text-center">
+    <h1> Listagem de Categorias </h1>
+</div>
+
+<figure class="figure">
+    <img src="~/Legumes.jpg" width="250" height="250">
+    <figcaption class="figure-caption">Legumes</figcaption>
+</figure>
+<a role="button" class="btn btn-primary" asp-controller="Categorias" asp-action="Pesquisar">Pesquisar por Categoria</a>
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index" role="button"> Voltar </a>

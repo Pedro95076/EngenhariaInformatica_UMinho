@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+      - ./xml:/docker-entrypoint-initdb.d
+
+  api:
+    build:
+      context: ./api
+    ports:
+      - "3000:3000"
+    environment:
+      - MONGO_URL=mongodb://mongo:27017/ruas
+    depends_on:
+      - mongo
+    volumes:
+      - ./api:/usr/src/app
+      # Ensure node_modules is not mounted
+      - /usr/src/app/node_modules
+
+  interface:
+    build:
+      context: ./interface
+    ports:
+      - "7001:7001"
+    environment:
+      - API_URL=http://api:3000
+    depends_on:
+      - api
+    volumes:
+      - ./interface:/usr/src/app
+      # Ensure node_modules is not mounted
+      - /usr/src/app/node_modules
+
+volumes:
+  mongo-data:

@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    .w3-top
+        .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+          a.w3-bar-item.w3-button(href='/ruas/')
+            b RUAS DE BRAGA 
+          // Float links to the right. Hide them on small screens
+          .w3-right.w3-hide-small
+            a.w3-bar-item.w3-button(href="/") Início
+
+    #about.w3-container.w3-padding-32
+        h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 
+            p Logout Efetuado com Sucesso!
+
+        button.w3-bar-item.w3-button.w3-black.w3-margin(type="button" style="width:45%") #[a(href="/login" style="text-decoration: none;") Voltar ao Login] 
+
+
+    // Footer
+    footer.w3-center.w3-black.w3-padding-16
+        p
+            | Gerado por EngWeb2024 em #{d}

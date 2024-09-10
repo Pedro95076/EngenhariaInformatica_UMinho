@@ -1,0 +1,97 @@
+# Resolucao do teste
+
+Nome: Ricardo Alves Oliveira
+Número: 96794
+
+## Exercicio 1
+
+### 1.1
+
+O dataset deve ser alterado de modo a que o campo "Id" passe a ser "_id".
+De seguida o dataset deve ser importado para o MongoDB com o seguinte comando:
+mongoimport -d plantas -c plantas --file plantas.json --jsonArray
+Tendo o cuidado de ver so o import foi bem sucedido:
+29617 document(s) imported successfully. 0 document(s) failed to import.
+
+### 1.2
+
+0. Antes de realizar as queries deve-se entrar na base de dados com o comando:
+use plantas
+
+1. db.plantas.count()
+Resposta: 29617
+
+2. db.plantas.find({"Freguesia": "São Domingos de Rana"}).count()
+Resposta: 5903
+
+3. db.plantas.distinct("Freguesia").sort()
+Resposta: [
+  '',
+  'Abóboda',
+  'Alcabideche',
+  'São Domingos de Rana',
+  'U.F. Carcavelos e Parede',
+  'U.F. Cascais e Estoril'
+]
+
+4. db.plantas.aggregate([{$group: {_id: "$Freguesia", count: {$sum: 1}}}])
+Resposta: [
+  { _id: 'Alcabideche', count: 4034 },
+  { _id: 'U.F. Cascais e Estoril', count: 12023 },
+  { _id: '', count: 26 },
+  { _id: 'São Domingos de Rana', count: 5903 },
+  { _id: 'Abóboda', count: 2 },
+  { _id: 'U.F. Carcavelos e Parede', count: 7629 }
+]
+
+5. db.plantas.aggregate([{$group: {_id: "$Espécie", count: {$sum: 1}}}])
+Resposta: [
+  { _id: 'freixo', count: 411 },
+  { _id: 'liquidambar', count: 182 },
+  { _id: 'damasqueiro', count: 1 },
+  { _id: 'Cevadilha', count: 1 },
+  { _id: 'acacia do japão', count: 138 },
+  { _id: 'prunus', count: 57 },
+  { _id: 'magnolia', count: 71 },
+  { _id: 'carvalho alvarinho', count: 35 },
+  { _id: 'tamareira', count: 47 },
+  { _id: 'pinheiro das canarias', count: 4 },
+  { _id: 'cedro do buçaco', count: 38 },
+  { _id: 'Bordo Prateado', count: 7 },
+  { _id: 'loureiro real', count: 3 },
+  { _id: 'Buganvilia', count: 9 },
+  { _id: 'palmeira de vassouras', count: 18 },
+  { _id: 'ginkgo', count: 139 },
+  { _id: 'catalpa', count: 91 },
+  { _id: 'laranjeira doce', count: 25 },
+  { _id: 'pessegueiro', count: 26 },
+  { _id: 'balão de s. joão', count: 129 },
+  ...
+]
+
+### 1.3
+
+Entrar na pasta "ex1"
+Instalar dependencias utilizando o comando "npm install"
+Executar o script utilizando o comando "npm start"
+
+Para testar as varias rotas podem ser executados os seguintes comandos:
+1. curl http://localhost:15030/plantas > plantas.json
+2. curl http://localhost:15030/plantas/20615564 > planta_20615564.json
+3. curl http://localhost:15030/plantas?especie=catalpa > catalpas.json
+4. curl http://localhost:15030/plantas?implant=Arruamento > arruamento.json
+5. curl http://localhost:15030/plantas/freguesia > freguesias.json
+6. curl http://localhost:15030/plantas/especies > especies.json
+7. curl -X POST -H "Content-Type: application/json" -d '{"_id": 0,"Número de Registo": 9999999999999,"Código de rua": 1667044,"Rua": "Avenida General Carmona","Local": "Estoril","Freguesia": "U.F. Cascais e Estoril","Espécie": "croacia","Nome Científico": "Catalpa bungei","Origem": "","Data de Plantação": "20/02/2013","Estado": "Jovem","Caldeira": "Sim","Tutor": "Sim","Implantação": "Arruamento","Gestor": "DGEV","Data de actualização": "23/07/2021 19:47:51","Número de intervenções": 5}' localhost:15030/plantas > resposta_put.json
+8. curl -X DELETE localhost:15030/plantas/20615564 > resposta_delete.json
+
+## Exercicio 2
+
+Entrar na pasta "ex2"
+Instalar dependencias utilizando o comando "npm install"
+Executar o script utilizando o comando "npm start"
+
+Para testar as varias rotas podem ser executados os seguintes comandos:
+1. Aceder ao link 'http://localhost:15031/'
+2. Aceder ao link 'http://localhost:15031/20615564'
+3. Aceder ao link 'http://localhost:15031/especies/catalpa'

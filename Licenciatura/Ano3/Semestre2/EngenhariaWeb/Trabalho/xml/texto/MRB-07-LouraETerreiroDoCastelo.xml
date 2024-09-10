@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>7</número>
+        <nome> Loura e Terreiro do Castelo  </nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-07">
+            <imagem path="../imagem/MRB-07-LouraETerreiroDoCastelo.JPG"/>
+            <legenda>Loura e Terreiro do Castelo.</legenda>
+        </figura>
+        <para>Pequena artéria que, partindo da <lugar>igreja dos Terceiros</lugar>, contornava a <lugar>cidadela</lugar> medieval, até à <lugar>rua do Souto</lugar>.</para>
+        <para>Segundo <entidade tipo="pessoa">Alberto Feio</entidade>, a construção da <lugar>cidadela</lugar> deu origem a um pequeno largo que tomou o nome de <lugar>Terreiro do Castelo</lugar>. No séc. XVII deverá ter sido aberta a <lugar>Loura</lugar>, uma vez que na planta de <entidade tipo="pessoa">Braunio</entidade> ainda não figura.</para>
+        <para>Da sua história,que deverá ter sido rica, pouco sabemos; e não vamos falar aqui da vida do <lugar>Castelo</lugar>.</para>
+        <para>Entre <data>1690</data> e <data>1733 </data>foi construída a <lugar>igreja do Terceiros</lugar>, da Venerável Ordem Terceira de S. Francisco que, embora já esteja fora desta rua, nela intervirá com a construção da <lugar>casa do Definitório</lugar>, em <data>1758</data>.</para>
+        <para>De <data>1750</data> até aos nossos dias perdeu-se na <lugar>Loura</lugar> o magnífico portão de pedra e no seu lugar foi edificada uma boa casa, que tem data de <data>1824</data>; e no local do prazo nº 3 foram edificadas casas "estilo Português Suave". Os prédios do <lugar>Terreiro do Castelo</lugar> foram todos alterados no séc. XX.</para>
+        <para>Do lado oposto, após a destruição da <lugar>cidadela</lugar> em <data>1905</data> começou a ser construído o edifício que ainda agora se vê, projectado pelo arquitecto <entidade tipo="pessoa">Marques da Silva</entidade>. </para>
+        <para>A rua, contudo, mantém ainda o recanto entre as casas dos prazos 2 e 3, embora de forma menos acentuada.</para>
+        <para>Das 10 casas, desta rua, 3 eram prazos do Cabido. </para>
+        <para>Estas duas artérias têm hoje o nome comum de <lugar>rua do Castelo</lugar>.</para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Manuel Ribeiro Pereira</enfiteuta>
+                <foro>350 reis</foro>
+                <desc>
+                    <para>A casa nº 1 confronta, do sul, com casa foreira à <lugar>confraria de S. João do Souto</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Manuel Ribeiro Pereira</enfiteuta>
+                <foro>100 reis e 1 galinha </foro>
+                <desc><para>A casa nº 1 confronta, do sul, com casa foreira à <lugar>confraria de S. João do Souto</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Dr.António Fernandes do Vale, médico  </enfiteuta>
+                <foro>100 reis e 4 galinhas</foro>
+                <desc><para> Antes de <data>1480</data> funcionou aqui o "<lugar>Forno da Vila</lugar>"</para>
+                </desc>
+            </casa>
+       
+        </lista-casas>
+    </corpo>
+</rua>

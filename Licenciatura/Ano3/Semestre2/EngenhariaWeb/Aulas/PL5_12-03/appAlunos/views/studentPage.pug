@@ -1,0 +1,29 @@
+extends layout
+
+block content 
+    .w3-card-4
+    header.w3-container.w3-teal
+        h1 Aluno #{aluno.id}
+
+    .w3-container
+        ul.w3-ul.w3-card-4(style="width:50%")
+            li
+                b Nome: 
+                | #{aluno.nome}
+            li
+                b Número: 
+                | #{aluno.id}
+            li
+                b Git (link): 
+                a(href=aluno.gitlink) #{aluno.gitlink}
+
+    .w3-container.w3-margin-8
+        ul.w3-ul
+            - for (let i = 1; i < 9; i++)
+                - let key = `tpc${i}`
+                - if (key in aluno)
+                    li
+                        b TPC#{i}
+
+    footer.w3-container.w3-teal
+        address Gerado por galuno::EngWeb2024 em #{d} - #[a(href="/") Voltar]

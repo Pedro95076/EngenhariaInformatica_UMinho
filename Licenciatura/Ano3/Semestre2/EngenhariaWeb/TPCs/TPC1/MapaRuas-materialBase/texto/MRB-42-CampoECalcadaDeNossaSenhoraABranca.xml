@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/micas/Desktop/Maria/Uminho/4%C2%BAano/1%C2%BAsemestre/publicacao_eletronica/Trabalho%20Final/MRB-rua.xsd">
+    <meta>
+        <número>42</número>
+        <nome>Campo e Calçada de Nossa Senhora a Branca</nome>
+    </meta>
+    <corpo>
+        <para>Grande espaço aberto, continuação natural de <lugar>Santa Ana</lugar>, onde, pelo menos
+            desde <data>1319</data>, existia uma ermida, então com a invocação de Nossa Senhora da Carreira.             
+        </para>
+        <para><entidade tipo="pessoa">D.Diogo de Sousa</entidade> reedificou esta igreja durante o 
+            <data>séc. XVIII</data> recebeu um retábulo para a capela mor (<data>1745</data>, alterado em <data>1782</data>), sacrário (<data>1756-57</data>)
+        e fachada (<data>1771</data>).</para>
+        <para>Em <data>1750</data> este campo era ainda uma zona de arrabalde. As suas casas, quase todas de
+        dois pisos e dois vãos- embora haja uma ou outra de 3 pisos-, são na sua maioria, do 
+        tipo de porta com janela no piso térreo (62%). Algumas eram de maiores dimensões ou 
+        continham outra organização de fachada (casas n.º 11, 14, casa A Oeste da n.º26, 26 e 37,
+        esta com o terceiro piso todo recoberto de gelosias), bem como a existência de gelosias
+        na maioria das janelas (embora haja ainda bastantes aberturas que eram tapadas com portas de madeira),
+        não são bastantes para melhorar a qualidade da arquitectura deste campo.</para>
+        <para>Saliente-se ainda a casa do prazo n.º4, com o seu portão lateral terminado em cubos
+        sobrepostos por bolsas e «torre» com janelas de canto.</para>
+        <para>Este espaço só se desenvolveu cem anos mais tarde com o crescimento da cidade que
+        obrigou, em <data>1882</data>, à abertura da actual <lugar>rua de Santa Margarida</lugar>.</para>
+        <para>Das 27 casas do lado Norte e 25 do Sul, eram prazos do <entidade tipo="instituição">Cabido</entidade>
+        15 e 25, respectivamente.</para>
+        <para>Os alçados que vemos correspondem o do Norte à parte deste largo que vao desde a actual
+        <lugar>rua do Sardoal</lugar> até ao ponto Sudoeste da <lugar>rua de Santa Margarida</lugar>:
+        e o alçado Sul, hoje totalmente alterado, compreende o espaço entre as <lugar>ruas de Restauração e 31 de Janeiro</lugar>.</para>
+        
+        <figura id="MRB-42-norte">
+            <imagem path="../imagem/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Norte.jpg"/>
+            <legenda>Campo e Calçada de Nossa Senhora a Branca- Norte.</legenda>
+        </figura>
+        
+        <figura id="MRB-42-sul">
+            <imagem path="../imagem/MRB-42-CampoECalcadaDeNossaSenhoraABranca-Sul.jpg"/>
+            <legenda>Campo e Calçada de Nossa Senhora a Branca- Sul.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1,2 e 3</número>
+                <desc>
+                    <para>Pertencem ao prazo da casa n.º4. A casa n.º1 fica situada junto da fonte
+                    que está atrás da <lugar>capela de N.Sra</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <foro>1500 reis, 4 alqueires de trigo, 20 de paõ meado e 10 galinhas</foro>
+                <desc>
+                    <para>Denominado <lugar>«Casal e quinta de Sobrado»</lugar>.</para>
+                    <para>A enfiteuta sucedeu a <entidade tipo="pessoa">António de Brito Freire</entidade>,
+                    filho do <entidade tipo="pessoa">Dr. Manuel Freire de Brito</entidade>,
+                    da <lugar>cidade de Braga</lugar>.</para>
+                    <para>Pertencem a este prazo as casas n.º1 a 3 e 5 a 40 deste campo. No ano de <data>1506</data>
+                    foi Senhor deste prazo o chantre de <lugar>Braga</lugar>, <entidade tipo="pessoa">João Godis</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5,6 e 7</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Pertencem ao n.º4. A casa n.º7 esteve dividida em duas metades entre os anos <data>1636</data> a <data>1662</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Maria de Oliveira</entidade>, viúva, pagam 300 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">António Correia</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Natália Carvalho</entidade>, pagam 300 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Manuel Rodrigues</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Serafina João</entidade>, pagam 400 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Manuel Rodrigues</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Serafina João</entidade>, pagam 430 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">João Lopes</entidade>, sapateiro, casado com <entidade tipo="pessoa">Isabel Francisca</entidade>, pagam 300 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Manuel Pinheiro</entidade>, da cidade de <lugar>Lisboa</lugar>, casado com <entidade tipo="pessoa">Ana da Silva</entidade>, pagam 600 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Gonçalo Antunes</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Maria Francisca</entidade>, pagam 305 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros do <entidade tipo="pessoa">Padre João Velho</entidade> pagam 500 reis e 1 galinha ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">António da Silva</entidade>, caldeireiro, casado com <entidade tipo="pessoa">Margarida de Oliveira</entidade>, pagam 300 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Francisco Martins</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Gregória Fernandes</entidade>, pagam 300 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros do <entidade tipo="pessoa">Padre Manuel Mendes</entidade> pagam 390 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Estêvão Álvares</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Maria Vaz</entidade>, pagam 400 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20 e 21</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Padre Manuel Pinheiro</entidade> pagam 500 reis ao n.º4.</para>
+                    <para>Estas casas encontram-se unidas desde o ano de <data>1583</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22 e 23</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">José Francisco</entidade>, sombreireiro, pagam 440 reis ao n.º4.</para>
+                    <para>Estas casas encontram-se unidas desde o ano de <data>1583</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24 e 25</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">António Dias</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Apolónia Rodrigues</entidade>, pagam 450 reis e 1 galinha ao n.º4.</para>
+                    <para>Encontram-se unidas desde o ano de <data>1583</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26 e 27</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Roque Martins Leite</entidade>, casado com <entidade tipo="pessoa">Maria Gomes</entidade>, pagam 110 reis e 1 galinha ao n.º4.</para>
+                    <para>Encontram-se unidas desde o ano de <data>1543</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">António Barros</entidade>, alfaiate, casado com <entidade tipo="pessoa">Maria Soares</entidade>, pagam 50 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Maria Ferreira</entidade>, filha de <entidade tipo="pessoa">Cristóvão Ferreira</entidade>, pagam 50 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Geraldo Marques</entidade>, casado com <entidade tipo="pessoa">Luzia Francisca</entidade>, pagam 50 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Inês Durães</entidade>, solteira, pagam 35 reis ao n.º4.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>32</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">João Martins</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Maria Pinto</entidade>, pagam 40 reis ao n.º4.</para>
+                    <para>Esta casa encontra-se separada do n.º31 desde o ano de <data>1629</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>33</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Álvaro Pinto</entidade>, alfaiate, casado com <entidade tipo="pessoa">Ângela Antónia</entidade>, pagam 40 reis ao n.º4.</para>                    
+                </desc>
+            </casa>
+            <casa>
+                <número>34</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Padre Teotónio de Sousa</entidade> pagam 30 reis ao n.º4.</para>                   
+                </desc>
+            </casa>
+            <casa>
+                <número>35 a 40</número>
+                <enfiteuta>Ana Maria de Magalhães</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Domingos Fernandes</entidade>, serralheiro, casado com <entidade tipo="pessoa">Isabel Gonçalves</entidade>, pagam 20 reis e meio frangão ao n.º4.</para>
+                    <para>Encontram-se separadas da n.º34 desde o ano de <data>1619</data>.</para>
+                    <para>A casa n.º40 confronta, do norte, com casa foreira à <lugar>capela de D.Gonçalo Pereira</lugar>.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+    
+</rua>

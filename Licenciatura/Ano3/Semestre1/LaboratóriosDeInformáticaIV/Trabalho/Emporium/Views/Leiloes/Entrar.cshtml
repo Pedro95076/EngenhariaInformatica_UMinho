@@ -1,0 +1,43 @@
+﻿@model LeiloesModel
+
+@{
+    ViewData["Title"] = "Listagem de Leilões";
+}
+<div class="text-center">
+
+    
+    <h1> Listagem de Leilões </h1>
+
+    <table class="table" id="table-leiloes">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Produto</th>
+        <th scope="col">Data</th>
+        <th scope="col">Valor</th>
+        <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+            @{
+                List<Leilao> leiloes = new List<Leilao>();
+                leiloes = Model.leiloes;
+                for(int i= 0;i< leiloes.Count();i++){
+                    <tr>
+                        <th scope="row">@(i+1)</th>
+                        <td>@leiloes[i].Produto</td>
+                        <td>@leiloes[i].Data</td>
+                        <td>@leiloes[i].Valor</td>
+                        
+                    </tr>
+                }
+            } 
+                        <form method="post" action="/Leiloes/FazerProposta">
+                            <input type="number" name="leilao" />
+                            <input type="submit" value="Entrar leilão" />
+                        </form>
+    </tbody>
+    </table>
+</div>
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index" role="button"> Voltar </a>

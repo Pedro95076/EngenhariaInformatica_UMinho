@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/E:/Desktop/UM/4%C2%BA%20ano%20(She%27s%20close)/1%C2%BA%20semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/Projeto%20final/MRB-rua.xsd">
+    <meta>
+        <número>40</número>
+        <nome>Rua do Paymanta</nome>
+    </meta>
+    <corpo>
+        <para>
+            Rua de zona rural, que antes deveria ser chamada de cangosta, mesmo para os padrões do <data>séc. XVIII</data>.
+        </para>
+        <para>
+            Ligando a <lugar>rua da Ponte de Guimarães</lugar> com o <lugar>pontilhão das Lages</lugar>estava, em <data>1750</data>, marginada por prédios de um e dois pisos do lado Sul e de apenas um piso no Norte. 
+            Todas estas casas são extraordinariamente simples, estão implantadas em terreno não nivelado, com uma técnica construtiva rudimentar, como nos mostram as pequeníssimas aberturas das habitações de dois pisos.
+        </para>
+        <para>
+            No termo da rua está a magnífica casa seiscentista das Lages, "deque he Emphiteuta <entidade tipo="pessoa">Pedro da C.ª Sottomaior</entidade>" que foi Alcaide Mor de <lugar>Braga</lugar>. É este sem dúvida o edifício civil que aparece 
+            no Mappa e, o que mereceu mais cuidado no desenho.
+        </para>
+        <para>
+            Era uma casa com pedra de armas sobre um portão que dava acesso a um páteo interior, vedado por uma cerca ameada. Tinha três corpos que terminavam na margem do rio Este.
+            Sobre o curso de água, tinha um anexo coberto, talvez um moinho. Infelizmente está hoje destruído todo este conjunto.
+        </para>
+        <para>
+            Das 17 casas do lado Norte e 16 do Sul eram todas prazos do <entidade tipo="instituição">Cabido</entidade>.
+        </para>
+        <para>
+            Não tem hoje uma correspondência correcta pois andava entre as actuais ruas de<lugar>Pai Amante</lugar> (que está em vias de completo desaparecimento) e <lugar>Conselheiro Lobato</lugar>.
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc><para>Pertence ao nº 46 da <lugar>Rua da Ponte de 
+                    Guimarães</lugar>, para onde tem a frontaria principal.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os <entidade tipo="pessoa">herdeiros de Margarida Fernandes</entidade> pagam 
+                    100 reis ao n° 17.</para></desc>
+            </casa>
+            <casa>
+                <número>3 e 4</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Pagam foro ao nº 17. A casa n° 3 confronta, 
+                    do nascente, com terra do prazo da <lugar>quinta e 
+                        moinhos da Serra</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga foro ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga foro ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga foro ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga foro ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga foro ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 180 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 180 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 350 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>            
+            <casa>
+                <número>17</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <foro>960 reis, 10 alqueires de trigo, 25 de pão meado e 4 galinhas</foro>
+                <desc><para>
+                    Esta casa é cabeça do prazo da <lugar>quintã e
+                        moinhos da Serra e da Ribeira</lugar>. O enfiteuta 
+                    possuia esta quintã que fora emprazada a seu 
+                    '    familiar, o <entidade tipo="pessoa">Padre Fernão Anes</entidade>, no ano de <data>1532</data>.
+                </para>
+                <para>
+                    O prazo é constituído pelos números: 2 a 16 e
+                    
+                    18 a 32; 9 a 23 e 28 a 46 da <lugar>Ponte de 
+                        Guimarães</lugar>; 22 a 34 e 51 a 74 da <lugar>Rua da Ponte 
+                            de Guimarães</lugar>.
+                </para></desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 80 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 150 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os <entidade tipo="pessoa">herdeiros de Domingos Fernandes</entidade>, casado 
+                    com <entidade tipo="pessoa">Isabel Gonçalves</entidade>, pagam 200 reis ao
+                    n° 17.</para></desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 190 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>23 e 24</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 190 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>25 e 26</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os <entidade tipo="pessoa">herdeiros de Belchior Fernandes</entidade>, casado 
+                    com <entidade tipo="pessoa">Ana Dias</entidade>, pagam 400 reis e 2 galinhas ao 
+                    nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 100 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>28, 29 e 30</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 200 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 50 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>32</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 30 reis ao nº 17.</para></desc>
+            </casa>
+            <casa>
+                <número>33</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Corresponde ao nº 51 da <lugar>Rua da Ponte de 
+                    Guimarães</lugar>, para onde tem a frontaria principal.</para></desc>
+            </casa>
+            
+        </lista-casas>
+        <figura id="MRB40-sul">
+            <imagem path="../imagem/MRB-40-RuaDoPaymanta-Sul.jpg"/>
+            <legenda>Rua do Paymanta - Sul.</legenda>
+        </figura>
+        <figura id="MRB40-norte">
+            <imagem path="../imagem/MRB-40-RuaDoPaymanta-Norte.jpg"/>
+            <legenda>Rua do Paymanta - Norte.</legenda>
+        </figura>
+    </corpo>
+</rua>

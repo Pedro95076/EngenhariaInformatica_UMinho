@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/tiago/OneDrive/Documents/workspace_xml/trabalhofinal/MRB-rua.xsd">
+    <meta>
+        <número>36</número>
+        <nome>Rua das Águas</nome>
+    </meta>
+    <corpo>
+        <para>
+            Longa artéria que, conjuntamente com as ruas de <lugar norm="Rua de S. Lázaro">S. Lázaro</lugar> e da <lugar norm="Rua da Porta de Guimarães">Porta de Guimarães</lugar>, ligava a <lugar>Arcada</lugar> à <lugar>ponte de Guimarães</lugar>, donde partia a estrada para aquela cidade.
+        </para>
+        <para>
+            Aberta ainda na Idade Média tem um prazo datável já de <data>1478</data>.
+        </para>
+        <para>
+            Ao longo dos tempos, foi lentamente ganhando importância, sobretudo na sua parte Norte. Em <data>1750</data> o Mappa das Ruas é bem explícito: no lado Nascente, àparte de algumas casas com porta e janela no primeiro piso, tem já uma série de outras que ombreiam com as da <lugar>rua do Souto</lugar>, com gelosias, varandas e, sobretudo, grandes vãos no piso térreo, indicadores de local de comércio; no Poente, bastante mais modesto, tem contudo a animá-lo a parte do <lugar>convento dos Remédios</lugar> virada para esta rua, que estava em construção, nesta data. Sente-se bem que a <lugar>rua das Águas</lugar> estava em franca ascensão económica, o que a documentação escrita não deixará de confirmar.
+        </para>
+        <para>
+            Das 35 casas do lado Poente e 38 do Nascente, eram prazos do <entidade tipo="instituição">Cabido</entidade> apenas 35 todas do Nascente.
+        </para>
+        <para>
+            A <lugar>rua das Águas</lugar> corresponde ao troço da <lugar>avenida da Liberdade</lugar> entre a <lugar>Arcada</lugar> e o <lugar>Rechicho</lugar>.
+        </para>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Francisco José Pereira, chantre de Guimarães</enfiteuta>
+                <foro>60 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa foreira à <entidade tipo="instituição">confraria de S. João do Souto</entidade>.
+                    </para>
+                    <para>
+                        Foi construída em pertenças do prazo do campo da <lugar norm="Rua das Águas">Rua das águas</lugar> ou do Caminho Novo, entre os anos de <data>1572</data> e <data>1577</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Helena Francisca, c.c. Manuel Pereira</enfiteuta>
+                <foro>180 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        A enfiteuta paga, ainda 32 reisi por uma casa pequena (com rossio), situada nas traseiras, ao nº 3.
+                    </para>
+                    <para>
+                        Até ao ano de <data>1577</data> as casas nº 1 e 2 encontravam-se unidas, tendo sido construídas em pertenças do prazo do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3 e 4</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <foro>240 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Esta casa é cabeça de prazo do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo, cuja referência mais antiga é do ano de <data>1470</data>. A partir do ano de <data>1572</data> ficou dividido em duas metades. Uma parte do quintal foi cedido, em <data>1689</data>, aos padres da <entidade tipo="instituição">Congregação do Oratório</entidade>, da cidade de <lugar>Braga</lugar>, por troca com o <lugar>Casal do Ribeiro</lugar>, um cortelho e um campo, dízimo a Deus, tudo situado na <lugar>freguesia de S. Jerónimo de Real</lugar>. A casa nº 4 encontra-se unida, numa só morada, ao nº3, desde o ano de <data>1670</data>.
+                    </para>  
+                    <para>
+                        Pertence a este prazo os nº 4 a 13, e os nº 29 a 32.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5, 6 e 7</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Domingos de Oliveira</entidade> casado com <entidade tipo="pessoa">Gracia Pereira</entidade>, paga 534 reis ao nº 3.
+                    </para>
+                    <para>
+                        A casa nº 7 esteve separada do nº 5 entre os anos de <data>1593</data> e <data>1733</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8 e 9</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Custódia Correia, solteira</entidade> paga 534 reis ao nº 3. Até ao ano de <data>1580</data> pertenciam ao nº 8, os nº 10, 11, 12 e 13.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">João Fernandes, gentil pintor</entidade>, casado com <entidade tipo="pessoa">Custódia Pereira Fajardo</entidade>, paga 127 reis ao nº 3. Até ao ano de <data>1625</data> pertencia a este prazo, os nº 11, 12 e 13.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Ambrósio da Costa, odreiro</entidade>, paga 127 reis ao nº 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Manuel Pereira, estalajadeiro</entidade>, casado com <entidade tipo="pessoa">Senhorinha Ferreira</entidade>, paga 400 reis ao nº 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Serafina Ribeiro, solteira</entidade>, paga 185 reis ao nº 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14, 15, 16 e 17</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Baltazar Rodrigues, latoeiro</entidade>, casado com <entidade tipo="pessoa">Violante Nunes</entidade>, paga pela área destas casas, construídas depois de <data>1576</data>, 800 reis ao enfiteuta principal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo, e 200 reis ao enfiteuta dos <lugar>Quintos da Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18 e 19</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Francisco Dias, clérigo</entidade>, pagam, de foro, pela área de dois «chãos de casas», construídas depois de <data>1576</data>, 800 reis ao enfiteuta principal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo, e 200 reis ao enfiteuta dos <lugar>Quintos da Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20, 21, 22 e 23</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Ana, filha de Tomé Fernandes, vendeiro</entidade>, pagam, de foro, pelos quatro chãos das casas construídas depois de <data>1584</data>, 1190 reis ao enfiteuta principal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo, e o «quinto ao enfiteuta dos <lugar>Quintos da Mitra</lugar>».
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Isabel Gonçalvez, viúva de Tomé Fernandes, vendeiro</entidade>, pagam por este «chão de casa», construída depois de <data>1577</data>, 200 reis ao enfiteuta principal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Mateus Gonçalves, sapateiro</entidade>, casado com <entidade tipo="pessoa">Maria Pereira</entidade>, pagam por esta casa, construída antes <data>1601</data>, 410 reis ao enfiteuta principal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo e 100 reis ao enfiteuta dos <lugar>Quintos da Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26, 27 e 28</número>
+                <enfiteuta>Lopo António de Vasconcelos</enfiteuta>
+                <desc>
+                    <para>
+                        Os herdeiros de <entidade tipo="pessoa">Francisco Gonçalves, cortador de carne</entidade>, casado com <entidade tipo="pessoa">Madalena Gonçalves</entidade>, pagam por dois chãos de casas, construídas depois de <data>1587</data>, 800 reis ao enfiteuta prinicpal do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo e 200 reis ao enfiteuta dos <lugar>Quintos da Mitra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29 e 30</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        O <entidade tipo="pessoa">Padre Marçal da Costa</entidade> paga por estas casas, construídas antes <data>1586</data>, 695 reis ao enfiteuta do prazo da casa nº 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>31 e 32</número>
+                <enfiteuta>Manuel Fernandes Lima</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Caetano de Passos Ferreira</entidade>, casado com <entidade tipo="pessoa">Ana de Oliveira</entidade>, herdeiro de seus pais, <entidade tipo="pessoa">António de Passos</entidade> e <entidade tipo="pessoa">Custódia Ferreira</entidade> paga à casa nº 3, pelo nº 31, 38 reis e pelo nº 32, 27 reis. 
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>33, 34, 35 e 36</número>
+                <enfiteuta>Mariana Josefa, solteira</enfiteuta>
+                <foro>400 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Estas casas foram construídas entre os anos de <data>1572</data> e <data>1583</data>, em terrenos do prazo da outra metade do campo da <lugar>Rua das Águas</lugar> ou do Caminho Novo.
+                    </para>
+                    <para>
+                        A casa nº 36 fica situada na esquina da cangosta que vai para <lugar norm="Campo e Calçada de Nossa Senhora a Branca">Nossa Senhora a Branca</lugar> (<lugar norm="Cangosta da Rua das Águas">cangosta da rua das Águas</lugar>), para onde tem frontaria.
+                    </para>
+                    <para>
+                        Pertencem, ainda, ao prazo da casa nº 33 os nº 37 a 42 da <lugar norm="Cangosta da Rua das Águas">cangosta da rua das Águas</lugar>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+        
+        <figura id="MRB-36-a">
+            <imagem path="../imagem/MRB-36-RuaDasAgoas-primeira.jpg"/>
+            <legenda>Rua das Águas - Poente.</legenda>
+        </figura>
+        <figura id="MRB-36-b">
+            <imagem path="../imagem/MRB-36-RuaDasAgoas-segunda.jpg"/>
+            <legenda>Rua das Águas - Nascente.</legenda>
+        </figura>
+    </corpo>
+</rua>

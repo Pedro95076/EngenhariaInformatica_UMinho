@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Cristiana%20Carvalho/Desktop/Publica%C3%A7%C3%A3o%20eletr%C3%B3nica/PROJETO%20FINAL/MRM-rua.xsd">
+    <meta>
+        <número>13</número>
+        <nome>Rua Pequena</nome>
+    </meta>
+    <corpo>
+        <para>
+            Como o nome diz é uma pequenina rua que ligava a <lugar>rua das Oucias</lugar> com a <lugar>travessa da rua do Forno para a do Poço</lugar>.
+        </para>
+        <para>
+            Respeitando o reticulado romano era mais uma das artérias do <lugar>bairro medieval</lugar> adjacente à <lugar>catedral</lugar>.
+        </para>
+        <para>
+            Na Idade Média era já pequena e permitia um melhor acesso ao <lugar>mercado da olaria</lugar>, então existente junto ao transepto da <lugar>Sé</lugar>. Por isso recebeu esse nome.
+        </para>
+        <para>
+            No séc. XVI, o célebre humanista <entidade tipo="pessoa">Diogo Teive</entidade> emprazou ao <entidade tipo="instituição">Cabido</entidade> a casa n.º 2, passando a ser conhecida por <lugar>rua do Teive</lugar>. Até que por volta de <data>1620</data> <entidade tipo="pessoa">Mateus Fernando Farto</entidade>, talvez senhor de forte importância política ou económica, veio para aqui viver, tanto bastando para ser conhecida pelo seu apelido.
+        </para>
+        <para>
+            No Mappa, contudo, aparece como <lugar>rua Pequena</lugar>. Sabemos ainda que talvez a partir do fim da Idade Média, e durante cerca de um século, também foi chamada de <lugar>rua Painsalvos</lugar>, por nela ter morado o <entidade tipo="pessoa">abade</entidade> da freguesia transmontana do mesmo nome.
+        </para>
+        <para>
+            Embora pequena, tem 3 edifícios notáveis: o prazo n.º 1, grande construção em pedra, com fachada bem organizada e um recuado em toda a extensão; o prazo n.º 2, casa com quase excesso de aberturas, (sem comparação com qualquer outra em todo o Mappa); e o prazo n.º 5, construção também em pedra, de 2 pisos, com mais um piso, no seu último vão Sul, quase semelhando uma torre.
+        </para>
+        <para>
+            Das 4 casas existentes quer no lado Nascente, quer no Poente, 3 e 4, respectivamente, são prazos do <entidade tipo="instituição">Cabido</entidade>.
+        </para>  
+        
+        <figura id="MRB-13-nascente">
+            <imagem path="../imagem/MRB-13-RuaPequena-Nascente.jpg"/>
+            <legenda>RuaPequena - vista nascente.</legenda>
+        </figura>
+        <figura id="MRB-13-poente">
+            <imagem path="../imagem/MRB-13-RuaPequena-Poente.jpg"/>
+            <legenda>RuaPequena - vista poente.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>
+                        Corresponde ao n° 8 da <lugar>Rua das Oussias</lugar>, para onde tem a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Francisco de Sousa Castro</enfiteuta>
+                <foro>875 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Prazo constituído por casa, quintal e palheiro. este incorporado em <data>1618</data> e pertencente ao
+                        n.º	1.
+                        
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>D. Filipa Maria de Melo</enfiteuta>
+                <foro>240 reis</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa dízima a Deus e com o n° 2 e, do sul, com casa foreira ao morgado de Real.  
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <desc>
+                    <para>
+                        Corresponde ao n° 7 da <lugar>travessa</lugar> que vai da <lugar>Rua do Poço</lugar> ou de <lugar>Santa Maria</lugar> para a do <lugar>Forno</lugar>, para onde tem frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Miguel Teodósio Fiuza de Sottomayor. viúvo de Amarante</enfiteuta>
+                <foro>320 reis e 1 capão</foro>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Lic. Paulo de Sousa de Magalhães</enfiteuta>
+                <foro>220 reis e 2 capões</foro>
+                <desc>
+                    <para>
+                        Este prazo encontra-se unido desde <data>1583</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Lic. Paulo de Sousa de Magalhães</enfiteuta>
+                <foro>220 reis e 2 capões</foro>
+                <desc>
+                    <para>
+                        Este prazo encontra-se unido desde <data>1583</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Francisca Teresa Petiz</enfiteuta>
+                <foro>70 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                        A enfiteuta foi herdeira do Reitor de Freitas,<entidade tipo="pessoa"> José Ferreira Petiz</entidade>. A casa foi construída, depois de <data>1587</data>, em pertenças do n.º 9 da <lugar>Rua do Poço</lugar> ou de <lugar>Santa Maria</lugar>. 
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 9 da <lugar>Rua das Oussias</lugar>, para onde tem a frontaria e serventia principais. Situa-se na esquina da <lugar>Rua Pequena</lugar> e <lugar>terreiro das Oussias</lugar>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

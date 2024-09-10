@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/Users/pedro/Desktop/Aula%208/MRB-rua.xsd">
+    <meta>
+        <número>29</número>
+        <nome>Rua do Beco</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-29-norte">
+            <imagem path="../imagem/MRB-29-Beco-Norte.png"/>
+            <legenda>Rua do Beco - Norte</legenda>
+        </figura>
+        <figura id="MRB-29-sul">
+            <imagem path="../imagem/MRB-29-Beco-Sul.png"/>
+            <legenda>Rua do Beco - Sul</legenda>
+        </figura>
+        <para>
+            Pequena rua, bastante ampla no <lugar>enfiamento da Cangosta de S.Sebastião</lugar>
+        </para>
+        <para>
+            Nada sabemos sobre esta artéria, de arrabalde, que em <data>1750</data> apresentava as
+            suas casas construídas um pouco a esmo, com dois pisos e janelas de portadas de madeira.
+        </para>
+        <para>
+            Com uma importância bem secundária na via da cidade - de notar a quantidade de árvores, 
+            dois muros em ruínas, etc. - veria essa importância ainda ser diminuída nos fins do <data>
+            séc. XVIII</data>, quando a medieval igreja de <lugar>Maximinos</lugar>, que então se 
+            localizava algures, sensivelmente no extremo Oeste desta rua, foi destruída e transferida 
+            para o local onde está actualmente. Em <data>1881-1884</data> com a abertura da <lugar>rua 
+            do Caires</lugar>, o <lugar>Beco</lugar> transformou-se num largo que se manteve, curiosamente
+            e a contra-senso, o topónimo.
+        </para>
+        <para>
+            Das 21 casas do lado Norte e 15 do Sul nenhuma era prazo do <entidade tipo="instituição">Cabido</entidade>.
+        </para>
+        
+        <lista-casas>
+            <casa>        
+                <número>-</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Não tem casas foreiras ao Cabido.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

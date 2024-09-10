@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../MRB-rua.xsd">
+    <meta>
+        <número>22</número>
+        <nome>Rua de Maximinos</nome>
+    </meta>
+    <corpo>
+        <para>Bastante larga para a época em que foi construída, ligava a
+            <lugar>praça do Pão</lugar> com a <lugar>Porta de Maximinos</lugar> ou de
+            <lugar>Nossa Senhora da Ajuda</lugar>, onde houve um altar com esta invocação e com
+            confraria existente desde <data>1613</data>, pelo menos.</para>
+        <para>Decalcando uma rua da cidade romana, a <lugar>rua de Maximinos</lugar> foi durante a
+            Idade Média, o mais importante local de comércio da cidade de Braga.</para>
+        <para>Local de residência dos burgueses, que certamente faziam o seu comércio no piso térreo
+            das casas que habitavam, recebeu deles a sua designação. Com o avançar dos tempos e a
+            transferência do comércio para a <lugar>rua do Souto</lugar>, mudou o seu nome para o de
+            Maximinos, apropriando-se do topónimo que pertencia à artéria por onde se
+            prolongava.</para>
+        <para>Em <data>1868</data> foi alargada a toda a extensão da fachada da Sé e
+            <lugar>praça do Pão</lugar> e englobou-as. Essa acção de «modernização» fora já
+            preparada com demolição da Torre da Nossa Senhora da Ajuda, em <data>1826</data>.</para>
+        <para>Após essas obras, traçadas com base na linha de fachadas do lado Norte, todas as casas
+            do lado oposto foram destruídas, não restando hoje nenhuma.</para>
+        <para>Em <data>1750</data>, conservava ainda bastantes edifícios de raiz medieval. No lado
+            Sul há duas casas notáveis de grandes dimensões (prazos 3, 4, 5 e 8), ostentando uma
+            delas uma pedra de armas. Mas muito mais interessante é o ritmo dos alçados, quase todos
+            de três pisos (com dois sobrados) e dois vãos, janelas bracarenses simples ou protegidas
+            por gelosias e, sobretudo, grandes aberturas no piso térreo, em toda a largura da
+            fachada, a permitir a existência de uma ampla sala para o comércio, que em
+            <data>1750</data> lhe devia andar arredio.</para>
+        <para>Algumas modernizações se notam; mas são apenas aplicações de varandas ou molduras de
+            pedra em portas ou janelas, que em nada tocaram na estrutura, mesmo exterior, dos
+            edifícios.</para>
+        <para>Das 20 casas do lado Norte e 16 do lado Sul, são prazos do Cabido 14 e 13,
+            respectivamente.</para>
+        <para>Desde <data>1925</data> que esta rua se designa por D. Paio Mendes, em homenagem à
+            acção dos Arcebispos na independência e formalçao de Portugal.</para>
+
+        <figura id="MRB-22-norte">
+            <imagem path="../imagem/MRB-22-RuaDeMaximinos-norte.jpg"/>
+            <legenda>Rua de Maximinos - norte.</legenda>
+        </figura>
+        <figura id="MRB-22-sul">
+            <imagem path="../imagem/MRB-22-RuaDeMaximinos-sul.jpg"/>
+            <legenda>Rua de Maximinos - sul.</legenda>
+        </figura>
+
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Senado da Câmara de Braga</enfiteuta>
+                <desc>
+                    <para>Corresponde ao n.º 26 da <lugar>Praça do Pão</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>João Batista</enfiteuta>
+                <foro>440 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>António Brreto de Meneses</enfiteuta>
+                <foro>860 reis e 4 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta é filho de <entidade tipo="pessoa">Pedro Barreto de
+                            Meneses</entidade> e de sua mulher <entidade tipo="pessoa">D. Maria
+                            Barreto</entidade>. Foram unidas em <data>1508</data>. A casa n.º 4 é de
+                        herdade dizíma a Deus e paga censo.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <foro>71 reis e meio (censo)</foro>
+                <desc>
+                    <para>O enfiteuta é filho de <entidade tipo="pessoa">Pedro Barreto de
+                            Meneses</entidade> e de sua mulher <entidade tipo="pessoa">D. Maria
+                            Barreto</entidade>. Foram unidas em <data>1508</data>. A casa n.º 4 é de
+                        herdade dizíma a Deus e paga censo.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>António Barreto de Meneses</enfiteuta>
+                <foro>730 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta é filho de <entidade tipo="pessoa">Pedro Barreto de
+                            Meneses</entidade> e de sua mulher <entidade tipo="pessoa">D. Maria
+                            Barreto</entidade>. Foram unidas em <data>1508</data>. A casa n.º 4 é de
+                        herdade dizíma a Deus e paga censo.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Domingos Ferreira, violeiro</enfiteuta>
+                <foro>800 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta comprou este prazo a <entidade tipo="pessoa">D. Maria Barreto
+                            de Meneses</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Miguel de Araújo Barreto</enfiteuta>
+                <foro>500 reis e 2 galinhas</foro>
+                <desc>
+                    <para>A casa pertenceu a <entidade tipo="pessoa">Pedro Gonçalves
+                            Álvares</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>D. Inácia Gomes da Costa</enfiteuta>
+                <foro>1200 reis, 2 capões e 2 galinhas</foro>
+                <desc>
+                    <para>A este prazo pertence o n.º 8 da <lugar>Rua das Chagas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Padre Manuel Pereira da Costa, cura de Argivai.</enfiteuta>
+                <foro>300 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>10</número>
+                <foro>13 reis e 5 pretos (de censo)</foro>
+                <desc>
+                    <para>O censo é pago por <entidade tipo="pessoa">Domingos de
+                        Oliveira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <foro>94 reis e 5 pretos (de censo)</foro>
+                <desc>
+                    <para>O censo é pago por <entidade tipo="pessoa">Domingos de
+                        Oliveira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Constantino Teixeira, cirgueiro, casado com Custódia de Sousa</enfiteuta>
+                <foro>650 reis e 4 galinhas</foro>
+                <desc>
+                    <para>Confronta, do nascente, com a <lugar norm="rua Verde">Rua Verde</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Alexandre de Oliveira</enfiteuta>
+                <foro>340 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta herdara esta casa de seu pai, <entidade tipo="pessoa">Pedro de
+                            Oliveira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Félix Francisco Braga, casado com Ana Lopes</enfiteuta>
+                <foro>300 reis e 2 capões</foro>
+                <desc>
+                    <para>Esta casa pertencia a <entidade tipo="pessoa">Lic. Francisco Gomes de
+                            Brito</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Manuel Álvares, sapateiro</enfiteuta>
+                <foro>345 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>José de Matos, mercador</enfiteuta>
+                <foro>350 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta herdara esta casa de seu sogro, <entidade tipo="pessoa">José
+                            de Oliveira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <foro>30 reis (de censo)</foro>
+                <desc>
+                    <para>A casa é foreira à comenda de Lomar. O censo é pago pelo <entidade
+                            tipo="pessoa">Padre Feliciano Barbosa</entidade>, congregado.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Os herdeiros do Lic. Alexandre Dias Rebelo</enfiteuta>
+                <foro>520 reis e 2 capões</foro>
+                <desc>
+                    <para>A casa possui, da parte poente, frontaria e serventia pela
+                        Vielinha.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Custódia Dantas, viúva de Domingos de Araújo, Batefolha</enfiteuta>
+                <foro>480 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Confronta, do nascente, com a casa dizíma a Deus.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Padre Manuel de Almeida</enfiteuta>
+                <foro>480 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta foi filho e herdeiro de <entidade tipo="pessoa">Domingos de
+                            Almeida</entidade>.</para>
+                    <para>Confronta, do nascente, com casa foreira à cororaria e, do poent, com casa
+                        dizíma a Deus.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <foro>16 reis e 8 pretos (de censo)</foro>
+                <desc>
+                    <para>Encontra-se unida, numa só morada, com uma casa foreira à
+                        cororaria.</para>
+                    <para>Confronta, do nascente, com a <lugar>Rua dos Sapateiros</lugar> e, do
+                        poente, com casa foreira à cororaria da <lugar>Sé de Braga</lugar>.</para>
+                    <para>O censo é pago por <entidade tipo="pessoa">João
+                        Teixeira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>Quitéria Maria</enfiteuta>
+                <foro>320 reis e 8 pretos (de censo)</foro>
+                <desc>
+                    <para>A enfiteuta é filha de <entidade tipo="pessoa">Custódio da
+                            Silva</entidade>, sapateiro, e de sua mulher, <entidade tipo="pessoa"
+                            >Paula Ribeiro</entidade>.</para>
+                    <para>Confronta, de poente, com casa dizíma a Deus e com casas do cabido e, do
+                        norte, com parte da mesma casa, foreira à cororaria.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta>José dos Reis</enfiteuta>
+                <foro>220 reis e 2 galinhas</foro>
+                <desc>
+                    <para>O enfiteuta foi filho e herdeiro de <entidade tipo="pessoa">José
+                            Machado</entidade>, sapateiro e de sua mulher, <entidade tipo="pessoa"
+                            >Catarina Pereira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <foro>81 reis (de censo)</foro>
+                <desc>
+                    <para>Confronta, do nascente, com casa de herdade dizíma a Deus.</para>
+                    <para>O censo é pago por <entidade tipo="pessoa">Marquesa
+                        Maria</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25</número>
+                <enfiteuta>Padre João Lopes, músico</enfiteuta>
+                <foro>430 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Confronta, do poente, com casa de herdade dizíma a Deus. Paga 45 reis de
+                        censo ao <entidade tipo="instituição">Hospital de S. Marcos</entidade> e 70
+                        reis à xonfraria de Santiago.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <enfiteuta>Padre Manuel de Matos</enfiteuta>
+                <foro>360 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Esta casa pertenceu a <entidade tipo="pessoa">Baltazar
+                            Fernandes</entidade>. Era do património do <entidade tipo="pessoa">Padre
+                            Manuel de Matos</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta>Manuel Gonçalves, sapateiro</enfiteuta>
+                <foro>360 reis e 1 capão</foro>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Padre João Lopes</enfiteuta>
+                <foro>420 reis e 1 capão</foro>
+                <desc>
+                    <para>O enfiteuta foi filho de <entidade tipo="pessoa">José Lopes</entidade>,
+                        armador. Entre os anos de <data>1528</data> e <data>1633</data> esteve unida
+                        à casa n.º 27.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Domingos Francisco, sapateiro</enfiteuta>
+                <foro>450 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Esta casa fora de <entidade tipo="pessoa">Francisco
+                        Ferreira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <enfiteuta>João Batista, sapateiro, casado com Francisca Pereira.</enfiteuta>
+                <foro>250 reis e 1 galinha</foro>
+            </casa>
+            <casa>
+                <número>31 e 32</número>
+                <enfiteuta>O irmão do Lic. Francisco Ferreira de Araújo</enfiteuta>
+                <foro>780 reis e 4 galinhas</foro>
+                <desc>
+                    <para>Encontram-se unidas, num só prazo, desde o ano de
+                        <data>1680</data>.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="../MRB-rua.xsd">
+    <meta>
+        <número>21</número>
+        <nome>Rua Verde</nome>
+    </meta>
+    <corpo>
+        <para>Longa rua, com início no <lugar>postigo de S. Sebastião</lugar> e fim na
+            <lugar>rua de Maximinos</lugar>. O seu traçado prolongava-se, porém, até à
+            <lugar>Porta de S. Francisco</lugar>, através das
+            <lugar>ruas dos Sapateiros e do Campo</lugar>.</para>
+        <para>Decalcando, uma rua da cidade romana, era esta a mais ocidental das artérias
+            intra-muros da velha urbe medieval.</para>
+        <para>Ponto privilegiado nas ligações com <lugar norm="rua de Maximinos">Maximinos</lugar> e a
+            <lugar>capela de S. Sebastião</lugar>, o seu traçado foi no séc. XIX (inícios?)
+            violentamente rompido com a continuação da rua das travessas, que, abrindo uma brecha
+            nas muralhas, a ligou com o <lugar>campo de S. Miguel o Anjo</lugar>; no fim do mesmo
+            século, por volta de <data>1880</data>, foi alargada, sendo destruídas todas as casas,
+            excepto uma, de dois pisos, no seu extremo Norte, recebendo então o nome de D. Frei
+            Caetano Brandão.</para>
+        <para>Em <data>1750</data> apresentava-se dividida em duas: uma, a Norte da
+            <lugar>rua das Travessas</lugar> com o nome de rua Verde; outra, a Sul, chamada somente
+            <lugar>Couto do Arvoredo</lugar>.</para>
+        <para>O <lugar>Couto do Arvoredo</lugar> estava parcialmente construído (ainda hoje, aliás,
+            do lado Este conserva os quintais; e os do Oeste só nos anos 60 e 70 do nosso séc. foram
+            ocupados com habitações), com casas simples, de 2 pisos, de um tipo mais frequente fora
+            de muralhas, nos arrabaldes, sem varandas e com as janelas apenas tapadas por portas de
+            madeira.</para>
+        <para>A <lugar>rua Verde</lugar>, embora apresente um tipo de casa também muito simples, e
+            de contrução sem dúvida arcaica, estava já em <data>1750</data> toda construída. Mantém,
+            todas as casas apenas com dois pisos (excepto duas), com aberturas predominantemente
+            tapadas por portadas de madeira, raríssimas gelosias e varandas e algumas casas com
+            janela do tipo bracarense. Muito curiosos são os primeiros cinco edifícios do lado
+            Nascente e uma boa parte dos do Poente: são geralmente de dois vãos, 2 pisos, porta no
+            rés do chão e 2 janelas no andar, com um ritmo bem marcado e, sobretudo, com o sobrado
+            muito pronunciado, mostrando bem a fragilidade dos seus materiais construtivos.</para>
+        <para>Das 24 casas do lado Nascente e 33 do Poente, 3 e 13 são, respectivamente, prazos do
+            Cabido.</para>
+        
+        <figura id="MRB-21-nascente">
+            <imagem path="../imagem/MRB-21-RuaVerde-nascente.jpg"/>
+            <legenda>Rua Verde - nascente.</legenda>
+        </figura>
+        <figura id="MRB-21-poente">
+            <imagem path="../imagem/MRB-21-RuaVerde-poente.jpg"/>
+            <legenda>Rua Verde - poente.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Maria Catarina do Céu, religiosa do Salvador</enfiteuta>
+                <foro>170 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Confronta, do sul, com casa foreira à cororaria.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Faustina Pereira</enfiteuta>
+                <foro>180 reis e 1 galinha</foro>
+                <desc>
+                    <para>A enfiteuta é filha de <entidade tipo="pessoa">Francisco
+                            Rodrigues</entidade>, torneiro.</para>
+                    <para>Confronta, do norte, com casa foreira à cororaria. Entre os anos de
+                        <data>1670</data> e <data>1724</data> esteve unida ao n.º 3.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Constantino Teixeira</enfiteuta>
+                <foro>175 reis e 1 galinha</foro>
+            </casa>
+            <casa>
+                <número>4</número>
+                <desc>
+                    <para>Corresponde, desde o ano <data>1627</data>, à casa n.º 12 da
+                        <lugar>Rua de St.º António</lugar>. Encontra-se situada defronte do
+                        <lugar>postigo de S. Sebastião</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5, 6 e 7</número>
+                <enfiteuta>António Pereira, sapateiro</enfiteuta>
+                <foro>100 reis e 1 galinha</foro>
+                <desc>
+                    <para>O enfiteuta é filho de <entidade tipo="pessoa">Teresa da Costa</entidade>
+                        e de seu marido <entidade tipo="pessoa">António Pereira</entidade>.</para>
+                    <para>Encontram-se situadas junto ao <lugar>postigo de S. Sebastião</lugar> e
+                        foram construídas, antes de <data>1563</data>, no
+                        <lugar>«lugar do Sabugal»</lugar>, pertencente ao n.º 12 da
+                        <lugar>Rua de Sto. António.</lugar></para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Teresa da Costa, viúva de António Pereira</enfiteuta>
+                <foro>2 galinhas</foro>
+                <desc>
+                    <para>Quintal denominado do Sabugal, que foi de <entidade tipo="pessoa">José de
+                            Araújo Teixeira</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9 e 10</número>
+                <enfiteuta>Salvador Pinto, guarda da Sé</enfiteuta>
+                <foro>220 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Estão unidas, num só prazo, desde o ano de <data>1549</data>. A casa n.º
+                        9, confronta, do sul com casa foreira ao <entidade tipo="instituição"
+                            >Hospital de S. Marcos</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <desc>
+                    <para>Paga pensão à obra da Sé. São enfiteutas os herdeiros de <entidade
+                            tipo="pessoa">Maria Ribeiro</entidade>, que pagam 80 reis de
+                        foro.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>José Pereira, sapateiro</enfiteuta>
+                <foro>95 reis e 1 galinha</foro>
+                <desc>
+                    <para>O enfiteuta foi dotado com esta casa.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Manuel da Costa Vasconcelos</enfiteuta>
+                <foro>320 reis e 7 galinhas</foro>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Padre Matias de Lemos</enfiteuta>
+                <foro>30 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Entre os anos de <data>1609</data> e <data>1640</data> pertenceu ao n.º
+                        13.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15 e 16</número>
+                <enfiteuta>Manuel da Costa Vasconcelos</enfiteuta>
+                <foro>265 reis e 2 galinhas</foro>
+            </casa>
+            <casa>
+                <número>17 e 18</número>
+                <enfiteuta>Os herdeiros de Duarte Mendes de Oliveira</enfiteuta>
+                <foro>1 galinha</foro>
+                <desc>
+                    <para>Os enfiteuras pagavam um foro muito pequeno, dado que as casas tinham sido
+                        consideradas arruinadas no último emprazamento, etectuado no ano de
+                        <data>1673</data>.</para>
+                    <para>Confrontam, do Sul, com casas foreiras ao <entidade tipo="instituição"
+                            >Hospital de S. Marcos</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Manuel Vieira</enfiteuta>
+                <foro>225 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Estas casas tinham pertencido a <entidade tipo="pessoa">Isabel da
+                            Silva</entidade> e, anteriormente, a <entidade tipo="pessoa">Julião
+                            Lopes</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <desc>
+                    <para>Corresponde ao n.º 12 da <lugar norm="rua de Maximinos">Rua de Maximinos</lugar>, para onde tem a
+                        fronteira e serventia principais.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

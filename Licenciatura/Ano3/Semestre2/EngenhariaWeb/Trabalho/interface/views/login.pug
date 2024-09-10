@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+
+  // Header
+  header#home(style='width: 100vw; height: 800px; overflow: hidden; position: relative;')
+
+    img.header-image(src='/images/defaults/portugal-monte-espinho-braga-norte.jpg', alt='Header Image', style='width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;')
+    .w3-display-middle.w3-center
+      h1.w3-xxlarge.w3-text-white.w3-padding.w3-black.w3-opacity-min Login
+      form(name="myLogin" action="/login" method="post" class="w3-container w3-margin-top")
+        label.w3-text-black.w3-padding.w3-white.w3-opacity-min Nome de Utilizador 
+        p
+        input.w3-input.w3-margin-bottom.w3-animate-input(type='text', name='username', required)
+        label.w3-text-black.w3-padding.w3-white.w3-opacity-min Password
+        p
+        input.w3-input.w3-margin-bottom.w3-animate-input(type='password', name='password', required)
+        
+        button.w3-button.w3-block.w3-light-gray.w3-margin-top.w3-round-large(type='submit' style="text-align:center;") Login
+        a(href="/registo").w3-text-white Registar-se
+
+  // Footer
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}

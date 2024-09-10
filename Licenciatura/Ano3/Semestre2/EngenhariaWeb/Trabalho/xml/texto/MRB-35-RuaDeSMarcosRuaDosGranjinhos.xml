@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/tiago/OneDrive/Documents/workspace_xml/trabalhofinal/MRB-rua.xsd">
+    <meta>
+        <número>35</número>
+        <nome>Rua de S. Marcos</nome>
+    </meta>
+    <corpo>
+        <para>
+            Envolvia muralha, do lado Este, e ligava o exterior da <lugar>Porta do Souto</lugar>ao <lugar>campo dos Remédios</lugar>.
+        </para>
+        <para>
+            Aberta no tempo de <entidade tipo="pessoa">D. Diogo de Sousa</entidade> rapidamente se encheu de casas no alçado Nascente; o <entidade tipo="instituição">Cabido</entidade>, que aqui tem aforada apenas uma casa e o <entidade tipo="instituição">convento dos Remédios</entidade>, era já senhor de um prazo em <data>1515</data>. O lado Poente, que encostava à muralha, não tinha nenhuma edificação em <data>1594</data>, segundo o mapa de Braunio.
+        </para>
+        <para>
+            Esta rua, onde existe o último exemplar completo de casa com gelosias, tão vulgar nas artérias principais de <lugar>Braga</lugar> em <data>1750</data>, não está representada no Mappa porque pertencia à <entidade tipo="instituição">Câmara</entidade>. E é pena porque, para além da imagem que nos transmitiria, nos poderia dar muitos elementos que agora só documentalmente poderemos obter. Uma última informação fica: no último quartel do séc. XIX agrupavam-se aqui as principais oficinas de escultores santeiros da cidade. Seria também assim no séc. XVIII?
+        </para>
+        <para>
+            Mantém ainda hoje o mesmo nome.
+        </para>     
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>António de Araújo Ferreira, alfaiate</enfiteuta>
+                <foro>70 reis</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa foreira à <lugar>capela de Sta. Luzia</lugar>, ou <lugar>morgado de Besteiros</lugar>, e, do sul, com o nº 2 (<lugar>Convento dos Remédios</lugar>). Foi construída, juntamente com os nº 2, 3 e 4, depois do ano de <data>1515</data>, no local onde existia uma vinha.
+                    </para>                      
+                </desc>
+            </casa>
+            <casa>
+                <número>2, 3 e 4</número>
+                <desc>
+                    <para>
+                        Através de um contrato de escambo, realizado no ano de <data>1544</data>, o cabido cedeu a <entidade tipo="pessoa">D. André de Torquemada, Bispo de Dume</entidade>, parte dos terrenos das casas existentes neste local, a fim de se erirgir o <lugar>convento de Nossa Senhora dos Remédios</lugar>. A portaria deste convento foi, assim, construída em parte daqueles quintais.
+                    </para>
+                    <para>
+                        Posteriormente, no ano de <data>1734</data>, o cabido escambou as casas, que foram demolidas, sendo o terreno integrado no referido convento. Todas as casas estavam incorporadas no nº 1, da qual se separaram através de escrituras de prazo realizadas em <data>1630</data>, <data>1642</data> e <data>1714</data>, referentes às casas nº 4, 3 e 2, respectivamente.
+                    </para>
+                </desc>
+            </casa>         
+        </lista-casas>
+        
+        <figura id="MRB3-5-a">
+            <imagem path="../imagem/MRB-35-RuaDeSMarcosRuaDosGranjinhos-primeira.jpg"/>
+            <legenda>Rua de São Marcos - Nascente</legenda>
+        </figura>
+        
+        <nome>Rua dos Granjinhos</nome>
+        <para>
+            Mandada abrir por <entidade tipo="pessoa">D. Diogo de Sousa</entidade> em terreno acidentado, estabelecia uma ligação rápida entre a <lugar>porta de S. João</lugar> e a <lugar>rua da Ponte de Guimarães</lugar>. Aquele arcebispo instalou também aqui uma fonte em <data>1509</data>.
+        </para>
+        <para>
+            Aberta em plena zona rural, de certo modo nas traseiras do <lugar>hospital de S. Marcos</lugar>, esta artéria mostra muitas casas do tipo de porta ladeada de janela, no piso térreo. Uma única habitação aparece aqui bem cuidada, com «molduras» em pedra nas portas e janelas: todas as outras, são simples e de pedra – excepto a do prazo nº 1 - mais ou menos bem tratadas, avultando 3 com varandas.
+        </para>
+        <para>
+            De salientar ainda que quase todas as janelas são do tipo bracarense.
+        </para>
+        <para>
+            Tendo no Mappa apenas desenhado o seu lado Nascente, tinha então 32 casas, 9 das quais eram prazos do <entidade tipo="instituição">Cabido</entidade>.
+        </para>
+        <para>
+            A <lugar norm="Rua dos Granjinhos">rua dos Granjinhos</lugar> corresponde hoje à metade Sul das ruas de <lugar norm="Rua de S. Lázaro">S. Lázaro</lugar> e dos <lugar norm="Rua dos Granjinhos">Granjinhos</lugar>.
+        </para>
+        
+       <lista-casas>
+           <casa>
+               <número>1</número>
+               <enfiteuta>Manuel Fernandes da Silva, mestre de pedraria</enfiteuta>
+               <foro>480 reis e 4 galinhas</foro>
+               <desc>
+                   <para>
+                       Faziam parte do prazo as vertentes das águas do <lugar>Hospital de S. Marcos</lugar>.
+                   </para>
+                   <para>
+                       Os de nº 1 a 6 foram construídos em <data>1508</data>, no local onde existia uma vinha. No  meio dos quintais das casas nº 1 e 2 encontra-se um caminho de serventia de «terra encapelada», ou seja, com encargo de missas em <lugar norm="Campo e Calçada de Nossa Senhoora a Branca ">Nossa Senhora a Branca</lugar> e em <lugar>S. João do Souto</lugar>.
+                   </para>
+                   <para>
+                       O nº 1 confronta, do norte, com a <lugar>cangosta da Palmatória</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>2 e 3</número>
+               <enfiteuta>Manuel Fernandes da Silva, mestre de pedraria</enfiteuta>
+               <foro>40 reis</foro>
+           </casa>
+           <casa>
+               <número>4, 5 e 6</número>
+               <enfiteuta>Manuel Fernandes da Silva, mestre de pedraria</enfiteuta>
+               <foro>150 reis e 1 galinha</foro>
+               <desc>
+                   <para>
+                       O nº 6 confronta, do sul, com casa de herdade dízima a Deus.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>7</número>
+               <enfiteuta>Os herdeiros de João Marques, da Rua de S. Marcos, casado com Catarina de Araújo</enfiteuta>
+               <foro>160 reis e 2 galinhas</foro>
+               <desc>
+                   <para>
+                       Leiras situadas nas <lugar>hortas dos Granginhos</lugar>, abaixo da <lugar>Fonte do Ídolo</lugar>, e nas <lugar>Hortas de S. Marcos</lugar>, atrás da <lugar>Fonte de S. Marcos</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>8</número>
+               <desc>
+                   <para>
+                        Quintal da casa nº 25 da <lugar>Rua de S. Lázaro</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>9 e 10</número>
+               <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+               <desc>
+                   <para>
+                        O <entidade tipo="pessoa">Padre António Ferreira Torres</entidade> paga de foro, 202 reis ao nº 42 da <lugar>Rua de S. Lázaro</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>11</número>
+               <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+               <desc>
+                   <para>
+                       <entidade tipo="pessoa">Mariana Dias, viúva</entidade> paga 305 reis ao nº 42 da <lugar>Rua de S. Lázaro</lugar>.
+                   </para>
+               </desc>
+           </casa>
+           <casa>
+               <número>12</número>
+               <enfiteuta>Pedro Gomes de Basto, c.c. Maria de Magalhães</enfiteuta>
+               <desc>
+                   <para>
+                       O <entidade tipo="pessoa">Padre José Ferreira, vigário de Covas</entidade>, paga 100 reis, ao nº 42 da <lugar>Rua de S. Lázaro</lugar>.
+                   </para>
+                   <para>
+                       Confronta, do sul, com o <lugar>terreiro de S. Lázaro</lugar> e, do poente, com a <lugar>Rua dos Granginhos</lugar>.
+                   </para>
+               </desc>
+           </casa>         
+       </lista-casas>
+        
+        <figura id="MRB-35-b">
+            <imagem path="../imagem/MRB-35-RuaDeSMarcosRuaDosGranjinhos-segunda.jpg"/>
+            <legenda>Rua dos Granjinhos - Nascente</legenda>
+        </figura>
+        
+    </corpo>
+</rua>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>2</número>
+        <nome>Rua Nova</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-02-norte">
+            <imagem path="../imagem/MRB-02-RuaNova-norte.png"/>
+            <legenda>Rua Nova - vista norte. </legenda>
+        </figura>
+        <figura id="MRB-02-sul">
+            <imagem path="../imagem/MRB-02-RuaNova-sul.png"/>
+            <legenda>Rua Nova - vista sul. </legenda>
+        </figura>
+        <para>
+            Eixo fundamental da cidade, na sequencia da <lugar>rua do Souto</lugar>, define com ela a metade Norte e a metade Sul de <lugar>Braga</lugar>.</para>
+        <para>Alargada no tempo de <entidade tipo="pessoa">D. Diogo de Sousa</entidade>, 
+            ligava a <lugar>rua do Souto</lugar> com o <lugar>Campo das Hortas</lugar>, através de uma abertura, feita nessa data na muralha, a <lugar>Porta Nova</lugar>. Esta porta viria a ser alterada na sua 
+            arquitectura, em <data>1772</data>, segundo um desenho atribuído a <entidade tipo="pessoa">André Soares</entidade>.</para>
+           <para>Rua de primordial importancia, nela se situava, de Este para Oeste, a <lugar>igreja da Misericórdia</lugar>, 
+            a <lugar>casa brasonada de familiares de D. Jorge da Costa</lugar>,<entidade tipo="pessoa">cardeal de Alpedrinha</entidade> e uma fonte (aberta por <entidade tipo="pessoa">D. Diogo de Sousa</entidade> e reconstruida por <entidade tipo="pessoa">D. Frei Agostinho de Jesus</entidade>).</para>
+            <para>Mais importante ainda e o facto de ser por esta rua que os novos Arcebispos faziam a sua entrada solene na cidade sempre corn grande pompa e festejos.</para> 
+            <para>0 Mappa mostra-nos uma rua repleta de gelosias, uma forma de fechar as janelas e portas de varandas muito comuns (das casas da burguesia comercial?)-,bastantes 
+            edifícios de três pisos e algumas mesmo de quatro; e muitas com varandas.</para>
+            <para>No extremo so ficava um pequeno mercado coberto, a <lugar>Pracinha</lugar>, espaço aberto tambem por 
+                <entidade tipo="pessoa">D. Diogo de Sousa</entidade>, que ao longo dos tempos, e ate <data>1750</data>, teve os nomes de <lugar>praça da Hortalice</lugar>, <lugar>praça do Pescado</lugar> e <lugar>praça do Pão</lugar>, designações que mostram bem a 
+            actividade economica que nela se praticava.</para>
+            <para>Uma significativa perda de importância comercial e social deverá ter acontecido a partir da data de mudança do <lugar>centro 
+                comercial da cidade</lugar>, da zona da <lugar>Sé</lugar> para a da <lugar>Arcada</lugar>.</para>
+            <para>A <lugar>rua Nova</lugar> corresponde hoje exactamente à <lugar>rua de D. Diogo de Sousa</lugar>; a <lugar>Pracinha</lugar> mantém também o tradicional 
+            sentido toponímico, com o nome de <lugar>praça Velha</lugar>. Com 27 casas de cada lado pertenciam ao <entidade tipo="instituição">Cabido</entidade> 13 do lado Norte e 1 do lado Sul.</para>
+            <para>Hoje esta rua mantém ainda muitas 
+            das casas que apresentava em <data>1750</data>. As que foram alteradas correspondem, porém, a uma tipologia de pisos e aberturas de fachada semelhantes; só as gelosias 
+            desapareceram integralmente. A fonte foi tapada em finais do seculo passado.</para> 
+            <para>A <lugar>Pracinha</lugar> viu os seus edifícios crescer em altura, sobretudo do lado Este e o mercado 
+            coberto foi retirado em data que desconhecemos.</para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>É morada dos Sacristãos da <lugar>Sé</lugar>. Parte desta casa pertence à obra da <lugar>Sé</lugar> e a restante
+                à <entidade tipo="instituição">Irmandade da Misericórdia</entidade>. A parte da obra da <lugar>Sé</lugar> confronta, de nascente, com casas da dita Irmandade (antigas
+                casas foreiras à <lugar>Capela da senhora da Glória</lugar>) e, de poente, com a casa nº2. O prazo
+                era constituído por casa, com ênxido ao redor da <lugar>capela da Senhora da Piedade de Jesus da Misericórdia.</lugar></para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>João Gomes da Cruz, ourives, e sua mulher, Angélica Maria de Araújo</enfiteuta>
+                <foro>120 reis e 1 galinha</foro>
+                
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Rosa Vitória, viúva de João da Silva</enfiteuta>
+                <foro>70 reis e 2 galinhas</foro>
+               
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Manuel Pereira Tadim</enfiteuta>
+                <foro> 50 reis e 1 galinha</foro>
+                <desc><para>Confronta, de poente, com casa que se situa nos <lugar>antigos açouges</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Teresa Tomásia, viúva de Agostinho Marques da Silva, ourives.</enfiteuta>
+                <foro>200 reais e 2 galinhas</foro>
+                <desc><para> A casa nº6 foi construída depois do ano de <data>1543</data>. Desde o ano de <data>1644</data> que as casas nº7 e 8 da <lugar>Rua dos Açougues Velhos</lugar>, por baixo do nº6.Foi
+                construída em <data>1543</data>, em pertenças do prazo da casa nº5. No ano de <data>1641</data> foram-lhe unidas as traseiras do nº5 da <lugar>Rua dos Açougues Velhos</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Teresa Tomásia, viúva de Agostinho Marques da Silva, ourives.</enfiteuta>
+                <foro>50 reis e 1 galinha</foro>
+                <desc><para> A casa nº6 foi construída depois do ano de <data>1543</data>. Desde o ano de <data>1644</data> que as casas nº7 e 8 da <lugar>Rua dos Açougues Velhos</lugar>, por baixo do nº6.Foi
+                    construída em <data>1543</data>, em pertenças do prazo da casa nº5. No ano de <data>1641</data> foram-lhe unidas as traseiras do nº5 da <lugar>Rua dos Açougues Velhos</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>António Fernandes Veloso, ourives de prata, e sua mulher, Assunção Vieira</enfiteuta>
+                <foro>60 reis e 1 galinha</foro>
+                 <desc><para>Confronta, de poente, com casa for. ao morgado de <lugar>Real</lugar>.Possui uma porta de serventia para a <lugar>Rua dos Açougues Velhos</lugar>, por baixo do nº6.Foi construída em <data>1543</data>
+                 , em pertenças do prazo da casa nº5.No ano de <data>1641</data> foram-lhe unidas as traseiras do nº5 da <lugar>Rua dos Açougues Velhos</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta> Vid. casa nº32, Rua de Maximinos(rua nº22).</enfiteuta>
+                <foro></foro>
+                <desc><para>Foi construída, depoisde <data>1707</data>, no lugar de uma cozinha pertencente ao nº10, ao qual paga, de pensão ou foro, 60 reis. Confronta, do nascente, com o nº8 e , de poente, com parte da casa nº10. É subenfiteuta <entidade tipo="pessoa">Bento de Sá</entidade>, casado com <entidade tipo="pessoa"> Francisca da Silva</entidade> .</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Vid. casa nº10.</enfiteuta>
+                <foro></foro>
+                <desc><para>Foi construída depois de <data>1725</data>, no lugar de uma cozinha pertencente ao nº10, ao qual paga, de pensão ou foro, 60 reis.Confronta, do nascente, com o nº8 e, de poente, com parte da casa nº10. É subenfiteuta <entidade tipo="pessoa">Bento de Sá</entidade>, casado com <entidade tipo="pessoa">Francisca da Silva</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Luísa da Rocha</enfiteuta>
+                <foro>260 reis e ...galinhas</foro>
+                <desc><para>Parte desta casa é foreira à <lugar>Mitra</lugar>.</para>
+                <para>Confronta, de nascente, com a parte da <lugar>Mitra</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Lic.Custódio de Azevedo Proença</enfiteuta>
+                <foro>340 reis e galinhas</foro>
+                <desc><para>Encontram-se unidas desde o ano de <data>1692</data></para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Lic.Custódio de Azevedo Proença</enfiteuta>
+                <foro>420 reis e 2 galinhas</foro>
+                <desc><para>Encontram-se unidas desde o ano de <data>1692</data></para></desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Lic. Henrique Ferreira Carmo</enfiteuta>
+                <foro>300 reis e 2 galinhas</foro>
+                <desc><para>Confronta, de poente, com a <lugar>Rua dos Sapateiros</lugar>. </para></desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Vid. casa nº1 da Rua do Campo(rua nº1).</enfiteuta>
+                <foro></foro>
+                <desc><para>Foi construída, depois do ano de <data>1719</data>, numa parte da casa nº15 e no lugar de uma cozinha do nº1 da <lugar>Rua do Campo</lugar>, às quais paga, de pensão ou foro, respetivamente, 200 reis e 1 galinha, e 110 reis. São subenfiteutas <entidade tipo="pessoa">André Carvalho</entidade>, tratante, e sua mulher, <entidade tipo="pessoa">Luisa da Costa</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <desc><para>Corresponde ao nº1 da <lugar>Rua do Campo</lugar>, para onde se tem a fronteira e serventia principais.A frontaria que dá para a <lugar>Rua Nova de Sousa</lugar> é foreira, à comenda de <lugar>S. Pedro de Merelim</lugar>.</para></desc>
+            </casa>
+        </lista-casas>
+        
+    </corpo>
+</rua>

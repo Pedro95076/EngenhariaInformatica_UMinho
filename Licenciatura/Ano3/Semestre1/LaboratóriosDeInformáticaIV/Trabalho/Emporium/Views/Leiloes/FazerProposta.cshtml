@@ -1,0 +1,20 @@
+@model Leilao
+
+@{
+    ViewData["Title"] = "Fazer Proposta";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Fazer Proposta </h1>
+    <h1 class="display-4"> Nome: @Model.Produto </h1>
+    <h1 class="display-4"> Valor da última licitação: @Model.Valor </h1>
+    
+</div>
+
+<form method="post" action="/Leiloes/atualizarValor">
+    <input type="number" name="Valor" />
+    <input hidden name="idLeilao" value=@Model.Id />
+    <input type="submit" value="Licitar" />
+    
+</form>
+<h1 class="display-4"> Data: @Model.Data </h1>

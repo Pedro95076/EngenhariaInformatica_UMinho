@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>5</número>
+        <nome>Rua das Oucias</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-05">
+            <imagem path="../imagem/MRB-05-RuaDasOucias.png"/>
+            <legenda>Rua das Oucias.</legenda>
+        </figura>
+        
+        <para>
+            Tortuosa rua que contornava as traseiras e fachada lateral Sul da <lugar>Sé</lugar>.</para>
+        <para>
+            Longa e atribulada história tem esta via, que, no espaço curto, quase de notícia, como convém a esta edição, não pode ser aqui contada. </para>
+        <para>   
+            Formada, naturalmente, pelo isolamento que os monumentos religiosos sempre têm, as suas casas foram lentamente surgindo. </para> 
+        <para>
+            No ponto de encontro desta rua com a <lugar>rua do Souto </lugar>desembocava o «cano» que, vindo de lugar desconhecido, abastecia a principal fonte da cidade medieval,
+            a <lugar>fonte de S. Geraldo</lugar>, que por aqui se deveria localizar. Junto, no local onde está a <lugar>Capela da Glória</lugar>, existiu a <lugar>casa do Conselho Municipal</lugar> demolida para 
+            dar lugar àquela capela.</para>
+        <para>Com <entidade tipo="pessoa">D. Diogo de Sousa</entidade>, em 1509, a <lugar>capela mor da Sé</lugar> foi profundamente alterada, e, embora não tenha avançado sobre os alicerces da velha 
+            construção medieval, deu-lhe outra leveza, que o manuelino, nos seus rendilhados, sempre tem. Poucos anos após o mesmo arcebispo mandou abrir a <lugar>rua de S. João </lugar>,
+            permitindo uma ligação directa com a <lugar>Porta de S. João</lugar>.</para>
+        <para>No pequeno «rexio» existente do <lugar>lado Sul da Sé, entre o braço do transepto e a fachada</lugar>, existiu, na Idade Média,
+            uma feira de olarias. </para>
+        <para>Toda esta parte foi violentamente destruída nos anos quarenta do nosso século, para «limpar esta zona socialmente tão degradada» criando-se o <lugar>Rocio 
+            da Sé</lugar>. E na sequência dessa obra de «limpeza» constroem-se, em «estilo Português Suave», o <lugar>edifício do Tribunal do Trabalho/Delegação Escolar</lugar> e um outro, particular; e, 
+            passados vinte anos, foi destruído um grande e nobre edifício setecentista, para se construir a <lugar>Residência Académica</lugar>.</para> 
+        <para>Hoje a rua conserva todos os seus belíssimos edifícios na zona 
+            correspondente à <lugar>rua de Nossa Senhora do Leite</lugar>. Na parte Sul toda a malha urbanística e escala arquitectónica desapareceu com a introdução do novo e amplo <lugar>Rocio da Sé</lugar>, que, no Mappa
+            apenas conserva uma casa. </para>
+        <para>Das 15 casas existentes, 12 eram prazos do Cabido.</para>
+        <para>A designação de Oucias (e aparecem também as designações de Ussias e Adussias), 
+            será talvez uma corrupção de ousia, isto é capela-mor. E a de <entidade tipo="pessoa">Nossa Senhora do Leite</entidade> é devida à belíssima imagem, da <lugar>escola coimbrã</lugar> do séc. XVI, que foi oferecida por <entidade tipo="pessoa">D. Diogo de Sousa </entidade>.
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta></enfiteuta>
+                <foro>38 reis e 6 pretos (de censo)</foro>
+                <desc>
+                    <para>A casa é foreira aos Padres coreiros. O censo é pago por <entidade tipo="pessoa">Domingos José de Melo.</entidade></para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Corresponde ao nº1 da <lugar>Rua de S.João</lugar>, para onde tem a frontaria e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>3 e 4</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Corresponde ao nº 11 da <lugar>Rua de S. João</lugar>, para onde tem a frontaria e serventia principais. 
+            </para>
+                </desc>
+            </casa>
+            
+           
+            <casa>
+                <número>5</número>
+                <enfiteuta>Custódio Rodrigues, boticário </enfiteuta>
+                <foro> 440 reis e 2 galinhas</foro>
+                <desc><para>Confronta, do nascente, com <lugar>casa de herdade dízima a Deus</lugar>. Foi unida, em <data>1621</data>, à casa nº 6.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>6</número>
+                <enfiteuta>Custódio Rodrigues, boticário</enfiteuta>
+                <foro>345 reis e 2 galinhas</foro>
+                <desc><para>Confronta, do nascente, com casa de herdade dízima a Deus. Foi unida, em <data>1621</data>, à casa nº 6.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta></enfiteuta>
+                <foro>160 reis (de censo)</foro>
+                <desc><para>Confronta, do poente, com o <lugar>Terreiro das Oussias</lugar>. <entidade tipo="pessoa">António Xavier Rebelo</entidade>, tercenário, paga de censo 160 reis.    </para></desc>
+            </casa>
+            
+            <casa>
+                <número>8</número>
+                <enfiteuta> Dr. Manuel José Brandão</enfiteuta>
+                <foro>700 reis e 2 galinhas</foro>
+                <desc><para>O enfiteuta possuia esta casa por sucessão de <entidade tipo="pessoa">Frutuoso Brandão Pereira</entidade> e de <entidade tipo="pessoa">Maria Josefa da Costa,</entidade> sua mulher. Confronta, do sul, com o nº 2 da <lugar>Rua Pequena.</lugar></para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Confronta, do norte, com o <lugar>Terreiro das Oussias</lugar>; do sul, com o nº 8, da <lugar>Rua Pequena</lugar>; do nascente, com a mesma <lugar>Rua Pequena</lugar> e, 
+                    do poente, com quintal de uma casa da <lugar>Rua de Sta. Maria ou do Poço</lugar>. </para>
+                    <para>Foi demolida, depois do ano de <data>1750</data>, "para a obra da <lugar>sacristia da Sé</lugar>,
+                    por conta da fábrica da mesma Sé".</para></desc>
+            </casa>
+            <casa>
+                <número>10 e 11</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para> Não aparecem desenhadas no Mapa por terem sido demolidas "para a obra da <lugar>sacristia da Sé"</lugar>. A casa nº 10 situava-se no canto desta rua (parte nascente) e confrontava do norte, defronte da Sé, com a <lugar>Rua das Oussias</lugar> e, do nascente com o caminho que se dirigia das Oussias para a <lugar>Rua Pequena</lugar>. A casa nº 11 confronta, do nascente, com a nº 10. </para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Custódia Pereira, mulher de João Fernandes Gentil</enfiteuta>
+                <foro>550 reis, 2 galinhas e 2 capões</foro>
+                <desc><para> Foi comprada pela <entidade tipo="empresa">Fábrica da Sé</entidade> que a mandou demolir depois de <data>1750</data>, para a "obra da sacristia".</para><para>Confronta, do nascente, com o <lugar>Terreiro das Oussias</lugar> e, do norte com o mesmo Terreiro e com o nº 13.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>13</número>
+                <enfiteuta>Francisca Teresa</enfiteuta>
+                <foro>400 reis e 2 galinhas</foro>
+                <desc><para>A enfiteuta sucedeu a seu irmão, o Reitor de Freitas,<entidade tipo="pessoa">José Ferreira Petiz</entidade>,  sendo ambos filhos de <entidade tipo="pessoa">Francisco Gonçalves Petiz</entidade>, pasteleiro.</para><para> Confronta, do nascente, com o nº 14; do norte e poente com a rua e, do sul com a nº 12.</para></desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Francisca Teresa</enfiteuta>
+                <foro>400 reis e 2 galinhas</foro>
+                <desc><para> Confronta, do nascente, com o nº 13 e, do poente com o nº 15.</para><para> Foi construída em <data>1547</data>, em pertenças da casa nº 13.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>15</número>
+                <enfiteuta> António Antunes, pasteleiro, e sua mulher, Joana Francisca</enfiteuta>
+                <foro> 330 reis e 2 galinhas</foro>
+            </casa>
+            
+            <casa>
+                <número>16 e 17</número>
+                <enfiteuta>David Lopes</enfiteuta>
+                <foro>820 reis e 2 galinhas</foro>
+                <desc><para>A casa nº16 foi unida ao nº17, no ano de <data>1667 </data>. O nº17 confronta com a <lugar>Rua do Poço </lugar>.
+                </para></desc>
+            </casa>
+            
+            
+            
+            
+            
+            
+            
+        </lista-casas>
+    </corpo>
+</rua>

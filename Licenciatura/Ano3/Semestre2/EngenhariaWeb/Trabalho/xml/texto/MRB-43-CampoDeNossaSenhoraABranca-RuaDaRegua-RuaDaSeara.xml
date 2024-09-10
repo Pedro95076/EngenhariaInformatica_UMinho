@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/micas/Desktop/Maria/Uminho/4%C2%BAano/1%C2%BAsemestre/publicacao_eletronica/Trabalho%20Final/MRB-rua.xsd">
+    <meta>
+        <número>43</número>
+        <nome>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara</nome>
+    </meta>
+    <corpo>
+        <para>Devido ao desnível do terreno onde se implantava, estava dividido em duas ruas, separadas
+        por um murete no centro.</para>
+        <para>Aberta talvez sobre o traçado da via romana que levava a <lugar>Chaves</lugar>, 
+        esta rua, na Idade Média, fazia a ligação entre a cidade e a <entidade tipo="instituição">igreja de
+        S. Victor</entidade>.Chamava-se então <lugar>rua da Corredoura</lugar>.</para>
+        <para><entidade tipo="pessoa">D.Luís de Sousa</entidade> <data>(1677-1690)</data> reedificador
+        da <entidade tipo="instituição">igreja de S.Victor</entidade> que fica na extremidade Este desta
+        artéria, mandou alargá-la, criando então 2 artérias paralelas e desniveladas: a da <lugar>Régua</lugar>
+        no lado Norte e a <lugar>rua Nova da Seara</lugar>, no Sul.</para>
+        <para>Em <data>1750</data> tinha um carácter ainda de via de penetração; por ela entrava na cidade
+        todo o tráfego oriundo da zona do <lugar>Barroso</lugar> e do <lugar>Bom Jesus</lugar>.</para>
+        <para>Os seus edifícios eram quase todos do tipo com a porta de entrada ladeada de uma janela, com 
+        dois pisos e janelas bracarenses no primeiro andar.</para>
+        <para>Os alçados que aqui se apresentam têm três tipos diferentes: os da parte do <lugar>campo de 
+        Nossa Senhora a Branca</lugar> são casas simples, de dois pisos, do tipo de porta ladeada por janela 
+        no rés-do-chão e janelas bracarenses no andar nobre, e três vãos. Os da <lugar>rua da Régua</lugar>, 
+        são do mesmo tipo mas têm apenas 2 vãos o que imediatamente lhe dá outro carácter. Os da <lugar>rua 
+        Nova da Seara</lugar> são muito mais pobres, predominando os de um só piso (75%), muitos deles também 
+        do tipo de porta ladeada por janela (79%), e com as aberturas vazadas, que seriam tapadas por portas 
+        de madeira; a metade Oeste estava totalmente ocupada por campos.</para>
+        <para>Esta artéria mantém algumas das raras casas deste tipo que ainda hoje se conservam em <lugar>Braga</lugar>.</para>
+        <para>Das 56 casas do lado Norte (correspondendo ao <lugar>Campo de Nossa Senhora a Branca</lugar> e 
+        <lugar>rua da Régua</lugar>) e 24 do Sul (<lugar>rua Nova da Seara</lugar>) eram prazos do 
+        <entidade tipo="instituição">Cabido</entidade> 22 e 24, respectivamente.</para>
+        <para>As <lugar>ruas da Régua e Nova da Seara</lugar> formam actualmente a <lugar>rua de S. Victor</lugar>. 
+        Esta designação remonta já a <data>1865</data>.</para>
+        
+        <figura id="MRB-43-norte">
+            <imagem path="../imagem/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Norte.jpg"/>
+            <legenda>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara- Norte.</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Cosme Francisco</entidade>, besteiro, casado
+                    com <entidade tipo="pessoa">Isabel Pereira</entidade>, pagam 540 reis e 1 galinha ao enfiteuta
+                    do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>, 
+                    situado na <lugar>freguesia de S. Vitor</lugar>. Confronta, do poente, com casa foreira ao
+                    <entidade tipo="instituição">Hospital de S.Marcos</entidade>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2 e 3</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Francisco Gomes</entidade>, alfaiate, casado
+                        com <entidade tipo="pessoa">Margarida Francisca</entidade>, pagam 660 reis e 1 galinha ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Maria de Oliveira</entidade>, viúva, pagam 710 reis 
+                        e 1 galinha ao enfiteuta do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5 e 6</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Tomé de Araújo</entidade>, carpinteiro, casado
+                        com <entidade tipo="pessoa">Maria Antónia</entidade>, pagam 1050 reis e 1 galinha ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7, 8 e 9</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Domingos Fernandes</entidade>, tanoeiro, casado
+                        com <entidade tipo="pessoa">Isabel Gonçalves</entidade>, pagam 1400 reis e 2 galinhas ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Maria de Sousa</entidade>, casada
+                        com <entidade tipo="pessoa">Tomé da Silva</entidade>, da <lugar>freguesia de Barroso</lugar>,
+                        pagam 750 reis e 1 galinha ao enfiteuta do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar>
+                        e das <lugar>Ranhas</lugar>.</para>
+                    <para>Esteve unida ao n.º10 entre os anos de <data>1612 a 1671</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Inácia do Vale</entidade>, filha natural de 
+                        <entidade tipo="pessoa">Isabel Dias</entidade>, pagam 720 reis e 1 galinha ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.
+                        Esteve unida ao n.º10 entre os anos de <data>1612 a 1679</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Domingos Fernandes</entidade>, ferreiro, casado
+                        com <entidade tipo="pessoa">Isabel Antónia</entidade>, pagam foro ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">António Carvalho</entidade>, sombreiro, casado
+                        com <entidade tipo="pessoa">Maria Martins</entidade>, pagam 700 reis e 1 galinha ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Francisco Martins</entidade>, sombreiro, casado
+                        com <entidade tipo="pessoa">Gregória Ferreira</entidade>, pagam 770 reis ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros do <entidade tipo="pessoa">Padre António de Oliveira</entidade>, pagam 
+                        755 reis ao enfiteuta do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os herdeiros de <entidade tipo="pessoa">Maria Gonçalves</entidade>, viúva de
+                        <entidade tipo="pessoa">Francisco Gonçalves</entidade>, pagam 700 reis e 1 galinha ao enfiteuta
+                        do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar> e das <lugar>Ranhas</lugar>.</para>
+                    <para>Foi subenfiteut, juntamente com os n.º18, 19, 20, 21 e 22, no ano de <data>1612</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18 a 22</número>
+                <vista>Norte</vista>
+                <enfiteuta>Sebastião Luís de Faria, enfiteuta principal do prazo dos campos detrás de Nossa Senhora 
+                    a Branca e das Ranhas, sito na freguesia de S.Vitor</enfiteuta>
+                <desc>
+                    <para>Os subenfiteutas pagam ao enfiteuta do prazo dos campos detrás de <lugar>N. Sra. a Branca</lugar>
+                    e das <lugar>Ranhas</lugar>, pelo n.º18, 100 reis; pelo n.º19, 600 reis e 1 galinha; pelos n.º20 e 21
+                    (unidos), 700 reis e 1 galinha; e pelo n.º22, 700 reis e 1 galinha.</para>
+                    <para>A casa n.º22 confronta, do nascente, com casa foeira à Mitra.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+        
+        <figura id="MRB-43-sul">
+            <imagem path="../imagem/MRB-43-CampoDeNossaSenhoraABranca-RuaDaRegua-RuaDaSeara-Sul.jpg"/>
+            <legenda>Campo de Nossa Senhora a Branca. Rua da Régua. Rua Nova da Seara- Sul</legenda>
+        </figura>
+        
+        <lista-casas>
+            <casa>
+                    <número>1 e 2</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para>Pagam 1800 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>3</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Manuel Teixeira</entidade>, sombreireiro, casado com
+                         <entidade tipo="pessoa">Teresa Maria</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>4</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Senhorinha Lopes</entidade>, solteira, e seu filho
+                            <entidade tipo="pessoa">João Marcos</entidade>, da <lugar>freguesia de S. Mamede d'Este</lugar>,
+                            pagam 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>5</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Bento de Macedo</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Quitéria Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>6</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">João Franscisco de Oliveira</entidade>, alfaiate, casado com
+                            <entidade tipo="pessoa">Mariana Antónia</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>7</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Carlos Pereira</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Mariana Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>8</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">António de Araújo</entidade>, serralheiro, casado com
+                            <entidade tipo="pessoa">Josefa Teresa</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>9</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Manuel Marques</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Antónia Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>10 e 11</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">José de Oliveira</entidade>, carpinteiro, casado com
+                            <entidade tipo="pessoa">Maria Francisca</entidade>, paga 1800 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>12</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Manuel Dias</entidade>, serralheiro, casado com
+                            <entidade tipo="pessoa">Maria Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>13</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">António de Araújo</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Isabel Maria</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>14</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Francisco Silva</entidade>, carpinteiro, casado com
+                            <entidade tipo="pessoa">Isabel Gomes</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>15</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Custódio Francisco</entidade>, pedreiro, casado com
+                            <entidade tipo="pessoa">Ana Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>16</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Silvestre de Oliveira</entidade>, jornaleiro, casado com
+                            <entidade tipo="pessoa">Inês Dantas</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>17</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Ana Ferreira</entidade>, viúva de 
+                            <entidade tipo="pessoa">Domingos Marques</entidade>, alfaiate, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>18</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Manuel da Costa</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Marta Ferreira</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>19</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Diogo da Costa</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Ana Lopes</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>20</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Custódio Pereira</entidade>, pedreiro, casado com
+                            <entidade tipo="pessoa">Ursula Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>21</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Geraldo de Matos</entidade>, sombreireiro, casado com
+                            <entidade tipo="pessoa">Domingas Francisca</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>22</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Garcia Correia</entidade>, carpinteiro, casado com
+                            <entidade tipo="pessoa">Francisca de Barros</entidade>, paga 1200 reis ao n.º24.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>23</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <desc>
+                        <para><entidade tipo="pessoa">Domingos de Barros</entidade>, alfaiate, viúvo, paga 1200 reis ao n.º24.</para>
+                        <para>Confronta, do poente, com propriedade do prazo principal.</para>
+                    </desc>
+                </casa>
+                <casa>
+                    <número>24</número>
+                    <vista>Sul</vista>
+                    <enfiteuta>As filhas do Dr. António Carneiro Tinoco</enfiteuta>
+                    <foro>100 reis, 6 alqueires de trigo, 6 de pão meado e 2 galinhas</foro>
+                    <desc>
+                        <para>E cabeça de Prazo «Casal de Entre os Matos», da <lugar>freguesia de S. Vitor</lugar>.</para>
+                        <para>O emprazamento mais antigo que se conehce data de <data>1483</data> e foi feito a favor de 
+                        <entidade tipo="pessoa">Martim Álvares</entidade>, ouvires, da cidade de <lugar>Braga</lugar>.
+                        Seguem-se os emprazamentos dos anos de <data>1550</data> e <data>1579</data>. 
+                        Pertence a este prazo os n.º1 a 23 da <lugar>rua Nova da Seara</lugar>.</para>
+                    </desc>
+                </casa>
+        </lista-casas>
+    </corpo>
+</rua>

@@ -1,0 +1,35 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/ruas/") Voltar
+
+  // Page content
+  .w3-content.w3-padding(style='max-width:1564px')
+    // Add Post Section
+    #about.w3-container.w3-padding-32
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Adicionar Post: 
+      form(id="postForm" method="POST" action="/posts/add")
+        .w3-container.w3-margin-top
+          label(for="rua") Rua
+          select.w3-select.w3-border(name="rua_id" required)
+            if ruas && ruas.length > 0
+              each rua in ruas
+                option(value=rua._id) #{rua.nome}
+            else
+              option(value="") Nenhuma rua disponível
+
+        .w3-container.w3-margin-top
+          label(for="desc") Descrição
+          textarea.w3-input.w3-border(name="desc" rows="4" placeholder="Escreva algo sobre a rua..." required).w3-margin-bottom
+
+        .w3-container.w3-margin-top
+          button.w3-button.w3-blue(type="submit") Postar
+
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}

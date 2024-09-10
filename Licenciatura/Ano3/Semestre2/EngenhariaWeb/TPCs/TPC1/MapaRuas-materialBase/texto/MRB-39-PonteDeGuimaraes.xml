@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <meta>
+        <número>39</número>
+        <nome>Ponte de Guimarães</nome>
+    </meta>
+    <corpo>
+        <para>Parte terminal da longa artéria que, sensivelmente em linha recta, descia a <lugar>Arcada</lugar> para a <lugar>ponte sobre o rio Este</lugar>.</para>
+        <para>Zona rural por excelência, tinha no seu termo uma ponte quinhentista de um só arco, canopial, e que infelizmente foi destruída em data desconhecida.</para>
+        <para>Os dois alçados que vemos no Mappa não são, os dois lados da rua, como à primeira vista poderá parecer; o Norte vai corresponder à parte Oeste do actual <lugar>largo do Senhor dos Aflitos</lugar> ou, segundo a toponímia popular, das <lugar>Latinhas</lugar>: e o Poente é a parte final da <lugar>avenida da Liberdade</lugar>, lado Oeste entre a <lugar>Rua Conselheiro Lobato</lugar> e o rio.</para>
+        <para>Nestes alçados onde coexistem habitações de dois pisos (52,7%) alternando com outras de um só piso (47,2%), e uma única de três pisos, toda a ruralidade da zona está bem patente: casas baixas, com a porta de entrada ladeada de uma janela (55,5%), janelas vazadas que seriam tapadas por portas de madeira, desalinhamento da linha das fachadas, etc.</para>
+        <para>Constrastando há um excelente edifício de três pisos, em pedra, do <data>séc. XVII</data>, contido em duas fortes pilastras, com portas e janelas com "moldura" de pedra, almofadas sob as janelas do piso nobre e três óculos magnificamente trabalhados no 2º andar.</para>
+        <para>Como elemento curioso na rua há o forno(?) de pedra exterior à casa, no prazo nº 38.</para>
+        <para>As 23 casas do lado Norte e 15 do Poente são todas prazos do <entidade tipo="instituição">Cabido</entidade>.</para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Pertence ao nº 50 da <lugar>Rua da Ponte de Guimarães</lugar>, para onde tem frontaria e serventia principais.</para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga 60 reis ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga 50 reis ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Diogo Martins</entidade>, casado com <entidade tipo="pessoa">Helena Antónia</entidade>, pagam 25 reis ao enfiteutaa do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>, conforme o subemprazamento feito em <data>1631</data>.</para></desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga, ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> foro que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga 80 reis ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga 80 reis ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>.</para></desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>João de Magalhães de Araújo Costa, enfiteuta principal do prazo da metade do Casal dos Galos, que foi de Mateus Rodrigues</enfiteuta>
+                <desc><para>Paga 80 reis ao enfiteuta do prazo de metade do <lugar>Casal dos Galos</lugar> que foi de <entidade tipo="pessoa">Mateus Rodrigues</entidade>. Confronta, do nascente, com a cangosta que vai para esta casa e para o nº 9.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 140 reis ao nº 17 da <lugar>Rua do Paio Manta e Lages</lugar>. A casa e quintal confrontam de poente, com a cangosta e serventia que passa entre esta casa e nº 8.</para></desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 140 reis ao nº 17 da <lugar>Rua do Paio Manta e Lages</lugar></para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Paga 140 reis ao nº 17 da <lugar>Rua do Paio Manta e Lages</lugar></para></desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta>João Gomes, casado com Mariana Gomes, enfiteuta principal do prazo da metade do Casal e moinhos do Salgueiro, que foi de João Gomes</enfiteuta>
+                <desc><para>Paga 2000 reis ao enfiteuta do prazo da metade do <lugar>casal e moínhos do Salgueiro</lugar>, que foi de <entidade tipo="pessoa">João Gomes</entidade></para></desc>
+            </casa>
+            <casa>
+                <número>28 a 34</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Manuel Dias</entidade>, moleiro, casado com <entidade tipo="pessoa">Maria Antónia</entidade>, subenfiteuta do nº30, pagam por estas 7 casas, 3220 reis e 2 galinhas ao nº 17 da <lugar>Rua do Paio Manta</lugar> e <lugar>Lages</lugar>, conforme subemprazamento feito no ano de <data>1606</data>.</para>
+                <para>A casa nº28 defronta, do sul, com o Rio Este.</para></desc>
+            </casa>
+            <casa>
+                <número>35 a 40</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Gonçalo Ferreira</entidade>, cirgueiro, casado com <entidade tipo="pessoa">Catarina Nogueira</entidade>, pagam 1750 reis e 4 galinhas ao n° 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>. O portal n° 40 é serventia do campo ou quintal da casa nº 35.</para></desc>
+            </casa>
+            <casa>
+                <número>41</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Brás Antunes</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Maria Dias</entidade>, pagam 367 reis ao nº 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>42</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Brás Antunes</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Maria Dias</entidade>, pagam 367 reis ao n° 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>43</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Brás Antunes</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Maria Dias</entidade>, pagam 367 reis ao nº 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>44</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Gonçalo Pires</entidade>, carpinteiro, pagam 500 reis e 1 galinha ao n° 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>45</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Geraldo Dias</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Maria Fernandes</entidade>, pagam 100 reis ao n° 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>46</número>
+                <enfiteuta>Pedro da Cunha Sottomayor, Alcaide Mor de Braga</enfiteuta>
+                <desc><para>Os herdeiros de <entidade tipo="pessoa">Geraldo Dias</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Maria Fernandes</entidade>, pagam 100 reis ao n° 17 da <lugar>Rua Paio Manta</lugar> e <lugar>Lages</lugar>.</para>
+                    <para>Confronta, do sul, com a dita rua.</para></desc>
+            </casa>
+        </lista-casas>
+        <figura id="MRB39-Norte">
+            <imagem path="../imagem/MRB-39-PonteDeGuimaraes-Norte.jpg"/>
+            <legenda>Ponte de Guimarães - Norte</legenda>
+        </figura>
+        <figura id="MRB39-Poente">
+            <imagem path="../imagem/MRB-39-PonteDeGuimaraes-Poente.jpg"/>
+            <legenda>Ponte de Guimarães - Poente</legenda>
+        </figura>
+    </corpo>
+</rua>

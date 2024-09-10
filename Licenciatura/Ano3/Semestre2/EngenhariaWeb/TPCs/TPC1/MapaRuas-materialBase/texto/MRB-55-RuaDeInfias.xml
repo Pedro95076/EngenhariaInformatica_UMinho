@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../MRB-rua.xsd">
+    <meta>
+        <número>55</número>
+        <nome>Rua de Infias</nome>
+    </meta>
+    <corpo>
+        <para>Extensa rua que partindo da <lugar>rua da Escoura</lugar> ia em direcção à casa de Vale Flor ou de Infias. Aberta em campo plano, estendia-se por 
+            terrenos da primeira metade do <lugar>casal do Lagarto</lugar>, no que respeita aos edifícios foreiros ao Cabido, que representavam cerca de dois terços 
+            desta artéria, do lado Oeste.</para>
+        <para>Rua de arrabalde, era em <data>1750</data> formada tanto por habitações, como por portões ou muros de delimitação de propriedade.</para>
+        <para>As suas casas são todas muito simples, de arquitectura tradicional, na sua maioria do tipo de porta com janela ao lado (75,9%), no piso térreo. 
+            No extremo Oeste, vê-se um conjunto de edifícios que mais parecem uns pardieiros: são as construções de aspecto mais pobre em todo este Mappa.</para>
+        <para>Destas casas, 66% eram de um só piso. As janelas estariam na sua maioria tapadas por portadas de madeira (73,3 %), sendo as restantes do tipo
+            bracarense; destas, algumas tinham gelosias.</para>
+        <para>No extremo Oeste, parece ver-se um bom prédio. Mas porque tem a fachada principal virada para o interior não podemos percebê-lo bem. Pela sua 
+            localização e arquitectura não nos parece ser a Casa de Vale Flor, embora esteja muito próximo.</para>
+        <para>Desta rua, de que só temos os alçados do lado Norte, eram foreiras ao Cabido 31 das 52 casas aqui desenhadas.</para>
+        <para>Bastante alterada nos edifícios, mas mantendo a sua implantação, integra actualmente uma parte da <lugar>rua da Escoura</lugar> — no seu extremo 
+            Oeste, sensivelmente até à casa do prazo n.º 11 —, sendo a restante denominada <lugar>rua Conselheiro Januário</lugar>.</para>
+        <figura id="MRB-55-norte">
+            <imagem path="../imagem/MRB-55-RuaDeInfias-norte.jpg"/>
+            <legenda>Rua de Infias - vista norte.</legenda>
+        </figura>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Isabel Maria da Silva, viúva do Dr. Santos de Araújo Alves. Dezembargador de Braga</enfiteuta>
+                <foro>200 reis, 18 alqueires de pão meado e 2 galinhas</foro>
+                <desc>
+                    <para>Antiga cabeça do prazo, denominado, 1.ª metade do <lugar>casal do Lagarto</lugar>. Pertencem a este prazo os n.ºs 1 a 35 da 
+                        <lugar>Rua de Infias</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Antónia Soares</entidade>, casada com <entidade tipo="pessoa">Luís Francisco de Paiva</entidade>, branqueador, 
+                        paga 2000 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">José de Freitas</entidade>, cabeiro, casado com <entidade tipo="pessoa">Maria da Silva</entidade>, paga 2000 reis 
+                        ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">João Dias</entidade>, espingardeiro, casado com <entidade tipo="pessoa">Mariana da Silva</entidade>, paga 2000 
+                        reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel de Araújo</entidade>, pedreiro, casado com <entidade tipo="pessoa">Domingas Fernandes</entidade>, paga 
+                        2000 reis ao enfiteuta ao prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel Pires</entidade>, pedreiro, casado com <entidade tipo="pessoa">Teresa Francisca</entidade>, paga 2000 
+                        reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>A casa é foreira ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Pertence ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">José Carlos</entidade>, lanterneiro, casado com <entidade tipo="pessoa">Maria Teresa</entidade>, paga 4000 
+                        reis por este chão de casa. Foi subemprazado à face do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Corresponde a um portal de serventia do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Pertence ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Corresponde a um chão de casa, pertença do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Pertence ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">João de Araújo</entidade>, faulas, ferreiro, casado com <entidade tipo="pessoa">Maria de Aguiar</entidade>, 
+                        paga 1000 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">António Dias da Silva</entidade>, da freguesia de <lugar>S. Pedro d'Este</lugar>, casado com <entidade tipo="pessoa">Isabel
+                        Duarte</entidade>, paga 850 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel Francisco</entidade>, carpinteiro, casado com <entidade tipo="pessoa">Antónia Teixeira</entidade>, paga 
+                        1300 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Maria Carvalho</entidade>, viúva de <entidade tipo="pessoa">Bento Correia</entidade>, pintor, paga 400 reis 
+                        ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel de Araújo</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Antónia Ribeiro</entidade>, paga 
+                        850 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>O <entidade tipo="pessoa">Padre Cristóvão Francisco</entidade> paga 425 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel de Araújo</entidade>, combreireiro, casado com <entidade tipo="pessoa">Antónia Ribeiro</entidade>, paga 
+                        425 reis ao enfeiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">António Ferreira Torres</entidade>, ourives, paga 850 reis ao enfiteuta do prazo da l.ª metade do 
+                        <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Bernarda Ferreira</entidade>, viúva de <entidade tipo="pessoa">José Francisco</entidade>, cutileiro, paga 
+                        400 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel Marques Pereira</entidade>, casado com <entidade tipo="pessoa">Teresa Maria</entidade>, paga 1300 reis 
+                        ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">João Pereira do Lago</entidade>, casado com <entidade tipo="pessoa">D. Marcelina de Araújo Rocha</entidade>, 
+                        paga 400 reis ao enfiteuta do prazo da l.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25, 26 e 27</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Paga 2100 reis ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Pedro Fernandes da Silva</entidade>, casado com <entidade tipo="pessoa">Domingas das Neves</entidade>, 
+                        paga 800 reis ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Pedro Fernandes da Silva</entidade>, casado com <entidade tipo="pessoa">Domingas das Neves</entidade>, paga 
+                        800 reis ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Francisco de Barros</entidade>, sombreireiro, casado com <entidade tipo="pessoa">Natália Fernandes</entidade>, 
+                        paga 360 reis ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>32 e 33</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Francisco Cardoso</entidade>, viúvo, paga, por cada uma das casas, 620 reis ao enfiteuta do prazo da 
+                        1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>34</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Pedro Vieira</entidade>, barbeiro, casado com <entidade tipo="pessoa">Teresa Francisca</entidade>, paga 1000 
+                        reis ao enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>35</número>
+                <enfiteuta>Vid. casa n.º1.</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Jácome de Matos</entidade>, casado com <entidade tipo="pessoa">Sebastiana Maria</entidade>, paga 800 reis ao 
+                        enfiteuta do prazo da 1.ª metade do <lugar>casal do Lagarto</lugar>. Confronta, do nascente, com casa foreira à Misericórdia.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

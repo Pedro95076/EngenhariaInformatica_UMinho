@@ -1,0 +1,16 @@
+@model CarrinhoModel
+@{
+    ViewData["Title"] = "Finalizar Comprar";
+
+}
+
+<div class="text-center">
+
+    <h1> Tipo de pagamento </h1>
+</div>
+<form method="post" action="/Carrinho/MetodoPagar">
+    <input hidden type="text" name="idUser" value=@Model.IdUser />
+    <input type="submit" value="PayPal" />
+    <input type="submit" value="Multibanco" />
+    <input type="submit" value="MBWay" />
+</form>

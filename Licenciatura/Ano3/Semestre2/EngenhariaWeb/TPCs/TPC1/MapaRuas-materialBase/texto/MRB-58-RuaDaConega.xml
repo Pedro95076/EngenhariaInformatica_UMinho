@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>58</número>
+        <nome>Rua da Cónega</nome>
+    </meta>
+    <corpo>
+        <para>Longa rua, a maior do Mapa, que saindo de <lugar>Braga</lugar> junto á casa dos
+                <entidade tipo="pessoa">Sotomaior</entidade> descia em direção à freguesia de
+            <lugar>S.Jerónimo de Real</lugar>. Há quem ponha a hipótese do seu traçado coincidir
+            com o da via romana <lugar>Braga-Lugo</lugar>.</para>
+        <para>Aberta em data controversa para os historiadores bracarenses (periodo romano,
+            <data>séc.XII, séc. XVI)</data>, aparece também nos ínicios dos <data>séc. XVII</data>
+            com o nome de rua <lugar>Nova da Cónega</lugar>. É esta a data (ou ainda de finais do
+            <data>séc.XVI </data>), em que foi construida a casa dos <entidade tipo="pessoa">Sotomaior</entidade>.</para>
+        <para> Em <data>1750</data>, estava dividida em duas partes bem distintas:o terço Este,
+            isto é, toda a zona da rua que compreendia as casas 1 a 27 (até ao portão da casa das
+            Hortas, dos <entidade tipo="pessoa">Ruby</entidade>); 145 a 171; e a restante.</para>
+        <para>No primeiro núcleo, mais próximo do centro da cidade, predominam os edifícios dedois
+            pisos. Para além da casa dos <entidade tipo="pessoa">Sotomaior</entidade> havia alguns edifícios de
+            boa qualidade, (4,5,7,12,20,156,158,165), modernos (5,7,12,156), com
+            gelosias(5,158,165), ou até, os únicos de três pisos de toda esta rua
+            (4,5,6,12,15,167,170 esta com um 4ºpiso recuado,171).</para>
+        <para> A parte restante, com um declive pronunciado, tinha as suas construções muito mais
+            simples, com um desenho de fachada tradicional, onde se alternavam casas com dois pisos
+            com outras térreas, em proporções quase iguais, e onde havia, naturalmente, muitos
+            edifícios do tipo de porta ladeada de janela. As janelas eram na sua quase totalidade
+            vazadas, raras havendo do tipo bracarense, sendo apenas duas protegidas com gelosias
+            (nºs 100 e 117,esta uma casa de pedra e de boa qualidade).)</para>
+        <para> De realçar ainda que aqui existia uma pequena capela, dedicada ao Senhor das Âncias,
+            erecta em <data>1735</data> pela população; e a fonte de S.Tiago (entre os prazos 61 e
+            62) mandada fazer por <entidade tipo="pessoa"> D.Diogo de Sousa</entidade>.</para>
+        <para>Todas as suas 93 casas do lado Norte e 57 do Sul eram prazos do <entidade tipo="pessoa">Cabido</entidade>.</para>
+        <para>É actualmente, mais conhecida pela designação tradicional de rua da
+            <lugar>Cónega</lugar>, do que pela oficial de rua da <lugar>Boavista</lugar>.</para>
+        <figura id="MRB-58-norte">
+            <imagem path="../imagem/MRB-58-RuaDaCónega-norte.jpg"/>
+            <legenda>RuaDaCónega - norte.</legenda>
+        </figura>
+        <figura id="MRB-58-sul">
+            <imagem path="../imagem/MRB-58-RuaDaCónega-sul.jpg"/>
+            <legenda>RuaDaCónega- sul.</legenda>
+        </figura>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para> A casa é a cabeça do prazo, denominado,
+                        <lugar>"Casal da Porta"</lugar>.</para>
+                    <para>A frontaria principal situa-se no <lugar>Campo da Vinha</lugar>. A
+                        frontaria da rua dos <lugar>Biscainhos</lugar> corresponde ao nº2. Paga 400
+                        reis e 7 alqueires de trigo ao enfiteuta principal da
+                        <lugar>Quinta da Cónega</lugar>. É subenfiteuta <entidade tipo="pessoa"> Constantino da
+                            Cunha Sottomayor</entidade>, Fidalgo da <lugar>Casa Real</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <desc>
+                    <para>Quintal da casa Nº1.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3 a 25</número>
+                <enfiteuta> Vid.Casa nº1 (casal da Porta).</enfiteuta>
+                <desc>
+                    <para> Pertencem à casa ~º1, a cujo enfiteuta se paga foro.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para> Portal de serventia do prazo ou escritura do Casal da Porta (casa
+                        nº1).</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para> Paga foro ao enfiteuta do prazo da <lugar>quinta da Cónega</lugar>.
+                        Confronta, do poente, com caminho de serventia, para as casas principais da
+                        <lugar>quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para> Paga foro ao enfiteuta da <lugar>quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para> Paga foro ao enfiteuta da <lugar>quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa"> Maria da Silva</entidade> filha de <entidade tipo="pessoa"> António
+                            Silva</entidade>, paga 400 reis ao enfiteuta da
+                        <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>31 a 46</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Pertencem à <lugar>Quinta da Cónega</lugar>, a cujo enfiteuta se paga
+                        foro. A casa nº41 confronta, do nascente, com a capela do Senhor das
+                        Ânsias.</para>
+                    <para>O nº44 corresponde a um quintal.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>47</número>
+                <desc>
+                    <para>Quintal ou campo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>48</número>
+                <desc>
+                    <para>Porta de serventia da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>49</número>
+                <desc>
+                    <para>Campo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>50 a 60</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Pertencem à <lugar>Quinta da Cónega</lugar>, a cujo enfiteuta se paga a
+                        foro.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>61</número>
+                <desc>
+                    <para>Campo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>62</número>
+                <desc>
+                    <para>Campo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>63</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteuta da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>64</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteuta da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>65</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Paga foro ao enfiteuta da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Corresponde a um campo e casa.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>66</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para>Campo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>67 e 68</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">João Fernandes</entidade>, lavrador, casado com <entidade tipo="pessoa">Felícia Fernandes </entidade>, paga 2300 reis e 2 galinhas, por duas
+                        casas e dois chãos para casas, ao enfiteuta do prazo da
+                        <lugar>quinta da Cónega</lugar>.</para>
+                    <para>Foram construidas no lugar da<lugar>Bouça da Coturela</lugar>.</para>
+                    <para>A casa nº67 confronta, do poente, com o campo nº21 da
+                        <lugar>Estrada de Real</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>69 e 70</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Manuel Dias</entidade> da freguesia de
+                        <lugar>S.Jerónimo de Real</lugar>, casado com <entidade tipo="pessoa">Caetana da
+                            Silva</entidade>, paga 2400 reis e 2 galinhas ao enfiteuta do prazo da
+                        <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só morada, desde o ano de
+                        <data>1730</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>71 a 86</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega</enfiteuta>
+                <desc>
+                    <para><entidade tipo="pessoa">Pedro Rodrigues</entidade>, casado com <entidade tipo="pessoa"> Maria
+                        Machado</entidade>, e sua mãe, <entidade tipo="pessoa">Antónia Francisca</entidade>,
+                        viúva, pagam 4000 reais e 2 galinhas ao enfiteuta da
+                        <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>87</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.  </enfiteuta>
+                <enfiteuta> Vid.Casa nº1 (casal da Porta).</enfiteuta>
+                <desc>
+                    <para>Para foro ao enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>e pelo
+                        quintal da casa, ao subenfiteuta da
+                        <lugar>Quinta da Porta(casa nº1)</lugar></para>
+                </desc>
+            </casa>
+            <casa>
+                <número>88 a 119</número>
+                <enfiteuta> Vid.Casa nº1 (casal da Porta).</enfiteuta>
+                <desc>
+                    <para>Pertecem à casa nº1, a cujo enfiteuta se paga foro.</para>
+                    <para>o nº119 confronta com o caminho que "vai pela <lugar>Coturela</lugar> para
+                        o <lugar>convento de S.Frutuoso</lugar>". </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>120 a 135</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para>Pertencem à da <lugar>Quinta da Cónega</lugar> cujo enfiteuta se paga
+                        foro.></para>
+                    <para>O nº120 confronta, do poente, com o caminho que "vai pela
+                        <lugar>Coturela</lugar> para o <lugar>convento de S.Frutuoso</lugar>".
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>136 a 142</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa">Pedro de Araújo</entidade>, mercador, casado
+                        com <entidade tipo="pessoa">Rosa Maria Ferreira</entidade>, pagam 3700 reis e 4 galinhas
+                        ao enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1610</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>143 a 145</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Francisco Martins</entidade>, tratante, casado
+                        com <entidade tipo="pessoa">Isabel Gonçalves</entidade>, pagam 3000 reis e 3 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1608</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>146 a 147</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Gonçalo Correia</entidade>, lavrador, casado
+                        com <entidade tipo="pessoa">Maria Francisca</entidade>, pagam 2000 reis e 2 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1608</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>148 a 149</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> António Dias</entidade>, armeiro, casado
+                        com <entidade tipo="pessoa">Maria Ramalho</entidade>, pagam 2000 reis e 2 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1608</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>150 a 154</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Domingos Gonçalves</entidade>, relojoeiro, casado
+                        com <entidade tipo="pessoa">Helena Fernandes</entidade>, pagam 4000 reis e 4 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1608</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>155 a 156</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Pedro Fernandes</entidade>, alfaiate, casado
+                        com <entidade tipo="pessoa">Maria Martins</entidade>, pagam 2000 reis e 2 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                    <para>Encontram-se unidas, numa só escritura deprazo desde o ano de
+                        <data>1608</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>157 a 159</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Jerónimo Barreiros</entidade>, casado
+                        com <entidade tipo="pessoa">Isabel da Cunha</entidade>, pagam 3000 reis e 3 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>160 a 162</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Manuel Martins</entidade>,tratante, casado
+                        com <entidade tipo="pessoa"> Maria Pereira</entidade>, pagam 2000 reis e 2 galinhas ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>163 a 164</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Diogo Gonçaves Pinheiro</entidade>, casado
+                        com <entidade tipo="pessoa"> Catarina Álvares</entidade>, pagam 2000 reis e 1 galinha ao
+                        enfiteuta do prazo da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>165</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> António Borges</entidade> pagam 2000 reis e 2 galinhas ao ao
+                     enfiteuta da <lugar>Quinta da Cónega</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>166 a 169</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para>Pertencem à <lugar>quinta da Cónega</lugar>, a cujo enfiteuta se paga foro.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>170 e 171</número>
+                <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principal da quinta da Cónega.</enfiteuta>
+                <desc>
+                    <para> Os herdeiros de <entidade tipo="pessoa"> Agostinho Leitão</entidade>, casado
+                        com <entidade tipo="pessoa"> Paula da Costa</entidade>, pagam 2000 reis e 2 galinhas ao
+                        enfiteuta da <lugar>Quinta da Cónega</lugar>. A casa nº171 confronta, do nascente, com a cangosta do <lugar>Pópulo.</lugar></para>
+                </desc>
+            </casa>  
+
+        </lista-casas>
+    </corpo>
+</rua>

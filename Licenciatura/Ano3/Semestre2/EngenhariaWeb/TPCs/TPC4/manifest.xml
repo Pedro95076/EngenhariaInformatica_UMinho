@@ -1,0 +1,26 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<doc>
+    <meta>
+        <title>TPC1</title>
+        <date>2024-02-05</date>
+        <author>
+            <id>A95076</id>
+            <nome>Pedro Oliveira</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web</nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p> Primeiro parágrafo</p>
+        <p> Segundo parágrafo</p>
+        <p> Terceiro parágrafo com <url>link</url><texto>url embutido</texto></p>
+    </resumo>
+    <resultados>
+        <resultado>resultado 1</resultado>
+        <resultado>resultado 2</resultado>
+    </resultados>
+</doc>

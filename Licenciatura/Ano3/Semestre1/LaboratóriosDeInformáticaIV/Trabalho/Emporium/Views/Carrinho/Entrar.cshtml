@@ -1,0 +1,47 @@
+@model CarrinhoModel
+@{
+    ViewData["Title"] = "Carrinho de Comprar";
+
+}
+
+
+<div class="text-center">
+
+    <h1> Listagem de Produtos no Carrinho </h1>
+
+    <table class="table" id="table-carrinho">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            @{
+                List<ProdutoModel> produtos = new List<ProdutoModel>();
+                produtos = Model.produtos;
+                float total = 0;
+                for (int i = 0; i < produtos.Count(); i++)
+                {
+                    <tr>
+                        <th scope="row">@(i + 1)</th>
+                        <td>@produtos[i].nome</td>
+                        <td>@produtos[i].quantidade</td>
+                        @{
+                            total += (produtos[i].preco * produtos[i].quantidade);
+                        }
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<h1> Total: @total </h1>
+<form method="post" action="/Carrinho/FinalizarCompra">
+    <input hidden type="text" name="idUser" value=@Model.IdUser />
+    <input type="submit" />
+</form>

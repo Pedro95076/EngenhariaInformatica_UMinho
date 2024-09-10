@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Cristiana%20Carvalho/Desktop/Publica%C3%A7%C3%A3o%20eletr%C3%B3nica/PROJETO%20FINAL/MRM-rua.xsd">
+    <meta>
+        <número>9</número>
+        <nome>Rua de S.João</nome>
+    </meta>
+    <corpo>
+        <para>
+            <lugar>Rua ampla</lugar>, de boas e grandes casas de pedra, aberta por <entidade tipo="pessoa">D. Diogo de Sousa</entidade>: «Fez a <lugar>rua de S. Marcos</lugar>, 
+            a qual é da <lugar>Cappella maior da Sé</lugar> até a porta do dito <entidade tipo="pessoa">S. Marcos</entidade>; comprou muitas casas acerca da Sé para fazer 
+            a dita rua e quintaes atraz d'ellas porque tudo era cerrado de casas e de quintaes e não havia ahi rua nenhuma...»
+        </para>
+        <para>
+            Esta rua é uma das mais importantes obras urbanísticas de <entidade tipo="pessoa">D. Diogo de Sousa</entidade>. Ao ligar as traseiras da Sé com a <lugar>porta de 
+            S. João</lugar>, este arcebispo não se limitou a permitir um maior ângulo de visão para a belíssima <lugar>capela mor da Sé</lugar>, 
+            também obra sua; acima de tudo o que esta artéria representa é um violento abanão na estrutura urbana, pois que será ampla e de bons prédios, grandes 
+            e de pedra; e, principalmente, permitirá o abrir a cidade ao exterior, porque continuava pelo <lugar>Campo dos Remédios e Granginhos</lugar> em direcção
+            à <lugar>rua da Ponte de Guimarães</lugar>.
+        </para>
+        <para>
+            Nela se fixaria a <entidade tipo="pessoa">família dos Coimbras</entidade> — família que acompanhou <entidade tipo="pessoa">D. Diogo</entidade> na sua vinda para 
+            <lugar>Braga</lugar> — em casa hoje reconstruída noutro local e desenhada por <entidade tipo="pessoa">João de Castilho</entidade>; os 
+            <entidade tipo="pessoa">Paiva Marinho</entidade>, na notável <lugar>casa dos Paivas</lugar>, riscada em <data>finais do séc. XVI</data> por alguém que passou
+            por <lugar>Florença</lugar> e procurou transplantar um pouco da arquitectura do Palácio Pitti; a irmã do Cónego Francisco Pacheco Pereira na grande casa do Passadiço; e os Lagos e os Antões Pereira em casas mais simples, mas não menos belas, que no Mappa se vêem com os nºs 9 e 10.
+            
+        </para>
+        <figura id="MRB-09-norte">
+            <imagem path="../imagem/MRB-9-RuaDeSJoao-Norte.jpg"/>
+            <legenda>Rua de S.João - vista norte. </legenda>
+        </figura>
+        
+        <figura id="MRB-09-sul">
+            <imagem path="../imagem/MRB-9-RuaDeSJoao-Sul.jpg"/>
+            <legenda>Rua de S.João - vista sul. </legenda>
+        </figura>
+    </corpo>
+    
+</rua>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:complexType name="Tentidade" mixed="true">
+        <xs:attribute name="tipo" type="TipoEntidade"/>
+    </xs:complexType>
+    <xs:simpleType name="TipoEntidade">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="pessoa"/>
+            <xs:enumeration value="instituição"/>
+            <xs:enumeration value="empresa"/>
+            <xs:enumeration value="família"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:group name="misto">
+        <xs:choice>
+            <xs:element name="entidade" type="Tentidade"/>
+            <xs:element name="lugar">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="norm" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="data" type="xs:string"/>
+        </xs:choice>
+    </xs:group>
+    <xs:element name="rua">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="meta">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="número" type="xs:string"/>
+                            <xs:element name="nome" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="corpo">
+                    <xs:complexType>
+                        <xs:choice maxOccurs="unbounded">
+                            <xs:element name="para">
+                                <xs:complexType mixed="true">
+                                    <xs:group maxOccurs="unbounded" minOccurs="0" ref="misto"/>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="lista-casas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element maxOccurs="unbounded" name="casa">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                  <xs:element name="número" type="xs:string"/>
+                                                  <xs:element minOccurs="0" name="enfiteuta"
+                                                  type="xs:string" maxOccurs="unbounded"/>
+                                                  <xs:element minOccurs="0" name="foro"
+                                                  type="xs:string"/>
+                                                  <xs:element minOccurs="0" name="desc">
+                                                  <xs:complexType>
+                                                  <xs:sequence>
+                                                  <xs:element maxOccurs="unbounded" minOccurs="0"
+                                                  name="para">
+                                                  <xs:complexType mixed="true">
+                                                  <xs:group maxOccurs="unbounded" minOccurs="0"
+                                                  ref="misto"/>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  </xs:sequence>
+                                                  </xs:complexType>
+                                                  </xs:element>
+                                                  <xs:element minOccurs="0" name="vista"
+                                                  type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="nome" type="xs:string"/>
+                            <xs:element name="figura">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="imagem">
+                                            <xs:complexType>
+                                                <xs:attribute name="path" type="xs:string"
+                                                  use="required"/>
+                                                <xs:attribute name="largura" type="xs:int"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="legenda" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:ID" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

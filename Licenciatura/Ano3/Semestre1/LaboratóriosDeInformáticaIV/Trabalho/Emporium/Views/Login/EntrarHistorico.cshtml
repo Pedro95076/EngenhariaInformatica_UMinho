@@ -1,0 +1,37 @@
+﻿@model HistoricoModel
+@{
+    ViewData["Title"] = "Histórico";
+
+}
+
+<div class="text-center">
+
+    <h1> Histórico de Compras </h1>
+
+    <table class="table" id="table-leiloes">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Produto</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                List<ProdutoModel> produtos = new List<ProdutoModel>();
+                produtos = Model.Produtos;
+                for (int i = 0; i < produtos.Count(); i++)
+                {
+                    <tr>
+                        <th scope="row">@(i + 1)</th>
+                        <td>@produtos[i].nome</td>
+                        <td>@produtos[i].quantidade</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index" role="button"> Voltar </a>

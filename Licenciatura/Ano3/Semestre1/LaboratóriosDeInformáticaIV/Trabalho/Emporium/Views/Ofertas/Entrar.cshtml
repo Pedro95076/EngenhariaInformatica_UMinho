@@ -1,0 +1,94 @@
+@model LoginModel
+
+@{
+    ViewData["Title"] = "Listagem de Ofertas";
+
+}
+
+<div class="text-center">
+
+    <h1> Listagem de Ofertas </h1>
+
+    <table class="table" id="table-ofertas">
+    <thead>
+        <tr>
+        <th scope="col">#</th>
+        <th scope="col">Produto</th>
+        <th scope="col">Feirante</th>
+        <th scope="col">Banca</th>
+        <th scope="col">Oferta Atual</th>
+        <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>mdo</td>
+        <td></td>
+        <td>
+        @if(Model.Perfil == Emporium.Enum.PerfilEnum.Comerciante){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="Comprar"> Aceitar</a>
+                <a role="button" class="btn btn-danger" asp-controller="Ofertas" asp-action="Recusar"> Recusar</a>
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>
+                
+        }
+        @if(Model.Perfil == Emporium.Enum.PerfilEnum.Client){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>     
+        }
+        </td>
+        </tr>
+        <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>fat</td>
+        <td></td>
+        <td>
+        @if(Model.Perfil == Emporium.Enum.PerfilEnum.Comerciante){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="Comprar"> Aceitar</a>
+                <a role="button" class="btn btn-danger" asp-controller="Ofertas" asp-action="Recusar"> Recusar</a>
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>
+                
+        }
+        @if(Model.Perfil == Emporium.Enum.PerfilEnum.Client){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>     
+        }
+        </td>
+        </tr>
+        <tr>
+        <th scope="row">3</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>fat</td>
+        <td></td>
+        <td>
+         @if(Model.Perfil == Emporium.Enum.PerfilEnum.Comerciante){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="Comprar"> Aceitar</a>
+                <a role="button" class="btn btn-danger" asp-controller="Ofertas" asp-action="Recusar"> Recusar</a>
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>
+                
+        }
+        @if(Model.Perfil == Emporium.Enum.PerfilEnum.Client){
+            <div class="btn-group" role="group">
+                <a role="button" class="btn btn-primary" asp-controller="Ofertas" asp-action="ContraProposta"> Contra Proposta</a>
+            </div>     
+        }
+        </td>
+        </tr>
+    </tbody>
+    </table>
+</div>
+
+<a class="btn btn-secondary" asp-controller="Home" asp-action="Index" role="button"> Voltar </a>

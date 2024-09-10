@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/maria/OneDrive/%C3%81rea%20de%20Trabalho/UMINHO/4%C2%BA%20ANO/1%C2%BA%20SEMESTRE/Publica%C3%A7%C3%B5es%20Eletr%C3%B3nicas/PROJETO%20FINAL/MRB-rua.xsd">
+    <meta>
+        <número>47</número>
+        <nome>Rua de S. Barnabé</nome>
+    </meta>
+    <corpo>
+        <para>
+            Pertencente ao complexo que tinha o centro na <lugar>praça do Gavião</lugar>, ligava as ruas de Santo André e da Oliveira.
+            Artéria um pouco marginal a este conjunto, tem o seu prazo mais antigo em <data>1743</data>.
+            Dividida em lotes, como todo o conjunto denominado de Quinteiro ou Gavião, ou, actualmente de <lugar>campo Novo</lugar>, tinha apenas ocupados com casas 18 dos 31 terrenos preparados para edificações. O restante espaço disponível, aqui assinalado com os n?s 8-20 e 23-24, eram as entradas ou muros de limite dos quintais da <lugar>rua dos Chãos de Cima</lugar>.
+            As 20 casas desenhadas no Mappa são todas térreas, muito simples, do tipo de porta com janela lateral, mas com as «molduras» de pedra visíveis. Todas estas construções são prazos do<entidade tipo="instituição"> Cabido</entidade>.
+            Mantém o nome de <lugar>S. Barnabé</lugar>.
+        </para>
+        <figura id="MRB-47-nascente">
+            <imagem path="../imagem/MRB-47-RuaDeS.Barnabe-a(nascente).jpg"/>
+            <legenda>Praça do Gavião - Nascente.</legenda>
+        </figura>
+        <figura id="MRB-47-poente">
+            <imagem path="../imagem/MRB-47-RuaDeS.Barnabe-a(poente).jpg"/>
+            <legenda>Praça do Gavião - Nascente.</legenda>
+        </figura>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>
+                        Pertence à casa n.° 14 da<lugar>Rua de Sto. André</lugar>, para onde tem a frontaria e serventia principais. 
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2,3 e 4</número>
+                <enfiteuta>D. Agostinha Maria de Barros, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Isabel Maria de Jesus</entidade> paga 3240 reis ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                        Encontram-se unidas desde <data>1743</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <enfiteuta>D. Agostinha Maria de Barros, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        <entidade tipo="pessoa">Antónia Francisca</entidade> paga 1325 reis ao enfiteuta do prazo do casal dos Chãos ou Quinteiro. Foi construída antes de <data>1745</data>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6 e 7</número>
+                <desc>
+                    <para>
+                        Pertence ao n.° 86 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <desc>
+                    <para>
+                        Porta de serventia do quintal do n.° 85 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <desc>
+                    <para>
+                        Porta de serventia do quintal do n.° 84 da Rua dos Chãos de Cima.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <desc>
+                    <para>
+                        Porta de serventia do quintal do n.° 81 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <desc>
+                    <para>
+                        Porta de serventia do quintal do n.° 80 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <desc>
+                    <para>
+                        Porta de serventia dos quintais dos n.° 77 e 78 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <desc>
+                    <para>
+                        Porta de serventia dos quintais dos n.° 75 e 76 da <lugar>rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <desc>
+                    <para>
+                        Porta de serventia do quintal do n.° 74 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 72 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 71 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 70 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 69 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 68 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <desc>
+                    <para>
+                        Quintal da casa n.° 67 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <desc>
+                    <para>
+                        Pertence ao n.° 66 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <desc>
+                    <para>
+                        Pertence ao n.° 64 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <desc>
+                    <para>
+                        Porta do quintal da casa n.° 63 da <lugar>Rua dos Chãos de Cima</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <desc>
+                    <para>
+                        Porta do quintal da casa n.° 62 da <lugar>Rua dos Chãos de Cima</lugar>.
+                        Confronta, do nascente, com a viela que vai para a dita rua.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25 a 37</número>
+                <enfiteuta>D. Agostinha Maria de Barros, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        «Chãos de casa» pertencentes ao prazo do casal dos Chãos ou Quinteiro.
+                        O chão n.° 25 confronta, do norte, com o caminho que vai para <lugar>S. Vicente</lugar>.
+                        
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>38 a 49</número>
+                <enfiteuta>D. Agostinha Maria de Barros, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Pagam foro ao enfiteuta do prazo do casal dos Chãos ou Quinteiro.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>50</número>
+                <enfiteuta>D. Agostinha Maria de Barros, enfiteuta principal do prazo do casal dos Chãos ou Quinteiro.</enfiteuta>
+                <desc>
+                    <para>
+                        Pertence à casa n.° 15 da <lugar>Rua de Sto. André</lugar>, para onde tem a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

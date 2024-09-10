@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/home/teresa-queiroga/MedInf/PublicacaoEletronica/Projeto_final/MRB-rua(1).xsd">
+    <!-- IMAGEM TEXTO RB - 017 -->
+    <meta>
+        <número>17</número>
+        <nome>Travessa da Rua de D.Gualdim até ao Couto do Arvoredo</nome>
+    </meta>
+    <corpo>
+        <para>
+            Mais um fragmento da <lugar>rua das Travessas</lugar>, o último no sentido Este-Oeste. Só no 
+            último quartel do século passado a <lugar>rua das Travessas</lugar> se prolongaria além da <lugar>rua Verde</lugar>
+            e <lugar>Couto do Arvoredo</lugar>, cortando a <lugar>muralha</lugar>, para desembocar no <lugar>campo das Carvalheiras</lugar>,
+            então chamado de <lugar>S.Miguel o Anjo</lugar>.
+        </para>
+        <para>
+            A transformação recebida há cem anos nesta artéria, qua a fez passar a ter o 
+            dobro da largura, destruiu todas as casas apresentadas no Mappa. E pena foi, 
+            porque embora este troço de rua seja de interesse secundário na cidade de então,
+            apresentava uma casa brasonada, em pedra, de 3 pisos, no gaveto com a <lugar>rua de 
+            D. Gualdim</lugar> e uma curiossísima casa com escada exterior, talvez quinhentista, nada vulgar 
+            neste documento. 
+        </para>
+        <para>
+            Das 6 casas do lado Norte e 7 do Sul, são prazos do <entidade tipo="instituição">Cabido</entidade> 2 de cada lado.
+        </para>
+        <para>
+            Esta travessa, está atualmente integrada na <lugar>rua D. Afonso Henriques</lugar>. 
+        </para>
+        
+        
+        <figura id="MRB-17-norte">
+            <imagem path="../imagem/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-norte.jpg"/>
+            <legenda>Travessa da Rua de Gualdim até ao Couto do Arvoredo - norte</legenda>
+        </figura>
+        
+        <figura id="MRB-17-sul">
+            <imagem path="../imagem/MRB-17-TravessaDaRuaDeDGualdimAteAoCoutoDoArvoredo-sul.jpg"/>
+            <legenda>Travessa da Rua de Gualdim até ao Couto do Arvoredo - sul</legenda>
+        </figura>
+        
+        <lista-casas>
+            <!-- casa 1 -->
+            <casa>
+                <número>1</número>
+                <enfiteuta>Padre José António Pereira</enfiteuta>
+                <foro>290 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 2 -->
+            <casa>
+                <número>2</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 1 da <lugar>Rua de Santo António</lugar>, para onde 
+                tem a frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 3 -->
+            <casa>
+                <número>3</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                     Corresponde ao n.º 22 da <lugar>Rua de Santo António</lugar>, para onde 
+                    tem a frontaria e serventia principais.   
+                    </para>
+                </desc>
+            </casa>
+            
+            
+            <!-- casa 4 -->
+            <casa>
+                <número>4</número>
+                <enfiteuta>Inácio José Leite, ourives</enfiteuta>
+                <foro>225 e reis e 3 galinhas</foro>
+                <desc>
+                    <para>
+                      Fica situada nesta travessa «na parte que, à mão 
+                direita, liga a <lugar>Rua das Chagas</lugar> à <lugar>Rua Verde</lugar>».  
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 5 -->
+            <casa>
+                <número>5</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 15 da <lugar>Rua de D. Gualdim</lugar>, para onde 
+                    tem a frontaria e serventia principais.
+                </para>
+                </desc>
+            </casa>
+            
+        </lista-casas>
+    </corpo>
+</rua>

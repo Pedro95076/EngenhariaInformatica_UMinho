@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>1</número>
+        <nome>Rua do Campo</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-01-nascente">
+            <imagem path="../imagem/MRB-01-RuaDoCampo-nascente.PNG"/>
+            <legenda>Rua do Campo - vista nascente. </legenda>
+        </figura>
+        <figura id="MRB-01-poente">
+            <imagem path="../imagem/MRB-01-RuaDoCampo-poente.PNG"/>
+            <legenda>Rua do Campo - vista poente.</legenda>
+        </figura>
+        <para>Pequena rua, entre a <lugar>rua Nova</lugar> e a <lugar>Porta de S. Francisco</lugar>, existente ja na Idade Media, entao com o nome de <lugar>rua Nova</lugar>.</para>
+           <para>Actualmente toda esta rua tem feição diferente: a <lugar>porta de S. Francisco</lugar> foi demolida em data que desconhecemos e a parte central do lado Nascente 
+            foi destruida em 1754 para aí se construir o novo <lugar>edificio da Camara Municipal</lugar> (so concluido em <data>1865</data>) que ficou com a fachada traseira para esta rua. 
+            O lado Sul foi integralmente perdido no final da decada de oitenta do seculo passado, quando se fez o alargamento e rectificação do traçado desta artéria.</para>
+            <para>Se, na Idade Media, esta rua teve, possivelmente, grande importância (tinha uma porta num dos seus extremos, dava imediato acesso a saída de <lugar>Braga</lugar> para <lugar>Prado</lugar>, 
+            <lugar>Ponte de Lima</lugar> e <lugar>Valença</lugar>, atraves da <lugar>rua da Conega</lugar>), no <data>sec. XVIII</data>, o seu peso deve ter decaído bastante.</para>
+        <para>A designagao de <lugar>Campo</lugar> podera datar talvez do <lugar>primeiro 
+            quartel</lugar> do <data>sec. XVI</data>, quando passou a estar em ligação com o <lugar>campo da Vinha</lugar>, então aberto.</para> 
+        <para>Das 10 casas do lado Nascente e 14 do Poente, apenas três deste lado 
+            pertenciam ao <entidade tipo="instituição">Cabido</entidade>. </para>
+        <para>A <lugar>rua do Campo</lugar> é um troço da actual <lugar>rua D. Frei Caetano Brandao</lugar>, entre a <lugar>rua D. Diogo de Sousa</lugar> e o <lugar>largo Conselheiro Torres e Almeida</lugar>, 
+            tendo recebido esta designação na sessão da Câmara de <data>28.07.1890</data>.</para>
+        
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Domingos Dias</enfiteuta>
+                <foro>620 reis e galinhas</foro>
+                <desc><para>Desde o ano de <data>1719</data> que os nº 1 e 2 se encontravam unidos. A frontaria que dá para a <lugar>Rua Nova de Sousa</lugar> corresponde ao nº15 da dita rua e é foreira à comenda de <lugar>São Pedro de Merelim.</lugar> </para></desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <enfiteuta>Domingos Dias</enfiteuta>
+                <foro>270 reis e 2 galinhas</foro>
+                <desc><para>Desde o ano de <data>1719</data> que os nº 1 e 2 se encontravam unidos. A frontaria que dá para a <lugar>Rua Nova de Sousa</lugar> corresponde ao nº15 da dita rua e é foreira à comenda de <lugar>São Pedro de Merelim.</lugar> </para></desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <enfiteuta>Os herdeiros do Padre Domingos Tinoco</enfiteuta>
+                <foro>150 reis e 2 galinhas</foro>
+                <desc><para>Confronta, de Sul, com parte da mesma casa foreira à <entidade tipo="instituição">Confraria da Trindade</entidade>, antiga <entidade tipo="instituição">Confraria da Companhia de Jesus</entidade> e, de Norte, com casa dízima a Deus</para></desc>
+            </casa>
+           
+        </lista-casas>
+    </corpo>
+</rua>

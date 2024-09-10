@@ -1,0 +1,42 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+      // Float links to the right. Hide them on small screens
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/perfil/") Voltar
+
+  // Page content
+  .w3-content.w3-padding(style='max-width:1564px')
+    div(style="height: 50px;")
+    if isAdmin
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Editar Perfil de Administrador
+    else
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Editar Perfil de Utilizador
+      
+    form(action=`/perfil/edit`, method="post", enctype="multipart/form-data")
+      input(type='hidden', name='user_id', value=user._id)
+      .w3-container(style="margin-bottom:20px;width:100%")
+        label Nome:
+        input.w3-input.w3-border.w3-animate-input(type='text', name='name', value=user.name, required)
+        
+        label Username:
+        input.w3-input.w3-border.w3-animate-input(type='text', name='username', value=user.username, required)
+        
+        label Email:
+        input.w3-input.w3-border.w3-animate-input(type='email', name='email',value=user.email, required)
+        
+        label Afiliação:
+        input.w3-input.w3-border.w3-animate-input(type='text', name='filiacao', value=user.filiacao)
+
+        button.w3-button.w3-black.w3-section(type="submit") Atualizar
+        button.w3-button.w3-black.w3-section(type="button")
+          a(href="/perfil/", style="text-decoration: none;") Cancelar
+
+  // Footer
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}

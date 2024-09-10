@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../MRB-rua.xsd">
+    <meta>
+        <número>56</número>
+        <nome>Cangosta da Escoura</nome>
+    </meta>
+    <corpo>
+        <para>Pequena artéria, de carácter rural, estabelecia ligação entre a <entidade tipo="instituição">igreja de S. Vicente</entidade> e a 
+            <entidade tipo="instituição">igreja e convento do Carmo</entidade>.</para>
+        <para>Aberta em data que desconhecemos, não está totalmente representada no Mappa; nele só vemos a metade Este, embora de ambos os lados.</para>
+        <para>Sem casas dignas de relevo, apresenta do lado Sul uma série de portas que davam acesso aos quintais das habitações da 
+            <lugar>rua dos Chãos de Cima</lugar>. Aliás todo este lado era pertença das casas daquela rua, pois que até os 4 edifícios (n.ºs 8, 24, 27 e 28) nele 
+            representados pertenciam, respectivamente, aos seus prazos n.ºs 46, 27, 23 e 22.</para>
+        <para>Do lado Norte, há apenas 5 pequenas casinhas totalmente ligadas aos campos que as envolviam: assim a casa do prazo n.ºs 30 e 31 andam emprazadas 
+            juntamente com o campo n.º 29, e as casas 32, 33 e 35 estavam também todas subemprazadas com os quintais n.º 34 e 36 num só título.</para>
+        <para>Todas estas casas são foreiras ao cabido.</para>
+        <para>Desde <data>14 de Setembro de 1885</data> que passou a chamar-se <lugar>rua Gabriel Pereira de Castro</lugar>. Apesar das placas toponímicas existentes 
+            no local competente terem gravado este nome é apenas conhecida como <lugar>rua da Escoura</lugar>.</para>
+        <figura id="MRB-56-norte">
+            <imagem path="../imagem/MRB-56-CangostaDaEscoura-norte.jpg"/>
+            <legenda>Cangosta da Escoura - vista norte.</legenda>
+        </figura>
+        <figura id="MRB-56-sul">
+            <imagem path="../imagem/MRB-56-CangostaDaEscoura-sul.jpg"/>
+            <legenda>Cangosta da Escoura - vista sul.</legenda>
+        </figura>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <desc>
+                    <para>Pertence à casa n.º 9 da <lugar>Rua das Palhotas</lugar>, para onde tem frontaria e serventia principais.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>2</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.° 52 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3</número>
+                <desc>
+                    <para>Quintal da casa n.º 51 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <desc>
+                    <para>Porta de serventia da casa n.º 50 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>5</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 49 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>6</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 48 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 47 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>8</número>
+                <desc>
+                    <para>Pertença do n.º 46 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <desc>
+                    <para>Quintal da casa n.º 45 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <desc>
+                    <para>Quintal da casa n.º 44 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <desc>
+                    <para>Quintal da casa n.º 43 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <desc>
+                    <para>Quintal da casa n.º 42 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>13</número>
+                <desc>
+                    <para>Quintal da casa n.º 41 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <desc>
+                    <para>Quintal da casa n.º 40 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>15</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 39 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 38 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 37 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>18</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 36 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 35 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>20</número>
+                <desc>
+                    <para>Quintal da casa n.º 34 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>21</número>
+                <desc>
+                    <para>Porta de serventia dos quintais das casas n.ºs 32 e 33 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <desc>
+                    <para>Porta de serventia do quintal da casa n.º 31 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>23</número>
+                <desc>
+                    <para>Caminho de serventia das casas n.ºs 28, 29 e 30 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>24</número>
+                <desc>
+                    <para>Pertence ao n.º 27 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>25</número>
+                <desc>
+                    <para>Porta de serventia da casa n.º 26 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>26</número>
+                <desc>
+                    <para>Quintal da casa n.° 25 da <lugar>Rua dos Chãos de Cima</lugar>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>27</número>
+                <desc>
+                    <para>Pertence ao n.º 23 da <lugar>Rua dos Chãos de Cima</lugar></para>
+                </desc>
+            </casa>
+            <casa>
+                <número>28</número>
+                <desc>
+                    <para>Pertence ao n.º 22 da <lugar>Rua dos Chãos de Cima</lugar></para>
+                </desc>
+            </casa>
+            <casa>
+                <número>29</número>
+                <enfiteuta>Pedro Francisco Rodrigues, da rua dos Chãos de Cima, c.c. Maria de Matos Vieira</enfiteuta>
+                <foro>100 reis e 1 alqueire de trigo</foro>
+                <desc>
+                    <para>Denominado “Campo ou Cortelho da Escoura”. Foi pertença do prazo do <lugar>casal de Infias</lugar> antes de <data>1736</data>.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>30</número>
+                <desc>
+                    <para>Pertence ao prazo do Campo ou Cortelho da Escoura.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>31</número>
+                <desc>
+                    <para>Pertence ao prazo do Campo ou Cortelho da Escoura.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>32 a 36</número>
+                <enfiteuta>Isabel Maria da Silva, viúva do Dr. Santos de Araújo Alves, enfiteuta principal do prazo da 1.ª metade do casal do Lagarto.</enfiteuta>
+                <desc>
+                    <para>Pagam foro ao enfiteuta do prazo da 2.ª metade do <lugar>casal do Lagarto</lugar>. Os n.º 34 e 36 correspondem a quintais.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>37</número>
+                <desc>
+                    <para>Quintal da casa n.° 38.</para>
+                </desc>
+            </casa>
+            <casa>
+                <número>38</número>
+                <desc>
+                    <para>Pertence à casa n.° 10 da <lugar>Rua das Palhotas</lugar>, para onde tem a frontaria principal.</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

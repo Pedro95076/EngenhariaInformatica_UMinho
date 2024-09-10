@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/In%C3%AAs/Desktop/4%C2%BA%20Ano%20(2018-2019)/1%C2%BA%20Semestre/Publica%C3%A7%C3%A3o%20Eletr%C3%B3nica/MRB-rua.xsd">
+    <meta>
+        <número>8</número>
+        <nome>Rua de Janes </nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-08">
+            <imagem path="../imagem/MRB-08-RuaDeJanes.JPG"/>
+            <legenda>Rua de Janes.</legenda>
+        </figura>
+        <para>Pequena e tortuosa rua que ligava a <lugar>igreja de S. João do Souto</lugar> à <lugar>Porta de Souto</lugar>. Aparece também com os nomes de <lugar norm="Rua de Jano">Jano </lugar>e <lugar norm="Rua de Janoas">Janoas</lugar>. </para>
+        <para>Aberta na Idade Média, esta artéria deverá ter perdido grande parte da sua importância quando <entidade tipo="pessoa">D. Diogo de Sousa</entidade> deu efectiva funcionalidade à <lugar>porta de S. João</lugar>. </para>
+        <para>No Mappa aparece-nos como uma rua desordenada, com uma linha de empenas muito recortada no lado Sul, com casas de um certo ar rural, misturadas com outras do desenho urbano característico de Braga desta época e, sobretudo, com muitos edifícios de cariz bastante arcaico (15%). O fraco tratamento dado às janelas e a quase inexistência de varandas mostra bem o carácter secundário desta rua.</para>
+        <para>Com 19 casas do lado Sul e 18 do Norte, eram prazos do Cabido 7 e 12 respectivamente.</para>
+        <para>Este topónimo, que se mantém ainda hoje, deriva do nome do instituidor da medieval <lugar>igreja de S. João de Souto</lugar>, <entidade tipo="pessoa">João Anes</entidade>. 
+            
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1</número>
+                <enfiteuta>Miguel da Silva Cação, pasteleiro</enfiteuta>
+                <foro>240 reis e 2 galinhas</foro>
+                <desc>
+                    <para>Os prazos nº 2 e 3 encontram-se unidos desde <data>1669</data>.</para>
+                    <para>O nº 1 confronta, do poente, com o quintal da casa nº 5 da <lugar>Rua de S. João</lugar>, à qual esteve unida entre os anos de <data>1678</data> e <data>1720</data></para></desc>
+            </casa>
+            <casa>
+                <número>2 e 3</número>
+                <enfiteuta>Miguel da Silva Cação, pasteleiro</enfiteuta>
+                <foro>280 reis e 3 galinhas</foro>
+                <desc><para>Os prazos nº 2 e 3 encontram-se unidos desde <data>1669</data>.</para>
+                    <para>O nº 1 confronta, do poente, com o quintal da casa nº 5 da <lugar>Rua de S. João</lugar>, à qual esteve unida entre os anos de <data>1678</data> e <data>1720</data></para></desc>
+            </casa>
+            <casa>
+                <número>4</número>
+                <enfiteuta>Miguel da Silva Cação, pasteleiro</enfiteuta>
+                <foro>180 reis e 2 galinhas</foro>
+                <desc><para>Os prazos nº 2 e 3 encontram-se unidos desde <data>1669</data>.</para>
+                    <para>O nº 1 confronta, do poente, com o quintal da casa nº 5 da <lugar>Rua de S. João</lugar>, à qual esteve unida entre os anos de <data>1678</data> e <data>1720</data>
+            </para>
+                </desc>
+            </casa>
+            
+           
+            <casa>
+                <número>5</número>
+                <enfiteuta> D. Escolástica, viúva</enfiteuta>
+                <foro>200 reis e 2 galinhas </foro>
+                <desc><para></para></desc>
+            </casa>
+            
+            <casa>
+                <número>6</número>
+                <enfiteuta>Constantino Marques</enfiteuta>
+                <foro>130 reis e 2 galinhas</foro>
+                <desc><para></para></desc>
+            </casa>
+            <casa>
+                <número>7</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>A frontaria e serventia principais correspondem ao nº 29 da <lugar>Rua do Souto</lugar>. No poente tem uma porta de serventia que dá para o referido nº 29. Confronta, do nascente,com casa dos <entidade tipo="família">padres coreiros</entidade>. </para></desc>
+            </casa>
+            
+            <casa>
+                <número>8</número>
+                <enfiteuta>António de Lima de Abreu</enfiteuta>
+                <foro>100 reis e 1 galinha</foro>
+                <desc><para>Foi construída, no ano de <data>1565</data>. em pertenças do nº 26 da <lugar>Rua do Souto</lugar>. Na parte do nascente, em baixo, possui uma porta de serventia para o nº 25 da <lugar>Rua do Souto</lugar>. Confronta, do poente, com casas foreiras à <lugar>cororaria</lugar> e, do nascente, com a serventia do nº 25, da <lugar>Rua do Souto</lugar>.</para></desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para> Corresponde a uma porta e corredor de serventia do nº 25 da <lugar>Rua do Souto</lugar>. Situa-se por baixo da casa nº 8.</para></desc>
+            </casa>
+            <casa>
+                <número>10 </número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Pertence à casa nº 23, da <lugar>Rua do Souto</lugar>. para onde tem a serventia principal. </para></desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc><para>Pertence à casa nº 21, da <lugar>Rua do Souto</lugar>, para onde tem a serventia principal.</para></desc>
+            </casa>
+            <casa>
+                <número>12</número>
+                <enfiteuta>A viúva de Frutuoso Marques</enfiteuta>
+                <foro>200 reis e 1 galinha</foro>
+                <desc><para>No ano de <data>1583</data> foi separada do prazo da casa nº 13 e unida ao nº 19, da <lugar>Rua do Souto</lugar>. A partir do ano de <data>1610</data> constitui, novamente, um único prazo.  </para></desc>
+            </casa>
+            
+            <casa>
+                <número>13</número>
+                <enfiteuta>Jerónima da Costa, viúva de Gaspar Francisco </enfiteuta>
+                <foro>190 reis e 1 galinha </foro>
+                <desc><para>Situa-se na esquina para a <lugar>Rua do Souto </lugar></para></desc>
+            </casa>
+            <casa>
+                <número>14</número>
+                <enfiteuta>Madalena Vaz, viúva</enfiteuta>
+                <foro>180 reis e 2 galinhas</foro>
+                <desc><para>Confronta, do sul, com o nº 13 e, do norte, com casa foreira à Mitra.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>15</número>
+                <enfiteuta>Padre José Marques</enfiteuta>
+                <foro>225 reis e 2 galinhas </foro>
+                <desc><para>Confronta, do nascente, com <lugar>casa da cororaria </lugar>e, do poente, com casa foreira a <entidade tipo="pessoa">S. João do Souto</entidade>.</para></desc>
+            </casa>
+            
+            <casa>
+                <número>16</número>
+                <enfiteuta> Ana Maria Josefa Clara </enfiteuta>
+                <foro> 190 reis e 2 galinhas</foro>
+                <desc><para>
+                </para></desc>
+            </casa>
+            <casa>
+                <número>17</número>
+                <enfiteuta>A viúva do Capitão Domingos Gomes Lages</enfiteuta>
+                <foro> 220 reis</foro>
+                <desc><para>
+                </para></desc>
+            </casa>
+            <casa>
+                <número>18, 19, 20 e 21</número>
+                <enfiteuta>A viúva do Capitão Domingues Gomes Lages</enfiteuta>
+                <foro>210 reis 2 capões</foro>
+                <desc><para>O nº 20 confronta, do poente, com casa de vínculo. O nº 21 situa-se por detrás da <lugar>Igreja de S. João do Souto</lugar> e, por sentença que alcançou <entidade tipo="pessoa">Teotónio Soares de Brito</entidade> contra o cabido, ficou-lhe a pertencer o nº 19. 
+                </para></desc>
+            </casa>
+            
+            
+            
+            
+            
+            
+            
+        </lista-casas>
+    </corpo>
+</rua>

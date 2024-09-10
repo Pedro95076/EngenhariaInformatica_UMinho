@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/Weeb_diogo/Desktop/publica%C3%A7%C3%A3o%20eletronica/aula8/MRB-rua.xsd">
+    <meta>
+        <número>30</número>
+        <nome>Cangosta De S. Sebastião</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-30-norte">
+            <imagem path="../imagem/MRB-30-CangostaDeSSbebastiao-Norte.png"/>
+            <legenda>Cangosta De S. Sebastião - norte</legenda>
+        </figura>
+        <figura id="MRB-30-sul">
+            <imagem path="../imagem/MRB-30-CangostaDeSSbebastiao-Sul.png"/>
+            <legenda>Cangosta De S. Sebastião - sul</legenda>
+        </figura>
+        <para>
+            Longa rua extra-muros que descia toda a colina da <lugar>Cividade</lugar>, desde o <lugar>Terreiro de S. Sebastião</lugar> (onde estava a <lugar>capela de S.Sebastião das Carvalheiras)</lugar> até à do <lugar>Beco</lugar>.
+        </para>
+        <para>
+            Decalcando talvez o cardo da cidade romana, e embora não conste no Tombo do <entidade entidade="instituição">Cabido</entidade> ( datável de <data>1369-1380</data>), esta rua já existia na Idade Média
+            pois era uma das duas vias de ligação da cidade intra-muros com a <lugar>igreja paroquial de Maximinos</lugar>.
+        </para>
+        <para>
+            Recebendo o nome de S. Sebastião por no seu topo estar a capela do santo da mesma invocação, de data de fundação desconhecida, esta rua só nos finais da
+            década de setenta do nosso século perdeu o ar rual que ostentava em 1750.
+        </para>
+        <para>
+            No Mappa, a rua era cosntítuida por casas de pedra, na sua grande maioria de um piso, muito simples, sendo 36% do tipo de porta/janela. Tinha
+            vários portões que davam acesso directo a campos de cultivo, bem vísiveis atrás de muros que faceavam a rua , ou atrás das habitações.
+        </para>
+        <para>
+            Das 25 casas do lado Norte e 24 do Sul, eram prazos do <entidade>Cabido</entidade> 20 casas do lado Norte.
+        </para>
+        <para>
+            Mantém hoje o topónimo de S. Sebastião embora também seja conehcida por <lugar>rua dos Marchantes</lugar>.
+        </para>
+        
+        <lista-casas>
+            
+            <casa>
+                <número>1 e 2</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Pertencem ao n.º 38 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>, para onde tem a frontaria e serventia pricnipais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3, 4, 5, 6, 7 e 8</número>
+                <enfiteuta>Os herdeiros de Bento Vaz Perreira, da freguesia de S. Martinho de Dume, casado com Maria Josefa de Macedo e Castro.</enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Pagam foro ao n.º 20 da <lugar>Rua do Arrabalde da Cruz de Pedra</lugar>. Os n.º4 a 8 foram integrados na
+                        escritura do prazo n.º 3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <!-- este enfiteuta tem de ser confirmado e todos os ** -->
+                <enfiteuta>Os herdeiros de Bento Vaz Perreira, da freguesia de S. Martinho de Dume, casado com Maria Josefa de Macedo e Castro.</enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Pertence ao n.º 36 da Rua do Arrabalde da Cruz da Pedra, a qual, está integrada no prazo da casa n.º 20, da mesma rua.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Os herdeiros de Bento Vaz Perreira, da freguesia de S. Martinho de Dume, casado com Maria Josefa de Macedo e Castro.</enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Pagam foro ao n.º 20 da <lugar>Rua do Arrabalde da Cruz de Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para> 
+                        Portal de serventia da casa n.º 33 do Arrabalde da Cruz de Pedra.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12, 13, 14 e 15</número>
+                <enfiteuta>Os herdeiros de Bento Vaz Perreira, da freguesia de S. Martinho de Dume, casado com Maria Josefa de Macedo e Castro.</enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Casas que pagam foro ao n.º 20 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16 e 17</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Casa e portal de serventia do n.º 28 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19, 20 e 21</número>
+                <enfiteuta>Os herdeiros de Bento Vaz Perreira, da freguesia de S. Martinho de Dume, casado com Maria Josefa de Macedo e Castro.</enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Corresponde a três casas que pagam foro ao n.º 20 da <lugar>Rua da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta></enfiteuta>
+                <foro></foro>
+                <desc>
+                    <para>
+                        Portal de serventia do campo da casa n.º 20 da <lugar>Rua do Arrabalde de Cruz da Pedra</lugar>. Confronta, do nascente, com casa 
+                        pertencente à propriedade, denominada, «O Bispo».
+                    </para>
+                </desc>
+            </casa>
+            
+        </lista-casas>
+        
+    </corpo>
+</rua>

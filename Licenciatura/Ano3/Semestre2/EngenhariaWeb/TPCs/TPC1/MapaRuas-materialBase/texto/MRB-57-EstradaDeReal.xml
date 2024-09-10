@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>57</número>
+        <nome>Estrada de Real</nome>
+    </meta>
+    <corpo>
+        <para>Longa via, talvez decalcando a velha estrada romana, saía de <lugar>Braga</lugar>, por terrenos que pensamos ser coincidentes com os da actual <lugar>rua Andrade Corvo</lugar>, em direção á freguesia suburbana de <lugar>S.Jerónimo de Real</lugar>.</para>
+        <para>Em <data>1750</data>, todas as suas casas (3 do lado Norte e 15 do Sul) eram foreiras ao <lugar>Cabido</lugar> e incluiam-se no prazo da <lugar>Quinta da Cónega</lugar>.</para>
+        <para>Eram, naturalmente, construções muito pequenas, muito simples, de um só piso (excepto 2), e do tipo de porta ladeada por janela. Estes edifícios inscreviam-se apenas no extremo Oeste da rua: o restante espaço estava ocupado apenas com campos de cultivo.</para>
+        <figura id="MRB-57-norte">
+            <imagem path="../imagem/MRB-57-EstradaDeReal-norte.jpg"/>
+            <legenda>Estrada de Real - norte.</legenda>
+        </figura>
+        <figura id="MRB-57-sul">
+            <imagem path="../imagem/MRB-57-EstradaDeReal-sul.jpg"/>
+            <legenda>Estrada de Real - sul.</legenda>
+        </figura>
+        
+        
+        <lista-casas>
+        <casa>
+           <número>1</número>
+            <desc>
+                <para>Campo do prazo da  <lugar>Quinta da Cónega(freguesia de S.Pedro de Maximinos)</lugar>.</para>
+            </desc>
+        </casa>
+        <casa>
+            <número>2 a 20</número>
+            <enfiteuta>Sebastião de Faria Gusmão, enfiteuta principa da Quinta da Cónega.</enfiteuta>
+            <desc>
+                <para>Pertencem à <lugar>Quinta da Cónega</lugar>, a cujo enfiteuta se paga foro. O nº17 confronta, do poente, com o caminho que vai para a  <lugar>Quinta do Real</lugar>.</para>
+                <para>O nº18, confronta, do poente, com o caminho que vai junto da <lugar>Curutela</lugar>para a cangosta do <lugar>Pópulo</lugar>.</para>
+            </desc>
+        </casa>
+        <casa>
+            <número>21</número>
+            <desc>
+                <para>Corresponde a um campo do prazo da  <lugar>Quinta da Cónega</lugar>. Confronta, do nascente, com a casa nº22 da <lugar>Rua da Cónega</lugar>.</para>
+            </desc>
+        </casa>
+    </lista-casas>   
+    </corpo>
+</rua>
+
+    

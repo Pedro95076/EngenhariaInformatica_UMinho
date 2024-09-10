@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="MRB-rua.xsd">
+    <meta>
+        <número>31</número>
+        <nome>Rua do Alcaide</nome>
+    </meta>
+    <corpo>
+        <figura id="MRB-31-sul">
+            <imagem path="../imagem/MRB-31-DoAlcaide-Sul.png"/>
+            <legenda>Rua do Alcaide - Sul.</legenda>
+        </figura>
+        <para>
+            Construída em volta da parte sul da muralha medieval, ligava o <lugar>campo de S.Tiago</lugar>
+            com o <lugar>Terreiro de S.Sebastião.</lugar>
+        </para>
+        <para>
+            Começada a construir talvez no tempo de <entidade tipo="pessoa">D.Diogo de Sousa</entidade>, tinha,
+            em <data>1750</data>, boas casas de granito, com uma grande fachada, de 2 pisos, molduras de pedras 
+            nas portas e janelas do 1º piso e filetes de pedra sobre as janelas bracarenses do andar principal.
+            Curiosamente não se vêem casas com brasões, embora tivessem, com toda a certeza, vivido aqui membros
+            de famílias nobres. A sua própria designação, do Alcaide, aponta para isso.
+        </para>
+        <para>
+            Até hoje pouco se alterou, tendo só desaparecido as casas dos prazos 19 a 21. O seu nome também se 
+            manteve.
+        </para>
+        <para>
+            O lado Norte não está desenhado porque as habitações que encostavam à muralha deveriam ser prazos da
+            <lugar>Câmara</lugar>.
+        </para>
+        <para>
+            As 18 casas que apresentam são todas prazos do Cabido.
+        </para>
+        <lista-casas>
+            <casa>
+                <número>1 e 2</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Pertencem ao nº38 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>, para onde tem 
+                        frontaria e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>3,4,5,6,7 e 8</número>
+                <enfiteuta>Vid. casa nº20 da Rua do Arrabalde da Cruz da Pedra(rua nº27)</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Pagam foro ao nº20 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>. Os nº 4 a 8
+                        foram integrados na escritura do prazo nº3.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>9</número>
+                <enfiteuta>Vid. casa nº36 da Rua do Arrabalde da Cruz da Pedra(rua nº27)</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Pertence ao nº36 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>, a qual está integrada 
+                        no prazo da casa nº20, da mesma rua.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>10</número>
+                <enfiteuta>Vid. casa nº20 da Rua do Arrabalde da Cruz da Pedra(rua nº27)</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Paga foro ao nº20 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>11</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Portal de serventia da casa nº33 do <lugar>Arrabalde da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>12,13,14 e 15</número>
+                <enfiteuta>Vid. casa nº20 da Rua do Arrabalde da Cruz da Pedra(rua nº27).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Casas que pagam foro ao nº20 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>16 e 17</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Casa e portal de serventia do nº28 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>19,20 e 21</número>
+                <enfiteuta>Vid. casa nº20 da Rua do Arrabalde da Cruz da Pedra(rua nº27).</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Corresponde a três casas que pagam foro ao nº 20 da <lugar>Rua da Cruz da Pedra.</lugar>
+                    </para>
+                </desc>
+            </casa>
+            <casa>
+                <número>22</número>
+                <enfiteuta>-</enfiteuta>
+                <foro>-</foro>
+                <desc>
+                    <para>
+                        Portal de serventia do campo da casa nº 20 da <lugar>Rua do Arrabalde da Cruz da Pedra</lugar>
+                        Confronta, do nascente, com a casa pertencente à propriedade, denominada, "O Bispo".</para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

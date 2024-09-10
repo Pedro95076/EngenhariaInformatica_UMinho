@@ -1,0 +1,82 @@
+extends layout
+
+block content
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA 
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/ruas/") Ruas
+        a.w3-bar-item.w3-button(href="/posts") Posts
+        a.w3-bar-item.w3-button(href="/perfil/") Perfil
+        a.w3-bar-item.w3-button(href="/logout") Logout
+
+  hr
+  .w3-content.w3-padding(style="display:flex; justify-content:center")
+    if posts && posts.length > 0  
+      ul.w3-ul(style="width: 40%;padding-top:2%; padding-bottom:2%")
+        each post in posts
+          li.w3-card.w3-round(style="margin-top:2%; margin-bottom:7%; padding: 20px; border: 2px solid #ddd;")
+            .w3-container
+              if post.user
+                h4 #{post.user.username}
+                h5 Criado a #{post.data}
+              else
+                h4 User not found
+            hr
+            .w3-container(style="margin-bottom: 20px;")
+              p(style="margin-top:2%;margin-bottom:3%") #{post.desc}
+              .w3-container.w3-border.w3-round.w3-hover-opacity 
+                a(href="/ruas/"+post.rua._id style="text-decoration: none;")
+                  h3 #{post.rua.nome}
+                  .w3-content.w3-display-container(style="margin-top: 10px;")
+                    if post.rua.figuras
+                      img(src="/api/image/images/"+post.rua.figuras[0].imagem alt= "Imagem "+post.rua.nome style="width:85%" )
+                    if post.rua.para
+                      each para in post.rua.para
+                        p= para     
+            a(href="/posts/"+post._id style="display:flex; justify-content: center").w3-text-blue Ver mais sobre o post...     
+    else 
+      .w3-container(style="width: 40%; padding-top: 2%; padding-bottom: 2%; margin: auto;")
+        .w3-center
+          h5.w3-margin.w3-padding.w3-opacity Não existem posts. Seja o primeiro a criar um!
+            
+  .w3-modal#id01(style="display:none")
+    .w3-modal-content
+      .w3-container
+        span.w3-button.w3-display-topright(onclick="document.getElementById('id01').style.display='none'") &times;
+        h2 Selecionar uma rua para postar
+        form(id="postForm" method="POST")
+          .w3-container.w3-margin-top
+            label(for="rua") Rua
+            select.w3-select.w3-border(name="rua_id" onchange="updateFormAction(this.value)")
+              if ruas && ruas.length > 0
+                each rua in ruas
+                  option(value=rua._id) #{rua.nome}
+              else
+                option(value="") Nenhuma rua disponível
+          .w3-container.w3-margin-top
+            label(for="desc") Descrição
+            textarea.w3-input.w3-border(name="desc" rows="4" placeholder="Escreva algo sobre a rua...")
+          .w3-container.w3-margin-top
+            button.w3-button.w3-blue(type="submit") Postar
+  .w3-center
+    button.w3-button.w3-black.w3-section(type='button')
+            a(href='/posts/add' style='text-decoration: none;') Adicionar Post
+
+  footer.w3-center.w3-black.w3-padding-16
+    p
+      | Gerado por EngWeb2024 em #{d}
+
+  script.
+    var modal = document.getElementById('id01');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    function updateFormAction(ruaId) {
+      var form = document.getElementById('postForm');
+      form.action = '/ruas/post/' + ruaId;
+    }

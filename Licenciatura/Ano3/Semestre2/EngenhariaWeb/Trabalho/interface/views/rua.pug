@@ -1,0 +1,90 @@
+extends layout
+
+block content
+  // Barra de navegação fixa no topo
+  .w3-top
+    .w3-bar.w3-white.w3-wide.w3-padding.w3-card
+      a.w3-bar-item.w3-button(href='/ruas/')
+        b RUAS DE BRAGA
+      // Links flutuantes para a direita. Esconda-os em telas pequenas
+      .w3-right.w3-hide-small
+        a.w3-bar-item.w3-button(href="/ruas/") Voltar
+
+  // Espaço abaixo da barra de navegação fixa
+  .spacer(style='height: 80px;')
+
+  // Conteúdo principal
+  .w3-content.w3-padding(style='padding-top: 80px; max-width:1564px;')
+
+    // Header
+    .w3-margin-bottom
+      h1.w3-xxlarge.w3-text-black
+        span.w3-padding.w3-black.w3-opacity-min
+          b #{rua._id}
+        span.w3-hide-small.w3-text-dark-grey #{rua.nome}
+
+    // Botões de administração
+    if isAdmin
+      .w3-margin-bottom
+        button.w3-btn.w3-light-gray.w3-hover-dark-gray.w3-round(style="margin-right:10px")
+          a(href=`/ruas/edit/${rua._id}` style="text-decoration: none; color: inherit;")
+            i.fa.fa-edit
+            |  Editar
+        button.w3-btn.w3-light-gray.w3-hover-dark-gray.w3-round(style="margin-left:10px")
+          a(href=`/ruas/delete/${rua._id}` style="text-decoration: none; color: inherit;")
+            i.fa.fa-trash
+            |  Apagar
+
+    // Seção Sobre
+    #about.w3-container.w3-padding-32
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Sobre
+        if rua.para
+          each para in rua.para
+            p= para
+
+    // Seção de Imagens
+    if rua.figuras && rua.figuras.length > 0
+      .w3-row-padding
+        each figura in rua.figuras
+          .w3-col.l3.m6.w3-margin-bottom
+            .w3-display-container
+              img(src=`/images/imagem/${figura.imagem}`, alt=`Imagem da ${rua.nome}`, style="width:100%").imgRua
+    else
+      h5.w3-margin.w3-padding.w3-center.w3-opacity Não existem imagens para mostrar
+
+    // Seção Casas
+    #casas.w3-container.w3-padding-32
+      h3.w3-border-bottom.w3-border-light-grey.w3-padding-16 Casas
+      .w3-row-padding.w3-grayscale
+        if rua.lista_casas
+          each casa in rua.lista_casas
+            .w3-col.l3.m6.w3-margin-bottom
+              ul.w3-ul
+                if casa._id
+                  h3 Casa número #{casa._id}
+                if casa.enfiteuta
+                  li Enfiteuta: #{casa.enfiteuta}
+                if casa.foro
+                  li Foro: #{casa.foro}
+                if casa.desc
+                  li.w3-justify #{casa.desc}
+                br
+
+    // Rodapé
+    footer.w3-center.w3-black.w3-padding-16
+      p
+        | Gerado por EngWeb2024 em #{d}
+
+  // Script Inline
+  script.
+    var modal = document.getElementById('id01');
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+
+    function updateFormAction(ruaId) {
+      var form = document.getElementById('postForm');
+      form.action = '/ruas/post/' + ruaId;
+    }

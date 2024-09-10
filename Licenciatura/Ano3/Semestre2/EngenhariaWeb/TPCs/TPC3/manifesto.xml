@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doc>
+    <meta>
+        <title>TPC3: Filmes, generos e elenco</title>
+        <author>
+            <id>A95076</id>
+            <nome>Pedro Oliveira</nome>
+        </author>
+        <uc>
+            <sigla>EW2024</sigla>
+            <nome>Engenharia Web </nome>
+        </uc>
+    </meta>
+    <resumo>
+        <p>Este trabalho tem como objetivo gerar um servidor que permita criar uma página HTML com uma lista das filmes, outra de géneros e outra de atores, ordenadas alfabeticamente. Quando um utilizador clicar num dos filmes, generos ou atores, deve ser aberta uma nova página que contém as informações desse objeto. A página de um filme ainda permite clicar num ator ou génoro e ir para as respetivas página. As páginas contém botões que permitem voltar ás páginas anteriores. A informação das páginas foi obtida através de um json-server criado a partir de um ficheiro json, ao qual se teve de criar um script python para manipular os dados (inclusive, fazer a inversao de dados) .</p>
+        <p>Terceiro Paragrafos com <url>https://github.com/ema-12-martins/EngWeb2024/tree/main/TPC2</url><texto>Repositório</texto></p>
+    </resumo>
+    <resultados>
+        <resultado> Com um servidor json criado a partir do ficheiro filmes.json, correndo esse mesmo servidor, é possível obter as páginas pretendidas.</resultado>
+    </resultados> 
+</doc>

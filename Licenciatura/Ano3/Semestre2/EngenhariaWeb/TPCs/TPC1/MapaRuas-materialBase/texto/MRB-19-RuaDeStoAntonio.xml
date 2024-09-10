@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/home/teresa-queiroga/MedInf/PublicacaoEletronica/Projeto_final/MRB-rua(1).xsd">
+    <meta>
+        <número>19</número>
+        <nome>Rua de Sto. António</nome>
+    </meta>
+    <corpo>
+        <para>
+            Pequena rua, que ligava a <lugar>rua das Travessas</lugar> com o <lugar>Terreiro de Santo António</lugar>. De raiz romana, 
+            não sabemos qual teria sido a sua função na cidade medieval. 
+        </para>
+        <para>
+            Em <data>1465</data> são transferidos para aqui os judeus e instalados no prédio mais interessante que hoje
+            aqui resta, e um dos mais estimáveis de toda a cidade, passando a ser denominada de <lugar>Judiaria Nova</lugar>. <!-- é suposto fazer isto? -->
+            Esta casa veio depois a pertencer ao cónego <entidade tipo="pessoa">João de Meira Carrilho</entidade>, que lhe pôs as suas armas.
+        </para>
+        <para>
+            No final de quatrocentos, com a obrigação que os judeus sofreram de abjurar a sua religião
+            passou a ser chamada de Sto. António, nome que se mantém.
+        </para>
+        <para>
+            Das 3 casas medievais que se vêem no alçado Nascente nada resta hoje infelizmente (uma já estava
+            em adiantada ruína). Do lado Poente conservam-se algumas casas, ainda. É curioso notar que as suas 
+            construções têm um tipo de acabamento e proteção de janelas bem mais cuidado que a rua que 
+            lhe era sequente, a das Chagas.
+        </para>
+        <para>
+            Esta artéria, que felizmente ainda hoje conserva o seu traçado original, tinha 7 casas do lado 
+            Nascente e 15 do Poente, sendo 6 e 11, respectivamente, prazos do <entidade tipo="instituição">Cabido</entidade>. 
+        </para>
+        
+        <figura id="MRB-19-nascente">
+            <imagem path="../imagem/MRB-19-RuaDeStoAntonio-nascente.jpg"/>
+            <legenda>Rua de Sto. António - nascente</legenda>
+        </figura>
+        
+        <figura id="MRB-19-poente">
+            <imagem path="../imagem/MRB-19-RuaDeStoAntonio-poente.jpg"/>
+            <legenda>Rua de Sto. António - poente</legenda>
+        </figura>
+        
+        
+        <lista-casas>
+            <!-- casas 1 e 2 -->
+            <casa>
+                <número>1 e 2</número>
+                <enfiteuta>Francisco Soares de Novais, abade de S. Vicente do Bico</enfiteuta>
+                <foro>290 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Encontram-se unidas, num só prazo, desde o ano de <data>1591</data>. Possuem frontaria para a travessa
+                        que vem da <lugar>Rua de D. Gualdim</lugar> para esta rua.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casas 3 e 4 -->
+            <casa>
+                <número>3 e 4</número>
+                <enfiteuta>José da Cunda e Sousa</enfiteuta>
+                <foro>1420 e 4 galinhas</foro>
+                <desc>
+                    <para>
+                        Encontram-se unidas, num só prazo, desde o ano de <data>1524</data>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 5 -->
+            <casa>
+                <número>5</número>
+                <enfiteuta>Padre Miguel de Abreu</enfiteuta>
+                <foro>170 reis e 6 galinhas</foro>
+            </casa>
+            
+            <!-- casa 6 -->
+            <casa>
+                <número>6</número>
+                <enfiteuta>Padre Miguel de Abreu</enfiteuta>
+                <foro>90 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casas 7 e 8 -->
+            <casa>
+                <número>7 e 8</número>
+                <enfiteuta>Francisco Gonçalves Coudo, casado com Josefa Maria Madureira</enfiteuta>
+                <foro>150 reis e 4 galinhas</foro>
+                <desc>
+                    <para>
+                        Encontram-se unidas, num só prazo, desde o ano de <data>1592</data>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 9 -->
+            <casa>
+                <número>9</número>
+                <enfiteuta>Felícia Teresa, viúva de Luís de Barros</enfiteuta>
+                <foro>300 reis e 2 galinhas</foro>
+            </casa>
+            
+            
+            <!-- casa 10 -->
+            <casa>
+                <número>10</número>
+                <enfiteuta>António Coelho, abade de S. Martinho de Alvito</enfiteuta>
+                <foro>410 reis</foro>
+                <desc>
+                    <para>
+                        Possui frontaria para o rossio ou <lugar>terreiro de Sto. António</lugar>, <!-- identifico rossio? -->
+                        com o qual confronta do sul. 
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 11 -->
+            <casa>
+                <número>11</número>
+                <enfiteuta>Os herdeiros de Miguel de Araújo Barreto, tenente</enfiteuta>
+                <foro>350 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 12 e 13 -->
+            <casa>
+                <número>12 e 13</número>
+                <enfiteuta>Agostinho Marques do Couto, cónego</enfiteuta>
+                <foro>1360 reis e 4 galinhas</foro>
+                <desc>
+                    <para>
+                       Estas casas (denominadas <lugar>«Casas Torres»</lugar>), encontram-se unidas, num só prazo, 
+                       desde o ano de <data>1697</data>. Na casa n.º 12, onde foi colocada a imagem de Sto. António, <!-- santo antónio é pessoa? -->
+                       (antes de <data>1502</data>), funcionou a antiga sinagoga.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 14 -->
+            <casa>
+                <número>14</número>
+                <enfiteuta>Agostinho Marques do Couto, cónego</enfiteuta>
+                <foro>350 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa foreira ao <lugar>mosteiro de Bouro</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 15 -->
+            <casa>
+                <número>15</número>
+                <enfiteuta>Padre Agostinho de Araújo Álvares</enfiteuta>
+                <foro>240 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 16 -->
+            <casa>
+                <número>16</número>
+                <enfiteuta>Padre Agostinho de Araújo Álvares</enfiteuta>
+                <foro>420 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 17 -->
+            <casa>
+                <número>17</número>
+                <enfiteuta>Os herdeiros de João Luís Moreira, boticário</enfiteuta>
+                <foro>445 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 18 -->
+            <casa>
+                <número>18</número>
+                <enfiteuta>Os herdeiros de João Luís Moreira, boticário</enfiteuta>
+                <foro>180 reis e 1 galinha</foro>
+            </casa>
+            
+            <!-- casa 19 -->
+            <casa>
+                <número>19</número>
+                <enfiteuta>Padre Manuel de Chaves</enfiteuta>
+                <foro>430 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 20 -->
+            <casa>
+                <número>20</número>
+                <enfiteuta>António de Lima e Abreu</enfiteuta>
+                <foro>220 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        A casa n.º 22 confronta, do norte, com a travessa que vem da <lugar>Rua
+                        de D. Gualdim</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 21 -->
+            <casa>
+                <número>21</número>
+                <enfiteuta>António de Lima e Abreu</enfiteuta>
+                <foro>520 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        A casa n.º 22 confronta, do norte, com a travessa que vem da <lugar>Rua
+                        de D. Gualdim</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 22 -->
+            <casa>
+                <número>22</número>
+                <enfiteuta>António de Lima e Abreu</enfiteuta>
+                <foro>440 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        A casa n.º 22 confronta, do norte, com a travessa que vem da <lugar>Rua
+                        de D. Gualdim</lugar>.
+                    </para>
+                </desc>
+            </casa>
+        </lista-casas>
+    </corpo>
+</rua>

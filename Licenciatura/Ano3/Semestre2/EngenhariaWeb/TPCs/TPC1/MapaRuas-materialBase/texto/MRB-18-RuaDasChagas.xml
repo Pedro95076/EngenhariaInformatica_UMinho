@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rua xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/home/teresa-queiroga/MedInf/PublicacaoEletronica/Projeto_final/MRB-rua(1).xsd">
+    <meta>
+        <número>18</número>
+        <nome>Rua das Chagas</nome>
+    </meta>
+    <corpo>
+        <para>
+            Artéria secundária, de origem romana, ligava a <lugar>rua das Travessas</lugar> com a <lugar>rua 
+            de Maximinos</lugar>. 
+        </para>
+        <para>
+            Aberta em data indeterminada da Idade Média, tinha, em <data>1750</data>, uma estranha feição 
+            pelo aspecto cego que lhe era dado pelas portadas de madeira que protegiam 83,5%
+            de todas as suas janelas.
+        </para>
+        <para>
+            Com casas de aspeto pobre, muitas delas sobradadas, só nos gavetos apresentava 
+            construções mais ricas. Curioso é, contudo, o enorme bloco, de empena e telhado comuns,
+            que ocupa quase toda a metade Norte do lado Nascente da rua e quase lembra um prédio 
+            de rendimento dos nossos dias.
+        </para>
+        <para>
+            Chamada primeiro de <lugar>Triparia</lugar>, devido ao tipo de carne que aqui se vendia, passou
+            a partir de <data>1593</data> a ser conhecida pelo nome actual de <lugar>rua das Chagas</lugar>.
+        </para>
+        <para>
+            Hoje está bastante alterada. Com o alargamento das ruas Verde, de Maximinos
+            e das Travessas, muitos dos seus prédios foram destruídos, principalmente os 
+            situados no lado Poente e no extremo Norte do lado oposto. Assim a rua foi muito 
+            encurtada e deixou de desembocar na <lugar>rua de Maximinos</lugar>, passando a ter o seu limite na <lugar>rua 
+            D. Frei Caetano Brandão</lugar>. A zona que não foi mexida, mantém, contudo, a sua feição arcaica.
+        </para>
+        
+        <para>
+            Das 10 casas do lado Nascente e 13 do Poente, são prazos do <entidade tipo="instituição">Cabido</entidade> 5 e 3 respetivamente.
+        </para>
+        
+        <figura id="MRB-18-nascente">
+            <imagem path="../imagem/MRB-18-RuaDasChagas-nascente.jpg"/>
+            <legenda>Rua das Chagas - nascente</legenda>
+        </figura>
+        
+        <figura id="MRB-18-poente">
+            <imagem path="../imagem/MRB-18-RuaDasChagas-poente.jpg"/>
+            <legenda>Rua das Chagas - poente</legenda>
+        </figura>
+        
+        
+        <lista-casas>
+             <!-- casa 1 -->
+            <casa>
+                <número>1</número>
+                <enfiteuta>D. Inácia Gomes da Costa</enfiteuta>
+                <foro>180 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        A enfiteuta é filha do <entidade tipo="pessoa">Dr. Manuel Gomes da Costa</entidade>.
+                    </para>
+                    <para>
+                        A serventia dá-se pelo n.º 8 da <lugar>Rua de Maximinos</lugar>. 
+                    </para>
+                    <para>
+                        Confronta, do norte, com casa foreira à <lugar>Igreja de Santiado da Cividade</lugar>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 2 -->
+            <casa>
+                <número>2</número>
+                <enfiteuta>D. Inácia Gomes da Costa</enfiteuta>
+                <foro>140 reis e 2 galinhas</foro>
+                
+            </casa>
+            
+            <!-- casa 3 -->
+            <casa>
+                <número>3</número>
+                <enfiteuta>D. Inácia Gomes da Costa</enfiteuta>
+                <foro>240 reis e 2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 4 -->
+            <casa>
+                <número>4</número>
+                <desc>
+                    <para>
+                        Pertence ao n.º 8 da <lugar>Rua de Maximinos</lugar>, para onde tem a frontaria e serventia
+                        principais.
+                    </para>
+                    <para>
+                        Confronta do sul com casa foreira à <lugar>Mitra</lugar>. 
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 5 -->
+            <casa>
+                <número>5</número>
+                <enfiteuta>D. Inácia Gomes da Costa</enfiteuta>
+                <foro>340 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Confronta, do norte, com casa foreira ao <lugar>Hospital de Real</lugar> e, do sul, 
+                        com casa foreira ao <lugar>Hospital de S. Marcos</lugar>. 
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 6 -->
+            <casa>
+                <número>6</número>
+                <enfiteuta>
+                    Os herdeiros de D. Mariana de Castro, viúva de Jacinto de Magalhães e Meneses,
+                    fidalgo da Casa Real e Cavaleiro da Ordem de Cristo
+                </enfiteuta>
+                <foro>160 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        Entre os anos de <data>1508</data> e <data>1597</data> a casa n.º 7 esteve 
+                        unida a este prazo.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 7 -->
+            <casa>
+                <número>7</número>
+                <enfiteuta>Bento Leite Pereira</enfiteuta>
+                <foro>160 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        O enfiteuta é filho de <entidade tipo="pessoa">António Pereira</entidade>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 8 -->
+            <casa>
+                <número>8</número>
+                <enfiteuta>Os herdeiros de D. Mariana de Castro</enfiteuta>
+                <foro>60 reis e 1 galinha</foro>
+                <desc>
+                    <para>
+                       Confronta, do sul, com casa foreira ao <lugar>Hospital de S. Marcos</lugar>. 
+                    </para>
+                    
+                </desc>
+            </casa>
+            
+            <!-- casa 9 -->
+            <casa>
+                <número>9</número>
+                <enfiteuta>António Fernandes, da Rua Nova</enfiteuta>
+                <foro>2 galinhas</foro>
+            </casa>
+            
+            <!-- casa 10 e 11 -->
+            <casa>
+                <número>10 e 11</número>
+                <enfiteuta>Miguel Soares, sapateiro, da Rua dos Sapateiros</enfiteuta>
+                <foro>110 reis e 2 galinhas</foro>
+                <desc>
+                    <para>
+                        O enfiteuta é filho de <entidade tipo="pessoa">Bento Soares</entidade>. As casas encontram-se unidas, num só 
+                        prazo, desde o ano de <data>1602</data>.
+                    </para>
+                </desc>
+            </casa>
+            
+            <!-- casa 12 -->
+            <casa>
+                <número>12</número>
+                <desc>
+                    <para>
+                        Corresponde ao n.º 10 da <lugar>Rua de Maximinos</lugar>, para onde tem a frontaria
+                        e serventia principais.
+                    </para>
+                </desc>
+            </casa>
+            
+        </lista-casas>
+        
+       
+    </corpo>
+</rua>

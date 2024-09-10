@@ -1,0 +1,17 @@
+@{
+    ViewData["Title"] = "Comprar Produto";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Comprar Produto </h1>
+</div>
+
+<form>
+  <div class="form-group">
+    <label for="Valor">Valor da Proposta</label>
+    <input type="text" class="form-control" placeholder="Introduza o valor">
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Fazer Proposta</button>
+  <a class="btn btn-secondary" asp-controller="Ofertas" asp-action="Entrar" role="button"> Voltar </a>
+</form>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>engweb2023-normal.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="ficha-engweb2023-normal">Ficha engweb2023-normal</h1>
+<h1 id="avalia%C3%A7%C3%A3o-engenharia-web-web">Avaliação: Engenharia Web Web</h1>
+<h2 id="30-de-maio-de-2023">30 de Maio de 2023</h2>
+<h3 id="licenciatura-em-engenharia-inform%C3%A1tica-3%C2%BA-ano">Licenciatura em Engenharia Informática (3º ano)</h3>
+<h2 id="sinopsis">Sinopsis</h2>
+<p>O objectivo principal deste teste é avaliar os conhecimentos obtidos durante as aulas no desenvolvimento de aplicações Web e outras tarefas afins.</p>
+<p>Antes de começares, lê atentamente até ao fim para ficares com uma percepção do todo que se pretende.
+Vais ver que tomarás decisões mais acertadas depois de uma leitura completa.</p>
+<p>Os resultados finais deverão ser enviados ao docente da seguinte forma:</p>
+<ul>
+<li>Enviar por email para: <code>jcr@di.uminho.pt</code>;</li>
+<li>Colocar no subject/assunto: <code>ENGWEB2023::Normal::Axxxxx</code> ou <code>RPCW2023::Normal::PGxxxxx</code>, em que <code>Axxxxx</code> ou <code>PGxxxxx</code> corresponde ao número do aluno;</li>
+<li>Enviar ao docente um link do github para um repositório novo criado especificamente para o exame com o seguinte conteúdo (esta preparação poderá valer 1 valor do exame):
+<ul>
+<li>O repositório no GitHub deverá chamar-se <code>ENGWEB2023-Normal</code>;</li>
+<li>Dentro do repositório deverá haver um ficheiro, <code>PR.txt</code>, contendo uma descrição de como fez a persistência de dados, do setup de bases de dados, respostas textuais pedidas, instruções de como executar as aplicações desenvolvidas, etc...</li>
+<li>Dentro do repositório deverão existir duas pastas: <code>ex1</code>, onde colocarão a aplicação desenvolvida para responder ao primeiro exercício e, <code>ex2</code>, onde colocarão a aplicação desenvolvida para responder ao segundo exercício.</li>
+</ul>
+</li>
+</ul>
+<p>Os exercícios que envolvam criação de rotas serão testados com as rotas no enunciado, qualquer rota que seja diferente da pedida será avaliada com 0.</p>
+<h2 id="recursos">Recursos</h2>
+<p>Recursos para a realização da prova:</p>
+<ul>
+<li><a href="plantas.json">Distribuição Arbórea nalgumas freguesias portuguesas</a> (dataset em JSON obtido de <code>dados.gov.pt</code>), este ficheiro tem a seguinte estrutura:</li>
+</ul>
+<pre class="hljs"><code><div>[
+  {
+    <span class="hljs-attr">"Id"</span>: <span class="hljs-number">20615557</span>,
+    <span class="hljs-attr">"Número de Registo"</span>: <span class="hljs-number">3</span>,
+    <span class="hljs-attr">"Código de rua"</span>: <span class="hljs-number">1685467</span>,
+    <span class="hljs-attr">"Rua"</span>: <span class="hljs-string">"Rua Júlio Dinis"</span>,
+    <span class="hljs-attr">"Local"</span>: <span class="hljs-string">"Zambujeiro"</span>,
+    <span class="hljs-attr">"Freguesia"</span>: <span class="hljs-string">"Alcabideche"</span>,
+    <span class="hljs-attr">"Espécie"</span>: <span class="hljs-string">"pinheiro manso"</span>,
+    <span class="hljs-attr">"Nome Científico"</span>: <span class="hljs-string">"Pinus pinea"</span>,
+    <span class="hljs-attr">"Origem"</span>: <span class="hljs-string">""</span>,
+    <span class="hljs-attr">"Data de Plantação"</span>: <span class="hljs-string">""</span>,
+    <span class="hljs-attr">"Estado"</span>: <span class="hljs-string">"Adulto"</span>,
+    <span class="hljs-attr">"Caldeira"</span>: <span class="hljs-string">"Sim"</span>,
+    <span class="hljs-attr">"Tutor"</span>: <span class="hljs-string">"Sim"</span>,
+    <span class="hljs-attr">"Implantação"</span>: <span class="hljs-string">"Arruamento"</span>,
+    <span class="hljs-attr">"Gestor"</span>: <span class="hljs-string">"DGEV"</span>,
+    <span class="hljs-attr">"Data de actualização"</span>: <span class="hljs-string">"23/07/2021 19:50:54"</span>,
+    <span class="hljs-attr">"Número de intervenções"</span>: <span class="hljs-number">6</span>
+  },
+  ...
+]
+</div></code></pre>
+<h2 id="exerc%C3%ADcio-1-plantas-api-de-dados">Exercício 1: Plantas (API de dados)</h2>
+<p>Neste exercício, irás implementar uma API de dados sobre o dataset fornecido.
+Encontra-se dividido em 3 partes.</p>
+<h3 id="11-setup">1.1 Setup</h3>
+<p>Realiza as seguintes tarefas sem alterares os nomes da base de dados e coleção fornecidos:</p>
+<ul>
+<li>Analisa o dataset fornecido;</li>
+<li>Introduz as alterações que achares necessárias no dataset;</li>
+<li>Importa-o numa base de dados em MongoDB com os seguintes parâmetros:
+<ul>
+<li>database: <code>-d plantas</code></li>
+<li>collection: <code>-c plantas</code></li>
+</ul>
+</li>
+<li>Testa se a importação correu bem.</li>
+</ul>
+<h3 id="12-queries-warm-up">1.2 Queries (warm-up)</h3>
+<p>Especifica queries em MongoDB para responder às seguintes questões:</p>
+<ol>
+<li>Quantos registos estão na base de dados;</li>
+<li>Quantos registos de plantação se encontram na freguesia &quot;São Domingos de Rana&quot;?</li>
+<li>Qual a lista de freguesias (ordenada alfabeticamente e sem repetições)?</li>
+<li>Qual a distribuição dos registos por freguesia (quantos registos em cada freguesia)</li>
+<li>Qual a distribuição dos registos por espécie?</li>
+</ol>
+<h3 id="13-api-de-dados">1.3 API de dados</h3>
+<p>Desenvolve agora uma API de dados, que responde na <strong>porta 15030</strong> e que responda às seguintes rotas/pedidos:</p>
+<ul>
+<li><code>GET /plantas</code>: devolve uma lista com todos os registos;</li>
+<li><code>GET /plantas/:id</code>: devolve o registo com identificador <code>id</code>;</li>
+<li><code>GET /plantas?especie=EEEE</code>: devolve a lista dos registos correspondentes à espécie <code>EEEE</code>;</li>
+<li><code>GET /plantas?implant=AAA</code>: devolve a lista dos registos com implantação <code>AAA</code>;</li>
+<li><code>GET /plantas/freguesias</code>: devolve a lista de freguesias ordenada alfabeticamente e sem repetições;</li>
+<li><code>GET /plantas/especies</code>: devolve a lista das espécies vegetais ordenada alfabeticamente e sem repetições;</li>
+<li><code>POST /plantas</code>: acrescenta um registo novo à BD;</li>
+<li><code>DELETE /plantas/:id</code>: elimina da BD o registo com o identificador <code>id</code>.</li>
+</ul>
+<p>Antes de prosseguires, testa as rotas realizadas com o Postman ou similar.</p>
+<h2 id="exerc%C3%ADcio-2-plantas-interface">Exercício 2: Plantas (Interface)</h2>
+<p>Tendo a API desenvolvida, desenvolve agora um novo serviço, que responde na <strong>porta 15031</strong> e que irá responder da seguinte forma:</p>
+<ol>
+<li>
+<p>Se colocares no browser o endereço <code>http://localhost:15031</code> deverás obter a página principal constituída por:</p>
+<ul>
+<li>Um cabeçalho com metainformação à tua escolha;</li>
+<li>Uma tabela contendo a lista de registos, um por linha, com os campos: <code>_id</code>, <code>Freguesia</code>, <code>Espécie</code>, <code>Estado</code> e <code>Número de intervenções</code>;</li>
+<li>O campo <code>_id</code> deverá ser um link para a página do contrato com esse identificador;</li>
+<li>O campo <code>Espécie</code> deverá ser um link para a página dessa espécie.</li>
+</ul>
+</li>
+<li>
+<p>Se colocares no browser o endereço <code>http://localhost:15031/:id</code> deverás obter a página do registo com o identificador passado na rota:</p>
+<ul>
+<li>Esta página deverá conter todos os campos do registo e um link para voltar à página principal.</li>
+</ul>
+</li>
+<li>
+<p>Se colocares no browser o endereço <code>http://localhost:15031/especies/:id</code> deverás obter a página da espécie cujo nome corresponde ao parâmetro passado na rota (como fazes a associação do parâmetro à espécie é contigo, usa a imaginação):</p>
+<ul>
+<li>Na página de cada espécie deverá constar o nome e a designação científica da espécie e uma tabela com a lista de registos dessa espécie (tabela com estrutura semelhante à da página principal).</li>
+</ul>
+</li>
+</ol>
+<p>Bom trabalho e boa sorte
+jcr</p>
+
+</body>
+</html>
